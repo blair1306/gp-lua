@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/lparser.h' l='47' type='14'/>
+<use f='codebrowser/src/lcode.c' l='519' u='r' c='luaK_setreturns'/>
+<use f='codebrowser/src/lcode.c' l='546' u='r' c='luaK_setoneret'/>
+<use f='codebrowser/src/lcode.c' l='582' c='luaK_dischargevars'/>
+<doc f='codebrowser/src/lparser.h' l='47'>/* vararg expression; info = instruction pc */</doc>
+<use f='codebrowser/src/lparser.c' l='37' u='r' c='adjust_assign'/>
+<use f='codebrowser/src/lparser.c' l='37' u='r' c='lastlistfield'/>
+<use f='codebrowser/src/lparser.c' l='37' u='r' c='funcargs'/>
+<use f='codebrowser/src/lparser.c' l='965' u='r' c='simpleexp'/>
+<use f='codebrowser/src/lparser.c' l='37' u='r' c='retstat'/>

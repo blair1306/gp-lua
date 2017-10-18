@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lua.h' l='302'/>
+<use f='codebrowser/src/lapi.c' l='1045' u='c'/>
+<doc f='codebrowser/src/lua.h' l='298'>/*
+** garbage-collection function and options
+*/</doc>
+<use f='codebrowser/src/lbaselib.c' l='177' u='c'/>

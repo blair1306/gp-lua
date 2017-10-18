@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/lua.h' l='350'/>
+<use f='codebrowser/src/lauxlib.c' l='487' u='c'/>
+<use f='codebrowser/src/lauxlib.c' l='977' u='c'/>
+<use f='codebrowser/src/lbaselib.c' l='213' u='c'/>
+<use f='codebrowser/src/loadlib.c' l='387' u='c'/>
+<use f='codebrowser/src/loadlib.c' l='760' u='c'/>
+<use f='codebrowser/src/lua.c' l='201' u='c'/>
+<use f='codebrowser/src/lua.c' l='603' u='c'/>
+<use f='codebrowser/src/luac.c' l='200' u='c'/>
+<use f='codebrowser/src/lutf8lib.c' l='227' u='c'/>

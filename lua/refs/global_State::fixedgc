@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/lstate.h' l='142' type='GCObject *'/>
+<offset>1280</offset>
+<doc f='codebrowser/src/lstate.h' l='142'>/* list of objects not to be collected */</doc>
+<use f='codebrowser/src/lgc.c' l='199' u='r' c='luaC_fix'/>
+<use f='codebrowser/src/lgc.c' l='200' u='w' c='luaC_fix'/>
+<use f='codebrowser/src/lgc.c' l='976' u='a' c='luaC_freeallobjects'/>
+<use f='codebrowser/src/lstate.c' l='321' u='w' c='lua_newstate'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lcode.h' l='67' type='void luaK_self(FuncState * fs, expdesc * e, expdesc * key)'/>
+<def f='codebrowser/src/lcode.c' l='809' ll='819' type='void luaK_self(FuncState * fs, expdesc * e, expdesc * key)'/>
+<doc f='codebrowser/src/lcode.c' l='806'>/*
+** Emit SELF instruction (convert expression &apos;e&apos; into &apos;e:key(e,&apos;).
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='916' u='c' c='suffixedexp'/>

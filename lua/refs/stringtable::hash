@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/lstate.h' l='59' type='TString **'/>
+<offset>0</offset>
+<use f='codebrowser/src/lstate.c' l='248' u='r' c='close_state'/>
+<use f='codebrowser/src/lstate.c' l='248' u='r' c='close_state'/>
+<use f='codebrowser/src/lstate.c' l='315' u='w' c='lua_newstate'/>
+<use f='codebrowser/src/lstring.c' l='75' u='w' c='luaS_resize'/>
+<use f='codebrowser/src/lstring.c' l='75' u='r' c='luaS_resize'/>
+<use f='codebrowser/src/lstring.c' l='77' u='r' c='luaS_resize'/>
+<use f='codebrowser/src/lstring.c' l='80' u='r' c='luaS_resize'/>
+<use f='codebrowser/src/lstring.c' l='81' u='r' c='luaS_resize'/>
+<use f='codebrowser/src/lstring.c' l='85' u='r' c='luaS_resize'/>
+<use f='codebrowser/src/lstring.c' l='86' u='r' c='luaS_resize'/>
+<use f='codebrowser/src/lstring.c' l='93' u='w' c='luaS_resize'/>
+<use f='codebrowser/src/lstring.c' l='93' u='r' c='luaS_resize'/>
+<use f='codebrowser/src/lstring.c' l='156' u='r' c='luaS_remove'/>
+<use f='codebrowser/src/lstring.c' l='171' u='r' c='internshrstr'/>
+<use f='codebrowser/src/lstring.c' l='184' u='r' c='internshrstr'/>

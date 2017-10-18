@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lobject.h' l='444' type='lu_byte'/>
+<use f='codebrowser/src/lapi.c' l='81' u='r' c='index2addr'/>
+<use f='codebrowser/src/lapi.c' l='1201' u='r' c='aux_upvalue'/>
+<offset>80</offset>
+<use f='codebrowser/src/ldebug.c' l='276' u='r' c='auxgetinfo'/>
+<use f='codebrowser/src/lfunc.c' l='28' u='w' c='luaF_newCclosure'/>
+<use f='codebrowser/src/lgc.c' l='503' u='r' c='traverseCclosure'/>
+<use f='codebrowser/src/lgc.c' l='505' u='r' c='traverseCclosure'/>
+<use f='codebrowser/src/lgc.c' l='704' u='r' c='freeobj'/>

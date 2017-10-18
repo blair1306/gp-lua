@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/lctype.h' l='71' type='const lu_byte [257]'/>
+<def f='codebrowser/src/lctype.c' l='19' ll='53' type='const lu_byte [257]'/>
+<use f='codebrowser/src/llex.c' l='225' macro='1' u='r'/>
+<use f='codebrowser/src/llex.c' l='314' macro='1' u='r'/>
+<use f='codebrowser/src/llex.c' l='333' macro='1' u='r'/>
+<use f='codebrowser/src/llex.c' l='356' macro='1' u='r'/>
+<use f='codebrowser/src/llex.c' l='398' macro='1' u='r'/>
+<use f='codebrowser/src/llex.c' l='405' macro='1' u='r'/>
+<use f='codebrowser/src/llex.c' l='513' macro='1' u='r'/>
+<use f='codebrowser/src/llex.c' l='524' macro='1' u='r'/>
+<use f='codebrowser/src/llex.c' l='528' macro='1' u='r'/>
+<use f='codebrowser/src/lobject.c' l='164' macro='1' u='r'/>
+<use f='codebrowser/src/lobject.c' l='256' macro='1' u='r'/>
+<use f='codebrowser/src/lobject.c' l='303' macro='1' u='r'/>
+<use f='codebrowser/src/lobject.c' l='308' macro='1' u='r'/>
+<use f='codebrowser/src/lobject.c' l='314' macro='1' u='r'/>
+<use f='codebrowser/src/lobject.c' l='322' macro='1' u='r'/>
+<use f='codebrowser/src/lobject.c' l='415' macro='1' u='r'/>

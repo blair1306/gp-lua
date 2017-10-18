@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/lstate.h' l='227' type='void luaE_setdebt(global_State * g, l_mem debt)'/>
+<use f='codebrowser/src/lapi.c' l='1050' u='c' c='lua_gc'/>
+<use f='codebrowser/src/lapi.c' l='1072' u='c' c='lua_gc'/>
+<use f='codebrowser/src/lapi.c' l='1077' u='c' c='lua_gc'/>
+<use f='codebrowser/src/lgc.c' l='947' u='c' c='setpause'/>
+<use f='codebrowser/src/lgc.c' l='1132' u='c' c='luaC_step'/>
+<use f='codebrowser/src/lgc.c' l='1143' u='c' c='luaC_step'/>
+<def f='codebrowser/src/lstate.c' l='98' ll='105' type='void luaE_setdebt(global_State * g, l_mem debt)'/>
+<doc f='codebrowser/src/lstate.c' l='94'>/*
+** set GCdebt to a new value keeping the value (totalbytes + GCdebt)
+** invariant (and avoiding underflows in &apos;totalbytes&apos;)
+*/</doc>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/lcode.h' l='52' type='int luaK_codeABx(FuncState * fs, OpCode o, int A, unsigned int Bx)'/>
+<use f='codebrowser/src/lcode.c' l='140' macro='1' u='c'/>
+<def f='codebrowser/src/lcode.c' l='324' ll='329' type='int luaK_codeABx(FuncState * fs, OpCode o, int a, unsigned int bc)'/>
+<use f='codebrowser/src/lcode.c' l='348' u='c' c='luaK_codek'/>
+<use f='codebrowser/src/lcode.c' l='350' u='c' c='luaK_codek'/>
+<doc f='codebrowser/src/lcode.c' l='321'>/*
+** Format and emit an &apos;iABx&apos; instruction.
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='524' u='c' c='codeclosure'/>
+<use f='codebrowser/src/lparser.c' l='1298' macro='1' u='c'/>
+<use f='codebrowser/src/lparser.c' l='1306' macro='1' u='c'/>
+<use f='codebrowser/src/lparser.c' l='1310' macro='1' u='c'/>

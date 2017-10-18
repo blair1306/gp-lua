@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/lobject.h' l='398' type='TString *'/>
+<offset>0</offset>
+<use f='codebrowser/src/ldump.c' l='155' u='r' c='DumpDebug'/>
+<use f='codebrowser/src/lfunc.c' l='146' u='r' c='luaF_getlocalname'/>
+<use f='codebrowser/src/lgc.c' l='491' u='r' c='traverseproto'/>
+<use f='codebrowser/src/lgc.c' l='491' u='r' c='traverseproto'/>
+<use f='codebrowser/src/lgc.c' l='491' u='r' c='traverseproto'/>
+<use f='codebrowser/src/lparser.c' l='168' u='w' c='registerlocalvar'/>
+<use f='codebrowser/src/lparser.c' l='169' u='w' c='registerlocalvar'/>
+<use f='codebrowser/src/lparser.c' l='247' u='r' c='searchvar'/>
+<use f='codebrowser/src/lparser.c' l='348' u='r' c='closegoto'/>
+<use f='codebrowser/src/luac.c' l='431' u='r' c='PrintDebug'/>
+<use f='codebrowser/src/lundump.c' l='190' u='w' c='LoadDebug'/>
+<use f='codebrowser/src/lundump.c' l='192' u='w' c='LoadDebug'/>

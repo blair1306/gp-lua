@@ -1,0 +1,6 @@
+<def f='codebrowser/src/lparser.h' l='87' ll='91'/>
+<size>16</size>
+<doc f='codebrowser/src/lparser.h' l='86'>/* list of labels or gotos */</doc>
+<mbr r='Labellist::arr' o='0' t='Labeldesc *'/>
+<mbr r='Labellist::n' o='64' t='int'/>
+<mbr r='Labellist::size' o='96' t='int'/>

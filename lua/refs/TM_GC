@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/ltm.h' l='21' type='2'/>
+<use f='codebrowser/src/lgc.c' l='811' u='r' c='GCTM'/>
+<use f='codebrowser/src/lgc.c' l='904' u='r' c='luaC_checkfinalizer'/>
+<use f='codebrowser/src/lgc.c' l='904' u='r' c='luaC_checkfinalizer'/>
+<use f='codebrowser/src/lgc.c' l='904' u='r' c='luaC_checkfinalizer'/>

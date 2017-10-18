@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lstring.h' l='39' type='void luaS_resize(lua_State * L, int newsize)'/>
+<use f='codebrowser/src/lgc.c' l='781' u='c' c='checkSizes'/>
+<def f='codebrowser/src/lstring.c' l='71' ll='96' type='void luaS_resize(lua_State * L, int newsize)'/>
+<use f='codebrowser/src/lstring.c' l='119' u='c' c='luaS_init'/>
+<use f='codebrowser/src/lstring.c' l='183' u='c' c='internshrstr'/>
+<doc f='codebrowser/src/lstring.c' l='68'>/*
+** resizes the string table
+*/</doc>

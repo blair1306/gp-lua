@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lopcodes.h' l='233' type='46'/>
+<use f='codebrowser/src/lopcodes.h' l='237' u='r'/>
+<use f='codebrowser/src/lopcodes.h' l='237' u='r'/>
+<use f='codebrowser/src/lcode.c' l='337' u='r' c='codeextraarg'/>
+<doc f='codebrowser/src/lopcodes.h' l='233'>/*	Ax	extra (larger) argument for previous opcode	*/</doc>
+<use f='codebrowser/src/lopcodes.c' l='20' macro='1' u='r'/>
+<use f='codebrowser/src/lopcodes.c' l='74' macro='1' u='r'/>
+<use f='codebrowser/src/luac.c' l='382' c='PrintCode'/>
+<use f='codebrowser/src/lvm.c' l='1313' c='luaV_execute'/>

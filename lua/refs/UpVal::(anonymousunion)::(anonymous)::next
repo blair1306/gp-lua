@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lfunc.h' l='40' type='UpVal *'/>
+<offset>0</offset>
+<doc f='codebrowser/src/lfunc.h' l='40'>/* linked list */</doc>
+<use f='codebrowser/src/ldo.c' l='162' u='r' c='correctstack'/>
+<use f='codebrowser/src/lfunc.c' l='66' u='a' c='luaF_findupval'/>
+<use f='codebrowser/src/lfunc.c' l='71' u='w' c='luaF_findupval'/>
+<use f='codebrowser/src/lfunc.c' l='87' u='r' c='luaF_close'/>
+<use f='codebrowser/src/lgc.c' l='323' u='r' c='remarkupvals'/>

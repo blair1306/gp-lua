@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/lparser.h' l='33' type='6'/>
+<use f='codebrowser/src/lcode.c' l='47' c='tonumeral'/>
+<use f='codebrowser/src/lcode.c' l='614' c='discharge2reg'/>
+<use f='codebrowser/src/lcode.c' l='764' c='luaK_exp2RK'/>
+<use f='codebrowser/src/lcode.c' l='866' c='luaK_goiftrue'/>
+<use f='codebrowser/src/lcode.c' l='917' c='codenot'/>
+<use f='codebrowser/src/lcode.c' l='985' u='r' c='constfolding'/>
+<use f='codebrowser/src/lcode.c' l='1067' u='r' c='luaK_prefix'/>
+<use f='codebrowser/src/lcode.c' l='1067' u='r' c='luaK_prefix'/>
+<doc f='codebrowser/src/lparser.h' l='33'>/* integer constant; nval = numerical integer value */</doc>
+<use f='codebrowser/src/lparser.c' l='941' u='r' c='simpleexp'/>

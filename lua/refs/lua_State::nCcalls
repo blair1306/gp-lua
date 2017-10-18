@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/lstate.h' l='181' type='unsigned short'/>
+<offset>1584</offset>
+<doc f='codebrowser/src/lstate.h' l='181'>/* number of nested C calls */</doc>
+<use f='codebrowser/src/ldo.c' l='137' u='r' c='luaD_rawrunprotected'/>
+<use f='codebrowser/src/ldo.c' l='146' u='w' c='luaD_rawrunprotected'/>
+<use f='codebrowser/src/ldo.c' l='482' u='r' c='stackerror'/>
+<use f='codebrowser/src/ldo.c' l='484' u='r' c='stackerror'/>
+<use f='codebrowser/src/ldo.c' l='496' u='w' c='luaD_call'/>
+<use f='codebrowser/src/ldo.c' l='500' u='w' c='luaD_call'/>
+<use f='codebrowser/src/ldo.c' l='658' u='w' c='lua_resume'/>
+<use f='codebrowser/src/ldo.c' l='658' u='r' c='lua_resume'/>
+<use f='codebrowser/src/ldo.c' l='659' u='r' c='lua_resume'/>
+<use f='codebrowser/src/ldo.c' l='680' u='w' c='lua_resume'/>
+<use f='codebrowser/src/lparser.c' l='333' u='w' c='enterlevel'/>
+<use f='codebrowser/src/lparser.c' l='334' u='r' c='enterlevel'/>
+<use f='codebrowser/src/lparser.c' l='338' u='w' c='subexpr'/>
+<use f='codebrowser/src/lparser.c' l='1156' u='r' c='assignment'/>
+<use f='codebrowser/src/lparser.c' l='338' u='w' c='statement'/>
+<use f='codebrowser/src/lstate.c' l='229' u='w' c='preinit_thread'/>

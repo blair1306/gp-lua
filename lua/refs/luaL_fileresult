@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/lauxlib.h' l='73' type='int luaL_fileresult(lua_State * L, int stat, const char * fname)'/>
+<def f='codebrowser/src/lauxlib.c' l='234' ll='249' macro='1' type='int luaL_fileresult(lua_State * L, int stat, const char * fname)'/>
+<use f='codebrowser/src/lauxlib.c' l='277' u='c' c='luaL_execresult'/>
+<use f='codebrowser/src/liolib.c' l='231' u='c' c='io_fclose'/>
+<use f='codebrowser/src/liolib.c' l='258' u='c' c='io_open'/>
+<use f='codebrowser/src/liolib.c' l='277' u='c' c='io_popen'/>
+<use f='codebrowser/src/liolib.c' l='284' u='c' c='io_tmpfile'/>
+<use f='codebrowser/src/liolib.c' l='565' u='c' c='g_read'/>
+<use f='codebrowser/src/liolib.c' l='635' u='c' c='g_write'/>
+<use f='codebrowser/src/liolib.c' l='662' u='c' c='f_seek'/>
+<use f='codebrowser/src/liolib.c' l='677' u='c' c='f_setvbuf'/>
+<use f='codebrowser/src/liolib.c' l='683' u='c' c='io_flush'/>
+<use f='codebrowser/src/liolib.c' l='688' u='c' c='f_flush'/>
+<use f='codebrowser/src/loslib.c' l='155' u='c' c='os_remove'/>
+<use f='codebrowser/src/loslib.c' l='162' u='c' c='os_rename'/>

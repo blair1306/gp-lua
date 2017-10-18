@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lstate.h' l='144' type='unsigned int'/>
+<offset>1408</offset>
+<doc f='codebrowser/src/lstate.h' l='144'>/* number of finalizers to call in each GC step */</doc>
+<use f='codebrowser/src/lgc.c' l='847' u='r' c='runafewfinalizers'/>
+<use f='codebrowser/src/lgc.c' l='849' u='w' c='runafewfinalizers'/>
+<use f='codebrowser/src/lgc.c' l='850' u='r' c='runafewfinalizers'/>
+<use f='codebrowser/src/lgc.c' l='1009' u='w' c='atomic'/>
+<use f='codebrowser/src/lstate.c' l='328' u='w' c='lua_newstate'/>

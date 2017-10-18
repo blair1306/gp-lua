@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lmem.h' l='52'/>
+<use f='codebrowser/src/lcode.c' l='297' u='c'/>
+<use f='codebrowser/src/lcode.c' l='301' u='c'/>
+<use f='codebrowser/src/lcode.c' l='446' u='c'/>
+<use f='codebrowser/src/lparser.c' l='165' u='c'/>
+<use f='codebrowser/src/lparser.c' l='181' u='c'/>
+<use f='codebrowser/src/lparser.c' l='232' u='c'/>
+<use f='codebrowser/src/lparser.c' l='388' u='c'/>
+<use f='codebrowser/src/lparser.c' l='506' u='c'/>

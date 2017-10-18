@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/lobject.h' l='305' type='lu_byte'/>
+<offset>80</offset>
+<doc f='codebrowser/src/lobject.h' l='305'>/* reserved words for short strings; &quot;has hash&quot; for longs */</doc>
+<use f='codebrowser/src/llex.c' l='77' u='w' c='luaX_init'/>
+<use f='codebrowser/src/llex.c' l='532' macro='1' u='r'/>
+<use f='codebrowser/src/llex.c' l='533' u='r' c='llex'/>
+<use f='codebrowser/src/lparser.c' l='465' macro='1' u='r'/>
+<use f='codebrowser/src/lstring.c' l='60' u='r' c='luaS_hashlongstr'/>
+<use f='codebrowser/src/lstring.c' l='62' u='w' c='luaS_hashlongstr'/>
+<use f='codebrowser/src/lstring.c' l='141' u='w' c='createstrobj'/>

@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/lstate.h' l='77' type='struct CallInfo *'/>
+<offset>128</offset>
+<use f='codebrowser/src/ldebug.c' l='115' u='r' c='lua_getstack'/>
+<use f='codebrowser/src/ldebug.c' l='256' u='r' c='getfuncname'/>
+<use f='codebrowser/src/ldebug.c' l='257' u='r' c='getfuncname'/>
+<use f='codebrowser/src/ldo.c' l='164' u='r' c='correctstack'/>
+<use f='codebrowser/src/ldo.c' l='213' u='r' c='stackinuse'/>
+<use f='codebrowser/src/ldo.c' l='283' u='r' c='callhook'/>
+<use f='codebrowser/src/ldo.c' l='284' u='r' c='callhook'/>
+<use f='codebrowser/src/ldo.c' l='385' u='r' c='luaD_poscall'/>
+<use f='codebrowser/src/ldo.c' l='388' u='r' c='luaD_poscall'/>
+<use f='codebrowser/src/ldo.c' l='568' u='r' c='findpcall'/>
+<use f='codebrowser/src/lstate.c' l='112' u='w' c='luaE_extendCI'/>
+<use f='codebrowser/src/lstate.c' l='145' u='w' c='luaE_shrinkCI'/>
+<use f='codebrowser/src/lstate.c' l='162' u='w' c='stack_init'/>
+<use f='codebrowser/src/lvm.c' l='1155' u='r' c='luaV_execute'/>

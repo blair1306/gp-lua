@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/lobject.h' l='79' type='lu_byte'/>
+<offset>72</offset>
+<use f='codebrowser/src/lcode.c' l='450' macro='1' u='r'/>
+<use f='codebrowser/src/lgc.c' l='489' macro='1' u='r'/>
+<use f='codebrowser/src/lgc.c' l='516' macro='1' u='r'/>
+<use f='codebrowser/src/lparser.c' l='170' macro='1' u='r'/>
+<use f='codebrowser/src/lparser.c' l='239' macro='1' u='r'/>
+<use f='codebrowser/src/lparser.c' l='511' macro='1' u='r'/>
+<use f='codebrowser/src/lparser.c' l='511' macro='1' u='r'/>
+<use f='codebrowser/src/lvm.c' l='648' macro='1' u='r'/>

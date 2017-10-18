@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/lctype.h' l='60'/>
+<use f='codebrowser/src/llex.c' l='398' u='c'/>
+<use f='codebrowser/src/lobject.c' l='256' u='c'/>
+<use f='codebrowser/src/lobject.c' l='303' u='c'/>
+<use f='codebrowser/src/lobject.c' l='322' u='c'/>

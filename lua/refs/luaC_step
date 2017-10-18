@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/lgc.h' l='136' type='void luaC_step(lua_State * L)'/>
+<use f='codebrowser/src/lapi.c' l='382' macro='1' u='c'/>
+<use f='codebrowser/src/lapi.c' l='485' macro='1' u='c'/>
+<use f='codebrowser/src/lapi.c' l='502' macro='1' u='c'/>
+<use f='codebrowser/src/lapi.c' l='513' macro='1' u='c'/>
+<use f='codebrowser/src/lapi.c' l='526' macro='1' u='c'/>
+<use f='codebrowser/src/lapi.c' l='551' macro='1' u='c'/>
+<use f='codebrowser/src/lapi.c' l='691' macro='1' u='c'/>
+<use f='codebrowser/src/lapi.c' l='1073' u='c' c='lua_gc'/>
+<use f='codebrowser/src/lapi.c' l='1078' macro='1' u='c'/>
+<use f='codebrowser/src/lapi.c' l='1150' macro='1' u='c'/>
+<use f='codebrowser/src/lapi.c' l='1189' macro='1' u='c'/>
+<use f='codebrowser/src/ldo.c' l='424' macro='1' u='c'/>
+<use f='codebrowser/src/ldo.c' l='445' macro='1' u='c'/>
+<use f='codebrowser/src/ldo.c' l='466' macro='1' u='c'/>
+<def f='codebrowser/src/lgc.c' l='1128' ll='1146' type='void luaC_step(lua_State * L)'/>
+<doc f='codebrowser/src/lgc.c' l='1125'>/*
+** performs a basic GC step when collector is running
+*/</doc>
+<use f='codebrowser/src/llex.c' l='137' macro='1' u='c'/>
+<use f='codebrowser/src/lparser.c' l='572' macro='1' u='c'/>
+<use f='codebrowser/src/lstate.c' l='259' macro='1' u='c'/>
+<use f='codebrowser/src/lvm.c' l='874' macro='1' u='c'/>
+<use f='codebrowser/src/lvm.c' l='1076' macro='1' u='c'/>
+<use f='codebrowser/src/lvm.c' l='1292' macro='1' u='c'/>

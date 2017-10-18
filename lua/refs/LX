@@ -1,0 +1,5 @@
+<def f='codebrowser/src/lstate.c' l='54' ll='57'/>
+<size>216</size>
+<doc f='codebrowser/src/lstate.c' l='51'>/*
+** thread state + extra space
+*/</doc>

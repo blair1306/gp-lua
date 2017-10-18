@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/ltable.h' l='48' type='const TValue * luaH_get(Table * t, const TValue * key)'/>
+<use f='codebrowser/src/lapi.c' l='615' macro='1' u='c'/>
+<use f='codebrowser/src/lapi.c' l='651' u='c' c='lua_rawget'/>
+<use f='codebrowser/src/lapi.c' l='676' u='c' c='lua_rawgetp'/>
+<use f='codebrowser/src/lapi.c' l='770' macro='1' u='c'/>
+<def f='codebrowser/src/ltable.c' l='570' ll='584' type='const TValue * luaH_get(Table * t, const TValue * key)'/>
+<use f='codebrowser/src/ltable.c' l='592' u='c' c='luaH_set'/>
+<doc f='codebrowser/src/ltable.c' l='567'>/*
+** main search function
+*/</doc>
+<use f='codebrowser/src/lvm.c' l='186' u='c' c='luaV_finishget'/>
+<use f='codebrowser/src/lvm.c' l='233' u='c' c='luaV_finishset'/>
+<use f='codebrowser/src/lvm.c' l='775' u='c' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='775' u='c' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='781' u='c' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='781' u='c' c='luaV_execute'/>

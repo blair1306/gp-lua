@@ -1,0 +1,11 @@
+<dec f='include/x86_64-linux-gnu/bits/string2.h' l='799'/>
+<use f='codebrowser/src/lauxlib.c' l='169' u='c'/>
+<use f='codebrowser/src/lauxlib.c' l='354' u='c'/>
+<use f='codebrowser/src/ldblib.c' l='407' u='c'/>
+<use f='codebrowser/src/ldebug.c' l='457' u='c'/>
+<use f='codebrowser/src/ldebug.c' l='620' u='c'/>
+<use f='codebrowser/src/loslib.c' l='297' u='c'/>
+<use f='codebrowser/src/lstring.c' l='224' u='c'/>
+<use f='codebrowser/src/lua.c' l='295' u='c'/>
+<use f='codebrowser/src/lua.c' l='440' u='c'/>
+<use f='codebrowser/src/lua.c' l='440' u='c'/>

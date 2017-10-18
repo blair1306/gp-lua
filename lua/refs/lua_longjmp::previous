@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/ldo.c' l='85' type='struct lua_longjmp *'/>
+<use f='codebrowser/src/ldo.c' l='140' u='w' c='luaD_rawrunprotected'/>
+<use f='codebrowser/src/ldo.c' l='145' u='r' c='luaD_rawrunprotected'/>
+<offset>0</offset>

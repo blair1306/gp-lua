@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/lstate.h' l='87' type='struct (anonymous struct at /home/jon/workspace/lua-5.3.4/src/lstate.h:83:5)'/>
+<use f='codebrowser/src/lapi.c' l='919' u='m' c='lua_callk'/>
+<use f='codebrowser/src/lapi.c' l='920' u='m' c='lua_callk'/>
+<use f='codebrowser/src/lapi.c' l='972' u='m' c='lua_pcallk'/>
+<use f='codebrowser/src/lapi.c' l='973' u='m' c='lua_pcallk'/>
+<use f='codebrowser/src/lapi.c' l='976' u='m' c='lua_pcallk'/>
+<use f='codebrowser/src/lapi.c' l='982' u='m' c='lua_pcallk'/>
+<offset>0</offset>
+<doc f='codebrowser/src/lstate.h' l='83'>/* only for C functions */</doc>
+<use f='codebrowser/src/ldo.c' l='527' u='m' c='finishCcall'/>
+<use f='codebrowser/src/ldo.c' l='533' u='m' c='finishCcall'/>
+<use f='codebrowser/src/ldo.c' l='533' u='m' c='finishCcall'/>
+<use f='codebrowser/src/ldo.c' l='593' u='m' c='recover'/>
+<use f='codebrowser/src/ldo.c' l='634' u='m' c='resume'/>
+<use f='codebrowser/src/ldo.c' l='636' u='m' c='resume'/>
+<use f='codebrowser/src/ldo.c' l='636' u='m' c='resume'/>
+<use f='codebrowser/src/ldo.c' l='710' u='m' c='lua_yieldk'/>
+<use f='codebrowser/src/ldo.c' l='711' u='m' c='lua_yieldk'/>

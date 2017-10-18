@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/ltable.h' l='50' type='TValue * luaH_set(lua_State * L, Table * t, const TValue * key)'/>
+<use f='codebrowser/src/lapi.c' l='807' u='c' c='lua_rawset'/>
+<use f='codebrowser/src/lapi.c' l='837' u='c' c='lua_rawsetp'/>
+<use f='codebrowser/src/lcode.c' l='431' u='c' c='addk'/>
+<use f='codebrowser/src/llex.c' l='132' u='c' c='luaX_newstring'/>
+<use f='codebrowser/src/ltable.c' l='360' u='c' c='luaH_resize'/>
+<use f='codebrowser/src/ltable.c' l='462' u='c' c='luaH_newkey'/>
+<def f='codebrowser/src/ltable.c' l='591' ll='596' type='TValue * luaH_set(lua_State * L, Table * t, const TValue * key)'/>
+<doc f='codebrowser/src/ltable.c' l='587'>/*
+** beware: when using this function you probably need to check a GC
+** barrier and invalidate the TM cache.
+*/</doc>

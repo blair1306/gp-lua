@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/lparser.h' l='73' type='short'/>
+<offset>0</offset>
+<doc f='codebrowser/src/lparser.h' l='73'>/* variable index in stack */</doc>
+<use f='codebrowser/src/lparser.c' l='183' u='w' c='new_localvar'/>
+<use f='codebrowser/src/lparser.c' l='196' u='r' c='getlocvar'/>

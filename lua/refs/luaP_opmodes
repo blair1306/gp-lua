@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lopcodes.h' l='281' type='const lu_byte [47]'/>
+<use f='codebrowser/src/lcode.c' l='181' macro='1' u='r'/>
+<use f='codebrowser/src/ldebug.c' l='422' macro='1' u='r'/>
+<def f='codebrowser/src/lopcodes.c' l='74' ll='123' type='const lu_byte [47]'/>
+<use f='codebrowser/src/luac.c' l='306' macro='1' u='r'/>
+<use f='codebrowser/src/luac.c' l='310' macro='1' u='r'/>
+<use f='codebrowser/src/luac.c' l='311' macro='1' u='r'/>
+<use f='codebrowser/src/luac.c' l='315' macro='1' u='r'/>
+<use f='codebrowser/src/luac.c' l='316' macro='1' u='r'/>

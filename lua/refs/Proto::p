@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/lobject.h' l='422' type='struct Proto **'/>
+<offset>512</offset>
+<doc f='codebrowser/src/lobject.h' l='422'>/* functions defined inside the function */</doc>
+<use f='codebrowser/src/ldump.c' l='133' u='r' c='DumpProtos'/>
+<use f='codebrowser/src/lfunc.c' l='104' u='w' c='luaF_newproto'/>
+<use f='codebrowser/src/lfunc.c' l='127' u='r' c='luaF_freeproto'/>
+<use f='codebrowser/src/lfunc.c' l='127' u='r' c='luaF_freeproto'/>
+<use f='codebrowser/src/lgc.c' l='489' u='r' c='traverseproto'/>
+<use f='codebrowser/src/lgc.c' l='489' u='r' c='traverseproto'/>
+<use f='codebrowser/src/lgc.c' l='489' u='r' c='traverseproto'/>
+<use f='codebrowser/src/lparser.c' l='506' u='w' c='addprototype'/>
+<use f='codebrowser/src/lparser.c' l='506' u='r' c='addprototype'/>
+<use f='codebrowser/src/lparser.c' l='508' u='r' c='addprototype'/>
+<use f='codebrowser/src/lparser.c' l='510' u='r' c='addprototype'/>
+<use f='codebrowser/src/lparser.c' l='564' u='w' c='close_func'/>
+<use f='codebrowser/src/lparser.c' l='564' u='r' c='close_func'/>
+<use f='codebrowser/src/luac.c' l='151' u='r' c='combine'/>
+<use f='codebrowser/src/luac.c' l='152' u='r' c='combine'/>
+<use f='codebrowser/src/luac.c' l='152' u='r' c='combine'/>
+<use f='codebrowser/src/luac.c' l='377' u='r' c='PrintCode'/>
+<use f='codebrowser/src/luac.c' l='448' u='r' c='PrintFunction'/>
+<use f='codebrowser/src/lundump.c' l='155' u='w' c='LoadProtos'/>
+<use f='codebrowser/src/lundump.c' l='158' u='r' c='LoadProtos'/>
+<use f='codebrowser/src/lundump.c' l='160' u='r' c='LoadProtos'/>
+<use f='codebrowser/src/lundump.c' l='161' u='r' c='LoadProtos'/>
+<use f='codebrowser/src/lvm.c' l='1286' u='r' c='luaV_execute'/>

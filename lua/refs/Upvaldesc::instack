@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/lobject.h' l='388' type='lu_byte'/>
+<offset>64</offset>
+<doc f='codebrowser/src/lobject.h' l='388'>/* whether it is in stack (register) */</doc>
+<use f='codebrowser/src/ldump.c' l='141' u='r' c='DumpUpvalues'/>
+<use f='codebrowser/src/lparser.c' l='236' u='w' c='newupvalue'/>
+<use f='codebrowser/src/luac.c' l='152' u='w' c='combine'/>
+<use f='codebrowser/src/luac.c' l='438' u='r' c='PrintDebug'/>
+<use f='codebrowser/src/lundump.c' l='174' u='w' c='LoadUpvalues'/>
+<use f='codebrowser/src/lvm.c' l='617' u='r' c='getcached'/>
+<use f='codebrowser/src/lvm.c' l='641' u='r' c='pushclosure'/>

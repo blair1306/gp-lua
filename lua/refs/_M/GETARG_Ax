@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/lopcodes.h' l='109'/>
+<use f='codebrowser/src/ldebug.c' l='466' u='c'/>
+<use f='codebrowser/src/luac.c' l='299' u='c'/>
+<use f='codebrowser/src/lvm.c' l='815' u='c'/>
+<use f='codebrowser/src/lvm.c' l='1271' u='c'/>

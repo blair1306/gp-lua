@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/lobject.h' l='540' type='int luaO_hexavalue(int c)'/>
+<use f='codebrowser/src/llex.c' l='315' u='c' c='gethexa'/>
+<use f='codebrowser/src/llex.c' l='335' u='c' c='readutf8esc'/>
+<def f='codebrowser/src/lobject.c' l='163' ll='166' type='int luaO_hexavalue(int c)'/>
+<use f='codebrowser/src/lobject.c' l='309' u='c' c='l_str2int'/>

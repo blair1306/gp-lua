@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lstate.h' l='125' type='lu_mem'/>
+<offset>320</offset>
+<doc f='codebrowser/src/lstate.h' l='125'>/* an estimate of the non-garbage memory in use */</doc>
+<use f='codebrowser/src/lgc.c' l='782' u='w' c='checkSizes'/>
+<use f='codebrowser/src/lgc.c' l='941' u='r' c='setpause'/>
+<use f='codebrowser/src/lgc.c' l='1033' u='w' c='sweepstep'/>
+<use f='codebrowser/src/lgc.c' l='1066' u='w' c='singlestep'/>
+<use f='codebrowser/src/lstate.c' l='313' u='w' c='lua_newstate'/>

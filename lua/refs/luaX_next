@@ -1,0 +1,28 @@
+<dec f='codebrowser/src/llex.h' l='79' type='void luaX_next(LexState * ls)'/>
+<def f='codebrowser/src/llex.c' l='549' ll='557' type='void luaX_next(LexState * ls)'/>
+<use f='codebrowser/src/lparser.c' l='99' u='c' c='testnext'/>
+<use f='codebrowser/src/lparser.c' l='114' u='c' c='checknext'/>
+<use f='codebrowser/src/lparser.c' l='139' u='c' c='str_checkname'/>
+<use f='codebrowser/src/lparser.c' l='615' u='c' c='fieldsel'/>
+<use f='codebrowser/src/lparser.c' l='623' u='c' c='yindex'/>
+<use f='codebrowser/src/lparser.c' l='768' u='c' c='parlist'/>
+<use f='codebrowser/src/lparser.c' l='823' u='c' c='funcargs'/>
+<use f='codebrowser/src/lparser.c' l='839' u='c' c='funcargs'/>
+<use f='codebrowser/src/lparser.c' l='876' u='c' c='primaryexp'/>
+<use f='codebrowser/src/lparser.c' l='914' u='c' c='suffixedexp'/>
+<use f='codebrowser/src/lparser.c' l='973' u='c' c='simpleexp'/>
+<use f='codebrowser/src/lparser.c' l='982' u='c' c='simpleexp'/>
+<use f='codebrowser/src/lparser.c' l='1055' u='c' c='subexpr'/>
+<use f='codebrowser/src/lparser.c' l='1066' u='c' c='subexpr'/>
+<use f='codebrowser/src/lparser.c' l='1194' u='c' c='gotostat'/>
+<use f='codebrowser/src/lparser.c' l='1247' u='c' c='whilestat'/>
+<use f='codebrowser/src/lparser.c' l='1268' u='c' c='repeatstat'/>
+<use f='codebrowser/src/lparser.c' l='1370' u='c' c='forstat'/>
+<use f='codebrowser/src/lparser.c' l='1388' u='c' c='test_then_block'/>
+<use f='codebrowser/src/lparser.c' l='1480' u='c' c='funcstat'/>
+<use f='codebrowser/src/lparser.c' l='1542' u='c' c='statement'/>
+<use f='codebrowser/src/lparser.c' l='1554' u='c' c='statement'/>
+<use f='codebrowser/src/lparser.c' l='1572' u='c' c='statement'/>
+<use f='codebrowser/src/lparser.c' l='1580' u='c' c='statement'/>
+<use f='codebrowser/src/lparser.c' l='1585' u='c' c='statement'/>
+<use f='codebrowser/src/lparser.c' l='1619' u='c' c='mainfunc'/>

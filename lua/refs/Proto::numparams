@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/lobject.h' l='409' type='lu_byte'/>
+<offset>80</offset>
+<doc f='codebrowser/src/lobject.h' l='409'>/* number of fixed parameters */</doc>
+<use f='codebrowser/src/ldebug.c' l='135' u='r' c='findvararg'/>
+<use f='codebrowser/src/ldebug.c' l='283' u='r' c='auxgetinfo'/>
+<use f='codebrowser/src/ldo.c' l='295' u='r' c='adjust_varargs'/>
+<use f='codebrowser/src/ldo.c' l='449' u='r' c='luaD_precall'/>
+<use f='codebrowser/src/ldump.c' l='173' u='r' c='DumpFunction'/>
+<use f='codebrowser/src/lfunc.c' l='113' u='w' c='luaF_newproto'/>
+<use f='codebrowser/src/lparser.c' l='777' u='w' c='parlist'/>
+<use f='codebrowser/src/luac.c' l='409' u='r' c='PrintHeader'/>
+<use f='codebrowser/src/luac.c' l='409' u='r' c='PrintHeader'/>
+<use f='codebrowser/src/lundump.c' l='208' u='w' c='LoadFunction'/>
+<use f='codebrowser/src/lvm.c' l='1159' u='r' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='1298' u='r' c='luaV_execute'/>

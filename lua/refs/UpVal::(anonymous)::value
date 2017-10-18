@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/lfunc.h' l='43' type='TValue'/>
+<use f='codebrowser/src/lapi.c' l='1007' macro='1' u='a'/>
+<use f='codebrowser/src/lapi.c' l='1249' macro='1' u='a'/>
+<use f='codebrowser/src/lapi.c' l='1294' macro='1' u='a'/>
+<use f='codebrowser/src/lapi.c' l='1295' macro='1' u='a'/>
+<offset>0</offset>
+<doc f='codebrowser/src/lfunc.h' l='43'>/* the value (when closed) */</doc>
+<use f='codebrowser/src/lfunc.c' l='50' u='a' c='luaF_initupvals'/>
+<use f='codebrowser/src/lfunc.c' l='91' u='a' c='luaF_close'/>
+<use f='codebrowser/src/lfunc.c' l='92' u='a' c='luaF_close'/>
+<use f='codebrowser/src/lfunc.c' l='93' macro='1' u='a'/>
+<use f='codebrowser/src/lgc.c' l='520' macro='1' u='a'/>
+<use f='codebrowser/src/lgc.c' l='680' macro='1' u='a'/>
+<use f='codebrowser/src/lvm.c' l='858' macro='1' u='a'/>

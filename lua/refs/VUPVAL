@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lparser.h' l='37' type='9'/>
+<use f='codebrowser/src/lcode.c' l='562' c='luaK_dischargevars'/>
+<use f='codebrowser/src/lcode.c' l='735' u='r' c='luaK_exp2anyregup'/>
+<use f='codebrowser/src/lcode.c' l='789' c='luaK_storevar'/>
+<use f='codebrowser/src/lcode.c' l='950' u='r' c='luaK_indexed'/>
+<use f='codebrowser/src/lcode.c' l='950' u='r' c='luaK_indexed'/>
+<doc f='codebrowser/src/lparser.h' l='37'>/* upvalue variable; info = index of upvalue in &apos;upvalues&apos; */</doc>
+<use f='codebrowser/src/lparser.c' l='289' u='r' c='singlevaraux'/>

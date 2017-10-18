@@ -1,0 +1,283 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>lauxlib.h source code [codebrowser/src/lauxlib.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="luaL_Buffer,luaL_Reg,luaL_Stream "/>
+<link rel="stylesheet" href="../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/lauxlib.h'; var root_path = '../..'; var data_path = '../../../data';</script>
+<script src='../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='..'>codebrowser</a>/<a href='./'>src</a>/<a href='lauxlib.h.html'>lauxlib.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>** $Id: lauxlib.h,v 1.131 2016/12/06 14:54:31 roberto Exp $</i></td></tr>
+<tr><th id="3">3</th><td><i>** Auxiliary functions for building Lua libraries</i></td></tr>
+<tr><th id="4">4</th><td><i>** See Copyright Notice in lua.h</i></td></tr>
+<tr><th id="5">5</th><td><i>*/</i></td></tr>
+<tr><th id="6">6</th><td></td></tr>
+<tr><th id="7">7</th><td></td></tr>
+<tr><th id="8">8</th><td><u>#<span data-ppcond="8">ifndef</span> <span class="macro" data-ref="_M/lauxlib_h">lauxlib_h</span></u></td></tr>
+<tr><th id="9">9</th><td><u>#define <dfn class="macro" id="_M/lauxlib_h" data-ref="_M/lauxlib_h">lauxlib_h</dfn></u></td></tr>
+<tr><th id="10">10</th><td></td></tr>
+<tr><th id="11">11</th><td></td></tr>
+<tr><th id="12">12</th><td><u>#include &lt;stddef.h&gt;</u></td></tr>
+<tr><th id="13">13</th><td><u>#include <a href="../../include/stdio.h.html">&lt;stdio.h&gt;</a></u></td></tr>
+<tr><th id="14">14</th><td></td></tr>
+<tr><th id="15">15</th><td><u>#include <a href="lua.h.html">"lua.h"</a></u></td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td></td></tr>
+<tr><th id="18">18</th><td></td></tr>
+<tr><th id="19">19</th><td><i>/* extra error code for 'luaL_loadfilex' */</i></td></tr>
+<tr><th id="20">20</th><td><u>#define <dfn class="macro" id="_M/LUA_ERRFILE" data-ref="_M/LUA_ERRFILE">LUA_ERRFILE</dfn>     (LUA_ERRERR+1)</u></td></tr>
+<tr><th id="21">21</th><td></td></tr>
+<tr><th id="22">22</th><td></td></tr>
+<tr><th id="23">23</th><td><i>/* key, in the registry, for table of loaded modules */</i></td></tr>
+<tr><th id="24">24</th><td><u>#define <dfn class="macro" id="_M/LUA_LOADED_TABLE" data-ref="_M/LUA_LOADED_TABLE">LUA_LOADED_TABLE</dfn>	"_LOADED"</u></td></tr>
+<tr><th id="25">25</th><td></td></tr>
+<tr><th id="26">26</th><td></td></tr>
+<tr><th id="27">27</th><td><i>/* key, in the registry, for table of preloaded loaders */</i></td></tr>
+<tr><th id="28">28</th><td><u>#define <dfn class="macro" id="_M/LUA_PRELOAD_TABLE" data-ref="_M/LUA_PRELOAD_TABLE">LUA_PRELOAD_TABLE</dfn>	"_PRELOAD"</u></td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="luaL_Reg" title='luaL_Reg' data-ref="luaL_Reg"><a class="type" href="#luaL_Reg" title='luaL_Reg' data-ref="luaL_Reg">luaL_Reg</a></dfn> {</td></tr>
+<tr><th id="32">32</th><td>  <em>const</em> <em>char</em> *<dfn class="decl" id="luaL_Reg::name" title='luaL_Reg::name' data-ref="luaL_Reg::name">name</dfn>;</td></tr>
+<tr><th id="33">33</th><td>  <a class="typedef" href="lua.h.html#lua_CFunction" title='lua_CFunction' data-type='int (*)(lua_State *)' data-ref="lua_CFunction">lua_CFunction</a> <dfn class="decl" id="luaL_Reg::func" title='luaL_Reg::func' data-ref="luaL_Reg::func">func</dfn>;</td></tr>
+<tr><th id="34">34</th><td>} <dfn class="typedef" id="luaL_Reg" title='luaL_Reg' data-type='struct luaL_Reg' data-ref="luaL_Reg">luaL_Reg</dfn>;</td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td></td></tr>
+<tr><th id="37">37</th><td><u>#define <dfn class="macro" id="_M/LUAL_NUMSIZES" data-ref="_M/LUAL_NUMSIZES">LUAL_NUMSIZES</dfn>	(sizeof(lua_Integer)*16 + sizeof(lua_Number))</u></td></tr>
+<tr><th id="38">38</th><td></td></tr>
+<tr><th id="39">39</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>void</em> (<a class="decl" href="lauxlib.c.html#luaL_checkversion_" title='luaL_checkversion_' data-ref="luaL_checkversion_" id="luaL_checkversion_">luaL_checkversion_</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col9 decl" id="269L" title='L' data-type='lua_State *' data-ref="269L">L</dfn>, <a class="typedef" href="lua.h.html#lua_Number" title='lua_Number' data-type='double' data-ref="lua_Number">lua_Number</a> <dfn class="local col0 decl" id="270ver" title='ver' data-type='lua_Number' data-ref="270ver">ver</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col1 decl" id="271sz" title='sz' data-type='size_t' data-ref="271sz">sz</dfn>);</td></tr>
+<tr><th id="40">40</th><td><u>#define <dfn class="macro" id="_M/luaL_checkversion" data-ref="_M/luaL_checkversion">luaL_checkversion</dfn>(L)  \</u></td></tr>
+<tr><th id="41">41</th><td><u>	  luaL_checkversion_(L, LUA_VERSION_NUM, LUAL_NUMSIZES)</u></td></tr>
+<tr><th id="42">42</th><td></td></tr>
+<tr><th id="43">43</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>int</em> (<a class="decl" href="lauxlib.c.html#luaL_getmetafield" title='luaL_getmetafield' data-ref="luaL_getmetafield" id="luaL_getmetafield">luaL_getmetafield</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col2 decl" id="272L" title='L' data-type='lua_State *' data-ref="272L">L</dfn>, <em>int</em> <dfn class="local col3 decl" id="273obj" title='obj' data-type='int' data-ref="273obj">obj</dfn>, <em>const</em> <em>char</em> *<dfn class="local col4 decl" id="274e" title='e' data-type='const char *' data-ref="274e">e</dfn>);</td></tr>
+<tr><th id="44">44</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>int</em> (<a class="decl" href="lauxlib.c.html#luaL_callmeta" title='luaL_callmeta' data-ref="luaL_callmeta" id="luaL_callmeta">luaL_callmeta</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col5 decl" id="275L" title='L' data-type='lua_State *' data-ref="275L">L</dfn>, <em>int</em> <dfn class="local col6 decl" id="276obj" title='obj' data-type='int' data-ref="276obj">obj</dfn>, <em>const</em> <em>char</em> *<dfn class="local col7 decl" id="277e" title='e' data-type='const char *' data-ref="277e">e</dfn>);</td></tr>
+<tr><th id="45">45</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>const</em> <em>char</em> *(<a class="decl" href="lauxlib.c.html#luaL_tolstring" title='luaL_tolstring' data-ref="luaL_tolstring" id="luaL_tolstring">luaL_tolstring</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col8 decl" id="278L" title='L' data-type='lua_State *' data-ref="278L">L</dfn>, <em>int</em> <dfn class="local col9 decl" id="279idx" title='idx' data-type='int' data-ref="279idx">idx</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> *<dfn class="local col0 decl" id="280len" title='len' data-type='size_t *' data-ref="280len">len</dfn>);</td></tr>
+<tr><th id="46">46</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>int</em> (<a class="decl" href="lauxlib.c.html#luaL_argerror" title='luaL_argerror' data-ref="luaL_argerror" id="luaL_argerror">luaL_argerror</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col1 decl" id="281L" title='L' data-type='lua_State *' data-ref="281L">L</dfn>, <em>int</em> <dfn class="local col2 decl" id="282arg" title='arg' data-type='int' data-ref="282arg">arg</dfn>, <em>const</em> <em>char</em> *<dfn class="local col3 decl" id="283extramsg" title='extramsg' data-type='const char *' data-ref="283extramsg">extramsg</dfn>);</td></tr>
+<tr><th id="47">47</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>const</em> <em>char</em> *(<a class="decl" href="lauxlib.c.html#luaL_checklstring" title='luaL_checklstring' data-ref="luaL_checklstring" id="luaL_checklstring">luaL_checklstring</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col4 decl" id="284L" title='L' data-type='lua_State *' data-ref="284L">L</dfn>, <em>int</em> <dfn class="local col5 decl" id="285arg" title='arg' data-type='int' data-ref="285arg">arg</dfn>,</td></tr>
+<tr><th id="48">48</th><td>                                                          <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> *<dfn class="local col6 decl" id="286l" title='l' data-type='size_t *' data-ref="286l">l</dfn>);</td></tr>
+<tr><th id="49">49</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>const</em> <em>char</em> *(<a class="decl" href="lauxlib.c.html#luaL_optlstring" title='luaL_optlstring' data-ref="luaL_optlstring" id="luaL_optlstring">luaL_optlstring</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col7 decl" id="287L" title='L' data-type='lua_State *' data-ref="287L">L</dfn>, <em>int</em> <dfn class="local col8 decl" id="288arg" title='arg' data-type='int' data-ref="288arg">arg</dfn>,</td></tr>
+<tr><th id="50">50</th><td>                                          <em>const</em> <em>char</em> *<dfn class="local col9 decl" id="289def" title='def' data-type='const char *' data-ref="289def">def</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> *<dfn class="local col0 decl" id="290l" title='l' data-type='size_t *' data-ref="290l">l</dfn>);</td></tr>
+<tr><th id="51">51</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <a class="typedef" href="lua.h.html#lua_Number" title='lua_Number' data-type='double' data-ref="lua_Number">lua_Number</a> (<a class="decl" href="lauxlib.c.html#luaL_checknumber" title='luaL_checknumber' data-ref="luaL_checknumber" id="luaL_checknumber">luaL_checknumber</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col1 decl" id="291L" title='L' data-type='lua_State *' data-ref="291L">L</dfn>, <em>int</em> <dfn class="local col2 decl" id="292arg" title='arg' data-type='int' data-ref="292arg">arg</dfn>);</td></tr>
+<tr><th id="52">52</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <a class="typedef" href="lua.h.html#lua_Number" title='lua_Number' data-type='double' data-ref="lua_Number">lua_Number</a> (<a class="decl" href="lauxlib.c.html#luaL_optnumber" title='luaL_optnumber' data-ref="luaL_optnumber" id="luaL_optnumber">luaL_optnumber</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col3 decl" id="293L" title='L' data-type='lua_State *' data-ref="293L">L</dfn>, <em>int</em> <dfn class="local col4 decl" id="294arg" title='arg' data-type='int' data-ref="294arg">arg</dfn>, <a class="typedef" href="lua.h.html#lua_Number" title='lua_Number' data-type='double' data-ref="lua_Number">lua_Number</a> <dfn class="local col5 decl" id="295def" title='def' data-type='lua_Number' data-ref="295def">def</dfn>);</td></tr>
+<tr><th id="53">53</th><td></td></tr>
+<tr><th id="54">54</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <a class="typedef" href="lua.h.html#lua_Integer" title='lua_Integer' data-type='long long' data-ref="lua_Integer">lua_Integer</a> (<a class="decl" href="lauxlib.c.html#luaL_checkinteger" title='luaL_checkinteger' data-ref="luaL_checkinteger" id="luaL_checkinteger">luaL_checkinteger</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col6 decl" id="296L" title='L' data-type='lua_State *' data-ref="296L">L</dfn>, <em>int</em> <dfn class="local col7 decl" id="297arg" title='arg' data-type='int' data-ref="297arg">arg</dfn>);</td></tr>
+<tr><th id="55">55</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <a class="typedef" href="lua.h.html#lua_Integer" title='lua_Integer' data-type='long long' data-ref="lua_Integer">lua_Integer</a> (<a class="decl" href="lauxlib.c.html#luaL_optinteger" title='luaL_optinteger' data-ref="luaL_optinteger" id="luaL_optinteger">luaL_optinteger</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col8 decl" id="298L" title='L' data-type='lua_State *' data-ref="298L">L</dfn>, <em>int</em> <dfn class="local col9 decl" id="299arg" title='arg' data-type='int' data-ref="299arg">arg</dfn>,</td></tr>
+<tr><th id="56">56</th><td>                                          <a class="typedef" href="lua.h.html#lua_Integer" title='lua_Integer' data-type='long long' data-ref="lua_Integer">lua_Integer</a> <dfn class="local col0 decl" id="300def" title='def' data-type='lua_Integer' data-ref="300def">def</dfn>);</td></tr>
+<tr><th id="57">57</th><td></td></tr>
+<tr><th id="58">58</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>void</em> (<a class="decl" href="lauxlib.c.html#luaL_checkstack" title='luaL_checkstack' data-ref="luaL_checkstack" id="luaL_checkstack">luaL_checkstack</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col1 decl" id="301L" title='L' data-type='lua_State *' data-ref="301L">L</dfn>, <em>int</em> <dfn class="local col2 decl" id="302sz" title='sz' data-type='int' data-ref="302sz">sz</dfn>, <em>const</em> <em>char</em> *<dfn class="local col3 decl" id="303msg" title='msg' data-type='const char *' data-ref="303msg">msg</dfn>);</td></tr>
+<tr><th id="59">59</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>void</em> (<a class="decl" href="lauxlib.c.html#luaL_checktype" title='luaL_checktype' data-ref="luaL_checktype" id="luaL_checktype">luaL_checktype</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col4 decl" id="304L" title='L' data-type='lua_State *' data-ref="304L">L</dfn>, <em>int</em> <dfn class="local col5 decl" id="305arg" title='arg' data-type='int' data-ref="305arg">arg</dfn>, <em>int</em> <dfn class="local col6 decl" id="306t" title='t' data-type='int' data-ref="306t">t</dfn>);</td></tr>
+<tr><th id="60">60</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>void</em> (<a class="decl" href="lauxlib.c.html#luaL_checkany" title='luaL_checkany' data-ref="luaL_checkany" id="luaL_checkany">luaL_checkany</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col7 decl" id="307L" title='L' data-type='lua_State *' data-ref="307L">L</dfn>, <em>int</em> <dfn class="local col8 decl" id="308arg" title='arg' data-type='int' data-ref="308arg">arg</dfn>);</td></tr>
+<tr><th id="61">61</th><td></td></tr>
+<tr><th id="62">62</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>int</em>   (<a class="decl" href="lauxlib.c.html#luaL_newmetatable" title='luaL_newmetatable' data-ref="luaL_newmetatable" id="luaL_newmetatable">luaL_newmetatable</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col9 decl" id="309L" title='L' data-type='lua_State *' data-ref="309L">L</dfn>, <em>const</em> <em>char</em> *<dfn class="local col0 decl" id="310tname" title='tname' data-type='const char *' data-ref="310tname">tname</dfn>);</td></tr>
+<tr><th id="63">63</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>void</em>  (<a class="decl" href="lauxlib.c.html#luaL_setmetatable" title='luaL_setmetatable' data-ref="luaL_setmetatable" id="luaL_setmetatable">luaL_setmetatable</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col1 decl" id="311L" title='L' data-type='lua_State *' data-ref="311L">L</dfn>, <em>const</em> <em>char</em> *<dfn class="local col2 decl" id="312tname" title='tname' data-type='const char *' data-ref="312tname">tname</dfn>);</td></tr>
+<tr><th id="64">64</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>void</em> *(<a class="decl" href="lauxlib.c.html#luaL_testudata" title='luaL_testudata' data-ref="luaL_testudata" id="luaL_testudata">luaL_testudata</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col3 decl" id="313L" title='L' data-type='lua_State *' data-ref="313L">L</dfn>, <em>int</em> <dfn class="local col4 decl" id="314ud" title='ud' data-type='int' data-ref="314ud">ud</dfn>, <em>const</em> <em>char</em> *<dfn class="local col5 decl" id="315tname" title='tname' data-type='const char *' data-ref="315tname">tname</dfn>);</td></tr>
+<tr><th id="65">65</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>void</em> *(<a class="decl" href="lauxlib.c.html#luaL_checkudata" title='luaL_checkudata' data-ref="luaL_checkudata" id="luaL_checkudata">luaL_checkudata</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col6 decl" id="316L" title='L' data-type='lua_State *' data-ref="316L">L</dfn>, <em>int</em> <dfn class="local col7 decl" id="317ud" title='ud' data-type='int' data-ref="317ud">ud</dfn>, <em>const</em> <em>char</em> *<dfn class="local col8 decl" id="318tname" title='tname' data-type='const char *' data-ref="318tname">tname</dfn>);</td></tr>
+<tr><th id="66">66</th><td></td></tr>
+<tr><th id="67">67</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>void</em> (<a class="decl" href="lauxlib.c.html#luaL_where" title='luaL_where' data-ref="luaL_where" id="luaL_where">luaL_where</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col9 decl" id="319L" title='L' data-type='lua_State *' data-ref="319L">L</dfn>, <em>int</em> <dfn class="local col0 decl" id="320lvl" title='lvl' data-type='int' data-ref="320lvl">lvl</dfn>);</td></tr>
+<tr><th id="68">68</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>int</em> (<a class="decl" href="lauxlib.c.html#luaL_error" title='luaL_error' data-ref="luaL_error" id="luaL_error">luaL_error</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col1 decl" id="321L" title='L' data-type='lua_State *' data-ref="321L">L</dfn>, <em>const</em> <em>char</em> *<dfn class="local col2 decl" id="322fmt" title='fmt' data-type='const char *' data-ref="322fmt">fmt</dfn>, ...);</td></tr>
+<tr><th id="69">69</th><td></td></tr>
+<tr><th id="70">70</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>int</em> (<a class="decl" href="lauxlib.c.html#luaL_checkoption" title='luaL_checkoption' data-ref="luaL_checkoption" id="luaL_checkoption">luaL_checkoption</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col3 decl" id="323L" title='L' data-type='lua_State *' data-ref="323L">L</dfn>, <em>int</em> <dfn class="local col4 decl" id="324arg" title='arg' data-type='int' data-ref="324arg">arg</dfn>, <em>const</em> <em>char</em> *<dfn class="local col5 decl" id="325def" title='def' data-type='const char *' data-ref="325def">def</dfn>,</td></tr>
+<tr><th id="71">71</th><td>                                   <em>const</em> <em>char</em> *<em>const</em> <dfn class="local col6 decl" id="326lst" title='lst' data-type='const char *const *' data-ref="326lst">lst</dfn>[]);</td></tr>
+<tr><th id="72">72</th><td></td></tr>
+<tr><th id="73">73</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>int</em> (<a class="decl" href="lauxlib.c.html#luaL_fileresult" title='luaL_fileresult' data-ref="luaL_fileresult" id="luaL_fileresult">luaL_fileresult</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col7 decl" id="327L" title='L' data-type='lua_State *' data-ref="327L">L</dfn>, <em>int</em> <dfn class="local col8 decl" id="328stat" title='stat' data-type='int' data-ref="328stat">stat</dfn>, <em>const</em> <em>char</em> *<dfn class="local col9 decl" id="329fname" title='fname' data-type='const char *' data-ref="329fname">fname</dfn>);</td></tr>
+<tr><th id="74">74</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>int</em> (<a class="decl" href="lauxlib.c.html#luaL_execresult" title='luaL_execresult' data-ref="luaL_execresult" id="luaL_execresult">luaL_execresult</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col0 decl" id="330L" title='L' data-type='lua_State *' data-ref="330L">L</dfn>, <em>int</em> <dfn class="local col1 decl" id="331stat" title='stat' data-type='int' data-ref="331stat">stat</dfn>);</td></tr>
+<tr><th id="75">75</th><td></td></tr>
+<tr><th id="76">76</th><td><i>/* predefined references */</i></td></tr>
+<tr><th id="77">77</th><td><u>#define <dfn class="macro" id="_M/LUA_NOREF" data-ref="_M/LUA_NOREF">LUA_NOREF</dfn>       (-2)</u></td></tr>
+<tr><th id="78">78</th><td><u>#define <dfn class="macro" id="_M/LUA_REFNIL" data-ref="_M/LUA_REFNIL">LUA_REFNIL</dfn>      (-1)</u></td></tr>
+<tr><th id="79">79</th><td></td></tr>
+<tr><th id="80">80</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>int</em> (<a class="decl" href="lauxlib.c.html#luaL_ref" title='luaL_ref' data-ref="luaL_ref" id="luaL_ref">luaL_ref</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col2 decl" id="332L" title='L' data-type='lua_State *' data-ref="332L">L</dfn>, <em>int</em> <dfn class="local col3 decl" id="333t" title='t' data-type='int' data-ref="333t">t</dfn>);</td></tr>
+<tr><th id="81">81</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>void</em> (<a class="decl" href="lauxlib.c.html#luaL_unref" title='luaL_unref' data-ref="luaL_unref" id="luaL_unref">luaL_unref</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col4 decl" id="334L" title='L' data-type='lua_State *' data-ref="334L">L</dfn>, <em>int</em> <dfn class="local col5 decl" id="335t" title='t' data-type='int' data-ref="335t">t</dfn>, <em>int</em> <dfn class="local col6 decl" id="336ref" title='ref' data-type='int' data-ref="336ref">ref</dfn>);</td></tr>
+<tr><th id="82">82</th><td></td></tr>
+<tr><th id="83">83</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>int</em> (<a class="decl" href="lauxlib.c.html#luaL_loadfilex" title='luaL_loadfilex' data-ref="luaL_loadfilex" id="luaL_loadfilex">luaL_loadfilex</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col7 decl" id="337L" title='L' data-type='lua_State *' data-ref="337L">L</dfn>, <em>const</em> <em>char</em> *<dfn class="local col8 decl" id="338filename" title='filename' data-type='const char *' data-ref="338filename">filename</dfn>,</td></tr>
+<tr><th id="84">84</th><td>                                               <em>const</em> <em>char</em> *<dfn class="local col9 decl" id="339mode" title='mode' data-type='const char *' data-ref="339mode">mode</dfn>);</td></tr>
+<tr><th id="85">85</th><td></td></tr>
+<tr><th id="86">86</th><td><u>#define <dfn class="macro" id="_M/luaL_loadfile" data-ref="_M/luaL_loadfile">luaL_loadfile</dfn>(L,f)	luaL_loadfilex(L,f,NULL)</u></td></tr>
+<tr><th id="87">87</th><td></td></tr>
+<tr><th id="88">88</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>int</em> (<a class="decl" href="lauxlib.c.html#luaL_loadbufferx" title='luaL_loadbufferx' data-ref="luaL_loadbufferx" id="luaL_loadbufferx">luaL_loadbufferx</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col0 decl" id="340L" title='L' data-type='lua_State *' data-ref="340L">L</dfn>, <em>const</em> <em>char</em> *<dfn class="local col1 decl" id="341buff" title='buff' data-type='const char *' data-ref="341buff">buff</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col2 decl" id="342sz" title='sz' data-type='size_t' data-ref="342sz">sz</dfn>,</td></tr>
+<tr><th id="89">89</th><td>                                   <em>const</em> <em>char</em> *<dfn class="local col3 decl" id="343name" title='name' data-type='const char *' data-ref="343name">name</dfn>, <em>const</em> <em>char</em> *<dfn class="local col4 decl" id="344mode" title='mode' data-type='const char *' data-ref="344mode">mode</dfn>);</td></tr>
+<tr><th id="90">90</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>int</em> (<a class="decl" href="lauxlib.c.html#luaL_loadstring" title='luaL_loadstring' data-ref="luaL_loadstring" id="luaL_loadstring">luaL_loadstring</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col5 decl" id="345L" title='L' data-type='lua_State *' data-ref="345L">L</dfn>, <em>const</em> <em>char</em> *<dfn class="local col6 decl" id="346s" title='s' data-type='const char *' data-ref="346s">s</dfn>);</td></tr>
+<tr><th id="91">91</th><td></td></tr>
+<tr><th id="92">92</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *(<a class="decl" href="lauxlib.c.html#luaL_newstate" title='luaL_newstate' data-ref="luaL_newstate" id="luaL_newstate">luaL_newstate</a>) (<em>void</em>);</td></tr>
+<tr><th id="93">93</th><td></td></tr>
+<tr><th id="94">94</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <a class="typedef" href="lua.h.html#lua_Integer" title='lua_Integer' data-type='long long' data-ref="lua_Integer">lua_Integer</a> (<a class="decl" href="lauxlib.c.html#luaL_len" title='luaL_len' data-ref="luaL_len" id="luaL_len">luaL_len</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col7 decl" id="347L" title='L' data-type='lua_State *' data-ref="347L">L</dfn>, <em>int</em> <dfn class="local col8 decl" id="348idx" title='idx' data-type='int' data-ref="348idx">idx</dfn>);</td></tr>
+<tr><th id="95">95</th><td></td></tr>
+<tr><th id="96">96</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>const</em> <em>char</em> *(<a class="decl" href="lauxlib.c.html#luaL_gsub" title='luaL_gsub' data-ref="luaL_gsub" id="luaL_gsub">luaL_gsub</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col9 decl" id="349L" title='L' data-type='lua_State *' data-ref="349L">L</dfn>, <em>const</em> <em>char</em> *<dfn class="local col0 decl" id="350s" title='s' data-type='const char *' data-ref="350s">s</dfn>, <em>const</em> <em>char</em> *<dfn class="local col1 decl" id="351p" title='p' data-type='const char *' data-ref="351p">p</dfn>,</td></tr>
+<tr><th id="97">97</th><td>                                                  <em>const</em> <em>char</em> *<dfn class="local col2 decl" id="352r" title='r' data-type='const char *' data-ref="352r">r</dfn>);</td></tr>
+<tr><th id="98">98</th><td></td></tr>
+<tr><th id="99">99</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>void</em> (<a class="decl" href="lauxlib.c.html#luaL_setfuncs" title='luaL_setfuncs' data-ref="luaL_setfuncs" id="luaL_setfuncs">luaL_setfuncs</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col3 decl" id="353L" title='L' data-type='lua_State *' data-ref="353L">L</dfn>, <em>const</em> <a class="typedef" href="#luaL_Reg" title='luaL_Reg' data-type='struct luaL_Reg' data-ref="luaL_Reg">luaL_Reg</a> *<dfn class="local col4 decl" id="354l" title='l' data-type='const luaL_Reg *' data-ref="354l">l</dfn>, <em>int</em> <dfn class="local col5 decl" id="355nup" title='nup' data-type='int' data-ref="355nup">nup</dfn>);</td></tr>
+<tr><th id="100">100</th><td></td></tr>
+<tr><th id="101">101</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>int</em> (<a class="decl" href="lauxlib.c.html#luaL_getsubtable" title='luaL_getsubtable' data-ref="luaL_getsubtable" id="luaL_getsubtable">luaL_getsubtable</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col6 decl" id="356L" title='L' data-type='lua_State *' data-ref="356L">L</dfn>, <em>int</em> <dfn class="local col7 decl" id="357idx" title='idx' data-type='int' data-ref="357idx">idx</dfn>, <em>const</em> <em>char</em> *<dfn class="local col8 decl" id="358fname" title='fname' data-type='const char *' data-ref="358fname">fname</dfn>);</td></tr>
+<tr><th id="102">102</th><td></td></tr>
+<tr><th id="103">103</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>void</em> (<a class="decl" href="lauxlib.c.html#luaL_traceback" title='luaL_traceback' data-ref="luaL_traceback" id="luaL_traceback">luaL_traceback</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col9 decl" id="359L" title='L' data-type='lua_State *' data-ref="359L">L</dfn>, <a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col0 decl" id="360L1" title='L1' data-type='lua_State *' data-ref="360L1">L1</dfn>,</td></tr>
+<tr><th id="104">104</th><td>                                  <em>const</em> <em>char</em> *<dfn class="local col1 decl" id="361msg" title='msg' data-type='const char *' data-ref="361msg">msg</dfn>, <em>int</em> <dfn class="local col2 decl" id="362level" title='level' data-type='int' data-ref="362level">level</dfn>);</td></tr>
+<tr><th id="105">105</th><td></td></tr>
+<tr><th id="106">106</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>void</em> (<a class="decl" href="lauxlib.c.html#luaL_requiref" title='luaL_requiref' data-ref="luaL_requiref" id="luaL_requiref">luaL_requiref</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col3 decl" id="363L" title='L' data-type='lua_State *' data-ref="363L">L</dfn>, <em>const</em> <em>char</em> *<dfn class="local col4 decl" id="364modname" title='modname' data-type='const char *' data-ref="364modname">modname</dfn>,</td></tr>
+<tr><th id="107">107</th><td>                                 <a class="typedef" href="lua.h.html#lua_CFunction" title='lua_CFunction' data-type='int (*)(lua_State *)' data-ref="lua_CFunction">lua_CFunction</a> <dfn class="local col5 decl" id="365openf" title='openf' data-type='lua_CFunction' data-ref="365openf">openf</dfn>, <em>int</em> <dfn class="local col6 decl" id="366glb" title='glb' data-type='int' data-ref="366glb">glb</dfn>);</td></tr>
+<tr><th id="108">108</th><td></td></tr>
+<tr><th id="109">109</th><td><i>/*</i></td></tr>
+<tr><th id="110">110</th><td><i>** ===============================================================</i></td></tr>
+<tr><th id="111">111</th><td><i>** some useful macros</i></td></tr>
+<tr><th id="112">112</th><td><i>** ===============================================================</i></td></tr>
+<tr><th id="113">113</th><td><i>*/</i></td></tr>
+<tr><th id="114">114</th><td></td></tr>
+<tr><th id="115">115</th><td></td></tr>
+<tr><th id="116">116</th><td><u>#define <dfn class="macro" id="_M/luaL_newlibtable" data-ref="_M/luaL_newlibtable">luaL_newlibtable</dfn>(L,l)	\</u></td></tr>
+<tr><th id="117">117</th><td><u>  lua_createtable(L, 0, sizeof(l)/sizeof((l)[0]) - 1)</u></td></tr>
+<tr><th id="118">118</th><td></td></tr>
+<tr><th id="119">119</th><td><u>#define <dfn class="macro" id="_M/luaL_newlib" data-ref="_M/luaL_newlib">luaL_newlib</dfn>(L,l)  \</u></td></tr>
+<tr><th id="120">120</th><td><u>  (luaL_checkversion(L), luaL_newlibtable(L,l), luaL_setfuncs(L,l,0))</u></td></tr>
+<tr><th id="121">121</th><td></td></tr>
+<tr><th id="122">122</th><td><u>#define <dfn class="macro" id="_M/luaL_argcheck" data-ref="_M/luaL_argcheck">luaL_argcheck</dfn>(L, cond,arg,extramsg)	\</u></td></tr>
+<tr><th id="123">123</th><td><u>		((void)((cond) || luaL_argerror(L, (arg), (extramsg))))</u></td></tr>
+<tr><th id="124">124</th><td><u>#define <dfn class="macro" id="_M/luaL_checkstring" data-ref="_M/luaL_checkstring">luaL_checkstring</dfn>(L,n)	(luaL_checklstring(L, (n), NULL))</u></td></tr>
+<tr><th id="125">125</th><td><u>#define <dfn class="macro" id="_M/luaL_optstring" data-ref="_M/luaL_optstring">luaL_optstring</dfn>(L,n,d)	(luaL_optlstring(L, (n), (d), NULL))</u></td></tr>
+<tr><th id="126">126</th><td></td></tr>
+<tr><th id="127">127</th><td><u>#define <dfn class="macro" id="_M/luaL_typename" data-ref="_M/luaL_typename">luaL_typename</dfn>(L,i)	lua_typename(L, lua_type(L,(i)))</u></td></tr>
+<tr><th id="128">128</th><td></td></tr>
+<tr><th id="129">129</th><td><u>#define <dfn class="macro" id="_M/luaL_dofile" data-ref="_M/luaL_dofile">luaL_dofile</dfn>(L, fn) \</u></td></tr>
+<tr><th id="130">130</th><td><u>	(luaL_loadfile(L, fn) || lua_pcall(L, 0, LUA_MULTRET, 0))</u></td></tr>
+<tr><th id="131">131</th><td></td></tr>
+<tr><th id="132">132</th><td><u>#define <dfn class="macro" id="_M/luaL_dostring" data-ref="_M/luaL_dostring">luaL_dostring</dfn>(L, s) \</u></td></tr>
+<tr><th id="133">133</th><td><u>	(luaL_loadstring(L, s) || lua_pcall(L, 0, LUA_MULTRET, 0))</u></td></tr>
+<tr><th id="134">134</th><td></td></tr>
+<tr><th id="135">135</th><td><u>#define <dfn class="macro" id="_M/luaL_getmetatable" data-ref="_M/luaL_getmetatable">luaL_getmetatable</dfn>(L,n)	(lua_getfield(L, LUA_REGISTRYINDEX, (n)))</u></td></tr>
+<tr><th id="136">136</th><td></td></tr>
+<tr><th id="137">137</th><td><u>#define <dfn class="macro" id="_M/luaL_opt" data-ref="_M/luaL_opt">luaL_opt</dfn>(L,f,n,d)	(lua_isnoneornil(L,(n)) ? (d) : f(L,(n)))</u></td></tr>
+<tr><th id="138">138</th><td></td></tr>
+<tr><th id="139">139</th><td><u>#define <dfn class="macro" id="_M/luaL_loadbuffer" data-ref="_M/luaL_loadbuffer">luaL_loadbuffer</dfn>(L,s,sz,n)	luaL_loadbufferx(L,s,sz,n,NULL)</u></td></tr>
+<tr><th id="140">140</th><td></td></tr>
+<tr><th id="141">141</th><td></td></tr>
+<tr><th id="142">142</th><td><i>/*</i></td></tr>
+<tr><th id="143">143</th><td><i>** {======================================================</i></td></tr>
+<tr><th id="144">144</th><td><i>** Generic Buffer manipulation</i></td></tr>
+<tr><th id="145">145</th><td><i>** =======================================================</i></td></tr>
+<tr><th id="146">146</th><td><i>*/</i></td></tr>
+<tr><th id="147">147</th><td></td></tr>
+<tr><th id="148">148</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="luaL_Buffer" title='luaL_Buffer' data-ref="luaL_Buffer"><a class="type" href="#luaL_Buffer" title='luaL_Buffer' data-ref="luaL_Buffer">luaL_Buffer</a></dfn> {</td></tr>
+<tr><th id="149">149</th><td>  <em>char</em> *<dfn class="decl" id="luaL_Buffer::b" title='luaL_Buffer::b' data-ref="luaL_Buffer::b">b</dfn>;  <i>/* buffer address */</i></td></tr>
+<tr><th id="150">150</th><td>  <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="decl" id="luaL_Buffer::size" title='luaL_Buffer::size' data-ref="luaL_Buffer::size">size</dfn>;  <i>/* buffer size */</i></td></tr>
+<tr><th id="151">151</th><td>  <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="decl" id="luaL_Buffer::n" title='luaL_Buffer::n' data-ref="luaL_Buffer::n">n</dfn>;  <i>/* number of characters in buffer */</i></td></tr>
+<tr><th id="152">152</th><td>  <a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="decl" id="luaL_Buffer::L" title='luaL_Buffer::L' data-ref="luaL_Buffer::L">L</dfn>;</td></tr>
+<tr><th id="153">153</th><td>  <em>char</em> <dfn class="decl" id="luaL_Buffer::initb" title='luaL_Buffer::initb' data-ref="luaL_Buffer::initb">initb</dfn>[<a class="macro" href="luaconf.h.html#754" title="((int)(0x80 * sizeof(void*) * sizeof(lua_Integer)))" data-ref="_M/LUAL_BUFFERSIZE">LUAL_BUFFERSIZE</a>];  <i>/* initial buffer */</i></td></tr>
+<tr><th id="154">154</th><td>} <dfn class="typedef" id="luaL_Buffer" title='luaL_Buffer' data-type='struct luaL_Buffer' data-ref="luaL_Buffer">luaL_Buffer</dfn>;</td></tr>
+<tr><th id="155">155</th><td></td></tr>
+<tr><th id="156">156</th><td></td></tr>
+<tr><th id="157">157</th><td><u>#define <dfn class="macro" id="_M/luaL_addchar" data-ref="_M/luaL_addchar">luaL_addchar</dfn>(B,c) \</u></td></tr>
+<tr><th id="158">158</th><td><u>  ((void)((B)-&gt;n &lt; (B)-&gt;size || luaL_prepbuffsize((B), 1)), \</u></td></tr>
+<tr><th id="159">159</th><td><u>   ((B)-&gt;b[(B)-&gt;n++] = (c)))</u></td></tr>
+<tr><th id="160">160</th><td></td></tr>
+<tr><th id="161">161</th><td><u>#define <dfn class="macro" id="_M/luaL_addsize" data-ref="_M/luaL_addsize">luaL_addsize</dfn>(B,s)	((B)-&gt;n += (s))</u></td></tr>
+<tr><th id="162">162</th><td></td></tr>
+<tr><th id="163">163</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>void</em> (<a class="decl" href="lauxlib.c.html#luaL_buffinit" title='luaL_buffinit' data-ref="luaL_buffinit" id="luaL_buffinit">luaL_buffinit</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col7 decl" id="367L" title='L' data-type='lua_State *' data-ref="367L">L</dfn>, <a class="typedef" href="#luaL_Buffer" title='luaL_Buffer' data-type='struct luaL_Buffer' data-ref="luaL_Buffer">luaL_Buffer</a> *<dfn class="local col8 decl" id="368B" title='B' data-type='luaL_Buffer *' data-ref="368B">B</dfn>);</td></tr>
+<tr><th id="164">164</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>char</em> *(<a class="decl" href="lauxlib.c.html#luaL_prepbuffsize" title='luaL_prepbuffsize' data-ref="luaL_prepbuffsize" id="luaL_prepbuffsize">luaL_prepbuffsize</a>) (<a class="typedef" href="#luaL_Buffer" title='luaL_Buffer' data-type='struct luaL_Buffer' data-ref="luaL_Buffer">luaL_Buffer</a> *<dfn class="local col9 decl" id="369B" title='B' data-type='luaL_Buffer *' data-ref="369B">B</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col0 decl" id="370sz" title='sz' data-type='size_t' data-ref="370sz">sz</dfn>);</td></tr>
+<tr><th id="165">165</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>void</em> (<a class="decl" href="lauxlib.c.html#luaL_addlstring" title='luaL_addlstring' data-ref="luaL_addlstring" id="luaL_addlstring">luaL_addlstring</a>) (<a class="typedef" href="#luaL_Buffer" title='luaL_Buffer' data-type='struct luaL_Buffer' data-ref="luaL_Buffer">luaL_Buffer</a> *<dfn class="local col1 decl" id="371B" title='B' data-type='luaL_Buffer *' data-ref="371B">B</dfn>, <em>const</em> <em>char</em> *<dfn class="local col2 decl" id="372s" title='s' data-type='const char *' data-ref="372s">s</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col3 decl" id="373l" title='l' data-type='size_t' data-ref="373l">l</dfn>);</td></tr>
+<tr><th id="166">166</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>void</em> (<a class="decl" href="lauxlib.c.html#luaL_addstring" title='luaL_addstring' data-ref="luaL_addstring" id="luaL_addstring">luaL_addstring</a>) (<a class="typedef" href="#luaL_Buffer" title='luaL_Buffer' data-type='struct luaL_Buffer' data-ref="luaL_Buffer">luaL_Buffer</a> *<dfn class="local col4 decl" id="374B" title='B' data-type='luaL_Buffer *' data-ref="374B">B</dfn>, <em>const</em> <em>char</em> *<dfn class="local col5 decl" id="375s" title='s' data-type='const char *' data-ref="375s">s</dfn>);</td></tr>
+<tr><th id="167">167</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>void</em> (<a class="decl" href="lauxlib.c.html#luaL_addvalue" title='luaL_addvalue' data-ref="luaL_addvalue" id="luaL_addvalue">luaL_addvalue</a>) (<a class="typedef" href="#luaL_Buffer" title='luaL_Buffer' data-type='struct luaL_Buffer' data-ref="luaL_Buffer">luaL_Buffer</a> *<dfn class="local col6 decl" id="376B" title='B' data-type='luaL_Buffer *' data-ref="376B">B</dfn>);</td></tr>
+<tr><th id="168">168</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>void</em> (<a class="decl" href="lauxlib.c.html#luaL_pushresult" title='luaL_pushresult' data-ref="luaL_pushresult" id="luaL_pushresult">luaL_pushresult</a>) (<a class="typedef" href="#luaL_Buffer" title='luaL_Buffer' data-type='struct luaL_Buffer' data-ref="luaL_Buffer">luaL_Buffer</a> *<dfn class="local col7 decl" id="377B" title='B' data-type='luaL_Buffer *' data-ref="377B">B</dfn>);</td></tr>
+<tr><th id="169">169</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>void</em> (<a class="decl" href="lauxlib.c.html#luaL_pushresultsize" title='luaL_pushresultsize' data-ref="luaL_pushresultsize" id="luaL_pushresultsize">luaL_pushresultsize</a>) (<a class="typedef" href="#luaL_Buffer" title='luaL_Buffer' data-type='struct luaL_Buffer' data-ref="luaL_Buffer">luaL_Buffer</a> *<dfn class="local col8 decl" id="378B" title='B' data-type='luaL_Buffer *' data-ref="378B">B</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col9 decl" id="379sz" title='sz' data-type='size_t' data-ref="379sz">sz</dfn>);</td></tr>
+<tr><th id="170">170</th><td><a class="macro" href="luaconf.h.html#260" title="extern" data-ref="_M/LUALIB_API">LUALIB_API</a> <em>char</em> *(<a class="decl" href="lauxlib.c.html#luaL_buffinitsize" title='luaL_buffinitsize' data-ref="luaL_buffinitsize" id="luaL_buffinitsize">luaL_buffinitsize</a>) (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col0 decl" id="380L" title='L' data-type='lua_State *' data-ref="380L">L</dfn>, <a class="typedef" href="#luaL_Buffer" title='luaL_Buffer' data-type='struct luaL_Buffer' data-ref="luaL_Buffer">luaL_Buffer</a> *<dfn class="local col1 decl" id="381B" title='B' data-type='luaL_Buffer *' data-ref="381B">B</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col2 decl" id="382sz" title='sz' data-type='size_t' data-ref="382sz">sz</dfn>);</td></tr>
+<tr><th id="171">171</th><td></td></tr>
+<tr><th id="172">172</th><td><u>#define <dfn class="macro" id="_M/luaL_prepbuffer" data-ref="_M/luaL_prepbuffer">luaL_prepbuffer</dfn>(B)	luaL_prepbuffsize(B, LUAL_BUFFERSIZE)</u></td></tr>
+<tr><th id="173">173</th><td></td></tr>
+<tr><th id="174">174</th><td><i>/* }====================================================== */</i></td></tr>
+<tr><th id="175">175</th><td></td></tr>
+<tr><th id="176">176</th><td></td></tr>
+<tr><th id="177">177</th><td></td></tr>
+<tr><th id="178">178</th><td><i>/*</i></td></tr>
+<tr><th id="179">179</th><td><i>** {======================================================</i></td></tr>
+<tr><th id="180">180</th><td><i>** File handles for IO library</i></td></tr>
+<tr><th id="181">181</th><td><i>** =======================================================</i></td></tr>
+<tr><th id="182">182</th><td><i>*/</i></td></tr>
+<tr><th id="183">183</th><td></td></tr>
+<tr><th id="184">184</th><td><i>/*</i></td></tr>
+<tr><th id="185">185</th><td><i>** A file handle is a userdata with metatable 'LUA_FILEHANDLE' and</i></td></tr>
+<tr><th id="186">186</th><td><i>** initial structure 'luaL_Stream' (it may contain other fields</i></td></tr>
+<tr><th id="187">187</th><td><i>** after that initial structure).</i></td></tr>
+<tr><th id="188">188</th><td><i>*/</i></td></tr>
+<tr><th id="189">189</th><td></td></tr>
+<tr><th id="190">190</th><td><u>#define <dfn class="macro" id="_M/LUA_FILEHANDLE" data-ref="_M/LUA_FILEHANDLE">LUA_FILEHANDLE</dfn>          "FILE*"</u></td></tr>
+<tr><th id="191">191</th><td></td></tr>
+<tr><th id="192">192</th><td></td></tr>
+<tr><th id="193">193</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="luaL_Stream" title='luaL_Stream' data-ref="luaL_Stream"><a class="type" href="#luaL_Stream" title='luaL_Stream' data-ref="luaL_Stream">luaL_Stream</a></dfn> {</td></tr>
+<tr><th id="194">194</th><td>  <a class="typedef" href="../../include/stdio.h.html#FILE" title='FILE' data-type='struct _IO_FILE' data-ref="FILE">FILE</a> *<dfn class="decl" id="luaL_Stream::f" title='luaL_Stream::f' data-ref="luaL_Stream::f">f</dfn>;  <i>/* stream (NULL for incompletely created streams) */</i></td></tr>
+<tr><th id="195">195</th><td>  <a class="typedef" href="lua.h.html#lua_CFunction" title='lua_CFunction' data-type='int (*)(lua_State *)' data-ref="lua_CFunction">lua_CFunction</a> <dfn class="decl" id="luaL_Stream::closef" title='luaL_Stream::closef' data-ref="luaL_Stream::closef">closef</dfn>;  <i>/* to close stream (NULL for closed streams) */</i></td></tr>
+<tr><th id="196">196</th><td>} <dfn class="typedef" id="luaL_Stream" title='luaL_Stream' data-type='struct luaL_Stream' data-ref="luaL_Stream">luaL_Stream</dfn>;</td></tr>
+<tr><th id="197">197</th><td></td></tr>
+<tr><th id="198">198</th><td><i>/* }====================================================== */</i></td></tr>
+<tr><th id="199">199</th><td></td></tr>
+<tr><th id="200">200</th><td></td></tr>
+<tr><th id="201">201</th><td></td></tr>
+<tr><th id="202">202</th><td><i>/* compatibility with old module system */</i></td></tr>
+<tr><th id="203">203</th><td><u>#<span data-ppcond="203">if</span> defined(<span class="macro" data-ref="_M/LUA_COMPAT_MODULE">LUA_COMPAT_MODULE</span>)</u></td></tr>
+<tr><th id="204">204</th><td></td></tr>
+<tr><th id="205">205</th><td>LUALIB_API <em>void</em> (luaL_pushmodule) (lua_State *L, <em>const</em> <em>char</em> *modname,</td></tr>
+<tr><th id="206">206</th><td>                                   <em>int</em> sizehint);</td></tr>
+<tr><th id="207">207</th><td>LUALIB_API <em>void</em> (luaL_openlib) (lua_State *L, <em>const</em> <em>char</em> *libname,</td></tr>
+<tr><th id="208">208</th><td>                                <em>const</em> luaL_Reg *l, <em>int</em> nup);</td></tr>
+<tr><th id="209">209</th><td></td></tr>
+<tr><th id="210">210</th><td><u>#define luaL_register(L,n,l)	(luaL_openlib(L,(n),(l),0))</u></td></tr>
+<tr><th id="211">211</th><td></td></tr>
+<tr><th id="212">212</th><td><u>#<span data-ppcond="203">endif</span></u></td></tr>
+<tr><th id="213">213</th><td></td></tr>
+<tr><th id="214">214</th><td></td></tr>
+<tr><th id="215">215</th><td><i>/*</i></td></tr>
+<tr><th id="216">216</th><td><i>** {==================================================================</i></td></tr>
+<tr><th id="217">217</th><td><i>** "Abstraction Layer" for basic report of messages and errors</i></td></tr>
+<tr><th id="218">218</th><td><i>** ===================================================================</i></td></tr>
+<tr><th id="219">219</th><td><i>*/</i></td></tr>
+<tr><th id="220">220</th><td></td></tr>
+<tr><th id="221">221</th><td><i>/* print a string */</i></td></tr>
+<tr><th id="222">222</th><td><u>#<span data-ppcond="222">if</span> !defined(<span class="macro" data-ref="_M/lua_writestring">lua_writestring</span>)</u></td></tr>
+<tr><th id="223">223</th><td><u>#define <dfn class="macro" id="_M/lua_writestring" data-ref="_M/lua_writestring">lua_writestring</dfn>(s,l)   fwrite((s), sizeof(char), (l), stdout)</u></td></tr>
+<tr><th id="224">224</th><td><u>#<span data-ppcond="222">endif</span></u></td></tr>
+<tr><th id="225">225</th><td></td></tr>
+<tr><th id="226">226</th><td><i>/* print a newline and flush the output */</i></td></tr>
+<tr><th id="227">227</th><td><u>#<span data-ppcond="227">if</span> !defined(<span class="macro" data-ref="_M/lua_writeline">lua_writeline</span>)</u></td></tr>
+<tr><th id="228">228</th><td><u>#define <dfn class="macro" id="_M/lua_writeline" data-ref="_M/lua_writeline">lua_writeline</dfn>()        (lua_writestring("\n", 1), fflush(stdout))</u></td></tr>
+<tr><th id="229">229</th><td><u>#<span data-ppcond="227">endif</span></u></td></tr>
+<tr><th id="230">230</th><td></td></tr>
+<tr><th id="231">231</th><td><i>/* print an error message */</i></td></tr>
+<tr><th id="232">232</th><td><u>#<span data-ppcond="232">if</span> !defined(<span class="macro" data-ref="_M/lua_writestringerror">lua_writestringerror</span>)</u></td></tr>
+<tr><th id="233">233</th><td><u>#define <dfn class="macro" id="_M/lua_writestringerror" data-ref="_M/lua_writestringerror">lua_writestringerror</dfn>(s,p) \</u></td></tr>
+<tr><th id="234">234</th><td><u>        (fprintf(stderr, (s), (p)), fflush(stderr))</u></td></tr>
+<tr><th id="235">235</th><td><u>#<span data-ppcond="232">endif</span></u></td></tr>
+<tr><th id="236">236</th><td></td></tr>
+<tr><th id="237">237</th><td><i>/* }================================================================== */</i></td></tr>
+<tr><th id="238">238</th><td></td></tr>
+<tr><th id="239">239</th><td></td></tr>
+<tr><th id="240">240</th><td><i>/*</i></td></tr>
+<tr><th id="241">241</th><td><i>** {============================================================</i></td></tr>
+<tr><th id="242">242</th><td><i>** Compatibility with deprecated conversions</i></td></tr>
+<tr><th id="243">243</th><td><i>** =============================================================</i></td></tr>
+<tr><th id="244">244</th><td><i>*/</i></td></tr>
+<tr><th id="245">245</th><td><u>#<span data-ppcond="245">if</span> defined(<a class="macro" href="luaconf.h.html#326" data-ref="_M/LUA_COMPAT_APIINTCASTS">LUA_COMPAT_APIINTCASTS</a>)</u></td></tr>
+<tr><th id="246">246</th><td></td></tr>
+<tr><th id="247">247</th><td><u>#define <dfn class="macro" id="_M/luaL_checkunsigned" data-ref="_M/luaL_checkunsigned">luaL_checkunsigned</dfn>(L,a)	((lua_Unsigned)luaL_checkinteger(L,a))</u></td></tr>
+<tr><th id="248">248</th><td><u>#define <dfn class="macro" id="_M/luaL_optunsigned" data-ref="_M/luaL_optunsigned">luaL_optunsigned</dfn>(L,a,d)	\</u></td></tr>
+<tr><th id="249">249</th><td><u>	((lua_Unsigned)luaL_optinteger(L,a,(lua_Integer)(d)))</u></td></tr>
+<tr><th id="250">250</th><td></td></tr>
+<tr><th id="251">251</th><td><u>#define <dfn class="macro" id="_M/luaL_checkint" data-ref="_M/luaL_checkint">luaL_checkint</dfn>(L,n)	((int)luaL_checkinteger(L, (n)))</u></td></tr>
+<tr><th id="252">252</th><td><u>#define <dfn class="macro" id="_M/luaL_optint" data-ref="_M/luaL_optint">luaL_optint</dfn>(L,n,d)	((int)luaL_optinteger(L, (n), (d)))</u></td></tr>
+<tr><th id="253">253</th><td></td></tr>
+<tr><th id="254">254</th><td><u>#define <dfn class="macro" id="_M/luaL_checklong" data-ref="_M/luaL_checklong">luaL_checklong</dfn>(L,n)	((long)luaL_checkinteger(L, (n)))</u></td></tr>
+<tr><th id="255">255</th><td><u>#define <dfn class="macro" id="_M/luaL_optlong" data-ref="_M/luaL_optlong">luaL_optlong</dfn>(L,n,d)	((long)luaL_optinteger(L, (n), (d)))</u></td></tr>
+<tr><th id="256">256</th><td></td></tr>
+<tr><th id="257">257</th><td><u>#<span data-ppcond="245">endif</span></u></td></tr>
+<tr><th id="258">258</th><td><i>/* }============================================================ */</i></td></tr>
+<tr><th id="259">259</th><td></td></tr>
+<tr><th id="260">260</th><td></td></tr>
+<tr><th id="261">261</th><td></td></tr>
+<tr><th id="262">262</th><td><u>#<span data-ppcond="8">endif</span></u></td></tr>
+<tr><th id="263">263</th><td></td></tr>
+<tr><th id="264">264</th><td></td></tr>
+<tr><th id="265">265</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='lauxlib.c.html'>codebrowser/src/lauxlib.c</a><br/>Generated on <em>2017-Oct-18</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

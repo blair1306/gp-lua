@@ -1,0 +1,17 @@
+<def f='codebrowser/src/lparser.h' l='111' ll='126'/>
+<size>64</size>
+<doc f='codebrowser/src/lparser.h' l='110'>/* state needed to generate code for a given function */</doc>
+<mbr r='FuncState::f' o='0' t='Proto *'/>
+<mbr r='FuncState::prev' o='64' t='struct FuncState *'/>
+<mbr r='FuncState::ls' o='128' t='struct LexState *'/>
+<mbr r='FuncState::bl' o='192' t='struct BlockCnt *'/>
+<mbr r='FuncState::pc' o='256' t='int'/>
+<mbr r='FuncState::lasttarget' o='288' t='int'/>
+<mbr r='FuncState::jpc' o='320' t='int'/>
+<mbr r='FuncState::nk' o='352' t='int'/>
+<mbr r='FuncState::np' o='384' t='int'/>
+<mbr r='FuncState::firstlocal' o='416' t='int'/>
+<mbr r='FuncState::nlocvars' o='448' t='short'/>
+<mbr r='FuncState::nactvar' o='464' t='lu_byte'/>
+<mbr r='FuncState::nups' o='472' t='lu_byte'/>
+<mbr r='FuncState::freereg' o='480' t='lu_byte'/>

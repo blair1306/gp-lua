@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lopcodes.h' l='218' type='38'/>
+<use f='codebrowser/src/lcode.c' l='150' u='r' c='luaK_ret'/>
+<doc f='codebrowser/src/lopcodes.h' l='218'>/*	A B	return R(A), ... ,R(A+B-2)	(see note)	*/</doc>
+<use f='codebrowser/src/lvm.c' l='1176' c='luaV_execute'/>

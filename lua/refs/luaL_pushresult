@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/lauxlib.h' l='168' type='void luaL_pushresult(luaL_Buffer * B)'/>
+<def f='codebrowser/src/lauxlib.c' l='542' ll='549' macro='1' type='void luaL_pushresult(luaL_Buffer * B)'/>
+<use f='codebrowser/src/lauxlib.c' l='554' u='c' c='luaL_pushresultsize'/>
+<use f='codebrowser/src/lauxlib.c' l='1003' u='c' c='luaL_gsub'/>
+<use f='codebrowser/src/liolib.c' l='492' u='c' c='read_line'/>
+<use f='codebrowser/src/liolib.c' l='507' u='c' c='read_all'/>
+<use f='codebrowser/src/liolib.c' l='519' u='c' c='read_chars'/>
+<use f='codebrowser/src/loadlib.c' l='453' u='c' c='searchpath'/>
+<use f='codebrowser/src/loadlib.c' l='580' u='c' c='findloader'/>
+<use f='codebrowser/src/loslib.c' l='318' u='c' c='os_date'/>
+<use f='codebrowser/src/lstrlib.c' l='197' u='c' c='str_dump'/>
+<use f='codebrowser/src/lstrlib.c' l='795' u='c' c='str_gsub'/>
+<use f='codebrowser/src/lstrlib.c' l='1091' u='c' c='str_format'/>
+<use f='codebrowser/src/lstrlib.c' l='1412' u='c' c='str_pack'/>
+<use f='codebrowser/src/ltablib.c' l='183' u='c' c='tconcat'/>
+<use f='codebrowser/src/lutf8lib.c' l='150' u='c' c='utfchar'/>

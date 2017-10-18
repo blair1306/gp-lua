@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/lfunc.h' l='57' type='const char * luaF_getlocalname(const Proto * func, int local_number, int pc)'/>
+<use f='codebrowser/src/ldebug.c' l='154' u='c' c='findlocal'/>
+<use f='codebrowser/src/ldebug.c' l='179' u='c' c='lua_getlocal'/>
+<use f='codebrowser/src/ldebug.c' l='434' u='c' c='getobjname'/>
+<use f='codebrowser/src/ldebug.c' l='454' u='c' c='getobjname'/>
+<def f='codebrowser/src/lfunc.c' l='140' ll='150' type='const char * luaF_getlocalname(const Proto * f, int local_number, int pc)'/>
+<doc f='codebrowser/src/lfunc.c' l='136'>/*
+** Look for n-th local variable at line &apos;line&apos; in function &apos;func&apos;.
+** Returns NULL if not found.
+*/</doc>

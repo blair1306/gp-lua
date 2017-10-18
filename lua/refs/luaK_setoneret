@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/lcode.h' l='73' type='void luaK_setoneret(FuncState * fs, expdesc * e)'/>
+<def f='codebrowser/src/lcode.c' l='539' ll='550' type='void luaK_setoneret(FuncState * fs, expdesc * e)'/>
+<use f='codebrowser/src/lcode.c' l='583' u='c' c='luaK_dischargevars'/>
+<doc f='codebrowser/src/lcode.c' l='529'>/*
+** Fix an expression to return one result.
+** If expression is not a multi-ret expression (function call or
+** vararg), it already returns one result, so nothing needs to be done.
+** Function calls become VNONRELOC expressions (as its result comes
+** fixed in the base register of the call), while vararg expressions
+** become VRELOCABLE (as OP_VARARG puts its results where it wants).
+** (Calls are created returning one result, so that does not need
+** to be fixed.)
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='1167' u='c' c='assignment'/>

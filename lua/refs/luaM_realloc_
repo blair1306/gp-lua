@@ -1,0 +1,59 @@
+<dec f='codebrowser/src/lmem.h' l='62' type='void * luaM_realloc_(lua_State * L, void * block, size_t oldsize, size_t size)'/>
+<use f='codebrowser/src/ldo.c' l='182' macro='1' u='c'/>
+<use f='codebrowser/src/ldo.c' l='794' macro='1' u='c'/>
+<use f='codebrowser/src/ldo.c' l='795' macro='1' u='c'/>
+<use f='codebrowser/src/ldo.c' l='796' macro='1' u='c'/>
+<use f='codebrowser/src/ldo.c' l='797' macro='1' u='c'/>
+<use f='codebrowser/src/lfunc.c' l='48' macro='1' u='c'/>
+<use f='codebrowser/src/lfunc.c' l='69' macro='1' u='c'/>
+<use f='codebrowser/src/lfunc.c' l='89' macro='1' u='c'/>
+<use f='codebrowser/src/lfunc.c' l='126' macro='1' u='c'/>
+<use f='codebrowser/src/lfunc.c' l='127' macro='1' u='c'/>
+<use f='codebrowser/src/lfunc.c' l='128' macro='1' u='c'/>
+<use f='codebrowser/src/lfunc.c' l='129' macro='1' u='c'/>
+<use f='codebrowser/src/lfunc.c' l='130' macro='1' u='c'/>
+<use f='codebrowser/src/lfunc.c' l='131' macro='1' u='c'/>
+<use f='codebrowser/src/lfunc.c' l='132' macro='1' u='c'/>
+<use f='codebrowser/src/lgc.c' l='210' macro='1' u='c'/>
+<use f='codebrowser/src/lgc.c' l='681' macro='1' u='c'/>
+<use f='codebrowser/src/lgc.c' l='692' macro='1' u='c'/>
+<use f='codebrowser/src/lgc.c' l='704' macro='1' u='c'/>
+<use f='codebrowser/src/lgc.c' l='709' macro='1' u='c'/>
+<use f='codebrowser/src/lgc.c' l='712' macro='1' u='c'/>
+<use f='codebrowser/src/lgc.c' l='715' macro='1' u='c'/>
+<use f='codebrowser/src/llex.c' l='64' macro='1' u='c'/>
+<use f='codebrowser/src/llex.c' l='174' macro='1' u='c'/>
+<use f='codebrowser/src/lmem.c' l='62' macro='1' u='c'/>
+<def f='codebrowser/src/lmem.c' l='77' ll='99' type='void * luaM_realloc_(lua_State * L, void * block, size_t osize, size_t nsize)'/>
+<doc f='codebrowser/src/lmem.c' l='74'>/*
+** generic allocation routine.
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='558' macro='1' u='c'/>
+<use f='codebrowser/src/lparser.c' l='560' macro='1' u='c'/>
+<use f='codebrowser/src/lparser.c' l='562' macro='1' u='c'/>
+<use f='codebrowser/src/lparser.c' l='564' macro='1' u='c'/>
+<use f='codebrowser/src/lparser.c' l='566' macro='1' u='c'/>
+<use f='codebrowser/src/lparser.c' l='568' macro='1' u='c'/>
+<use f='codebrowser/src/lstate.c' l='109' macro='1' u='c'/>
+<use f='codebrowser/src/lstate.c' l='128' macro='1' u='c'/>
+<use f='codebrowser/src/lstate.c' l='142' macro='1' u='c'/>
+<use f='codebrowser/src/lstate.c' l='154' macro='1' u='c'/>
+<use f='codebrowser/src/lstate.c' l='177' macro='1' u='c'/>
+<use f='codebrowser/src/lstate.c' l='248' macro='1' u='c'/>
+<use f='codebrowser/src/lstate.c' l='261' macro='1' u='c'/>
+<use f='codebrowser/src/lstate.c' l='291' macro='1' u='c'/>
+<use f='codebrowser/src/lstring.c' l='75' macro='1' u='c'/>
+<use f='codebrowser/src/lstring.c' l='93' macro='1' u='c'/>
+<use f='codebrowser/src/ltable.c' l='301' macro='1' u='c'/>
+<use f='codebrowser/src/ltable.c' l='320' macro='1' u='c'/>
+<use f='codebrowser/src/ltable.c' l='352' macro='1' u='c'/>
+<use f='codebrowser/src/ltable.c' l='364' macro='1' u='c'/>
+<use f='codebrowser/src/ltable.c' l='416' macro='1' u='c'/>
+<use f='codebrowser/src/ltable.c' l='417' macro='1' u='c'/>
+<use f='codebrowser/src/ltable.c' l='418' macro='1' u='c'/>
+<use f='codebrowser/src/lundump.c' l='109' macro='1' u='c'/>
+<use f='codebrowser/src/lundump.c' l='121' macro='1' u='c'/>
+<use f='codebrowser/src/lundump.c' l='155' macro='1' u='c'/>
+<use f='codebrowser/src/lundump.c' l='169' macro='1' u='c'/>
+<use f='codebrowser/src/lundump.c' l='183' macro='1' u='c'/>
+<use f='codebrowser/src/lundump.c' l='187' macro='1' u='c'/>

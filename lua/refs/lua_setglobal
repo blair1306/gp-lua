@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/lua.h' l='258' type='void lua_setglobal(lua_State * L, const char * name)'/>
+<def f='codebrowser/src/lapi.c' l='758' ll='762' macro='1' type='void lua_setglobal(lua_State * L, const char * name)'/>
+<use f='codebrowser/src/lauxlib.c' l='986' u='c' c='luaL_requiref'/>
+<use f='codebrowser/src/lua.c' l='235' u='c' c='createargtable'/>
+<use f='codebrowser/src/lua.c' l='265' u='c' c='dolibrary'/>

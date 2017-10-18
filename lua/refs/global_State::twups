@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lstate.h' l='143' type='struct lua_State *'/>
+<offset>1344</offset>
+<doc f='codebrowser/src/lstate.h' l='143'>/* list of threads with open upvalues */</doc>
+<use f='codebrowser/src/lfunc.c' l='76' u='r' c='luaF_findupval'/>
+<use f='codebrowser/src/lfunc.c' l='77' u='w' c='luaF_findupval'/>
+<use f='codebrowser/src/lgc.c' l='314' u='a' c='remarkupvals'/>
+<use f='codebrowser/src/lgc.c' l='544' u='r' c='traversethread'/>
+<use f='codebrowser/src/lgc.c' l='545' u='w' c='traversethread'/>
+<use f='codebrowser/src/lstate.c' l='325' u='w' c='lua_newstate'/>

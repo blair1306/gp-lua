@@ -1,0 +1,42 @@
+<dec f='codebrowser/src/lstate.h' l='75' type='StkId'/>
+<use f='codebrowser/src/lapi.c' l='63' u='r' c='index2addr'/>
+<use f='codebrowser/src/lapi.c' l='77' u='r' c='index2addr'/>
+<use f='codebrowser/src/lapi.c' l='80' u='r' c='index2addr'/>
+<use f='codebrowser/src/lapi.c' l='163' u='r' c='lua_absindex'/>
+<use f='codebrowser/src/lapi.c' l='168' u='r' c='lua_gettop'/>
+<use f='codebrowser/src/lapi.c' l='173' u='r' c='lua_settop'/>
+<use f='codebrowser/src/lapi.c' l='230' u='r' c='lua_copy'/>
+<use f='codebrowser/src/lapi.c' l='230' u='r' c='lua_copy'/>
+<offset>0</offset>
+<doc f='codebrowser/src/lstate.h' l='75'>/* function index in the stack */</doc>
+<use f='codebrowser/src/ldebug.c' l='38' u='r' c='currentpc'/>
+<use f='codebrowser/src/ldebug.c' l='38' u='r' c='currentline'/>
+<use f='codebrowser/src/ldebug.c' l='38' u='r' c='currentline'/>
+<use f='codebrowser/src/ldebug.c' l='65' u='r' c='swapextra'/>
+<use f='codebrowser/src/ldebug.c' l='66' u='w' c='swapextra'/>
+<use f='codebrowser/src/ldebug.c' l='135' u='r' c='findvararg'/>
+<use f='codebrowser/src/ldebug.c' l='136' u='r' c='findvararg'/>
+<use f='codebrowser/src/ldebug.c' l='139' u='r' c='findvararg'/>
+<use f='codebrowser/src/ldebug.c' l='38' u='r' c='findlocal'/>
+<use f='codebrowser/src/ldebug.c' l='158' u='r' c='findlocal'/>
+<use f='codebrowser/src/ldebug.c' l='160' u='r' c='findlocal'/>
+<use f='codebrowser/src/ldebug.c' l='325' u='r' c='lua_getinfo'/>
+<use f='codebrowser/src/ldebug.c' l='38' u='r' c='funcnamefromcode'/>
+<use f='codebrowser/src/ldebug.c' l='38' u='r' c='getupvalname'/>
+<use f='codebrowser/src/ldebug.c' l='38' u='r' c='varinfo'/>
+<use f='codebrowser/src/ldebug.c' l='38' u='r' c='luaG_runerror'/>
+<use f='codebrowser/src/ldebug.c' l='38' u='r' c='luaG_traceexec'/>
+<use f='codebrowser/src/ldebug.c' l='694' u='w' c='luaG_traceexec'/>
+<use f='codebrowser/src/ldo.c' l='166' u='w' c='correctstack'/>
+<use f='codebrowser/src/ldo.c' l='166' u='r' c='correctstack'/>
+<use f='codebrowser/src/ldo.c' l='387' u='r' c='luaD_poscall'/>
+<use f='codebrowser/src/ldo.c' l='427' u='w' c='luaD_precall'/>
+<use f='codebrowser/src/ldo.c' l='455' u='w' c='luaD_precall'/>
+<use f='codebrowser/src/ldo.c' l='630' u='w' c='resume'/>
+<use f='codebrowser/src/ldo.c' l='705' u='r' c='lua_yieldk'/>
+<use f='codebrowser/src/ldo.c' l='712' u='w' c='lua_yieldk'/>
+<use f='codebrowser/src/lstate.c' l='164' u='w' c='stack_init'/>
+<use f='codebrowser/src/lvm.c' l='794' u='r' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='1156' u='r' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='1157' u='r' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='1298' u='r' c='luaV_execute'/>

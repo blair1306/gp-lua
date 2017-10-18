@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/llex.h' l='52' type='SemInfo'/>
+<offset>64</offset>
+<use f='codebrowser/src/llex.c' l='556' u='a' c='luaX_next'/>
+<use f='codebrowser/src/llex.c' l='562' u='a' c='luaX_lookahead'/>
+<use f='codebrowser/src/lparser.c' l='138' u='m' c='str_checkname'/>
+<use f='codebrowser/src/lparser.c' l='838' u='m' c='funcargs'/>
+<use f='codebrowser/src/lparser.c' l='937' u='m' c='simpleexp'/>
+<use f='codebrowser/src/lparser.c' l='942' u='m' c='simpleexp'/>
+<use f='codebrowser/src/lparser.c' l='946' u='m' c='simpleexp'/>

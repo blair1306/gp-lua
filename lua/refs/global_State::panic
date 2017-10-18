@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lstate.h' l='147' type='lua_CFunction'/>
+<use f='codebrowser/src/lapi.c' l='137' u='r' c='lua_atpanic'/>
+<use f='codebrowser/src/lapi.c' l='138' u='w' c='lua_atpanic'/>
+<offset>1536</offset>
+<doc f='codebrowser/src/lstate.h' l='147'>/* to be called in unprotected errors */</doc>
+<use f='codebrowser/src/ldo.c' l='123' u='r' c='luaD_throw'/>
+<use f='codebrowser/src/ldo.c' l='128' u='r' c='luaD_throw'/>
+<use f='codebrowser/src/lstate.c' l='317' u='w' c='lua_newstate'/>

@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/llex.h' l='67' type='Mbuffer *'/>
+<offset>576</offset>
+<doc f='codebrowser/src/llex.h' l='67'>/* buffer for tokens */</doc>
+<use f='codebrowser/src/llex.c' l='58' u='r' c='save'/>
+<use f='codebrowser/src/llex.c' l='102' u='r' c='txtToken'/>
+<use f='codebrowser/src/llex.c' l='174' u='r' c='luaX_setinput'/>
+<use f='codebrowser/src/llex.c' l='174' u='r' c='luaX_setinput'/>
+<use f='codebrowser/src/llex.c' l='174' u='r' c='luaX_setinput'/>
+<use f='codebrowser/src/llex.c' l='174' u='r' c='luaX_setinput'/>
+<use f='codebrowser/src/llex.c' l='232' u='r' c='read_numeral'/>
+<use f='codebrowser/src/llex.c' l='288' u='r' c='read_long_string'/>
+<use f='codebrowser/src/llex.c' l='298' u='r' c='read_long_string'/>
+<use f='codebrowser/src/llex.c' l='299' u='r' c='read_long_string'/>
+<use f='codebrowser/src/llex.c' l='322' u='r' c='readhexaesc'/>
+<use f='codebrowser/src/llex.c' l='340' u='r' c='readutf8esc'/>
+<use f='codebrowser/src/llex.c' l='361' u='r' c='readdecesc'/>
+<use f='codebrowser/src/llex.c' l='396' u='r' c='read_string'/>
+<use f='codebrowser/src/llex.c' l='414' u='r' c='read_string'/>
+<use f='codebrowser/src/llex.c' l='424' u='r' c='read_string'/>
+<use f='codebrowser/src/llex.c' l='425' u='r' c='read_string'/>
+<use f='codebrowser/src/llex.c' l='430' u='r' c='llex'/>
+<use f='codebrowser/src/llex.c' l='448' u='r' c='llex'/>
+<use f='codebrowser/src/llex.c' l='451' u='r' c='llex'/>
+<use f='codebrowser/src/llex.c' l='529' u='r' c='llex'/>
+<use f='codebrowser/src/llex.c' l='530' u='r' c='llex'/>
+<use f='codebrowser/src/lparser.c' l='1639' u='w' c='luaY_parser'/>

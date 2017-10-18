@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lstate.h' l='121' type='void *'/>
+<use f='codebrowser/src/lapi.c' l='1168' u='r' c='lua_getallocf'/>
+<use f='codebrowser/src/lapi.c' l='1177' u='w' c='lua_setallocf'/>
+<offset>64</offset>
+<doc f='codebrowser/src/lstate.h' l='121'>/* auxiliary data to &apos;frealloc&apos; */</doc>
+<use f='codebrowser/src/lmem.c' l='86' u='r' c='luaM_realloc_'/>
+<use f='codebrowser/src/lmem.c' l='91' u='r' c='luaM_realloc_'/>
+<use f='codebrowser/src/lstate.c' l='251' u='r' c='close_state'/>
+<use f='codebrowser/src/lstate.c' l='309' u='w' c='lua_newstate'/>

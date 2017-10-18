@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/lstate.h' l='124' type='lu_mem'/>
+<offset>256</offset>
+<doc f='codebrowser/src/lstate.h' l='124'>/* memory traversed by the GC */</doc>
+<use f='codebrowser/src/lgc.c' l='241' u='w' c='reallymarkobject'/>
+<use f='codebrowser/src/lgc.c' l='246' u='w' c='reallymarkobject'/>
+<use f='codebrowser/src/lgc.c' l='253' u='w' c='reallymarkobject'/>
+<use f='codebrowser/src/lgc.c' l='599' u='w' c='propagatemark'/>
+<use f='codebrowser/src/lgc.c' l='989' u='w' c='atomic'/>
+<use f='codebrowser/src/lgc.c' l='997' u='r' c='atomic'/>
+<use f='codebrowser/src/lgc.c' l='1000' u='w' c='atomic'/>
+<use f='codebrowser/src/lgc.c' l='1007' u='r' c='atomic'/>
+<use f='codebrowser/src/lgc.c' l='1012' u='w' c='atomic'/>
+<use f='codebrowser/src/lgc.c' l='1023' u='r' c='atomic'/>
+<use f='codebrowser/src/lgc.c' l='1048' u='w' c='singlestep'/>
+<use f='codebrowser/src/lgc.c' l='1051' u='r' c='singlestep'/>
+<use f='codebrowser/src/lgc.c' l='1054' u='w' c='singlestep'/>
+<use f='codebrowser/src/lgc.c' l='1059' u='r' c='singlestep'/>

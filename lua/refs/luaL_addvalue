@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/lauxlib.h' l='167' type='void luaL_addvalue(luaL_Buffer * B)'/>
+<def f='codebrowser/src/lauxlib.c' l='558' ll='566' macro='1' type='void luaL_addvalue(luaL_Buffer * B)'/>
+<use f='codebrowser/src/loadlib.c' l='451' u='c' c='searchpath'/>
+<use f='codebrowser/src/loadlib.c' l='589' u='c' c='findloader'/>
+<use f='codebrowser/src/lstrlib.c' l='724' u='c' c='add_s'/>
+<use f='codebrowser/src/lstrlib.c' l='758' u='c' c='add_value'/>
+<use f='codebrowser/src/lstrlib.c' l='971' u='c' c='addliteral'/>
+<use f='codebrowser/src/lstrlib.c' l='1068' u='c' c='str_format'/>
+<use f='codebrowser/src/lstrlib.c' l='1073' u='c' c='str_format'/>
+<use f='codebrowser/src/ltablib.c' l='165' u='c' c='addfield'/>
+<use f='codebrowser/src/lutf8lib.c' l='148' u='c' c='utfchar'/>

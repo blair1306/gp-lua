@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/lstring.h' l='45' type='TString * luaS_new(lua_State * L, const char * str)'/>
+<use f='codebrowser/src/lapi.c' l='482' u='c' c='lua_pushlstring'/>
+<use f='codebrowser/src/lapi.c' l='497' u='c' c='lua_pushstring'/>
+<use f='codebrowser/src/lapi.c' l='589' u='c' c='auxgetstr'/>
+<use f='codebrowser/src/lapi.c' l='744' u='c' c='auxsetstr'/>
+<use f='codebrowser/src/ldo.c' l='605' u='c' c='resume_error'/>
+<use f='codebrowser/src/llex.c' l='75' u='c' c='luaX_init'/>
+<use f='codebrowser/src/lparser.c' l='455' u='c' c='breaklabel'/>
+<use f='codebrowser/src/lparser.c' l='1195' u='c' c='gotostat'/>
+<use f='codebrowser/src/lparser.c' l='1637' u='c' c='luaY_parser'/>
+<def f='codebrowser/src/lstring.c' l='219' ll='233' type='TString * luaS_new(lua_State * L, const char * str)'/>
+<doc f='codebrowser/src/lstring.c' l='213'>/*
+** Create or reuse a zero-terminated string, first checking in the
+** cache (using the string address as a key). The cache can contain
+** only zero-terminated strings, so it is safe to use &apos;strcmp&apos; to
+** check hits.
+*/</doc>
+<use f='codebrowser/src/ltm.c' l='49' u='c' c='luaT_init'/>
+<use f='codebrowser/src/ltm.c' l='94' u='c' c='luaT_objtypename'/>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/lopcodes.h' l='176' type='5'/>
+<use f='codebrowser/src/lcode.c' l='563' u='r' c='luaK_dischargevars'/>
+<doc f='codebrowser/src/lopcodes.h' l='176'>/*	A B	R(A) := UpValue[B]				*/</doc>
+<use f='codebrowser/src/ldebug.c' l='459' c='getobjname'/>
+<use f='codebrowser/src/lparser.c' l='1140' u='r' c='check_conflict'/>
+<use f='codebrowser/src/luac.c' l='330' c='PrintCode'/>
+<use f='codebrowser/src/lvm.c' l='831' c='luaV_execute'/>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/lstate.h' l='163' type='lu_byte'/>
+<use f='codebrowser/src/lapi.c' l='1031' u='r' c='lua_status'/>
+<offset>96</offset>
+<use f='codebrowser/src/ldebug.c' l='63' u='r' c='swapextra'/>
+<use f='codebrowser/src/ldebug.c' l='689' u='r' c='luaG_traceexec'/>
+<use f='codebrowser/src/ldo.c' l='117' u='w' c='luaD_throw'/>
+<use f='codebrowser/src/ldo.c' l='623' u='r' c='resume'/>
+<use f='codebrowser/src/ldo.c' l='629' u='w' c='resume'/>
+<use f='codebrowser/src/ldo.c' l='652' u='r' c='lua_resume'/>
+<use f='codebrowser/src/ldo.c' l='656' u='r' c='lua_resume'/>
+<use f='codebrowser/src/ldo.c' l='673' u='w' c='lua_resume'/>
+<use f='codebrowser/src/ldo.c' l='704' u='w' c='lua_yieldk'/>
+<use f='codebrowser/src/lstate.c' l='237' u='w' c='preinit_thread'/>

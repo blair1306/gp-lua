@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lua.h' l='202'/>
+<use f='codebrowser/src/lcode.c' l='967' u='c'/>
+<use f='codebrowser/src/lobject.c' l='90' u='c'/>
+<use f='codebrowser/src/lobject.c' l='111' u='c'/>

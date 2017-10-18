@@ -1,0 +1,6 @@
+<dec f='include/locale.h' l='127' type='struct lconv * localeconv()'/>
+<use f='codebrowser/src/liolib.c' l='441' macro='1' u='c'/>
+<doc f='include/locale.h' l='126'>/* Return the numeric/monetary information for the current locale.  */</doc>
+<use f='codebrowser/src/lobject.c' l='287' macro='1' u='c'/>
+<use f='codebrowser/src/lobject.c' l='381' macro='1' u='c'/>
+<use f='codebrowser/src/lstrlib.c' l='936' macro='1' u='c'/>

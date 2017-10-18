@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lopcodes.h' l='211' type='33'/>
+<doc f='codebrowser/src/lopcodes.h' l='211'>/*	A B C	if ((RK(B) &lt;= RK(C)) ~= A) then pc++		*/</doc>
+<use f='codebrowser/src/ldebug.c' l='529' c='funcnamefromcode'/>
+<use f='codebrowser/src/luac.c' l='361' c='PrintCode'/>
+<use f='codebrowser/src/lvm.c' l='670' c='luaV_finishOp'/>
+<use f='codebrowser/src/lvm.c' l='1104' c='luaV_execute'/>

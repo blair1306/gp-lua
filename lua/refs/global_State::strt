@@ -1,0 +1,24 @@
+<dec f='codebrowser/src/lstate.h' l='126' type='stringtable'/>
+<offset>384</offset>
+<doc f='codebrowser/src/lstate.h' l='126'>/* hash table for strings */</doc>
+<use f='codebrowser/src/lgc.c' l='780' u='m' c='checkSizes'/>
+<use f='codebrowser/src/lgc.c' l='780' u='m' c='checkSizes'/>
+<use f='codebrowser/src/lgc.c' l='781' u='m' c='checkSizes'/>
+<use f='codebrowser/src/lgc.c' l='1048' u='m' c='singlestep'/>
+<use f='codebrowser/src/lstate.c' l='248' u='m' c='close_state'/>
+<use f='codebrowser/src/lstate.c' l='248' u='m' c='close_state'/>
+<use f='codebrowser/src/lstate.c' l='248' u='m' c='close_state'/>
+<use f='codebrowser/src/lstate.c' l='314' u='m' c='lua_newstate'/>
+<use f='codebrowser/src/lstate.c' l='314' u='m' c='lua_newstate'/>
+<use f='codebrowser/src/lstate.c' l='315' u='m' c='lua_newstate'/>
+<use f='codebrowser/src/lstring.c' l='73' u='a' c='luaS_resize'/>
+<use f='codebrowser/src/lstring.c' l='155' u='a' c='luaS_remove'/>
+<use f='codebrowser/src/lstring.c' l='171' u='m' c='internshrstr'/>
+<use f='codebrowser/src/lstring.c' l='171' u='m' c='internshrstr'/>
+<use f='codebrowser/src/lstring.c' l='182' u='m' c='internshrstr'/>
+<use f='codebrowser/src/lstring.c' l='182' u='m' c='internshrstr'/>
+<use f='codebrowser/src/lstring.c' l='182' u='m' c='internshrstr'/>
+<use f='codebrowser/src/lstring.c' l='183' u='m' c='internshrstr'/>
+<use f='codebrowser/src/lstring.c' l='184' u='m' c='internshrstr'/>
+<use f='codebrowser/src/lstring.c' l='184' u='m' c='internshrstr'/>
+<use f='codebrowser/src/lstring.c' l='191' u='m' c='internshrstr'/>

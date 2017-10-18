@@ -1,0 +1,26 @@
+<dec f='include/x86_64-linux-gnu/bits/string2.h' l='393' type='void * __rawmemchr(const void * __s, int __c)'/>
+<use f='include/x86_64-linux-gnu/bits/string2.h' l='398' u='c' c='__strsep_1c'/>
+<use f='codebrowser/src/ldblib.c' l='165' macro='1' u='c'/>
+<use f='codebrowser/src/ldblib.c' l='172' macro='1' u='c'/>
+<use f='codebrowser/src/ldblib.c' l='174' macro='1' u='c'/>
+<use f='codebrowser/src/ldblib.c' l='179' macro='1' u='c'/>
+<use f='codebrowser/src/ldblib.c' l='183' macro='1' u='c'/>
+<use f='codebrowser/src/ldblib.c' l='185' macro='1' u='c'/>
+<use f='codebrowser/src/ldblib.c' l='187' macro='1' u='c'/>
+<use f='codebrowser/src/ldblib.c' l='326' macro='1' u='c'/>
+<use f='codebrowser/src/ldblib.c' l='327' macro='1' u='c'/>
+<use f='codebrowser/src/ldblib.c' l='328' macro='1' u='c'/>
+<use f='codebrowser/src/ldebug.c' l='330' macro='1' u='c'/>
+<use f='codebrowser/src/ldebug.c' l='335' macro='1' u='c'/>
+<use f='codebrowser/src/ldo.c' l='758' macro='1' u='c'/>
+<use f='codebrowser/src/lgc.c' l='456' macro='1' u='c'/>
+<use f='codebrowser/src/lgc.c' l='457' macro='1' u='c'/>
+<use f='codebrowser/src/liolib.c' l='41' macro='1' u='c'/>
+<use f='codebrowser/src/loadlib.c' l='428' macro='1' u='c'/>
+<use f='codebrowser/src/loadlib.c' l='516' macro='1' u='c'/>
+<use f='codebrowser/src/loadlib.c' l='541' macro='1' u='c'/>
+<use f='codebrowser/src/lobject.c' l='283' macro='1' u='c'/>
+<use f='codebrowser/src/lobject.c' l='403' macro='1' u='c'/>
+<use f='codebrowser/src/lobject.c' l='506' macro='1' u='c'/>
+<use f='codebrowser/src/lstrlib.c' l='983' macro='1' u='c'/>
+<use f='codebrowser/src/lstrlib.c' l='1071' macro='1' u='c'/>

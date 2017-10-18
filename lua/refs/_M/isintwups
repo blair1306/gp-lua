@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lfunc.h' l='22'/>
+<doc f='codebrowser/src/lfunc.h' l='21'>/* test whether thread is in &apos;twups&apos; list */</doc>
+<use f='codebrowser/src/lfunc.c' l='75' u='c'/>
+<use f='codebrowser/src/lgc.c' l='543' u='c'/>

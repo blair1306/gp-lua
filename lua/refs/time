@@ -1,0 +1,4 @@
+<use f='codebrowser/src/loslib.c' l='286' u='c' c='os_date'/>
+<use f='codebrowser/src/loslib.c' l='327' u='c' c='os_time'/>
+<use f='codebrowser/src/lstate.c' l='46' u='c' c='makeseed'/>
+<use f='codebrowser/src/ltablib.c' l='260' u='c' c='l_randomizePivot'/>

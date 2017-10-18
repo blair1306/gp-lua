@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/lobject.h' l='104' type='lua_CFunction'/>
+<use f='codebrowser/src/lapi.c' l='406' macro='1' u='r'/>
+<use f='codebrowser/src/lapi.c' l='435' macro='1' u='r'/>
+<use f='codebrowser/src/lapi.c' l='535' macro='1' u='w'/>
+<offset>0</offset>
+<doc f='codebrowser/src/lobject.h' l='104'>/* light C functions */</doc>
+<use f='codebrowser/src/ldo.c' l='421' macro='1' u='r'/>
+<use f='codebrowser/src/ltable.c' l='132' macro='1' u='r'/>
+<use f='codebrowser/src/lvm.c' l='424' macro='1' u='r'/>
+<use f='codebrowser/src/lvm.c' l='424' macro='1' u='r'/>

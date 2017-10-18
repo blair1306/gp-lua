@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lauxlib.h' l='190'/>
+<doc f='codebrowser/src/lauxlib.h' l='184'>/*
+** A file handle is a userdata with metatable &apos;LUA_FILEHANDLE&apos; and
+** initial structure &apos;luaL_Stream&apos; (it may contain other fields
+** after that initial structure).
+*/</doc>
+<use f='codebrowser/src/liolib.c' l='153' u='c'/>
+<use f='codebrowser/src/liolib.c' l='191' u='c'/>
+<use f='codebrowser/src/liolib.c' l='729' u='c'/>

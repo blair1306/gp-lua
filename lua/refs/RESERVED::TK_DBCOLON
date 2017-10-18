@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/llex.h' l='35' type='288'/>
+<use f='codebrowser/src/llex.c' l='499' u='r' c='llex'/>
+<use f='codebrowser/src/lparser.c' l='1218' u='r' c='skipnoopstat'/>
+<use f='codebrowser/src/lparser.c' l='1229' u='r' c='labelstat'/>
+<use f='codebrowser/src/lparser.c' l='1579' c='statement'/>

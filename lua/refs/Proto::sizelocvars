@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/lobject.h' l='417' type='int'/>
+<offset>288</offset>
+<use f='codebrowser/src/ldump.c' l='152' u='r' c='DumpDebug'/>
+<use f='codebrowser/src/lfunc.c' l='117' u='w' c='luaF_newproto'/>
+<use f='codebrowser/src/lfunc.c' l='130' u='r' c='luaF_freeproto'/>
+<use f='codebrowser/src/lfunc.c' l='142' u='r' c='luaF_getlocalname'/>
+<use f='codebrowser/src/lgc.c' l='490' u='r' c='traverseproto'/>
+<use f='codebrowser/src/lgc.c' l='496' u='r' c='traverseproto'/>
+<use f='codebrowser/src/lparser.c' l='164' u='r' c='registerlocalvar'/>
+<use f='codebrowser/src/lparser.c' l='165' u='r' c='registerlocalvar'/>
+<use f='codebrowser/src/lparser.c' l='165' u='a' c='registerlocalvar'/>
+<use f='codebrowser/src/lparser.c' l='167' u='r' c='registerlocalvar'/>
+<use f='codebrowser/src/lparser.c' l='566' u='r' c='close_func'/>
+<use f='codebrowser/src/lparser.c' l='567' u='w' c='close_func'/>
+<use f='codebrowser/src/luac.c' l='412' u='r' c='PrintHeader'/>
+<use f='codebrowser/src/luac.c' l='412' u='r' c='PrintHeader'/>
+<use f='codebrowser/src/luac.c' l='426' u='r' c='PrintDebug'/>
+<use f='codebrowser/src/lundump.c' l='188' u='w' c='LoadDebug'/>

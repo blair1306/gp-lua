@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/lcode.h' l='62' type='int luaK_exp2anyreg(FuncState * fs, expdesc * e)'/>
+<def f='codebrowser/src/lcode.c' l='715' ll='727' type='int luaK_exp2anyreg(FuncState * fs, expdesc * e)'/>
+<use f='codebrowser/src/lcode.c' l='736' u='c' c='luaK_exp2anyregup'/>
+<use f='codebrowser/src/lcode.c' l='746' u='c' c='luaK_exp2val'/>
+<use f='codebrowser/src/lcode.c' l='775' u='c' c='luaK_exp2RK'/>
+<use f='codebrowser/src/lcode.c' l='790' u='c' c='luaK_storevar'/>
+<use f='codebrowser/src/lcode.c' l='811' u='c' c='luaK_self'/>
+<use f='codebrowser/src/lcode.c' l='1005' u='c' c='codeunexpval'/>
+<doc f='codebrowser/src/lcode.c' l='711'>/*
+** Ensures final expression result (including results from its jump
+** lists) is in some (any) register and return that register.
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='1524' u='c' c='retstat'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lstate.h' l='229' type='CallInfo * luaE_extendCI(lua_State * L)'/>
+<use f='codebrowser/src/ldo.c' l='395' u='c' c='luaD_precall'/>
+<use f='codebrowser/src/ldo.c' l='395' u='c' c='luaD_precall'/>
+<def f='codebrowser/src/lstate.c' l='108' ll='116' type='CallInfo * luaE_extendCI(lua_State * L)'/>

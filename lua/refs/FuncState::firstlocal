@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lparser.h' l='121' type='int'/>
+<offset>416</offset>
+<doc f='codebrowser/src/lparser.h' l='121'>/* index of first local var (in Dyndata array) */</doc>
+<use f='codebrowser/src/lparser.c' l='179' u='r' c='new_localvar'/>
+<use f='codebrowser/src/lparser.c' l='196' u='r' c='getlocvar'/>
+<use f='codebrowser/src/lparser.c' l='543' u='w' c='open_func'/>

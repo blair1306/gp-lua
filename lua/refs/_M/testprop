@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lctype.h' l='52'/>
+<doc f='codebrowser/src/lctype.h' l='49'>/*
+** add 1 to char to allow index -1 (EOZ)
+*/</doc>

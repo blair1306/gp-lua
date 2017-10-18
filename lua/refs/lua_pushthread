@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lua.h' l='235' type='int lua_pushthread(lua_State * L)'/>
+<def f='codebrowser/src/lapi.c' l='572' ll='578' macro='1' type='int lua_pushthread(lua_State * L)'/>
+<use f='codebrowser/src/lcorolib.c' l='145' u='c' c='luaB_corunning'/>
+<use f='codebrowser/src/ldblib.c' l='309' u='c' c='hookf'/>
+<use f='codebrowser/src/ldblib.c' l='371' u='c' c='db_sethook'/>
+<use f='codebrowser/src/ldblib.c' l='392' u='c' c='db_gethook'/>

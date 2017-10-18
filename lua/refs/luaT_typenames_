@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/ltm.h' l='55' type='const char *const [11]'/>
+<use f='codebrowser/src/lapi.c' l='260' macro='1' u='r'/>
+<def f='codebrowser/src/ltm.c' l='29' ll='34' type='const char *const [11]'/>
+<use f='codebrowser/src/ltm.c' l='98' macro='1' u='r'/>

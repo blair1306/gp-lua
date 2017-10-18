@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/llex.h' l='60' type='int'/>
+<offset>32</offset>
+<doc f='codebrowser/src/llex.h' l='60'>/* input line counter */</doc>
+<use f='codebrowser/src/llex.c' l='110' u='r' c='lexerror'/>
+<use f='codebrowser/src/llex.c' l='157' u='w' c='inclinenumber'/>
+<use f='codebrowser/src/llex.c' l='170' u='w' c='luaX_setinput'/>
+<use f='codebrowser/src/llex.c' l='265' u='r' c='read_long_string'/>
+<use f='codebrowser/src/llex.c' l='550' u='r' c='luaX_next'/>
+<use f='codebrowser/src/lparser.c' l='124' u='r' c='check_match'/>
+<use f='codebrowser/src/lparser.c' l='728' u='r' c='constructor'/>
+<use f='codebrowser/src/lparser.c' l='797' u='r' c='body'/>
+<use f='codebrowser/src/lparser.c' l='875' u='r' c='primaryexp'/>
+<use f='codebrowser/src/lparser.c' l='897' u='r' c='suffixedexp'/>
+<use f='codebrowser/src/lparser.c' l='974' u='r' c='simpleexp'/>
+<use f='codebrowser/src/lparser.c' l='1054' u='r' c='subexpr'/>
+<use f='codebrowser/src/lparser.c' l='1065' u='r' c='subexpr'/>
+<use f='codebrowser/src/lparser.c' l='1188' u='r' c='gotostat'/>
+<use f='codebrowser/src/lparser.c' l='1357' u='r' c='forlist'/>
+<use f='codebrowser/src/lparser.c' l='1436' u='r' c='localfunc'/>
+<use f='codebrowser/src/lparser.c' l='1538' u='r' c='statement'/>

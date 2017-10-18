@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/lcode.h' l='80' type='int luaK_getlabel(FuncState * fs)'/>
+<def f='codebrowser/src/lcode.c' l='168' ll='171' type='int luaK_getlabel(FuncState * fs)'/>
+<use f='codebrowser/src/lcode.c' l='253' u='c' c='luaK_patchtohere'/>
+<use f='codebrowser/src/lcode.c' l='650' u='c' c='code_loadbool'/>
+<use f='codebrowser/src/lcode.c' l='689' u='c' c='exp2reg'/>
+<doc f='codebrowser/src/lcode.c' l='164'>/*
+** returns current &apos;pc&apos; and marks it as a jump target (to avoid wrong
+** optimizations with consecutive instructions not in the same basic block).
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='1231' u='c' c='labelstat'/>
+<use f='codebrowser/src/lparser.c' l='1248' u='c' c='whilestat'/>
+<use f='codebrowser/src/lparser.c' l='1264' u='c' c='repeatstat'/>

@@ -1,0 +1,27 @@
+<dec f='codebrowser/src/lparser.h' l='114' type='struct LexState *'/>
+<use f='codebrowser/src/lcode.c' l='108' u='r' c='fixjump'/>
+<use f='codebrowser/src/lcode.c' l='297' u='r' c='luaK_code'/>
+<use f='codebrowser/src/lcode.c' l='301' u='r' c='luaK_code'/>
+<use f='codebrowser/src/lcode.c' l='303' u='r' c='luaK_code'/>
+<use f='codebrowser/src/lcode.c' l='365' u='r' c='luaK_checkstack'/>
+<use f='codebrowser/src/lcode.c' l='429' u='r' c='addk'/>
+<use f='codebrowser/src/lcode.c' l='431' u='r' c='addk'/>
+<use f='codebrowser/src/lcode.c' l='505' u='r' c='nilK'/>
+<use f='codebrowser/src/lcode.c' l='983' u='r' c='constfolding'/>
+<use f='codebrowser/src/lcode.c' l='1200' u='r' c='luaK_setlist'/>
+<offset>128</offset>
+<doc f='codebrowser/src/lparser.h' l='114'>/* lexical state */</doc>
+<use f='codebrowser/src/lparser.c' l='80' u='r' c='errorlimit'/>
+<use f='codebrowser/src/lparser.c' l='88' u='r' c='errorlimit'/>
+<use f='codebrowser/src/lparser.c' l='196' u='r' c='getlocvar'/>
+<use f='codebrowser/src/lparser.c' l='212' u='r' c='removevars'/>
+<use f='codebrowser/src/lparser.c' l='232' u='r' c='newupvalue'/>
+<use f='codebrowser/src/lparser.c' l='239' u='r' c='newupvalue'/>
+<use f='codebrowser/src/lparser.c' l='423' u='r' c='movegotosout'/>
+<use f='codebrowser/src/lparser.c' l='433' u='r' c='movegotosout'/>
+<use f='codebrowser/src/lparser.c' l='442' u='r' c='enterblock'/>
+<use f='codebrowser/src/lparser.c' l='443' u='r' c='enterblock'/>
+<use f='codebrowser/src/lparser.c' l='475' u='r' c='leaveblock'/>
+<use f='codebrowser/src/lparser.c' l='532' u='w' c='open_func'/>
+<use f='codebrowser/src/lparser.c' l='1207' u='r' c='checkrepeated'/>
+<use f='codebrowser/src/lparser.c' l='1210' u='r' c='checkrepeated'/>

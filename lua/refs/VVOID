@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/lparser.h' l='26' type='0'/>
+<doc f='codebrowser/src/lparser.h' l='26'>/* when &apos;expdesc&apos; describes the last expression a list,
+             this kind means an empty list (so, no expression) */</doc>
+<use f='codebrowser/src/lparser.c' l='272' u='r' c='singlevaraux'/>
+<use f='codebrowser/src/lparser.c' l='284' u='r' c='singlevaraux'/>
+<use f='codebrowser/src/lparser.c' l='299' u='r' c='singlevar'/>
+<use f='codebrowser/src/lparser.c' l='319' u='r' c='adjust_assign'/>
+<use f='codebrowser/src/lparser.c' l='668' u='r' c='closelistfield'/>
+<use f='codebrowser/src/lparser.c' l='670' u='r' c='closelistfield'/>
+<use f='codebrowser/src/lparser.c' l='686' u='r' c='lastlistfield'/>
+<use f='codebrowser/src/lparser.c' l='734' u='r' c='constructor'/>
+<use f='codebrowser/src/lparser.c' l='825' u='r' c='funcargs'/>
+<use f='codebrowser/src/lparser.c' l='851' u='r' c='funcargs'/>
+<use f='codebrowser/src/lparser.c' l='1454' u='r' c='localstat'/>

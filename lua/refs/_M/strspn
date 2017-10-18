@@ -1,0 +1,6 @@
+<dec f='include/x86_64-linux-gnu/bits/string2.h' l='987'/>
+<use f='codebrowser/src/lbaselib.c' l='51' u='c'/>
+<use f='codebrowser/src/lbaselib.c' l='63' u='c'/>
+<use f='codebrowser/src/liolib.c' l='43' u='c'/>
+<use f='codebrowser/src/lobject.c' l='380' u='c'/>
+<use f='codebrowser/src/luac.c' l='270' u='c'/>

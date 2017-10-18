@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lauxlib.h' l='43' type='int luaL_getmetafield(lua_State * L, int obj, const char * e)'/>
+<use f='codebrowser/src/lauxlib.c' l='185' u='c' c='typeerror'/>
+<def f='codebrowser/src/lauxlib.c' l='772' ll='785' macro='1' type='int luaL_getmetafield(lua_State * L, int obj, const char * event)'/>
+<use f='codebrowser/src/lauxlib.c' l='790' u='c' c='luaL_callmeta'/>
+<use f='codebrowser/src/lauxlib.c' l='834' u='c' c='luaL_tolstring'/>
+<use f='codebrowser/src/lbaselib.c' l='120' u='c' c='luaB_getmetatable'/>
+<use f='codebrowser/src/lbaselib.c' l='130' u='c' c='luaB_setmetatable'/>
+<use f='codebrowser/src/lbaselib.c' l='212' u='c' c='pairsmeta'/>

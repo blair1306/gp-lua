@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/lstate.h' l='151' type='TString *[24]'/>
+<offset>1792</offset>
+<doc f='codebrowser/src/lstate.h' l='151'>/* array with tag-method names */</doc>
+<use f='codebrowser/src/ldebug.c' l='533' u='r' c='funcnamefromcode'/>
+<use f='codebrowser/src/lgc.c' l='453' macro='1' u='r'/>
+<use f='codebrowser/src/lgc.c' l='904' macro='1' u='r'/>
+<use f='codebrowser/src/ltm.c' l='49' u='w' c='luaT_init'/>
+<use f='codebrowser/src/ltm.c' l='50' u='r' c='luaT_init'/>
+<use f='codebrowser/src/ltm.c' l='82' u='r' c='luaT_gettmbyobj'/>
+<use f='codebrowser/src/lvm.c' l='174' macro='1' u='r'/>
+<use f='codebrowser/src/lvm.c' l='211' macro='1' u='r'/>
+<use f='codebrowser/src/lvm.c' l='430' macro='1' u='r'/>
+<use f='codebrowser/src/lvm.c' l='432' macro='1' u='r'/>
+<use f='codebrowser/src/lvm.c' l='438' macro='1' u='r'/>
+<use f='codebrowser/src/lvm.c' l='440' macro='1' u='r'/>
+<use f='codebrowser/src/lvm.c' l='522' macro='1' u='r'/>

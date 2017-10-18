@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/lfunc.h' l='55' type='void luaF_close(lua_State * L, StkId level)'/>
+<use f='codebrowser/src/ldo.c' l='587' u='c' c='recover'/>
+<use f='codebrowser/src/ldo.c' l='732' u='c' c='luaD_pcall'/>
+<def f='codebrowser/src/lfunc.c' l='83' ll='96' type='void luaF_close(lua_State * L, StkId level)'/>
+<use f='codebrowser/src/lstate.c' l='244' u='c' c='close_state'/>
+<use f='codebrowser/src/lstate.c' l='287' u='c' c='luaE_freethread'/>
+<use f='codebrowser/src/lvm.c' l='740' u='c' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='740' u='c' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='740' u='c' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='740' u='c' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='740' u='c' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='740' u='c' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='1162' u='c' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='1178' u='c' c='luaV_execute'/>

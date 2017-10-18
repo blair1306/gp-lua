@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/lfunc.h' l='51' type='CClosure * luaF_newCclosure(lua_State * L, int nelems)'/>
+<use f='codebrowser/src/lapi.c' l='541' u='c' c='lua_pushcclosure'/>
+<def f='codebrowser/src/lfunc.c' l='25' ll='30' type='CClosure * luaF_newCclosure(lua_State * L, int n)'/>

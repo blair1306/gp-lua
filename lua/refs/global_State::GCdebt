@@ -1,0 +1,37 @@
+<dec f='codebrowser/src/lstate.h' l='123' type='l_mem'/>
+<use f='codebrowser/src/lapi.c' l='382' macro='1' u='r'/>
+<use f='codebrowser/src/lapi.c' l='485' macro='1' u='r'/>
+<use f='codebrowser/src/lapi.c' l='502' macro='1' u='r'/>
+<use f='codebrowser/src/lapi.c' l='513' macro='1' u='r'/>
+<use f='codebrowser/src/lapi.c' l='526' macro='1' u='r'/>
+<use f='codebrowser/src/lapi.c' l='551' macro='1' u='r'/>
+<use f='codebrowser/src/lapi.c' l='691' macro='1' u='r'/>
+<use f='codebrowser/src/lapi.c' l='1060' macro='1' u='r'/>
+<use f='codebrowser/src/lapi.c' l='1064' macro='1' u='r'/>
+<use f='codebrowser/src/lapi.c' l='1076' u='r' c='lua_gc'/>
+<use f='codebrowser/src/lapi.c' l='1078' macro='1' u='r'/>
+<use f='codebrowser/src/lapi.c' l='1150' macro='1' u='r'/>
+<use f='codebrowser/src/lapi.c' l='1189' macro='1' u='r'/>
+<offset>192</offset>
+<doc f='codebrowser/src/lstate.h' l='123'>/* bytes allocated not yet compensated by the collector */</doc>
+<use f='codebrowser/src/ldo.c' l='424' macro='1' u='r'/>
+<use f='codebrowser/src/ldo.c' l='445' macro='1' u='r'/>
+<use f='codebrowser/src/ldo.c' l='466' macro='1' u='r'/>
+<use f='codebrowser/src/lgc.c' l='779' u='r' c='checkSizes'/>
+<use f='codebrowser/src/lgc.c' l='782' u='r' c='checkSizes'/>
+<use f='codebrowser/src/lgc.c' l='946' macro='1' u='r'/>
+<use f='codebrowser/src/lgc.c' l='1031' u='r' c='sweepstep'/>
+<use f='codebrowser/src/lgc.c' l='1033' u='r' c='sweepstep'/>
+<use f='codebrowser/src/lgc.c' l='1066' macro='1' u='r'/>
+<use f='codebrowser/src/lgc.c' l='1115' u='r' c='getdebt'/>
+<use f='codebrowser/src/llex.c' l='137' macro='1' u='r'/>
+<use f='codebrowser/src/lmem.c' l='97' u='w' c='luaM_realloc_'/>
+<use f='codebrowser/src/lmem.c' l='97' u='r' c='luaM_realloc_'/>
+<use f='codebrowser/src/lparser.c' l='572' macro='1' u='r'/>
+<use f='codebrowser/src/lstate.c' l='99' macro='1' u='r'/>
+<use f='codebrowser/src/lstate.c' l='104' u='w' c='luaE_setdebt'/>
+<use f='codebrowser/src/lstate.c' l='259' macro='1' u='r'/>
+<use f='codebrowser/src/lstate.c' l='327' u='w' c='lua_newstate'/>
+<use f='codebrowser/src/lvm.c' l='874' macro='1' u='r'/>
+<use f='codebrowser/src/lvm.c' l='1076' macro='1' u='r'/>
+<use f='codebrowser/src/lvm.c' l='1292' macro='1' u='r'/>

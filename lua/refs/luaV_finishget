@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/lvm.h' l='101' type='void luaV_finishget(lua_State * L, const TValue * t, TValue * key, StkId val, const TValue * slot)'/>
+<use f='codebrowser/src/lapi.c' l='597' u='c' c='auxgetstr'/>
+<use f='codebrowser/src/lapi.c' l='615' macro='1' u='c'/>
+<use f='codebrowser/src/lapi.c' l='639' u='c' c='lua_geti'/>
+<def f='codebrowser/src/lvm.c' l='160' ll='193' type='void luaV_finishget(lua_State * L, const TValue * t, TValue * key, StkId val, const TValue * slot)'/>
+<use f='codebrowser/src/lvm.c' l='776' u='c' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='776' u='c' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='886' u='c' c='luaV_execute'/>
+<doc f='codebrowser/src/lvm.c' l='155'>/*
+** Finish the table access &apos;val = t[key]&apos;.
+** if &apos;slot&apos; is NULL, &apos;t&apos; is not a table; otherwise, &apos;slot&apos; points to
+** t[k] entry (which must be nil).
+*/</doc>

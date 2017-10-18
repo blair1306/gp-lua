@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/lobject.h' l='534' type='int luaO_fb2int(int x)'/>
+<def f='codebrowser/src/lobject.c' l='57' ll='59' type='int luaO_fb2int(int x)'/>
+<doc f='codebrowser/src/lobject.c' l='56'>/* converts back */</doc>
+<use f='codebrowser/src/lvm.c' l='873' u='c' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='873' u='c' c='luaV_execute'/>

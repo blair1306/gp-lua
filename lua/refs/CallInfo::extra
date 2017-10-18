@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lstate.h' l='89' type='ptrdiff_t'/>
+<use f='codebrowser/src/lapi.c' l='975' u='w' c='lua_pcallk'/>
+<offset>448</offset>
+<use f='codebrowser/src/ldebug.c' l='66' u='r' c='swapextra'/>
+<use f='codebrowser/src/ldebug.c' l='67' u='w' c='swapextra'/>
+<use f='codebrowser/src/ldo.c' l='586' u='r' c='recover'/>
+<use f='codebrowser/src/ldo.c' l='630' u='r' c='resume'/>
+<use f='codebrowser/src/ldo.c' l='705' u='w' c='lua_yieldk'/>

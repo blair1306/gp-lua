@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/lobject.h' l='130'/>
+<doc f='codebrowser/src/lobject.h' l='129'>/* tag with no variants (bits 0-3) */</doc>
+<use f='codebrowser/src/lgc.c' l='210' u='c'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/llex.h' l='35' type='289'/>
+<use f='codebrowser/src/llex.c' l='89' u='r' c='luaX_token2str'/>
+<use f='codebrowser/src/llex.c' l='167' u='r' c='luaX_setinput'/>
+<use f='codebrowser/src/llex.c' l='275' u='r' c='read_long_string'/>
+<use f='codebrowser/src/llex.c' l='371' u='r' c='read_string'/>
+<use f='codebrowser/src/llex.c' l='521' u='r' c='llex'/>
+<use f='codebrowser/src/llex.c' l='551' u='r' c='luaX_next'/>
+<use f='codebrowser/src/llex.c' l='553' u='r' c='luaX_next'/>
+<use f='codebrowser/src/lparser.c' l='590' c='block_follow'/>
+<use f='codebrowser/src/lparser.c' l='1621' u='r' c='mainfunc'/>

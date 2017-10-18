@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lstrlib.c' l='1169' type='5'/>
+<use f='codebrowser/src/lstrlib.c' l='1245' u='r' c='getoption'/>
+<use f='codebrowser/src/lstrlib.c' l='1397' c='str_pack'/>
+<use f='codebrowser/src/lstrlib.c' l='1431' c='str_packsize'/>
+<use f='codebrowser/src/lstrlib.c' l='1523' c='str_unpack'/>
+<doc f='codebrowser/src/lstrlib.c' l='1169'>/* zero-terminated strings */</doc>

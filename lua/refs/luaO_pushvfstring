@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/lobject.h' l='542' type='const char * luaO_pushvfstring(lua_State * L, const char * fmt, struct __va_list_tag * argp)'/>
+<use f='codebrowser/src/lapi.c' l='512' u='c' c='lua_pushvfstring'/>
+<use f='codebrowser/src/lapi.c' l='524' u='c' c='lua_pushfstring'/>
+<use f='codebrowser/src/ldebug.c' l='657' u='c' c='luaG_runerror'/>
+<def f='codebrowser/src/lobject.c' l='400' ll='464' type='const char * luaO_pushvfstring(lua_State * L, const char * fmt, struct __va_list_tag * argp)'/>
+<use f='codebrowser/src/lobject.c' l='471' u='c' c='luaO_pushfstring'/>
+<doc f='codebrowser/src/lobject.c' l='396'>/*
+** this function handles only &apos;%d&apos;, &apos;%c&apos;, &apos;%f&apos;, &apos;%p&apos;, and &apos;%s&apos;
+   conventional formats, plus Lua-specific &apos;%I&apos; and &apos;%U&apos;
+*/</doc>

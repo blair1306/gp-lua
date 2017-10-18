@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lua.h' l='280' type='int lua_load(lua_State * L, lua_Reader reader, void * dt, const char * chunkname, const char * mode)'/>
+<def f='codebrowser/src/lapi.c' l='991' ll='1012' macro='1' type='int lua_load(lua_State * L, lua_Reader reader, void * data, const char * chunkname, const char * mode)'/>
+<use f='codebrowser/src/lauxlib.c' l='727' u='c' c='luaL_loadfilex'/>
+<use f='codebrowser/src/lauxlib.c' l='760' u='c' c='luaL_loadbufferx'/>
+<use f='codebrowser/src/lbaselib.c' l='348' u='c' c='luaB_load'/>
+<use f='codebrowser/src/luac.c' l='147' u='c' c='combine'/>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/lobject.h' l='415' type='int'/>
+<offset>224</offset>
+<use f='codebrowser/src/lcode.c' l='301' u='r' c='luaK_code'/>
+<use f='codebrowser/src/lcode.c' l='301' u='a' c='luaK_code'/>
+<use f='codebrowser/src/ldebug.c' l='242' u='r' c='collectvalidlines'/>
+<use f='codebrowser/src/ldump.c' l='149' u='r' c='DumpDebug'/>
+<use f='codebrowser/src/lfunc.c' l='110' u='w' c='luaF_newproto'/>
+<use f='codebrowser/src/lfunc.c' l='129' u='r' c='luaF_freeproto'/>
+<use f='codebrowser/src/lgc.c' l='495' u='r' c='traverseproto'/>
+<use f='codebrowser/src/lparser.c' l='560' u='r' c='close_func'/>
+<use f='codebrowser/src/lparser.c' l='561' u='w' c='close_func'/>
+<use f='codebrowser/src/luac.c' l='154' u='w' c='combine'/>
+<use f='codebrowser/src/lundump.c' l='184' u='w' c='LoadDebug'/>

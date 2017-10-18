@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/lopcodes.h' l='294'/>
+<use f='codebrowser/src/lcode.c' l='1190' u='c'/>
+<doc f='codebrowser/src/lopcodes.h' l='293'>/* number of list items to accumulate before a SETLIST instruction */</doc>
+<use f='codebrowser/src/lparser.c' l='671' u='c'/>
+<use f='codebrowser/src/lvm.c' l='1274' u='c'/>

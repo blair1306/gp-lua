@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/lua.h' l='186' type='lua_CFunction lua_tocfunction(lua_State * L, int idx)'/>
+<def f='codebrowser/src/lapi.c' l='404' ll='410' macro='1' type='lua_CFunction lua_tocfunction(lua_State * L, int idx)'/>

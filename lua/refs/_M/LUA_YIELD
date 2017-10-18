@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/lua.h' l='48'/>
+<use f='codebrowser/src/lbaselib.c' l='409' u='c'/>
+<use f='codebrowser/src/lcorolib.c' l='40' u='c'/>
+<use f='codebrowser/src/lcorolib.c' l='116' u='c'/>
+<use f='codebrowser/src/ldebug.c' l='63' u='c'/>
+<use f='codebrowser/src/ldebug.c' l='689' u='c'/>
+<use f='codebrowser/src/ldebug.c' l='695' u='c'/>
+<use f='codebrowser/src/ldo.c' l='553' u='c'/>
+<use f='codebrowser/src/ldo.c' l='636' u='c'/>
+<use f='codebrowser/src/ldo.c' l='656' u='c'/>
+<use f='codebrowser/src/ldo.c' l='704' u='c'/>
+<use f='codebrowser/src/ldo.c' l='713' u='c'/>

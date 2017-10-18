@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/ldebug.h' l='32' type='void luaG_runerror(lua_State * L, const char * fmt)'/>
+<use f='codebrowser/src/ldebug.c' l='587' u='c' c='luaG_typeerror'/>
+<use f='codebrowser/src/ldebug.c' l='613' u='c' c='luaG_tointerror'/>
+<use f='codebrowser/src/ldebug.c' l='621' u='c' c='luaG_ordererror'/>
+<use f='codebrowser/src/ldebug.c' l='623' u='c' c='luaG_ordererror'/>
+<def f='codebrowser/src/ldebug.c' l='652' ll='662' macro='1' type='void luaG_runerror(lua_State * L, const char * fmt)'/>
+<use f='codebrowser/src/ldo.c' l='202' u='c' c='luaD_growstack'/>
+<use f='codebrowser/src/ldo.c' l='483' u='c' c='stackerror'/>
+<use f='codebrowser/src/ldo.c' l='700' u='c' c='lua_yieldk'/>
+<use f='codebrowser/src/ldo.c' l='702' u='c' c='lua_yieldk'/>
+<use f='codebrowser/src/lmem.c' l='54' u='c' c='luaM_growaux_'/>
+<use f='codebrowser/src/lmem.c' l='69' u='c' c='luaM_toobig'/>
+<use f='codebrowser/src/lobject.c' l='453' u='c' c='luaO_pushvfstring'/>
+<use f='codebrowser/src/ltable.c' l='179' u='c' c='findindex'/>
+<use f='codebrowser/src/ltable.c' l='318' u='c' c='setnodevector'/>
+<use f='codebrowser/src/ltable.c' l='445' u='c' c='luaH_newkey'/>
+<use f='codebrowser/src/ltable.c' l='453' u='c' c='luaH_newkey'/>
+<use f='codebrowser/src/lvm.c' l='192' u='c' c='luaV_finishget'/>
+<use f='codebrowser/src/lvm.c' l='237' u='c' c='luaV_finishset'/>
+<use f='codebrowser/src/lvm.c' l='494' u='c' c='luaV_concat'/>
+<use f='codebrowser/src/lvm.c' l='555' u='c' c='luaV_div'/>
+<use f='codebrowser/src/lvm.c' l='575' u='c' c='luaV_mod'/>
+<use f='codebrowser/src/lvm.c' l='1230' u='c' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='1233' u='c' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='1236' u='c' c='luaV_execute'/>

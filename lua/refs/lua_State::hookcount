@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lstate.h' l='179' type='int'/>
+<offset>1536</offset>
+<use f='codebrowser/src/ldebug.c' l='90' macro='1' u='w'/>
+<use f='codebrowser/src/ldebug.c' l='668' u='w' c='luaG_traceexec'/>
+<use f='codebrowser/src/ldebug.c' l='670' macro='1' u='w'/>
+<use f='codebrowser/src/ldebug.c' l='691' u='w' c='luaG_traceexec'/>
+<use f='codebrowser/src/lstate.c' l='234' macro='1' u='w'/>
+<use f='codebrowser/src/lstate.c' l='274' macro='1' u='w'/>

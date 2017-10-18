@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/lparser.h' l='44' type='12'/>
+<use f='codebrowser/src/lcode.c' l='548' u='r' c='luaK_setoneret'/>
+<use f='codebrowser/src/lcode.c' l='564' u='r' c='luaK_dischargevars'/>
+<use f='codebrowser/src/lcode.c' l='579' u='r' c='luaK_dischargevars'/>
+<use f='codebrowser/src/lcode.c' l='618' c='discharge2reg'/>
+<use f='codebrowser/src/lcode.c' l='840' u='r' c='jumponcond'/>
+<use f='codebrowser/src/lcode.c' l='925' c='codenot'/>
+<use f='codebrowser/src/lcode.c' l='930' u='r' c='codenot'/>
+<use f='codebrowser/src/lcode.c' l='1008' u='r' c='codeunexpval'/>
+<use f='codebrowser/src/lcode.c' l='1028' u='r' c='codebinexpval'/>
+<use f='codebrowser/src/lcode.c' l='1143' u='r' c='luaK_posfix'/>
+<use f='codebrowser/src/lcode.c' l='1148' u='r' c='luaK_posfix'/>
+<doc f='codebrowser/src/lparser.h' l='44'>/* expression can put result in any register;
+                  info = instruction pc */</doc>
+<use f='codebrowser/src/lparser.c' l='524' u='r' c='codeclosure'/>
+<use f='codebrowser/src/lparser.c' l='733' u='r' c='constructor'/>

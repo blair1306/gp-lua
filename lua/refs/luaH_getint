@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/ltable.h' l='43' type='const TValue * luaH_getint(Table * t, lua_Integer key)'/>
+<use f='codebrowser/src/lapi.c' l='607' u='c' c='lua_getglobal'/>
+<use f='codebrowser/src/lapi.c' l='632' u='c' c='lua_geti'/>
+<use f='codebrowser/src/lapi.c' l='662' u='c' c='lua_rawgeti'/>
+<use f='codebrowser/src/lapi.c' l='761' u='c' c='lua_setglobal'/>
+<use f='codebrowser/src/lapi.c' l='788' u='c' c='lua_seti'/>
+<use f='codebrowser/src/lapi.c' l='1004' u='c' c='lua_load'/>
+<def f='codebrowser/src/ltable.c' l='497' ll='514' type='const TValue * luaH_getint(Table * t, lua_Integer key)'/>
+<use f='codebrowser/src/ltable.c' l='573' u='c' c='luaH_get'/>
+<use f='codebrowser/src/ltable.c' l='578' u='c' c='luaH_get'/>
+<use f='codebrowser/src/ltable.c' l='600' u='c' c='luaH_setint'/>
+<use f='codebrowser/src/ltable.c' l='617' u='c' c='unbound_search'/>
+<use f='codebrowser/src/ltable.c' l='622' u='c' c='unbound_search'/>
+<use f='codebrowser/src/ltable.c' l='630' u='c' c='unbound_search'/>
+<doc f='codebrowser/src/ltable.c' l='494'>/*
+** search function for integers
+*/</doc>

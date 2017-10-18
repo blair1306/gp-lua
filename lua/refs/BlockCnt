@@ -1,0 +1,11 @@
+<def f='codebrowser/src/lparser.c' l='48' ll='55'/>
+<size>24</size>
+<doc f='codebrowser/src/lparser.c' l='45'>/*
+** nodes for block list (list of active blocks)
+*/</doc>
+<mbr r='BlockCnt::previous' o='0' t='struct BlockCnt *'/>
+<mbr r='BlockCnt::firstlabel' o='64' t='int'/>
+<mbr r='BlockCnt::firstgoto' o='96' t='int'/>
+<mbr r='BlockCnt::nactvar' o='128' t='lu_byte'/>
+<mbr r='BlockCnt::upval' o='136' t='lu_byte'/>
+<mbr r='BlockCnt::isloop' o='144' t='lu_byte'/>

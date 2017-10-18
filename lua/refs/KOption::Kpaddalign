@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lstrlib.c' l='1171' type='7'/>
+<use f='codebrowser/src/lstrlib.c' l='1247' u='r' c='getoption'/>
+<use f='codebrowser/src/lstrlib.c' l='1272' u='r' c='getdetails'/>
+<use f='codebrowser/src/lstrlib.c' l='1407' c='str_pack'/>
+<use f='codebrowser/src/lstrlib.c' l='1529' c='str_unpack'/>
+<doc f='codebrowser/src/lstrlib.c' l='1171'>/* padding for alignment */</doc>

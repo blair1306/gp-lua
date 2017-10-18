@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lstate.h' l='209'/>
+<use f='codebrowser/src/lgc.c' l='251' u='c'/>
+<use f='codebrowser/src/lgc.c' l='253' u='c'/>
+<use f='codebrowser/src/lgc.c' l='254' u='c'/>
+<use f='codebrowser/src/lgc.c' l='709' u='c'/>
+<use f='codebrowser/src/lstring.c' l='242' u='c'/>

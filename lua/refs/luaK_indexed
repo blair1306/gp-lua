@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lcode.h' l='68' type='void luaK_indexed(FuncState * fs, expdesc * t, expdesc * k)'/>
+<def f='codebrowser/src/lcode.c' l='946' ll='952' type='void luaK_indexed(FuncState * fs, expdesc * t, expdesc * k)'/>
+<doc f='codebrowser/src/lcode.c' l='942'>/*
+** Create expression &apos;t[k]&apos;. &apos;t&apos; must have its final result already in a
+** register or upvalue.
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='304' u='c' c='singlevar'/>
+<use f='codebrowser/src/lparser.c' l='617' u='c' c='fieldsel'/>
+<use f='codebrowser/src/lparser.c' l='909' u='c' c='suffixedexp'/>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/ltable.h' l='52' type='void luaH_resize(lua_State * L, Table * t, unsigned int nasize, unsigned int nhsize)'/>
+<use f='codebrowser/src/lapi.c' l='690' u='c' c='lua_createtable'/>
+<use f='codebrowser/src/lstate.c' l='189' u='c' c='init_registry'/>
+<def f='codebrowser/src/ltable.c' l='333' ll='365' type='void luaH_resize(lua_State * L, Table * t, unsigned int nasize, unsigned int nhsize)'/>
+<use f='codebrowser/src/ltable.c' l='370' u='c' c='luaH_resizearray'/>
+<use f='codebrowser/src/ltable.c' l='392' u='c' c='rehash'/>
+<use f='codebrowser/src/lvm.c' l='873' u='c' c='luaV_execute'/>

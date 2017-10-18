@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lparser.h' l='58' type='lua_Number'/>
+<use f='codebrowser/src/lcode.c' l='51' u='r' c='tonumeral'/>
+<use f='codebrowser/src/lcode.c' l='611' u='r' c='discharge2reg'/>
+<use f='codebrowser/src/lcode.c' l='765' u='r' c='luaK_exp2RK'/>
+<use f='codebrowser/src/lcode.c' l='993' u='w' c='constfolding'/>
+<offset>0</offset>
+<doc f='codebrowser/src/lparser.h' l='58'>/* for VKFLT */</doc>
+<use f='codebrowser/src/lparser.c' l='937' u='w' c='simpleexp'/>

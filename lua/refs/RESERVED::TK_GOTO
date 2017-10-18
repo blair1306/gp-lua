@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/llex.h' l='30' type='266'/>
+<use f='codebrowser/src/lparser.c' l='1191' u='r' c='gotostat'/>
+<use f='codebrowser/src/lparser.c' l='1391' u='r' c='test_then_block'/>
+<use f='codebrowser/src/lparser.c' l='1590' c='statement'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lauxlib.h' l='65' type='void * luaL_checkudata(lua_State * L, int ud, const char * tname)'/>
+<def f='codebrowser/src/lauxlib.c' l='333' ll='337' macro='1' type='void * luaL_checkudata(lua_State * L, int ud, const char * tname)'/>
+<use f='codebrowser/src/liolib.c' l='145' u='c' c='f_tostring'/>
+<use f='codebrowser/src/liolib.c' l='145' u='c' c='tofile'/>
+<use f='codebrowser/src/liolib.c' l='145' u='c' c='aux_close'/>
+<use f='codebrowser/src/liolib.c' l='145' u='c' c='f_gc'/>
+<use f='codebrowser/src/liolib.c' l='145' u='c' c='io_fclose'/>
+<use f='codebrowser/src/liolib.c' l='145' u='c' c='io_pclose'/>
+<use f='codebrowser/src/liolib.c' l='145' u='c' c='io_noclose'/>

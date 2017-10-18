@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/lobject.h' l='525'/>
+<doc f='codebrowser/src/lobject.h' l='522'>/*
+** (address of) a fixed nil value
+*/</doc>
+<use f='codebrowser/src/ldo.c' l='340' u='c'/>
+<use f='codebrowser/src/lstate.c' l='87' u='c'/>
+<use f='codebrowser/src/lstring.c' l='245' u='c'/>
+<use f='codebrowser/src/ltable.c' l='512' u='c'/>
+<use f='codebrowser/src/ltable.c' l='530' u='c'/>
+<use f='codebrowser/src/ltable.c' l='549' u='c'/>
+<use f='codebrowser/src/ltable.c' l='574' u='c'/>
+<use f='codebrowser/src/ltable.c' l='593' u='c'/>
+<use f='codebrowser/src/ltable.c' l='602' u='c'/>
+<use f='codebrowser/src/ltm.c' l='82' u='c'/>
+<use f='codebrowser/src/lvm.c' l='213' u='c'/>

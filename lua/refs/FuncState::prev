@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/lparser.h' l='113' type='struct FuncState *'/>
+<offset>64</offset>
+<doc f='codebrowser/src/lparser.h' l='113'>/* enclosing function */</doc>
+<use f='codebrowser/src/lparser.c' l='283' u='r' c='singlevaraux'/>
+<use f='codebrowser/src/lparser.c' l='523' u='r' c='codeclosure'/>
+<use f='codebrowser/src/lparser.c' l='531' u='w' c='open_func'/>
+<use f='codebrowser/src/lparser.c' l='571' u='r' c='close_func'/>

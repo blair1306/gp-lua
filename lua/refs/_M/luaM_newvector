@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lmem.h' l='47'/>
+<use f='codebrowser/src/lstate.c' l='154' u='c'/>
+<use f='codebrowser/src/ltable.c' l='320' u='c'/>
+<use f='codebrowser/src/lundump.c' l='109' u='c'/>
+<use f='codebrowser/src/lundump.c' l='121' u='c'/>
+<use f='codebrowser/src/lundump.c' l='155' u='c'/>
+<use f='codebrowser/src/lundump.c' l='169' u='c'/>
+<use f='codebrowser/src/lundump.c' l='183' u='c'/>
+<use f='codebrowser/src/lundump.c' l='187' u='c'/>

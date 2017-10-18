@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lopcodes.h' l='185' type='11'/>
+<doc f='codebrowser/src/lopcodes.h' l='185'>/*	A B C	R(A) := {} (size = B,C)				*/</doc>
+<use f='codebrowser/src/lparser.c' l='729' u='r' c='constructor'/>
+<use f='codebrowser/src/lvm.c' l='867' c='luaV_execute'/>

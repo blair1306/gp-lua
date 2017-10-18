@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lparser.h' l='117' type='int'/>
+<use f='codebrowser/src/lcode.c' l='67' u='r' c='luaK_nil'/>
+<use f='codebrowser/src/lcode.c' l='169' u='w' c='luaK_getlabel'/>
+<offset>288</offset>
+<doc f='codebrowser/src/lparser.h' l='117'>/* &apos;label&apos; of last &apos;jump label&apos; */</doc>
+<use f='codebrowser/src/lparser.c' l='535' u='w' c='open_func'/>

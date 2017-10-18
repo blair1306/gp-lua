@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lobject.h' l='539' type='size_t luaO_str2num(const char * s, TValue * o)'/>
+<use f='codebrowser/src/lapi.c' l='338' u='c' c='lua_stringtonumber'/>
+<use f='codebrowser/src/llex.c' l='232' u='c' c='read_numeral'/>
+<def f='codebrowser/src/lobject.c' l='331' ll='343' type='size_t luaO_str2num(const char * s, TValue * o)'/>
+<use f='codebrowser/src/lvm.c' l='79' u='c' c='luaV_tonumber_'/>
+<use f='codebrowser/src/lvm.c' l='112' u='c' c='luaV_tointeger'/>

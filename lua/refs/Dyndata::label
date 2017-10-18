@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/lparser.h' l='102' type='Labellist'/>
+<offset>256</offset>
+<doc f='codebrowser/src/lparser.h' l='102'>/* list of active labels */</doc>
+<use f='codebrowser/src/ldo.c' l='791' u='m' c='luaD_protectedparser'/>
+<use f='codebrowser/src/ldo.c' l='791' u='m' c='luaD_protectedparser'/>
+<use f='codebrowser/src/ldo.c' l='797' u='m' c='luaD_protectedparser'/>
+<use f='codebrowser/src/ldo.c' l='797' u='m' c='luaD_protectedparser'/>
+<use f='codebrowser/src/ldo.c' l='797' u='m' c='luaD_protectedparser'/>
+<use f='codebrowser/src/lparser.c' l='371' u='m' c='findlabel'/>
+<use f='codebrowser/src/lparser.c' l='372' u='m' c='findlabel'/>
+<use f='codebrowser/src/lparser.c' l='375' u='m' c='findlabel'/>
+<use f='codebrowser/src/lparser.c' l='442' u='m' c='enterblock'/>
+<use f='codebrowser/src/lparser.c' l='456' u='a' c='breaklabel'/>
+<use f='codebrowser/src/lparser.c' l='457' u='m' c='breaklabel'/>
+<use f='codebrowser/src/lparser.c' l='488' u='m' c='leaveblock'/>
+<use f='codebrowser/src/lparser.c' l='1226' u='a' c='labelstat'/>
+<use f='codebrowser/src/lparser.c' l='1641' u='m' c='luaY_parser'/>

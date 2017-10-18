@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/lopcodes.h' l='204' type='28'/>
+<doc f='codebrowser/src/lopcodes.h' l='204'>/*	A B	R(A) := length of R(B)				*/</doc>
+<use f='codebrowser/src/ldebug.c' l='525' c='funcnamefromcode'/>
+<use f='codebrowser/src/lvm.c' l='665' c='luaV_finishOp'/>
+<use f='codebrowser/src/lvm.c' l='1063' c='luaV_execute'/>

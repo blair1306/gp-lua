@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lstate.h' l='167' type='const Instruction *'/>
+<offset>320</offset>
+<doc f='codebrowser/src/lstate.h' l='167'>/* last pc traced */</doc>
+<use f='codebrowser/src/ldebug.c' l='87' u='w' c='lua_sethook'/>
+<use f='codebrowser/src/ldebug.c' l='684' u='r' c='luaG_traceexec'/>
+<use f='codebrowser/src/ldebug.c' l='685' u='r' c='luaG_traceexec'/>
+<use f='codebrowser/src/ldebug.c' l='688' u='w' c='luaG_traceexec'/>
+<use f='codebrowser/src/ldo.c' l='385' u='w' c='luaD_poscall'/>

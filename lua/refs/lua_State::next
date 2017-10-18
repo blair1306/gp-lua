@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lstate.h' l='161' macro='1' type='GCObject *'/>
+<offset>0</offset>
+<use f='codebrowser/src/lstate.c' l='265' u='w' c='lua_newthread'/>
+<use f='codebrowser/src/lstate.c' l='303' u='w' c='lua_newstate'/>

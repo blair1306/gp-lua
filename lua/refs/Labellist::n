@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/lparser.h' l='89' type='int'/>
+<offset>64</offset>
+<doc f='codebrowser/src/lparser.h' l='89'>/* number of entries in use */</doc>
+<use f='codebrowser/src/lparser.c' l='356' u='r' c='closegoto'/>
+<use f='codebrowser/src/lparser.c' l='358' u='w' c='closegoto'/>
+<use f='codebrowser/src/lparser.c' l='371' u='r' c='findlabel'/>
+<use f='codebrowser/src/lparser.c' l='375' u='r' c='findlabel'/>
+<use f='codebrowser/src/lparser.c' l='387' u='r' c='newlabelentry'/>
+<use f='codebrowser/src/lparser.c' l='394' u='w' c='newlabelentry'/>
+<use f='codebrowser/src/lparser.c' l='406' u='r' c='findgotos'/>
+<use f='codebrowser/src/lparser.c' l='426' u='r' c='movegotosout'/>
+<use f='codebrowser/src/lparser.c' l='442' u='r' c='enterblock'/>
+<use f='codebrowser/src/lparser.c' l='443' u='r' c='enterblock'/>
+<use f='codebrowser/src/lparser.c' l='488' u='w' c='leaveblock'/>
+<use f='codebrowser/src/lparser.c' l='491' u='r' c='leaveblock'/>
+<use f='codebrowser/src/lparser.c' l='1205' u='r' c='checkrepeated'/>
+<use f='codebrowser/src/lparser.c' l='1641' u='w' c='luaY_parser'/>
+<use f='codebrowser/src/lparser.c' l='1641' u='w' c='luaY_parser'/>

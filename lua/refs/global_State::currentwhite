@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/lstate.h' l='129' type='lu_byte'/>
+<offset>672</offset>
+<use f='codebrowser/src/lgc.c' l='162' macro='1' u='r'/>
+<use f='codebrowser/src/lgc.c' l='211' macro='1' u='r'/>
+<use f='codebrowser/src/lgc.c' l='736' macro='1' u='r'/>
+<use f='codebrowser/src/lgc.c' l='737' macro='1' u='r'/>
+<use f='codebrowser/src/lgc.c' l='795' macro='1' u='r'/>
+<use f='codebrowser/src/lgc.c' l='909' macro='1' u='r'/>
+<use f='codebrowser/src/lgc.c' l='972' u='w' c='luaC_freeallobjects'/>
+<use f='codebrowser/src/lgc.c' l='1022' u='w' c='atomic'/>
+<use f='codebrowser/src/lgc.c' l='1022' macro='1' u='r'/>
+<use f='codebrowser/src/lgc.c' l='1079' macro='1' u='r'/>
+<use f='codebrowser/src/lstate.c' l='262' macro='1' u='r'/>
+<use f='codebrowser/src/lstate.c' l='305' u='w' c='lua_newstate'/>
+<use f='codebrowser/src/lstate.c' l='306' macro='1' u='r'/>
+<use f='codebrowser/src/lstring.c' l='177' macro='1' u='r'/>

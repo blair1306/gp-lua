@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/lobject.h' l='414' type='int'/>
+<offset>192</offset>
+<use f='codebrowser/src/lcode.c' l='297' u='r' c='luaK_code'/>
+<use f='codebrowser/src/lcode.c' l='297' u='a' c='luaK_code'/>
+<use f='codebrowser/src/ldump.c' l='91' u='r' c='DumpCode'/>
+<use f='codebrowser/src/ldump.c' l='92' u='r' c='DumpCode'/>
+<use f='codebrowser/src/lfunc.c' l='108' u='w' c='luaF_newproto'/>
+<use f='codebrowser/src/lfunc.c' l='126' u='r' c='luaF_freeproto'/>
+<use f='codebrowser/src/lgc.c' l='492' u='r' c='traverseproto'/>
+<use f='codebrowser/src/lparser.c' l='558' u='r' c='close_func'/>
+<use f='codebrowser/src/lparser.c' l='559' u='w' c='close_func'/>
+<use f='codebrowser/src/luac.c' l='291' u='r' c='PrintCode'/>
+<use f='codebrowser/src/luac.c' l='407' u='r' c='PrintHeader'/>
+<use f='codebrowser/src/luac.c' l='407' u='r' c='PrintHeader'/>
+<use f='codebrowser/src/lundump.c' l='110' u='w' c='LoadCode'/>

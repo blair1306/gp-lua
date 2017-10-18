@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lauxlib.h' l='28'/>
+<doc f='codebrowser/src/lauxlib.h' l='27'>/* key, in the registry, for table of preloaded loaders */</doc>
+<use f='codebrowser/src/loadlib.c' l='562' u='c'/>
+<use f='codebrowser/src/loadlib.c' l='782' u='c'/>

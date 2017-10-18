@@ -1,0 +1,4 @@
+<def f='codebrowser/src/lcode.h' l='26' ll='37'/>
+<doc f='codebrowser/src/lcode.h' l='23'>/*
+** grep &quot;ORDER OPR&quot; if you change these enums  (ORDER OP)
+*/</doc>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lcode.h' l='33' type='13'/>
+<use f='codebrowser/src/lcode.c' l='1054' u='r' c='codecomp'/>
+<use f='codebrowser/src/lcode.c' l='1164' c='luaK_posfix'/>
+<use f='codebrowser/src/lparser.c' l='1013' u='r' c='getbinopr'/>

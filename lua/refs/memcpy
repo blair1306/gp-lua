@@ -1,0 +1,30 @@
+<dec f='include/string.h' l='42' type='void * memcpy(void *restrict __dest, const void *restrict __src, size_t __n)'/>
+<doc f='include/string.h' l='41'>/* Copy N bytes of SRC to DEST.  */</doc>
+<use f='codebrowser/src/lauxlib.c' l='519' u='c' c='luaL_prepbuffsize'/>
+<use f='codebrowser/src/lauxlib.c' l='531' u='c' c='luaL_addlstring'/>
+<use f='codebrowser/src/lobject.c' l='490' u='c' c='luaO_chunkid'/>
+<use f='codebrowser/src/lobject.c' l='484' u='c' c='luaO_chunkid'/>
+<use f='codebrowser/src/lobject.c' l='498' u='c' c='luaO_chunkid'/>
+<use f='codebrowser/src/lobject.c' l='484' u='c' c='luaO_chunkid'/>
+<use f='codebrowser/src/lobject.c' l='502' u='c' c='luaO_chunkid'/>
+<use f='codebrowser/src/lobject.c' l='484' u='c' c='luaO_chunkid'/>
+<use f='codebrowser/src/lobject.c' l='484' u='c' c='luaO_chunkid'/>
+<use f='codebrowser/src/lobject.c' l='484' u='c' c='luaO_chunkid'/>
+<use f='codebrowser/src/lobject.c' l='484' u='c' c='luaO_chunkid'/>
+<use f='codebrowser/src/lobject.c' l='518' u='c' c='luaO_chunkid'/>
+<use f='codebrowser/src/loslib.c' l='268' u='c' c='checkoption'/>
+<use f='codebrowser/src/lstate.c' l='79' u='c' c='makeseed'/>
+<use f='codebrowser/src/lstate.c' l='79' u='c' c='makeseed'/>
+<use f='codebrowser/src/lstate.c' l='79' u='c' c='makeseed'/>
+<use f='codebrowser/src/lstate.c' l='79' u='c' c='makeseed'/>
+<use f='codebrowser/src/lstate.c' l='276' u='c' c='lua_newthread'/>
+<use f='codebrowser/src/lstring.c' l='187' u='c' c='internshrstr'/>
+<use f='codebrowser/src/lstring.c' l='207' u='c' c='luaS_newlstr'/>
+<use f='codebrowser/src/lstrlib.c' l='135' u='c' c='str_rep'/>
+<use f='codebrowser/src/lstrlib.c' l='137' u='c' c='str_rep'/>
+<use f='codebrowser/src/lstrlib.c' l='141' u='c' c='str_rep'/>
+<use f='codebrowser/src/lstrlib.c' l='996' u='c' c='scanformat'/>
+<use f='codebrowser/src/ltablib.c' l='263' u='c' c='l_randomizePivot'/>
+<use f='codebrowser/src/ltablib.c' l='264' u='c' c='l_randomizePivot'/>
+<use f='codebrowser/src/lvm.c' l='464' u='c' c='copy2buff'/>
+<use f='codebrowser/src/lzio.c' l='60' u='c' c='luaZ_read'/>

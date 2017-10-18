@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lcode.h' l='65' type='void luaK_exp2val(FuncState * fs, expdesc * e)'/>
+<def f='codebrowser/src/lcode.c' l='744' ll='749' type='void luaK_exp2val(FuncState * fs, expdesc * e)'/>
+<use f='codebrowser/src/lcode.c' l='759' u='c' c='luaK_exp2RK'/>
+<use f='codebrowser/src/lcode.c' l='1142' u='c' c='luaK_posfix'/>
+<doc f='codebrowser/src/lcode.c' l='740'>/*
+** Ensures final expression result is either in a register or it is
+** a constant.
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='625' u='c' c='yindex'/>

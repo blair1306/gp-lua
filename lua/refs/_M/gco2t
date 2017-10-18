@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/lstate.h' l='214'/>
+<use f='codebrowser/src/lgc.c' l='270' u='c'/>
+<use f='codebrowser/src/lgc.c' l='566' u='c'/>
+<use f='codebrowser/src/lgc.c' l='616' u='c'/>
+<use f='codebrowser/src/lgc.c' l='617' u='c'/>
+<use f='codebrowser/src/lgc.c' l='640' u='c'/>
+<use f='codebrowser/src/lgc.c' l='641' u='c'/>
+<use f='codebrowser/src/lgc.c' l='658' u='c'/>
+<use f='codebrowser/src/lgc.c' l='659' u='c'/>
+<use f='codebrowser/src/lgc.c' l='707' u='c'/>
+<use f='codebrowser/src/ltable.c' l='404' u='c'/>

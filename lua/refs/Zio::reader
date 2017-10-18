@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/lzio.h' l='58' type='lua_Reader'/>
+<offset>128</offset>
+<doc f='codebrowser/src/lzio.h' l='58'>/* reader function */</doc>
+<use f='codebrowser/src/lzio.c' l='28' u='r' c='luaZ_fill'/>
+<use f='codebrowser/src/lzio.c' l='40' u='w' c='luaZ_init'/>

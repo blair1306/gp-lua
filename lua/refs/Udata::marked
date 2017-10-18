@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/lobject.h' l='79' type='lu_byte'/>
+<use f='codebrowser/src/lapi.c' l='869' macro='1' u='r'/>
+<offset>72</offset>

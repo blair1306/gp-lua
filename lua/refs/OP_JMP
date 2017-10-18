@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lopcodes.h' l='208' type='30'/>
+<use f='codebrowser/src/lcode.c' l='140' u='r' c='luaK_jump'/>
+<doc f='codebrowser/src/lopcodes.h' l='208'>/*	A sBx	pc+=sBx; if (A) close all upvalues &gt;= R(A - 1)	*/</doc>
+<use f='codebrowser/src/ldebug.c' l='411' c='findsetreg'/>
+<use f='codebrowser/src/luac.c' l='370' c='PrintCode'/>
+<use f='codebrowser/src/lvm.c' l='1080' c='luaV_execute'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/lua.h' l='152' type='const lua_Number * lua_version(lua_State * L)'/>
+<def f='codebrowser/src/lapi.c' l='144' ll='148' macro='1' type='const lua_Number * lua_version(lua_State * L)'/>
+<use f='codebrowser/src/lauxlib.c' l='1034' u='c' c='luaL_checkversion_'/>
+<use f='codebrowser/src/lauxlib.c' l='1037' u='c' c='luaL_checkversion_'/>
+<use f='codebrowser/src/lstate.c' l='212' u='c' c='f_luaopen'/>

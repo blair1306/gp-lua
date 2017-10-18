@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lparser.c' l='53' type='lu_byte'/>
+<use f='codebrowser/src/lparser.c' l='262' u='w' c='markupval'/>
+<use f='codebrowser/src/lparser.c' l='375' u='r' c='findlabel'/>
+<use f='codebrowser/src/lparser.c' l='429' u='r' c='movegotosout'/>
+<use f='codebrowser/src/lparser.c' l='444' u='w' c='enterblock'/>
+<use f='codebrowser/src/lparser.c' l='476' u='r' c='leaveblock'/>
+<use f='codebrowser/src/lparser.c' l='1272' u='r' c='repeatstat'/>
+<offset>136</offset>
+<doc f='codebrowser/src/lparser.c' l='53'>/* true if some variable in the block is an upvalue */</doc>

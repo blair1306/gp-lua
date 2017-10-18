@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/lfunc.h' l='37' type='lu_mem'/>
+<use f='codebrowser/src/lapi.c' l='1293' u='w' c='lua_upvaluejoin'/>
+<offset>64</offset>
+<doc f='codebrowser/src/lfunc.h' l='37'>/* reference counter */</doc>
+<use f='codebrowser/src/lfunc.c' l='49' u='w' c='luaF_initupvals'/>
+<use f='codebrowser/src/lfunc.c' l='70' u='w' c='luaF_findupval'/>
+<use f='codebrowser/src/lfunc.c' l='88' u='r' c='luaF_close'/>
+<use f='codebrowser/src/lgc.c' l='679' u='w' c='luaC_upvdeccount'/>
+<use f='codebrowser/src/lgc.c' l='680' u='r' c='luaC_upvdeccount'/>
+<use f='codebrowser/src/lvm.c' l='645' u='w' c='pushclosure'/>

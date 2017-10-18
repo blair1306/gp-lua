@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/lopcodes.h' l='97'/>
+<use f='codebrowser/src/lcode.c' l='70' u='c'/>
+<use f='codebrowser/src/lcode.c' l='544' u='c'/>
+<use f='codebrowser/src/lcode.c' l='829' u='c'/>
+<use f='codebrowser/src/ldebug.c' l='392' u='c'/>
+<use f='codebrowser/src/ldebug.c' l='445' u='c'/>
+<use f='codebrowser/src/ldebug.c' l='504' u='c'/>
+<use f='codebrowser/src/luac.c' l='296' u='c'/>
+<use f='codebrowser/src/lvm.c' l='667' u='c'/>
+<use f='codebrowser/src/lvm.c' l='679' u='c'/>
+<use f='codebrowser/src/lvm.c' l='693' u='c'/>
+<use f='codebrowser/src/lvm.c' l='849' u='c'/>
+<use f='codebrowser/src/lvm.c' l='1088' u='c'/>
+<use f='codebrowser/src/lvm.c' l='1097' u='c'/>
+<use f='codebrowser/src/lvm.c' l='1106' u='c'/>

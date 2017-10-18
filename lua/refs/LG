@@ -1,0 +1,5 @@
+<def f='codebrowser/src/lstate.c' l='63' ll='66'/>
+<size>1552</size>
+<doc f='codebrowser/src/lstate.c' l='60'>/*
+** Main thread combines a thread state and the global state
+*/</doc>

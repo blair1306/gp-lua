@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/ltable.h' l='47' type='const TValue * luaH_getstr(Table * t, TString * key)'/>
+<use f='codebrowser/src/lapi.c' l='590' u='c' c='auxgetstr'/>
+<use f='codebrowser/src/lapi.c' l='746' u='c' c='auxsetstr'/>
+<def f='codebrowser/src/ltable.c' l='556' ll='564' type='const TValue * luaH_getstr(Table * t, TString * key)'/>
+<use f='codebrowser/src/lvm.c' l='883' u='c' c='luaV_execute'/>

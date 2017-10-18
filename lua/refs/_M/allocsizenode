@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/ltable.h' l='35'/>
+<doc f='codebrowser/src/ltable.h' l='34'>/* allocated size for hash nodes */</doc>
+<use f='codebrowser/src/lgc.c' l='470' u='c'/>
+<use f='codebrowser/src/ltable.c' l='338' u='c'/>
+<use f='codebrowser/src/ltable.c' l='369' u='c'/>

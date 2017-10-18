@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lfunc.h' l='50' type='Proto * luaF_newproto(lua_State * L)'/>
+<def f='codebrowser/src/lfunc.c' l='99' ll='122' type='Proto * luaF_newproto(lua_State * L)'/>
+<use f='codebrowser/src/lparser.c' l='510' u='c' c='addprototype'/>
+<use f='codebrowser/src/lparser.c' l='1636' u='c' c='luaY_parser'/>
+<use f='codebrowser/src/lundump.c' l='160' u='c' c='LoadProtos'/>
+<use f='codebrowser/src/lundump.c' l='273' u='c' c='luaU_undump'/>

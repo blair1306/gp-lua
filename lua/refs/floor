@@ -1,0 +1,6 @@
+<dec f='include/x86_64-linux-gnu/bits/mathcalls.h' l='184' type='double floor(double __x)'/>
+<use f='codebrowser/src/lmathlib.c' l='109' u='c' c='math_floor'/>
+<use f='codebrowser/src/lmathlib.c' l='157' u='c' c='math_modf'/>
+<use f='codebrowser/src/lobject.c' l='111' macro='1' u='c'/>
+<use f='codebrowser/src/lvm.c' l='99' macro='1' u='c'/>
+<use f='codebrowser/src/lvm.c' l='1016' macro='1' u='c'/>

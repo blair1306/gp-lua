@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/llex.h' l='63' type='Token'/>
+<offset>256</offset>
+<doc f='codebrowser/src/llex.h' l='63'>/* look ahead token */</doc>
+<use f='codebrowser/src/llex.c' l='167' u='m' c='luaX_setinput'/>
+<use f='codebrowser/src/llex.c' l='551' u='m' c='luaX_next'/>
+<use f='codebrowser/src/llex.c' l='552' u='r' c='luaX_next'/>
+<use f='codebrowser/src/llex.c' l='553' u='m' c='luaX_next'/>
+<use f='codebrowser/src/llex.c' l='562' u='m' c='luaX_lookahead'/>
+<use f='codebrowser/src/llex.c' l='562' u='m' c='luaX_lookahead'/>
+<use f='codebrowser/src/llex.c' l='563' u='m' c='luaX_lookahead'/>

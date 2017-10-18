@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lopcodes.h' l='32' type='3'/>
+<use f='codebrowser/src/lopcodes.c' l='122' u='r'/>
+<use f='codebrowser/src/lopcodes.c' l='122' u='r'/>
+<use f='codebrowser/src/luac.c' l='321' c='PrintCode'/>

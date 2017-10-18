@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/lobject.h' l='170'/>
+<use f='codebrowser/src/lapi.c' l='397' u='c'/>
+<use f='codebrowser/src/lapi.c' l='416' u='c'/>
+<use f='codebrowser/src/lapi.c' l='437' u='c'/>
+<use f='codebrowser/src/lapi.c' l='707' u='c'/>
+<use f='codebrowser/src/lapi.c' l='728' u='c'/>
+<use f='codebrowser/src/lapi.c' l='867' u='c'/>
+<use f='codebrowser/src/lapi.c' l='869' u='c'/>
+<use f='codebrowser/src/lapi.c' l='891' u='c'/>
+<use f='codebrowser/src/ltm.c' l='77' u='c'/>
+<use f='codebrowser/src/ltm.c' l='93' u='c'/>
+<use f='codebrowser/src/lvm.c' l='428' u='c'/>
+<use f='codebrowser/src/lvm.c' l='428' u='c'/>
+<use f='codebrowser/src/lvm.c' l='430' u='c'/>
+<use f='codebrowser/src/lvm.c' l='432' u='c'/>

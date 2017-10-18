@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lparser.c' l='51' type='int'/>
+<use f='codebrowser/src/lparser.c' l='405' u='r' c='findgotos'/>
+<use f='codebrowser/src/lparser.c' l='422' u='r' c='movegotosout'/>
+<use f='codebrowser/src/lparser.c' l='443' u='w' c='enterblock'/>
+<use f='codebrowser/src/lparser.c' l='491' u='r' c='leaveblock'/>
+<use f='codebrowser/src/lparser.c' l='492' u='r' c='leaveblock'/>
+<offset>96</offset>
+<doc f='codebrowser/src/lparser.c' l='51'>/* index of first pending goto in this block */</doc>

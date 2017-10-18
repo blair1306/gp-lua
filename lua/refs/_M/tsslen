@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lobject.h' l='336'/>
+<doc f='codebrowser/src/lobject.h' l='335'>/* get string length from &apos;TString *s&apos; */</doc>
+<use f='codebrowser/src/ldump.c' l='77' u='c'/>
+<use f='codebrowser/src/luac.c' l='229' u='c'/>
+<use f='codebrowser/src/lvm.c' l='250' u='c'/>
+<use f='codebrowser/src/lvm.c' l='252' u='c'/>

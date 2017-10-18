@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lobject.h' l='282'/>
+<use f='codebrowser/src/lapi.c' l='808' u='c'/>
+<use f='codebrowser/src/lapi.c' l='838' u='c'/>
+<doc f='codebrowser/src/lobject.h' l='281'>/* to table (define it as an expression to be used in macros) */</doc>
+<use f='codebrowser/src/ltable.c' l='609' u='c'/>
+<use f='codebrowser/src/lvm.c' l='216' u='c'/>

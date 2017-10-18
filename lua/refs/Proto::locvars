@@ -1,0 +1,30 @@
+<dec f='codebrowser/src/lobject.h' l='424' type='LocVar *'/>
+<offset>640</offset>
+<doc f='codebrowser/src/lobject.h' l='424'>/* information about local variables (debug information) */</doc>
+<use f='codebrowser/src/ldump.c' l='155' u='r' c='DumpDebug'/>
+<use f='codebrowser/src/ldump.c' l='156' u='r' c='DumpDebug'/>
+<use f='codebrowser/src/ldump.c' l='157' u='r' c='DumpDebug'/>
+<use f='codebrowser/src/lfunc.c' l='116' u='w' c='luaF_newproto'/>
+<use f='codebrowser/src/lfunc.c' l='130' u='r' c='luaF_freeproto'/>
+<use f='codebrowser/src/lfunc.c' l='130' u='r' c='luaF_freeproto'/>
+<use f='codebrowser/src/lfunc.c' l='142' u='r' c='luaF_getlocalname'/>
+<use f='codebrowser/src/lfunc.c' l='143' u='r' c='luaF_getlocalname'/>
+<use f='codebrowser/src/lfunc.c' l='146' u='r' c='luaF_getlocalname'/>
+<use f='codebrowser/src/lgc.c' l='491' u='r' c='traverseproto'/>
+<use f='codebrowser/src/lgc.c' l='491' u='r' c='traverseproto'/>
+<use f='codebrowser/src/lgc.c' l='491' u='r' c='traverseproto'/>
+<use f='codebrowser/src/lparser.c' l='165' u='w' c='registerlocalvar'/>
+<use f='codebrowser/src/lparser.c' l='165' u='r' c='registerlocalvar'/>
+<use f='codebrowser/src/lparser.c' l='168' u='r' c='registerlocalvar'/>
+<use f='codebrowser/src/lparser.c' l='169' u='r' c='registerlocalvar'/>
+<use f='codebrowser/src/lparser.c' l='198' u='r' c='getlocvar'/>
+<use f='codebrowser/src/lparser.c' l='566' u='w' c='close_func'/>
+<use f='codebrowser/src/lparser.c' l='566' u='r' c='close_func'/>
+<use f='codebrowser/src/luac.c' l='431' u='r' c='PrintDebug'/>
+<use f='codebrowser/src/luac.c' l='431' u='r' c='PrintDebug'/>
+<use f='codebrowser/src/luac.c' l='431' u='r' c='PrintDebug'/>
+<use f='codebrowser/src/lundump.c' l='187' u='w' c='LoadDebug'/>
+<use f='codebrowser/src/lundump.c' l='190' u='r' c='LoadDebug'/>
+<use f='codebrowser/src/lundump.c' l='192' u='r' c='LoadDebug'/>
+<use f='codebrowser/src/lundump.c' l='193' u='r' c='LoadDebug'/>
+<use f='codebrowser/src/lundump.c' l='194' u='r' c='LoadDebug'/>

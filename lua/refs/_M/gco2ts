@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lstate.h' l='207'/>
+<doc f='codebrowser/src/lstate.h' l='206'>/* macros to convert a GCObject into a specific value */</doc>
+<use f='codebrowser/src/lgc.c' l='241' u='c'/>
+<use f='codebrowser/src/lgc.c' l='246' u='c'/>
+<use f='codebrowser/src/lgc.c' l='711' u='c'/>
+<use f='codebrowser/src/lgc.c' l='712' u='c'/>
+<use f='codebrowser/src/lgc.c' l='715' u='c'/>
+<use f='codebrowser/src/lstring.c' l='139' u='c'/>

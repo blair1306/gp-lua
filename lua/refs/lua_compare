@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lua.h' l='218' type='int lua_compare(lua_State * L, int idx1, int idx2, int op)'/>
+<def f='codebrowser/src/lapi.c' l='318' ll='334' macro='1' type='int lua_compare(lua_State * L, int index1, int index2, int op)'/>
+<use f='codebrowser/src/lmathlib.c' l='221' u='c' c='math_min'/>
+<use f='codebrowser/src/lmathlib.c' l='235' u='c' c='math_max'/>
+<use f='codebrowser/src/ltablib.c' l='142' u='c' c='tmove'/>
+<use f='codebrowser/src/ltablib.c' l='289' u='c' c='sort_comp'/>

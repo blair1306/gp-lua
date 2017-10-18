@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/ltm.h' l='20' type='1'/>
+<use f='codebrowser/src/ldebug.c' l='514' u='r' c='funcnamefromcode'/>
+<use f='codebrowser/src/lvm.c' l='211' u='r' c='luaV_finishset'/>
+<use f='codebrowser/src/lvm.c' l='211' u='r' c='luaV_finishset'/>
+<use f='codebrowser/src/lvm.c' l='211' u='r' c='luaV_finishset'/>
+<use f='codebrowser/src/lvm.c' l='224' u='r' c='luaV_finishset'/>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/lparser.h' l='115' type='struct BlockCnt *'/>
+<offset>192</offset>
+<doc f='codebrowser/src/lparser.h' l='115'>/* chain of current blocks */</doc>
+<use f='codebrowser/src/lparser.c' l='259' u='r' c='markupval'/>
+<use f='codebrowser/src/lparser.c' l='367' u='r' c='findlabel'/>
+<use f='codebrowser/src/lparser.c' l='405' u='r' c='findgotos'/>
+<use f='codebrowser/src/lparser.c' l='445' u='r' c='enterblock'/>
+<use f='codebrowser/src/lparser.c' l='446' u='w' c='enterblock'/>
+<use f='codebrowser/src/lparser.c' l='474' u='r' c='leaveblock'/>
+<use f='codebrowser/src/lparser.c' l='484' u='w' c='leaveblock'/>
+<use f='codebrowser/src/lparser.c' l='544' u='w' c='open_func'/>
+<use f='codebrowser/src/lparser.c' l='1205' u='r' c='checkrepeated'/>
+<use f='codebrowser/src/lparser.c' l='1235' u='r' c='labelstat'/>

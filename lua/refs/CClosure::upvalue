@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/lobject.h' l='449' type='TValue [1]'/>
+<use f='codebrowser/src/lapi.c' l='81' u='a' c='index2addr'/>
+<use f='codebrowser/src/lapi.c' l='545' u='a' c='lua_pushcclosure'/>
+<use f='codebrowser/src/lapi.c' l='1202' u='a' c='aux_upvalue'/>
+<use f='codebrowser/src/lapi.c' l='1276' u='a' c='lua_upvalueid'/>
+<offset>256</offset>
+<doc f='codebrowser/src/lobject.h' l='449'>/* list of upvalues */</doc>
+<use f='codebrowser/src/lgc.c' l='504' u='a' c='traverseCclosure'/>
+<use f='codebrowser/src/lgc.c' l='504' u='a' c='traverseCclosure'/>
+<use f='codebrowser/src/lgc.c' l='504' u='a' c='traverseCclosure'/>

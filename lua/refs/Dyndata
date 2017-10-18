@@ -1,0 +1,6 @@
+<def f='codebrowser/src/lparser.h' l='95' ll='103'/>
+<size>48</size>
+<doc f='codebrowser/src/lparser.h' l='94'>/* dynamic structures used by the parser */</doc>
+<mbr r='Dyndata::actvar' o='0' t='struct (anonymous struct at /home/jon/workspace/lua-5.3.4/src/lparser.h:96:3)'/>
+<mbr r='Dyndata::gt' o='128' t='Labellist'/>
+<mbr r='Dyndata::label' o='256' t='Labellist'/>

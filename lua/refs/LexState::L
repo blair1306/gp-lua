@@ -1,0 +1,37 @@
+<dec f='codebrowser/src/llex.h' l='65' type='struct lua_State *'/>
+<use f='codebrowser/src/lcode.c' l='297' u='r' c='luaK_code'/>
+<use f='codebrowser/src/lcode.c' l='301' u='r' c='luaK_code'/>
+<use f='codebrowser/src/lcode.c' l='429' u='r' c='addk'/>
+<use f='codebrowser/src/lcode.c' l='983' u='r' c='constfolding'/>
+<offset>448</offset>
+<use f='codebrowser/src/llex.c' l='64' u='r' c='save'/>
+<use f='codebrowser/src/llex.c' l='85' u='r' c='luaX_token2str'/>
+<use f='codebrowser/src/llex.c' l='90' u='r' c='luaX_token2str'/>
+<use f='codebrowser/src/llex.c' l='102' u='r' c='txtToken'/>
+<use f='codebrowser/src/llex.c' l='110' u='r' c='lexerror'/>
+<use f='codebrowser/src/llex.c' l='112' u='r' c='lexerror'/>
+<use f='codebrowser/src/llex.c' l='113' u='r' c='lexerror'/>
+<use f='codebrowser/src/llex.c' l='128' u='r' c='luaX_newstring'/>
+<use f='codebrowser/src/llex.c' l='165' u='w' c='luaX_setinput'/>
+<use f='codebrowser/src/llex.c' l='174' u='r' c='luaX_setinput'/>
+<use f='codebrowser/src/llex.c' l='273' u='r' c='read_long_string'/>
+<use f='codebrowser/src/lparser.c' l='75' u='r' c='error_expected'/>
+<use f='codebrowser/src/lparser.c' l='80' u='r' c='errorlimit'/>
+<use f='codebrowser/src/lparser.c' l='127' u='r' c='check_match'/>
+<use f='codebrowser/src/lparser.c' l='165' u='r' c='registerlocalvar'/>
+<use f='codebrowser/src/lparser.c' l='170' u='r' c='registerlocalvar'/>
+<use f='codebrowser/src/lparser.c' l='181' u='r' c='new_localvar'/>
+<use f='codebrowser/src/lparser.c' l='232' u='r' c='newupvalue'/>
+<use f='codebrowser/src/lparser.c' l='239' u='r' c='newupvalue'/>
+<use f='codebrowser/src/lparser.c' l='332' u='r' c='enterlevel'/>
+<use f='codebrowser/src/lparser.c' l='349' u='r' c='closegoto'/>
+<use f='codebrowser/src/lparser.c' l='388' u='r' c='newlabelentry'/>
+<use f='codebrowser/src/lparser.c' l='455' u='r' c='breaklabel'/>
+<use f='codebrowser/src/lparser.c' l='468' u='r' c='undefgoto'/>
+<use f='codebrowser/src/lparser.c' l='501' u='r' c='addprototype'/>
+<use f='codebrowser/src/lparser.c' l='553' u='r' c='close_func'/>
+<use f='codebrowser/src/lparser.c' l='338' u='r' c='subexpr'/>
+<use f='codebrowser/src/lparser.c' l='1156' u='r' c='assignment'/>
+<use f='codebrowser/src/lparser.c' l='1195' u='r' c='gotostat'/>
+<use f='codebrowser/src/lparser.c' l='1207' u='r' c='checkrepeated'/>
+<use f='codebrowser/src/lparser.c' l='338' u='r' c='statement'/>

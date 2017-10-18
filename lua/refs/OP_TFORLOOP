@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/lopcodes.h' l='225' type='42'/>
+<doc f='codebrowser/src/lopcodes.h' l='225'>/*	A sBx	if R(A+1) ~= nil then { R(A)=R(A+1); pc += sBx }*/</doc>
+<use f='codebrowser/src/lparser.c' l='1310' u='r' c='forbody'/>
+<use f='codebrowser/src/luac.c' l='373' c='PrintCode'/>
+<use f='codebrowser/src/lvm.c' l='1255' c='luaV_execute'/>

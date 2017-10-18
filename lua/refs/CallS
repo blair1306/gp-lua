@@ -1,0 +1,6 @@
+<def f='codebrowser/src/lapi.c' l='934' ll='937'/>
+<size>16</size>
+<doc f='codebrowser/src/lapi.c' l='931'>/*
+** Execute a protected call.
+*/</doc>
+<doc f='codebrowser/src/lapi.c' l='934'>/* data to &apos;f_call&apos; */</doc>

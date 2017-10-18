@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/lstate.h' l='176' type='ptrdiff_t'/>
+<use f='codebrowser/src/lapi.c' l='976' u='r' c='lua_pcallk'/>
+<use f='codebrowser/src/lapi.c' l='977' u='w' c='lua_pcallk'/>
+<use f='codebrowser/src/lapi.c' l='982' u='w' c='lua_pcallk'/>
+<offset>1408</offset>
+<doc f='codebrowser/src/lstate.h' l='176'>/* current error handling function (stack index) */</doc>
+<use f='codebrowser/src/ldebug.c' l='641' u='r' c='luaG_errormsg'/>
+<use f='codebrowser/src/ldebug.c' l='642' u='r' c='luaG_errormsg'/>
+<use f='codebrowser/src/ldo.c' l='527' u='w' c='finishCcall'/>
+<use f='codebrowser/src/ldo.c' l='593' u='w' c='recover'/>
+<use f='codebrowser/src/ldo.c' l='727' u='r' c='luaD_pcall'/>
+<use f='codebrowser/src/ldo.c' l='728' u='w' c='luaD_pcall'/>
+<use f='codebrowser/src/ldo.c' l='739' u='w' c='luaD_pcall'/>
+<use f='codebrowser/src/ldo.c' l='793' u='r' c='luaD_protectedparser'/>
+<use f='codebrowser/src/lstate.c' l='238' u='w' c='preinit_thread'/>

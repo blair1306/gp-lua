@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/lstate.h' l='138' type='GCObject *'/>
+<offset>1024</offset>
+<doc f='codebrowser/src/lstate.h' l='138'>/* list of tables with weak values */</doc>
+<use f='codebrowser/src/lgc.c' l='339' u='w' c='restartcollection'/>
+<use f='codebrowser/src/lgc.c' l='380' u='r' c='traverseweakvalue'/>
+<use f='codebrowser/src/lgc.c' l='380' u='w' c='traverseweakvalue'/>
+<use f='codebrowser/src/lgc.c' l='1004' u='r' c='atomic'/>
+<use f='codebrowser/src/lgc.c' l='1006' u='r' c='atomic'/>
+<use f='codebrowser/src/lgc.c' l='1019' u='r' c='atomic'/>
+<use f='codebrowser/src/lstate.c' l='324' u='w' c='lua_newstate'/>

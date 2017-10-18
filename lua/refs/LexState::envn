@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/llex.h' l='71' type='TString *'/>
+<offset>832</offset>
+<doc f='codebrowser/src/llex.h' l='71'>/* environment variable name */</doc>
+<use f='codebrowser/src/llex.c' l='173' u='w' c='luaX_setinput'/>
+<use f='codebrowser/src/lparser.c' l='301' u='r' c='singlevar'/>
+<use f='codebrowser/src/lparser.c' l='1618' u='r' c='mainfunc'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lualib.h' l='33' type='int luaopen_string(lua_State * L)'/>
+<use f='codebrowser/src/linit.c' l='49' u='r'/>
+<use f='codebrowser/src/linit.c' l='49' u='r'/>
+<use f='codebrowser/src/linit.c' l='49' u='r'/>
+<use f='codebrowser/src/linit.c' l='49' u='r'/>
+<def f='codebrowser/src/lstrlib.c' l='1579' ll='1583' macro='1' type='int luaopen_string(lua_State * L)'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lstate.h' l='47'/>
+<use f='codebrowser/src/lapi.c' l='105' u='c'/>
+<doc f='codebrowser/src/lstate.h' l='46'>/* extra stack space to handle TM calls and some other extras */</doc>
+<use f='codebrowser/src/ldo.c' l='186' u='c'/>
+<use f='codebrowser/src/ldo.c' l='196' u='c'/>
+<use f='codebrowser/src/ldo.c' l='223' u='c'/>
+<use f='codebrowser/src/ldo.c' l='232' u='c'/>
+<use f='codebrowser/src/lstate.c' l='159' u='c'/>

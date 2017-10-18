@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/lmem.h' l='43'/>
+<use f='codebrowser/src/ldo.c' l='795' u='c'/>
+<use f='codebrowser/src/ldo.c' l='796' u='c'/>
+<use f='codebrowser/src/ldo.c' l='797' u='c'/>
+<use f='codebrowser/src/lfunc.c' l='126' u='c'/>
+<use f='codebrowser/src/lfunc.c' l='127' u='c'/>
+<use f='codebrowser/src/lfunc.c' l='128' u='c'/>
+<use f='codebrowser/src/lfunc.c' l='129' u='c'/>
+<use f='codebrowser/src/lfunc.c' l='130' u='c'/>
+<use f='codebrowser/src/lfunc.c' l='131' u='c'/>
+<use f='codebrowser/src/lstate.c' l='177' u='c'/>
+<use f='codebrowser/src/lstate.c' l='248' u='c'/>
+<use f='codebrowser/src/ltable.c' l='364' u='c'/>
+<use f='codebrowser/src/ltable.c' l='416' u='c'/>
+<use f='codebrowser/src/ltable.c' l='417' u='c'/>

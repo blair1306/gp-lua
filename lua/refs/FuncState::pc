@@ -1,0 +1,30 @@
+<dec f='codebrowser/src/lparser.h' l='116' type='int'/>
+<use f='codebrowser/src/lcode.c' l='67' u='r' c='luaK_nil'/>
+<use f='codebrowser/src/lcode.c' l='68' u='r' c='luaK_nil'/>
+<use f='codebrowser/src/lcode.c' l='169' u='r' c='luaK_getlabel'/>
+<use f='codebrowser/src/lcode.c' l='170' u='r' c='luaK_getlabel'/>
+<use f='codebrowser/src/lcode.c' l='243' u='r' c='dischargejpc'/>
+<use f='codebrowser/src/lcode.c' l='243' u='r' c='dischargejpc'/>
+<use f='codebrowser/src/lcode.c' l='264' u='r' c='luaK_patchlist'/>
+<use f='codebrowser/src/lcode.c' l='297' u='r' c='luaK_code'/>
+<use f='codebrowser/src/lcode.c' l='299' u='r' c='luaK_code'/>
+<use f='codebrowser/src/lcode.c' l='301' u='r' c='luaK_code'/>
+<use f='codebrowser/src/lcode.c' l='303' u='r' c='luaK_code'/>
+<use f='codebrowser/src/lcode.c' l='304' u='w' c='luaK_code'/>
+<use f='codebrowser/src/lcode.c' l='843' u='w' c='jumponcond'/>
+<use f='codebrowser/src/lcode.c' l='1178' u='r' c='luaK_fixline'/>
+<offset>256</offset>
+<doc f='codebrowser/src/lparser.h' l='116'>/* next position to code (equivalent to &apos;ncode&apos;) */</doc>
+<use f='codebrowser/src/lparser.c' l='206' u='r' c='adjustlocalvars'/>
+<use f='codebrowser/src/lparser.c' l='214' u='r' c='removevars'/>
+<use f='codebrowser/src/lparser.c' l='456' u='r' c='breaklabel'/>
+<use f='codebrowser/src/lparser.c' l='534' u='w' c='open_func'/>
+<use f='codebrowser/src/lparser.c' l='558' u='r' c='close_func'/>
+<use f='codebrowser/src/lparser.c' l='558' u='r' c='close_func'/>
+<use f='codebrowser/src/lparser.c' l='558' u='r' c='close_func'/>
+<use f='codebrowser/src/lparser.c' l='559' u='r' c='close_func'/>
+<use f='codebrowser/src/lparser.c' l='560' u='r' c='close_func'/>
+<use f='codebrowser/src/lparser.c' l='560' u='r' c='close_func'/>
+<use f='codebrowser/src/lparser.c' l='560' u='r' c='close_func'/>
+<use f='codebrowser/src/lparser.c' l='561' u='r' c='close_func'/>
+<use f='codebrowser/src/lparser.c' l='1438' u='r' c='localfunc'/>

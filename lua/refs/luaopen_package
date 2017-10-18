@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lualib.h' l='48' type='int luaopen_package(lua_State * L)'/>
+<use f='codebrowser/src/linit.c' l='44' u='r'/>
+<use f='codebrowser/src/linit.c' l='44' u='r'/>
+<use f='codebrowser/src/linit.c' l='44' u='r'/>
+<use f='codebrowser/src/linit.c' l='44' u='r'/>
+<def f='codebrowser/src/loadlib.c' l='767' ll='789' macro='1' type='int luaopen_package(lua_State * L)'/>

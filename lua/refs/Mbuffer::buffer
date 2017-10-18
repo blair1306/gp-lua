@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/lzio.h' l='24' type='char *'/>
+<offset>0</offset>
+<use f='codebrowser/src/ldo.c' l='792' macro='1' u='w'/>
+<use f='codebrowser/src/ldo.c' l='794' macro='1' u='w'/>
+<use f='codebrowser/src/ldo.c' l='794' macro='1' u='r'/>
+<use f='codebrowser/src/llex.c' l='64' macro='1' u='w'/>
+<use f='codebrowser/src/llex.c' l='64' macro='1' u='r'/>
+<use f='codebrowser/src/llex.c' l='66' u='r' c='save'/>
+<use f='codebrowser/src/llex.c' l='102' macro='1' u='r'/>
+<use f='codebrowser/src/llex.c' l='174' macro='1' u='w'/>
+<use f='codebrowser/src/llex.c' l='174' macro='1' u='r'/>
+<use f='codebrowser/src/llex.c' l='232' macro='1' u='r'/>
+<use f='codebrowser/src/llex.c' l='298' macro='1' u='r'/>
+<use f='codebrowser/src/llex.c' l='424' macro='1' u='r'/>
+<use f='codebrowser/src/llex.c' l='529' macro='1' u='r'/>

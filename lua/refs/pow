@@ -1,0 +1,4 @@
+<dec f='include/x86_64-linux-gnu/bits/mathcalls.h' l='153' type='double pow(double __x, double __y)'/>
+<use f='codebrowser/src/lmathlib.c' l='324' u='c' c='math_pow'/>
+<use f='codebrowser/src/lobject.c' l='110' macro='1' u='c'/>
+<use f='codebrowser/src/lvm.c' l='1026' macro='1' u='c'/>

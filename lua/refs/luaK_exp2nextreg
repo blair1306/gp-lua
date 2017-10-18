@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/lcode.h' l='64' type='void luaK_exp2nextreg(FuncState * fs, expdesc * e)'/>
+<def f='codebrowser/src/lcode.c' l='703' ll='708' type='void luaK_exp2nextreg(FuncState * fs, expdesc * e)'/>
+<use f='codebrowser/src/lcode.c' l='725' u='c' c='luaK_exp2anyreg'/>
+<use f='codebrowser/src/lcode.c' l='1097' u='c' c='luaK_infix'/>
+<use f='codebrowser/src/lcode.c' l='1151' u='c' c='luaK_posfix'/>
+<doc f='codebrowser/src/lcode.c' l='699'>/*
+** Ensures final expression result (including results from its jump
+** lists) is in next available register.
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='319' u='c' c='adjust_assign'/>
+<use f='codebrowser/src/lparser.c' l='525' u='c' c='codeclosure'/>
+<use f='codebrowser/src/lparser.c' l='669' u='c' c='closelistfield'/>
+<use f='codebrowser/src/lparser.c' l='687' u='c' c='lastlistfield'/>
+<use f='codebrowser/src/lparser.c' l='735' u='c' c='constructor'/>
+<use f='codebrowser/src/lparser.c' l='809' u='c' c='explist'/>
+<use f='codebrowser/src/lparser.c' l='852' u='c' c='funcargs'/>
+<use f='codebrowser/src/lparser.c' l='921' u='c' c='suffixedexp'/>
+<use f='codebrowser/src/lparser.c' l='1284' u='c' c='exp1'/>
+<use f='codebrowser/src/lparser.c' l='1526' u='c' c='retstat'/>

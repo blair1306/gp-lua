@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/lobject.h' l='389' type='lu_byte'/>
+<offset>72</offset>
+<doc f='codebrowser/src/lobject.h' l='389'>/* index of upvalue (in stack or in outer function&apos;s list) */</doc>
+<use f='codebrowser/src/ldump.c' l='142' u='r' c='DumpUpvalues'/>
+<use f='codebrowser/src/lparser.c' l='237' u='w' c='newupvalue'/>
+<use f='codebrowser/src/luac.c' l='438' u='r' c='PrintDebug'/>
+<use f='codebrowser/src/lundump.c' l='175' u='w' c='LoadUpvalues'/>
+<use f='codebrowser/src/lvm.c' l='617' u='r' c='getcached'/>
+<use f='codebrowser/src/lvm.c' l='617' u='r' c='getcached'/>
+<use f='codebrowser/src/lvm.c' l='642' u='r' c='pushclosure'/>
+<use f='codebrowser/src/lvm.c' l='644' u='r' c='pushclosure'/>

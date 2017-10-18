@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/llex.h' l='70' type='TString *'/>
+<offset>768</offset>
+<doc f='codebrowser/src/llex.h' l='70'>/* current source name */</doc>
+<use f='codebrowser/src/llex.c' l='110' u='r' c='lexerror'/>
+<use f='codebrowser/src/llex.c' l='172' u='w' c='luaX_setinput'/>
+<use f='codebrowser/src/lparser.c' l='546' u='r' c='open_func'/>

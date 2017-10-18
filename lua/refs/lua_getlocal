@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lua.h' l='426' type='const char * lua_getlocal(lua_State * L, const lua_Debug * ar, int n)'/>
+<use f='codebrowser/src/ldblib.c' l='201' u='c' c='db_getlocal'/>
+<use f='codebrowser/src/ldblib.c' l='209' u='c' c='db_getlocal'/>
+<def f='codebrowser/src/ldebug.c' l='171' ll='192' macro='1' type='const char * lua_getlocal(lua_State * L, const lua_Debug * ar, int n)'/>

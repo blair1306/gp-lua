@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/llex.h' l='81' type='void luaX_syntaxerror(LexState * ls, const char * s)'/>
+<use f='codebrowser/src/lcode.c' l='108' u='c' c='fixjump'/>
+<use f='codebrowser/src/lcode.c' l='365' u='c' c='luaK_checkstack'/>
+<use f='codebrowser/src/lcode.c' l='1200' u='c' c='luaK_setlist'/>
+<def f='codebrowser/src/llex.c' l='117' ll='119' macro='1' type='void luaX_syntaxerror(LexState * ls, const char * msg)'/>
+<use f='codebrowser/src/lparser.c' l='69' u='c' c='semerror'/>
+<use f='codebrowser/src/lparser.c' l='74' u='c' c='error_expected'/>
+<use f='codebrowser/src/lparser.c' l='88' u='c' c='errorlimit'/>
+<use f='codebrowser/src/lparser.c' l='127' u='c' c='check_match'/>
+<use f='codebrowser/src/lparser.c' l='772' u='c' c='parlist'/>
+<use f='codebrowser/src/lparser.c' l='843' u='c' c='funcargs'/>
+<use f='codebrowser/src/lparser.c' l='887' u='c' c='primaryexp'/>
+<use f='codebrowser/src/lparser.c' l='118' u='c' c='simpleexp'/>
+<use f='codebrowser/src/lparser.c' l='118' u='c' c='assignment'/>
+<use f='codebrowser/src/lparser.c' l='1375' u='c' c='forstat'/>
+<use f='codebrowser/src/lparser.c' l='118' u='c' c='exprstat'/>

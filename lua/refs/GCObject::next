@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/lobject.h' l='79' type='GCObject *'/>
+<offset>0</offset>
+<use f='codebrowser/src/lgc.c' l='198' u='r' c='luaC_fix'/>
+<use f='codebrowser/src/lgc.c' l='199' u='w' c='luaC_fix'/>
+<use f='codebrowser/src/lgc.c' l='213' u='w' c='luaC_newobj'/>
+<use f='codebrowser/src/lgc.c' l='301' u='r' c='markbeingfnz'/>
+<use f='codebrowser/src/lgc.c' l='742' u='r' c='sweeplist'/>
+<use f='codebrowser/src/lgc.c' l='747' u='a' c='sweeplist'/>
+<use f='codebrowser/src/lgc.c' l='790' u='r' c='udata2finalize'/>
+<use f='codebrowser/src/lgc.c' l='791' u='w' c='udata2finalize'/>
+<use f='codebrowser/src/lgc.c' l='870' u='a' c='findlast'/>
+<use f='codebrowser/src/lgc.c' l='886' u='a' c='separatetobefnz'/>
+<use f='codebrowser/src/lgc.c' l='888' u='r' c='separatetobefnz'/>
+<use f='codebrowser/src/lgc.c' l='889' u='w' c='separatetobefnz'/>
+<use f='codebrowser/src/lgc.c' l='891' u='a' c='separatetobefnz'/>
+<use f='codebrowser/src/lgc.c' l='910' u='a' c='luaC_checkfinalizer'/>
+<use f='codebrowser/src/lgc.c' l='914' u='a' c='luaC_checkfinalizer'/>
+<use f='codebrowser/src/lgc.c' l='915' u='r' c='luaC_checkfinalizer'/>
+<use f='codebrowser/src/lgc.c' l='916' u='w' c='luaC_checkfinalizer'/>

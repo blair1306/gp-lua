@@ -1,0 +1,24 @@
+<dec f='codebrowser/src/lobject.h' l='103' type='int'/>
+<use f='codebrowser/src/lapi.c' l='369' macro='1' u='r'/>
+<use f='codebrowser/src/lapi.c' l='558' macro='1' u='w'/>
+<offset>0</offset>
+<doc f='codebrowser/src/lobject.h' l='103'>/* booleans */</doc>
+<use f='codebrowser/src/lcode.c' l='493' macro='1' u='w'/>
+<use f='codebrowser/src/ldebug.c' l='241' macro='1' u='w'/>
+<use f='codebrowser/src/ldump.c' l='109' macro='1' u='r'/>
+<use f='codebrowser/src/llex.c' l='136' macro='1' u='w'/>
+<use f='codebrowser/src/ltable.c' l='128' macro='1' u='r'/>
+<use f='codebrowser/src/ltm.c' l='163' macro='1' u='r'/>
+<use f='codebrowser/src/luac.c' l='263' macro='1' u='r'/>
+<use f='codebrowser/src/lundump.c' l='133' macro='1' u='w'/>
+<use f='codebrowser/src/lvm.c' l='422' macro='1' u='r'/>
+<use f='codebrowser/src/lvm.c' l='422' macro='1' u='r'/>
+<use f='codebrowser/src/lvm.c' l='449' macro='1' u='r'/>
+<use f='codebrowser/src/lvm.c' l='671' macro='1' u='r'/>
+<use f='codebrowser/src/lvm.c' l='820' macro='1' u='w'/>
+<use f='codebrowser/src/lvm.c' l='1059' macro='1' u='r'/>
+<use f='codebrowser/src/lvm.c' l='1060' macro='1' u='w'/>
+<use f='codebrowser/src/lvm.c' l='1114' macro='1' u='r'/>
+<use f='codebrowser/src/lvm.c' l='1114' macro='1' u='r'/>
+<use f='codebrowser/src/lvm.c' l='1122' macro='1' u='r'/>
+<use f='codebrowser/src/lvm.c' l='1122' macro='1' u='r'/>

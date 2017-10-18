@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/lobject.h' l='79' type='lu_byte'/>
+<offset>64</offset>
+<use f='codebrowser/src/ldebug.c' l='34' u='r' c='funcinfo'/>
+<use f='codebrowser/src/ldebug.c' l='34' u='r' c='collectvalidlines'/>
+<use f='codebrowser/src/ldebug.c' l='34' u='r' c='auxgetinfo'/>

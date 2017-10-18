@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lua.h' l='181' type='lua_Number lua_tonumberx(lua_State * L, int idx, int * isnum)'/>
+<def f='codebrowser/src/lapi.c' l='345' ll='353' macro='1' type='lua_Number lua_tonumberx(lua_State * L, int idx, int * pisnum)'/>
+<use f='codebrowser/src/lauxlib.c' l='410' u='c' c='luaL_checknumber'/>
+<use f='codebrowser/src/lauxlib.c' l='821' macro='1' u='c'/>
+<use f='codebrowser/src/liolib.c' l='625' macro='1' u='c'/>
+<use f='codebrowser/src/lstrlib.c' l='955' macro='1' u='c'/>

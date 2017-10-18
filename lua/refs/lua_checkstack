@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lua.h' l='164' type='int lua_checkstack(lua_State * L, int n)'/>
+<def f='codebrowser/src/lapi.c' l='97' ll='115' macro='1' type='int lua_checkstack(lua_State * L, int n)'/>
+<use f='codebrowser/src/lauxlib.c' l='369' u='c' c='luaL_checkstack'/>
+<use f='codebrowser/src/lcorolib.c' l='30' u='c' c='auxresume'/>
+<use f='codebrowser/src/lcorolib.c' l='42' u='c' c='auxresume'/>
+<use f='codebrowser/src/ldblib.c' l='36' u='c' c='checkstack'/>
+<use f='codebrowser/src/ltablib.c' l='213' u='c' c='unpack'/>
+<use f='codebrowser/src/luac.c' l='171' u='c' c='pmain'/>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/lobject.h' l='536' type='int luaO_ceillog2(unsigned int x)'/>
+<def f='codebrowser/src/lobject.c' l='65' ll='80' type='int luaO_ceillog2(unsigned int x)'/>
+<doc f='codebrowser/src/lobject.c' l='62'>/*
+** Computes ceil(log2(x))
+*/</doc>
+<use f='codebrowser/src/ltable.c' l='244' u='c' c='countint'/>
+<use f='codebrowser/src/ltable.c' l='316' u='c' c='setnodevector'/>

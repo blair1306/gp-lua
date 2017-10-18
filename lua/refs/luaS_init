@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lstring.h' l='41' type='void luaS_init(lua_State * L)'/>
+<use f='codebrowser/src/lstate.c' l='208' u='c' c='f_luaopen'/>
+<def f='codebrowser/src/lstring.c' l='116' ll='126' type='void luaS_init(lua_State * L)'/>
+<doc f='codebrowser/src/lstring.c' l='113'>/*
+** Initialize the string table and the string cache
+*/</doc>

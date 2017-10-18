@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/lstring.h' l='43' type='Udata * luaS_newudata(lua_State * L, size_t s)'/>
+<use f='codebrowser/src/lapi.c' l='1186' u='c' c='lua_newuserdata'/>
+<def f='codebrowser/src/lstring.c' l='236' ll='247' type='Udata * luaS_newudata(lua_State * L, size_t s)'/>

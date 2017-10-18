@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lgc.h' l='144' type='void luaC_upvdeccount(lua_State * L, UpVal * uv)'/>
+<use f='codebrowser/src/lapi.c' l='1291' u='c' c='lua_upvaluejoin'/>
+<def f='codebrowser/src/lgc.c' l='677' ll='682' type='void luaC_upvdeccount(lua_State * L, UpVal * uv)'/>
+<use f='codebrowser/src/lgc.c' l='690' u='c' c='freeLclosure'/>

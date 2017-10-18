@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/ldo.h' l='42' type='int luaD_precall(lua_State * L, StkId func, int nresults)'/>
+<def f='codebrowser/src/ldo.c' l='413' ll='471' type='int luaD_precall(lua_State * L, StkId func, int nresults)'/>
+<use f='codebrowser/src/ldo.c' l='468' u='c' c='luaD_precall'/>
+<use f='codebrowser/src/ldo.c' l='498' u='c' c='luaD_call'/>
+<use f='codebrowser/src/ldo.c' l='624' u='c' c='resume'/>
+<doc f='codebrowser/src/ldo.c' l='406'>/*
+** Prepares a function call: checks the stack, creates a new CallInfo
+** entry, fills in the relevant information, calls hook if needed.
+** If function is a C function, does the call, too. (Otherwise, leave
+** the execution (&apos;luaV_execute&apos;) to the caller, to allow stackless
+** calls.) Returns true iff function has been executed (C function).
+*/</doc>
+<use f='codebrowser/src/lvm.c' l='1134' u='c' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='1149' u='c' c='luaV_execute'/>

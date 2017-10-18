@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/lobject.h' l='544' type='const char * luaO_pushfstring(lua_State * L, const char * fmt)'/>
+<use f='codebrowser/src/ldebug.c' l='581' u='c' c='varinfo'/>
+<use f='codebrowser/src/ldebug.c' l='636' u='c' c='luaG_addinfo'/>
+<use f='codebrowser/src/ldo.c' l='759' u='c' c='checkmode'/>
+<use f='codebrowser/src/lgc.c' l='831' u='c' c='GCTM'/>
+<use f='codebrowser/src/llex.c' l='85' u='c' c='luaX_token2str'/>
+<use f='codebrowser/src/llex.c' l='90' u='c' c='luaX_token2str'/>
+<use f='codebrowser/src/llex.c' l='102' u='c' c='txtToken'/>
+<use f='codebrowser/src/llex.c' l='112' u='c' c='lexerror'/>
+<use f='codebrowser/src/llex.c' l='273' u='c' c='read_long_string'/>
+<use f='codebrowser/src/lobject.c' l='418' u='c' c='luaO_pushvfstring'/>
+<def f='codebrowser/src/lobject.c' l='467' ll='474' type='const char * luaO_pushfstring(lua_State * L, const char * fmt)'/>
+<use f='codebrowser/src/lparser.c' l='75' u='c' c='error_expected'/>
+<use f='codebrowser/src/lparser.c' l='85' u='c' c='errorlimit'/>
+<use f='codebrowser/src/lparser.c' l='86' u='c' c='errorlimit'/>
+<use f='codebrowser/src/lparser.c' l='127' u='c' c='check_match'/>
+<use f='codebrowser/src/lparser.c' l='349' u='c' c='closegoto'/>
+<use f='codebrowser/src/lparser.c' l='468' u='c' c='undefgoto'/>
+<use f='codebrowser/src/lparser.c' l='1207' u='c' c='checkrepeated'/>
+<use f='codebrowser/src/lundump.c' l='40' u='c' c='error'/>
+<use f='codebrowser/src/lundump.c' l='230' u='c' c='fchecksize'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/lobject.h' l='541' type='void luaO_tostring(lua_State * L, StkId obj)'/>
+<use f='codebrowser/src/lapi.c' l='381' u='c' c='lua_tolstring'/>
+<def f='codebrowser/src/lobject.c' l='371' ll='387' type='void luaO_tostring(lua_State * L, StkId obj)'/>
+<use f='codebrowser/src/lobject.c' l='433' u='c' c='luaO_pushvfstring'/>
+<doc f='codebrowser/src/lobject.c' l='368'>/*
+** Convert a number object to a string
+*/</doc>
+<use f='codebrowser/src/lvm.c' l='455' u='c' c='luaV_concat'/>
+<use f='codebrowser/src/lvm.c' l='455' u='c' c='luaV_concat'/>
+<use f='codebrowser/src/lvm.c' l='455' u='c' c='luaV_concat'/>

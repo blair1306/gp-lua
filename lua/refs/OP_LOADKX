@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/lopcodes.h' l='173' type='2'/>
+<use f='codebrowser/src/lcode.c' l='350' u='r' c='luaK_codek'/>
+<doc f='codebrowser/src/lopcodes.h' l='173'>/*	A 	R(A) := Kst(extra arg)				*/</doc>
+<use f='codebrowser/src/ldebug.c' l='464' c='getobjname'/>
+<use f='codebrowser/src/lvm.c' l='812' c='luaV_execute'/>

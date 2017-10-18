@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/lauxlib.h' l='32' type='const char *'/>
+<use f='codebrowser/src/lauxlib.c' l='936' u='r' c='luaL_setfuncs'/>
+<use f='codebrowser/src/lauxlib.c' l='941' u='r' c='luaL_setfuncs'/>
+<offset>0</offset>
+<use f='codebrowser/src/linit.c' l='64' u='r' c='luaL_openlibs'/>

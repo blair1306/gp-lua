@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/lstate.h' l='183' type='lu_byte'/>
+<use f='codebrowser/src/lapi.c' l='978' u='r' c='lua_pcallk'/>
+<offset>1632</offset>
+<use f='codebrowser/src/ldo.c' l='255' u='r' c='luaD_hook'/>
+<use f='codebrowser/src/ldo.c' l='266' u='w' c='luaD_hook'/>
+<use f='codebrowser/src/ldo.c' l='272' u='w' c='luaD_hook'/>
+<use f='codebrowser/src/ldo.c' l='590' u='w' c='recover'/>
+<use f='codebrowser/src/ldo.c' l='725' u='r' c='luaD_pcall'/>
+<use f='codebrowser/src/ldo.c' l='735' u='w' c='luaD_pcall'/>
+<use f='codebrowser/src/lgc.c' l='814' u='r' c='GCTM'/>
+<use f='codebrowser/src/lgc.c' l='816' u='w' c='GCTM'/>
+<use f='codebrowser/src/lgc.c' l='824' u='w' c='GCTM'/>
+<use f='codebrowser/src/lstate.c' l='233' u='w' c='preinit_thread'/>

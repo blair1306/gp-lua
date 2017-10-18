@@ -1,0 +1,24 @@
+<dec f='codebrowser/src/lstate.h' l='136' type='GCObject *'/>
+<offset>896</offset>
+<doc f='codebrowser/src/lstate.h' l='136'>/* list of gray objects */</doc>
+<use f='codebrowser/src/lgc.c' l='262' u='r' c='reallymarkobject'/>
+<use f='codebrowser/src/lgc.c' l='262' u='w' c='reallymarkobject'/>
+<use f='codebrowser/src/lgc.c' l='266' u='r' c='reallymarkobject'/>
+<use f='codebrowser/src/lgc.c' l='266' u='w' c='reallymarkobject'/>
+<use f='codebrowser/src/lgc.c' l='270' u='r' c='reallymarkobject'/>
+<use f='codebrowser/src/lgc.c' l='270' u='w' c='reallymarkobject'/>
+<use f='codebrowser/src/lgc.c' l='274' u='r' c='reallymarkobject'/>
+<use f='codebrowser/src/lgc.c' l='274' u='w' c='reallymarkobject'/>
+<use f='codebrowser/src/lgc.c' l='278' u='r' c='reallymarkobject'/>
+<use f='codebrowser/src/lgc.c' l='278' u='w' c='reallymarkobject'/>
+<use f='codebrowser/src/lgc.c' l='338' u='w' c='restartcollection'/>
+<use f='codebrowser/src/lgc.c' l='561' u='r' c='propagatemark'/>
+<use f='codebrowser/src/lgc.c' l='567' u='w' c='propagatemark'/>
+<use f='codebrowser/src/lgc.c' l='573' u='w' c='propagatemark'/>
+<use f='codebrowser/src/lgc.c' l='579' u='w' c='propagatemark'/>
+<use f='codebrowser/src/lgc.c' l='585' u='w' c='propagatemark'/>
+<use f='codebrowser/src/lgc.c' l='593' u='w' c='propagatemark'/>
+<use f='codebrowser/src/lgc.c' l='604' u='r' c='propagateall'/>
+<use f='codebrowser/src/lgc.c' l='998' u='w' c='atomic'/>
+<use f='codebrowser/src/lgc.c' l='1057' u='r' c='singlestep'/>
+<use f='codebrowser/src/lstate.c' l='323' u='w' c='lua_newstate'/>

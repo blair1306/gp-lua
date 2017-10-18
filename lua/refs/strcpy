@@ -1,0 +1,5 @@
+<dec f='include/string.h' l='125' type='char * strcpy(char *restrict __dest, const char *restrict __src)'/>
+<doc f='include/string.h' l='124'>/* Copy SRC to DEST.  */</doc>
+<use f='codebrowser/src/lobject.c' l='286' u='c' c='l_str2d'/>
+<use f='codebrowser/src/loslib.c' l='122' u='c' c='os_tmpname'/>
+<use f='codebrowser/src/lstrlib.c' l='1010' u='c' c='addlenmod'/>

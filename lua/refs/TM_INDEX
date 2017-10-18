@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/ltm.h' l='19' type='0'/>
+<use f='codebrowser/src/ldebug.c' l='511' u='r' c='funcnamefromcode'/>
+<use f='codebrowser/src/lvm.c' l='167' u='r' c='luaV_finishget'/>
+<use f='codebrowser/src/lvm.c' l='174' u='r' c='luaV_finishget'/>
+<use f='codebrowser/src/lvm.c' l='174' u='r' c='luaV_finishget'/>
+<use f='codebrowser/src/lvm.c' l='174' u='r' c='luaV_finishget'/>

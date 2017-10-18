@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/ldebug.h' l='18'/>
+<use f='codebrowser/src/ldebug.c' l='90' u='c'/>
+<use f='codebrowser/src/ldebug.c' l='670' u='c'/>
+<use f='codebrowser/src/lstate.c' l='234' u='c'/>
+<use f='codebrowser/src/lstate.c' l='274' u='c'/>

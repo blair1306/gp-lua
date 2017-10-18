@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/ltm.h' l='58' type='const char * luaT_objtypename(lua_State * L, const TValue * o)'/>
+<use f='codebrowser/src/ldebug.c' l='586' u='c' c='luaG_typeerror'/>
+<use f='codebrowser/src/ldebug.c' l='618' u='c' c='luaG_ordererror'/>
+<use f='codebrowser/src/ldebug.c' l='619' u='c' c='luaG_ordererror'/>
+<def f='codebrowser/src/ltm.c' l='90' ll='99' type='const char * luaT_objtypename(lua_State * L, const TValue * o)'/>
+<doc f='codebrowser/src/ltm.c' l='86'>/*
+** Return the name of the type of an object. For tables and userdata
+** with metatable, use their &apos;__name&apos; metafield, if present.
+*/</doc>

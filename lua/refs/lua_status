@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lua.h' l='292' type='int lua_status(lua_State * L)'/>
+<def f='codebrowser/src/lapi.c' l='1030' ll='1032' macro='1' type='int lua_status(lua_State * L)'/>
+<use f='codebrowser/src/lcorolib.c' l='34' u='c' c='auxresume'/>
+<use f='codebrowser/src/lcorolib.c' l='115' u='c' c='luaB_costatus'/>

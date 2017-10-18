@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/lobject.h' l='420' type='TValue *'/>
+<offset>384</offset>
+<doc f='codebrowser/src/lobject.h' l='420'>/* constants used by the function */</doc>
+<use f='codebrowser/src/lcode.c' l='436' u='r' c='addk'/>
+<use f='codebrowser/src/lcode.c' l='437' u='r' c='addk'/>
+<use f='codebrowser/src/lcode.c' l='446' u='w' c='addk'/>
+<use f='codebrowser/src/lcode.c' l='446' u='r' c='addk'/>
+<use f='codebrowser/src/lcode.c' l='447' u='r' c='addk'/>
+<use f='codebrowser/src/lcode.c' l='448' u='r' c='addk'/>
+<use f='codebrowser/src/ldebug.c' l='357' u='r' c='kname'/>
+<use f='codebrowser/src/ldebug.c' l='467' u='r' c='getobjname'/>
+<use f='codebrowser/src/ldebug.c' l='468' u='r' c='getobjname'/>
+<use f='codebrowser/src/ldump.c' l='103' u='r' c='DumpConstants'/>
+<use f='codebrowser/src/lfunc.c' l='102' u='w' c='luaF_newproto'/>
+<use f='codebrowser/src/lfunc.c' l='128' u='r' c='luaF_freeproto'/>
+<use f='codebrowser/src/lfunc.c' l='128' u='r' c='luaF_freeproto'/>
+<use f='codebrowser/src/lgc.c' l='485' u='r' c='traverseproto'/>
+<use f='codebrowser/src/lgc.c' l='485' u='r' c='traverseproto'/>
+<use f='codebrowser/src/lgc.c' l='485' u='r' c='traverseproto'/>
+<use f='codebrowser/src/lparser.c' l='562' u='w' c='close_func'/>
+<use f='codebrowser/src/lparser.c' l='562' u='r' c='close_func'/>
+<use f='codebrowser/src/luac.c' l='256' u='r' c='PrintConstant'/>
+<use f='codebrowser/src/lundump.c' l='121' u='w' c='LoadConstants'/>
+<use f='codebrowser/src/lundump.c' l='124' u='r' c='LoadConstants'/>
+<use f='codebrowser/src/lundump.c' l='126' u='r' c='LoadConstants'/>
+<use f='codebrowser/src/lvm.c' l='795' u='r' c='luaV_execute'/>

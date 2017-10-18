@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lstate.h' l='174' type='CallInfo'/>
+<offset>768</offset>
+<doc f='codebrowser/src/lstate.h' l='174'>/* CallInfo for first level (C calling Lua) */</doc>
+<use f='codebrowser/src/ldebug.c' l='115' u='a' c='lua_getstack'/>
+<use f='codebrowser/src/ldebug.c' l='117' u='a' c='lua_getstack'/>
+<use f='codebrowser/src/ldo.c' l='551' u='a' c='unroll'/>
+<use f='codebrowser/src/ldo.c' l='653' u='a' c='lua_resume'/>
+<use f='codebrowser/src/lstate.c' l='161' u='a' c='stack_init'/>
+<use f='codebrowser/src/lstate.c' l='174' u='a' c='freestack'/>

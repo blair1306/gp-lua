@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/ltm.h' l='39' type='20'/>
+<use f='codebrowser/src/ldebug.c' l='528' u='r' c='funcnamefromcode'/>
+<use f='codebrowser/src/lvm.c' l='370' u='r' c='luaV_lessthan'/>
+<use f='codebrowser/src/lvm.c' l='394' u='r' c='luaV_lessequal'/>

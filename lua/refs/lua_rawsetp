@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lua.h' l='264' type='void lua_rawsetp(lua_State * L, int idx, const void * p)'/>
+<def f='codebrowser/src/lapi.c' l='829' ll='842' macro='1' type='void lua_rawsetp(lua_State * L, int idx, const void * p)'/>
+<use f='codebrowser/src/ldblib.c' l='364' u='c' c='db_sethook'/>
+<use f='codebrowser/src/loadlib.c' l='763' u='c' c='createclibstable'/>

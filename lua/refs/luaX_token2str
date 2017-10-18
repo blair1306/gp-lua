@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/llex.h' l='82' type='const char * luaX_token2str(LexState * ls, int token)'/>
+<def f='codebrowser/src/llex.c' l='82' ll='94' type='const char * luaX_token2str(LexState * ls, int token)'/>
+<use f='codebrowser/src/llex.c' l='104' u='c' c='txtToken'/>
+<use f='codebrowser/src/lparser.c' l='75' u='c' c='error_expected'/>
+<use f='codebrowser/src/lparser.c' l='129' u='c' c='check_match'/>
+<use f='codebrowser/src/lparser.c' l='129' u='c' c='check_match'/>

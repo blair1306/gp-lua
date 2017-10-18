@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/ldo.h' l='39' type='int luaD_protectedparser(lua_State * L, ZIO * z, const char * name, const char * mode)'/>
+<use f='codebrowser/src/lapi.c' l='998' u='c' c='lua_load'/>
+<def f='codebrowser/src/ldo.c' l='783' ll='800' type='int luaD_protectedparser(lua_State * L, ZIO * z, const char * name, const char * mode)'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lstate.h' l='120' type='lua_Alloc'/>
+<use f='codebrowser/src/lapi.c' l='1169' u='r' c='lua_getallocf'/>
+<use f='codebrowser/src/lapi.c' l='1178' u='w' c='lua_setallocf'/>
+<offset>0</offset>
+<doc f='codebrowser/src/lstate.h' l='120'>/* function to reallocate memory */</doc>
+<use f='codebrowser/src/lmem.c' l='86' u='r' c='luaM_realloc_'/>
+<use f='codebrowser/src/lmem.c' l='91' u='r' c='luaM_realloc_'/>
+<use f='codebrowser/src/lstate.c' l='251' u='r' c='close_state'/>
+<use f='codebrowser/src/lstate.c' l='308' u='w' c='lua_newstate'/>

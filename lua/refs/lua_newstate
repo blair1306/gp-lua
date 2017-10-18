@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lua.h' l='145' type='lua_State * lua_newstate(lua_Alloc f, void * ud)'/>
+<use f='codebrowser/src/lauxlib.c' l='1027' u='c' c='luaL_newstate'/>
+<use f='codebrowser/src/lstate.c' l='88' u='a' c='makeseed'/>
+<def f='codebrowser/src/lstate.c' l='295' ll='338' macro='1' type='lua_State * lua_newstate(lua_Alloc f, void * ud)'/>

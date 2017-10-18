@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lobject.h' l='426' type='struct LClosure *'/>
+<offset>768</offset>
+<doc f='codebrowser/src/lobject.h' l='426'>/* last-created closure with this prototype */</doc>
+<use f='codebrowser/src/lfunc.c' l='107' u='w' c='luaF_newproto'/>
+<use f='codebrowser/src/lgc.c' l='481' u='r' c='traverseproto'/>
+<use f='codebrowser/src/lgc.c' l='481' u='r' c='traverseproto'/>
+<use f='codebrowser/src/lgc.c' l='482' u='w' c='traverseproto'/>
+<use f='codebrowser/src/lvm.c' l='611' u='r' c='getcached'/>
+<use f='codebrowser/src/lvm.c' l='649' u='w' c='pushclosure'/>

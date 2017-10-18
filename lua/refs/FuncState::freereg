@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/lparser.h' l='125' type='lu_byte'/>
+<use f='codebrowser/src/lcode.c' l='362' u='r' c='luaK_checkstack'/>
+<use f='codebrowser/src/lcode.c' l='377' u='w' c='luaK_reserveregs'/>
+<use f='codebrowser/src/lcode.c' l='388' u='w' c='freereg'/>
+<use f='codebrowser/src/lcode.c' l='522' u='r' c='luaK_setreturns'/>
+<use f='codebrowser/src/lcode.c' l='644' u='r' c='discharge2anyreg'/>
+<use f='codebrowser/src/lcode.c' l='707' u='r' c='luaK_exp2nextreg'/>
+<use f='codebrowser/src/lcode.c' l='814' u='r' c='luaK_self'/>
+<use f='codebrowser/src/lcode.c' l='1201' u='w' c='luaK_setlist'/>
+<offset>480</offset>
+<doc f='codebrowser/src/lparser.h' l='125'>/* first free register */</doc>
+<use f='codebrowser/src/lparser.c' l='321' u='r' c='adjust_assign'/>
+<use f='codebrowser/src/lparser.c' l='327' u='w' c='adjust_assign'/>
+<use f='codebrowser/src/lparser.c' l='487' u='w' c='leaveblock'/>
+<use f='codebrowser/src/lparser.c' l='537' u='w' c='open_func'/>
+<use f='codebrowser/src/lparser.c' l='649' u='r' c='recfield'/>
+<use f='codebrowser/src/lparser.c' l='663' u='w' c='recfield'/>
+<use f='codebrowser/src/lparser.c' l='853' u='r' c='funcargs'/>
+<use f='codebrowser/src/lparser.c' l='857' u='w' c='funcargs'/>
+<use f='codebrowser/src/lparser.c' l='1121' u='r' c='check_conflict'/>
+<use f='codebrowser/src/lparser.c' l='1172' u='r' c='assignment'/>
+<use f='codebrowser/src/lparser.c' l='1320' u='r' c='fornum'/>
+<use f='codebrowser/src/lparser.c' l='1332' u='r' c='fornum'/>
+<use f='codebrowser/src/lparser.c' l='1345' u='r' c='forlist'/>
+<use f='codebrowser/src/lparser.c' l='1601' u='w' c='statement'/>

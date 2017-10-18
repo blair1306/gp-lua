@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lua.h' l='163' type='void lua_copy(lua_State * L, int fromidx, int toidx)'/>
+<def f='codebrowser/src/lapi.c' l='222' ll='234' macro='1' type='void lua_copy(lua_State * L, int fromidx, int toidx)'/>
+<use f='codebrowser/src/lauxlib.c' l='83' u='c' c='pushglobalfuncname'/>
+<use f='codebrowser/src/lbaselib.c' l='329' macro='1' u='c'/>
+<use f='codebrowser/src/liolib.c' l='356' macro='1' u='c'/>
+<use f='codebrowser/src/liolib.c' l='363' macro='1' u='c'/>

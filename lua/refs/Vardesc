@@ -1,0 +1,4 @@
+<def f='codebrowser/src/lparser.h' l='72' ll='74'/>
+<size>2</size>
+<doc f='codebrowser/src/lparser.h' l='71'>/* description of active local variable */</doc>
+<mbr r='Vardesc::idx' o='0' t='short'/>

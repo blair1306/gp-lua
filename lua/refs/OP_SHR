@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lopcodes.h' l='200' type='24'/>
+<doc f='codebrowser/src/lopcodes.h' l='200'>/*	A B C	R(A) := RK(B) &gt;&gt; RK(C)				*/</doc>
+<use f='codebrowser/src/ldebug.c' l='518' c='funcnamefromcode'/>
+<use f='codebrowser/src/luac.c' l='358' c='PrintCode'/>
+<use f='codebrowser/src/lvm.c' l='663' c='luaV_finishOp'/>
+<use f='codebrowser/src/lvm.c' l='981' c='luaV_execute'/>

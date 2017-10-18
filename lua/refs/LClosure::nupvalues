@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/lobject.h' l='444' type='lu_byte'/>
+<use f='codebrowser/src/lapi.c' l='1001' u='r' c='lua_load'/>
+<offset>80</offset>
+<use f='codebrowser/src/ldebug.c' l='561' u='r' c='getupvalname'/>
+<use f='codebrowser/src/lfunc.c' l='37' u='w' c='luaF_newLclosure'/>
+<use f='codebrowser/src/lfunc.c' l='47' u='r' c='luaF_initupvals'/>
+<use f='codebrowser/src/lgc.c' l='517' u='r' c='traverseLclosure'/>
+<use f='codebrowser/src/lgc.c' l='526' u='r' c='traverseLclosure'/>
+<use f='codebrowser/src/lgc.c' l='687' u='r' c='freeLclosure'/>
+<use f='codebrowser/src/lgc.c' l='692' u='r' c='freeLclosure'/>

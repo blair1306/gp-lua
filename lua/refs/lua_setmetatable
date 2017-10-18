@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lua.h' l='265' type='int lua_setmetatable(lua_State * L, int objindex)'/>
+<def f='codebrowser/src/lapi.c' l='845' ll='882' macro='1' type='int lua_setmetatable(lua_State * L, int objindex)'/>
+<use f='codebrowser/src/lauxlib.c' l='314' u='c' c='luaL_setmetatable'/>
+<use f='codebrowser/src/lauxlib.c' l='490' u='c' c='newbox'/>
+<use f='codebrowser/src/lbaselib.c' l='133' u='c' c='luaB_setmetatable'/>
+<use f='codebrowser/src/ldblib.c' l='61' u='c' c='db_setmetatable'/>
+<use f='codebrowser/src/ldblib.c' l='368' u='c' c='db_sethook'/>
+<use f='codebrowser/src/loadlib.c' l='762' u='c' c='createclibstable'/>
+<use f='codebrowser/src/lstrlib.c' l='1568' u='c' c='createmetatable'/>

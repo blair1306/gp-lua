@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/lobject.h' l='47'/>
+<use f='codebrowser/src/lapi.c' l='433' u='c'/>
+<use f='codebrowser/src/lapi.c' l='1206' u='c'/>
+<use f='codebrowser/src/lapi.c' l='1270' u='c'/>
+<doc f='codebrowser/src/lobject.h' l='46'>/* Variant tags for functions */</doc>
+<use f='codebrowser/src/ldo.c' l='440' u='c'/>
+<use f='codebrowser/src/lfunc.c' l='34' u='c'/>
+<use f='codebrowser/src/lgc.c' l='261' u='c'/>
+<use f='codebrowser/src/lgc.c' l='571' u='c'/>
+<use f='codebrowser/src/lgc.c' l='699' u='c'/>

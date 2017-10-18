@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lua.h' l='429' type='const char * lua_setupvalue(lua_State * L, int funcindex, int n)'/>
+<def f='codebrowser/src/lapi.c' l='1235' ll='1253' macro='1' type='const char * lua_setupvalue(lua_State * L, int funcindex, int n)'/>
+<use f='codebrowser/src/lbaselib.c' l='274' u='c' c='load_aux'/>
+<use f='codebrowser/src/ldblib.c' l='252' u='c' c='auxupvalue'/>

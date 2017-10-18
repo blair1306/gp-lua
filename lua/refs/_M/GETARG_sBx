@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lopcodes.h' l='112'/>
+<use f='codebrowser/src/lcode.c' l='91' u='c'/>
+<use f='codebrowser/src/ldebug.c' l='412' u='c'/>
+<use f='codebrowser/src/luac.c' l='301' u='c'/>
+<use f='codebrowser/src/lvm.c' l='1196' u='c'/>
+<use f='codebrowser/src/lvm.c' l='1207' u='c'/>
+<use f='codebrowser/src/lvm.c' l='1239' u='c'/>
+<use f='codebrowser/src/lvm.c' l='1259' u='c'/>

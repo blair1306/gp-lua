@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/lcode.h' l='79' type='void luaK_concat(FuncState * fs, int * l1, int l2)'/>
+<def f='codebrowser/src/lcode.c' l='116' ll='127' type='void luaK_concat(FuncState * fs, int * l1, int l2)'/>
+<use f='codebrowser/src/lcode.c' l='141' u='c' c='luaK_jump'/>
+<use f='codebrowser/src/lcode.c' l='254' u='c' c='luaK_patchtohere'/>
+<use f='codebrowser/src/lcode.c' l='678' u='c' c='exp2reg'/>
+<use f='codebrowser/src/lcode.c' l='875' u='c' c='luaK_goiftrue'/>
+<use f='codebrowser/src/lcode.c' l='901' u='c' c='luaK_goiffalse'/>
+<use f='codebrowser/src/lcode.c' l='1130' u='c' c='luaK_posfix'/>
+<use f='codebrowser/src/lcode.c' l='1137' u='c' c='luaK_posfix'/>
+<doc f='codebrowser/src/lcode.c' l='113'>/*
+** Concatenate jump-list &apos;l2&apos; into jump-list &apos;l1&apos;
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='1412' u='c' c='test_then_block'/>

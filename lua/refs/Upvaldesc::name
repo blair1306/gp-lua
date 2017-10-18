@@ -1,0 +1,22 @@
+<dec f='codebrowser/src/lobject.h' l='387' type='TString *'/>
+<use f='codebrowser/src/lapi.c' l='1213' u='r' c='aux_upvalue'/>
+<offset>0</offset>
+<doc f='codebrowser/src/lobject.h' l='387'>/* upvalue name (for debug information) */</doc>
+<use f='codebrowser/src/ldebug.c' l='128' u='r' c='upvalname'/>
+<use f='codebrowser/src/ldump.c' l='162' u='r' c='DumpDebug'/>
+<use f='codebrowser/src/lgc.c' l='487' u='r' c='traverseproto'/>
+<use f='codebrowser/src/lgc.c' l='487' u='r' c='traverseproto'/>
+<use f='codebrowser/src/lgc.c' l='487' u='r' c='traverseproto'/>
+<use f='codebrowser/src/lparser.c' l='222' u='r' c='searchupvalue'/>
+<use f='codebrowser/src/lparser.c' l='235' u='w' c='newupvalue'/>
+<use f='codebrowser/src/lparser.c' l='238' u='w' c='newupvalue'/>
+<use f='codebrowser/src/luac.c' l='285' u='r' c='PrintCode'/>
+<use f='codebrowser/src/luac.c' l='285' u='r' c='PrintCode'/>
+<use f='codebrowser/src/luac.c' l='285' u='r' c='PrintCode'/>
+<use f='codebrowser/src/luac.c' l='285' u='r' c='PrintCode'/>
+<use f='codebrowser/src/luac.c' l='285' u='r' c='PrintCode'/>
+<use f='codebrowser/src/luac.c' l='285' u='r' c='PrintCode'/>
+<use f='codebrowser/src/luac.c' l='285' u='r' c='PrintDebug'/>
+<use f='codebrowser/src/luac.c' l='285' u='r' c='PrintDebug'/>
+<use f='codebrowser/src/lundump.c' l='172' u='w' c='LoadUpvalues'/>
+<use f='codebrowser/src/lundump.c' l='198' u='w' c='LoadDebug'/>

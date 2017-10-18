@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/lcode.h' l='57' type='void luaK_reserveregs(FuncState * fs, int n)'/>
+<def f='codebrowser/src/lcode.c' l='375' ll='378' type='void luaK_reserveregs(FuncState * fs, int n)'/>
+<use f='codebrowser/src/lcode.c' l='523' u='c' c='luaK_setreturns'/>
+<use f='codebrowser/src/lcode.c' l='643' u='c' c='discharge2anyreg'/>
+<use f='codebrowser/src/lcode.c' l='706' u='c' c='luaK_exp2nextreg'/>
+<use f='codebrowser/src/lcode.c' l='816' u='c' c='luaK_self'/>
+<doc f='codebrowser/src/lcode.c' l='372'>/*
+** Reserve &apos;n&apos; registers in register stack
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='316' u='c' c='adjust_assign'/>
+<use f='codebrowser/src/lparser.c' l='322' u='c' c='adjust_assign'/>
+<use f='codebrowser/src/lparser.c' l='778' u='c' c='parlist'/>
+<use f='codebrowser/src/lparser.c' l='1142' u='c' c='check_conflict'/>
+<use f='codebrowser/src/lparser.c' l='1301' u='c' c='forbody'/>
+<use f='codebrowser/src/lparser.c' l='1333' u='c' c='fornum'/>

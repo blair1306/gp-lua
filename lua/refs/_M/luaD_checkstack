@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/ldo.h' l='28'/>
+<doc f='codebrowser/src/ldo.h' l='27'>/* In general, &apos;pre&apos;/&apos;pos&apos; are empty (nothing to save) */</doc>
+<use f='codebrowser/src/ldo.c' l='241' u='c'/>
+<use f='codebrowser/src/ldo.c' l='263' u='c'/>
+<use f='codebrowser/src/lobject.c' l='460' u='c'/>
+<use f='codebrowser/src/lvm.c' l='1303' u='c'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lstring.h' l='38' type='int luaS_eqlngstr(TString * a, TString * b)'/>
+<def f='codebrowser/src/lstring.c' l='40' ll='46' type='int luaS_eqlngstr(TString * a, TString * b)'/>
+<doc f='codebrowser/src/lstring.c' l='37'>/*
+** equality for long strings
+*/</doc>
+<use f='codebrowser/src/lvm.c' l='426' u='c' c='luaV_equalobj'/>

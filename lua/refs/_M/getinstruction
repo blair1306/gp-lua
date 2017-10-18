@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/lcode.h' l='44'/>
+<use f='codebrowser/src/lcode.c' l='517' u='c'/>
+<use f='codebrowser/src/lcode.c' l='520' u='c'/>
+<use f='codebrowser/src/lcode.c' l='544' u='c'/>
+<use f='codebrowser/src/lcode.c' l='547' u='c'/>
+<use f='codebrowser/src/lcode.c' l='619' u='c'/>
+<use f='codebrowser/src/lcode.c' l='841' u='c'/>
+<use f='codebrowser/src/lcode.c' l='1144' u='c'/>
+<use f='codebrowser/src/lcode.c' l='1147' u='c'/>
+<doc f='codebrowser/src/lcode.h' l='43'>/* get (pointer to) instruction of given &apos;expdesc&apos; */</doc>
+<use f='codebrowser/src/lparser.c' l='1499' u='c'/>
+<use f='codebrowser/src/lparser.c' l='1516' u='c'/>

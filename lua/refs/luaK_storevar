@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lcode.h' l='71' type='void luaK_storevar(FuncState * fs, expdesc * var, expdesc * e)'/>
+<def f='codebrowser/src/lcode.c' l='782' ll='803' type='void luaK_storevar(FuncState * fs, expdesc * var, expdesc * ex)'/>
+<doc f='codebrowser/src/lcode.c' l='779'>/*
+** Generate code to store result of expression &apos;ex&apos; into variable &apos;var&apos;.
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='1168' u='c' c='assignment'/>
+<use f='codebrowser/src/lparser.c' l='1173' u='c' c='assignment'/>
+<use f='codebrowser/src/lparser.c' l='1483' u='c' c='funcstat'/>

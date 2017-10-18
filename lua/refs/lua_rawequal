@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/lua.h' l='217' type='int lua_rawequal(lua_State * L, int idx1, int idx2)'/>
+<def f='codebrowser/src/lapi.c' l='295' ll='299' macro='1' type='int lua_rawequal(lua_State * L, int index1, int index2)'/>
+<use f='codebrowser/src/lauxlib.c' l='52' u='c' c='findfield'/>
+<use f='codebrowser/src/lauxlib.c' l='323' u='c' c='luaL_testudata'/>
+<use f='codebrowser/src/lbaselib.c' l='141' u='c' c='luaB_rawequal'/>

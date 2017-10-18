@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/lstate.h' l='182' type='sig_atomic_t'/>
+<offset>1600</offset>
+<use f='codebrowser/src/ldebug.c' l='91' u='w' c='lua_sethook'/>
+<use f='codebrowser/src/ldebug.c' l='101' u='r' c='lua_gethookmask'/>
+<use f='codebrowser/src/ldebug.c' l='667' u='r' c='luaG_traceexec'/>
+<use f='codebrowser/src/ldo.c' l='379' u='r' c='luaD_poscall'/>
+<use f='codebrowser/src/ldo.c' l='380' u='r' c='luaD_poscall'/>
+<use f='codebrowser/src/ldo.c' l='431' u='r' c='luaD_precall'/>
+<use f='codebrowser/src/ldo.c' l='461' u='r' c='luaD_precall'/>
+<use f='codebrowser/src/lstate.c' l='231' u='w' c='preinit_thread'/>
+<use f='codebrowser/src/lstate.c' l='271' u='w' c='lua_newthread'/>
+<use f='codebrowser/src/lstate.c' l='271' u='r' c='lua_newthread'/>
+<use f='codebrowser/src/lvm.c' l='758' u='r' c='luaV_execute'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/ltm.h' l='43' type='24'/>
+<use f='codebrowser/src/lstate.h' l='151'/>
+<doc f='codebrowser/src/ltm.h' l='43'>/* number of elements in the enum */</doc>
+<use f='codebrowser/src/ltm.c' l='48' u='r' c='luaT_init'/>

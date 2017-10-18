@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/ltm.h' l='67' type='int luaT_callbinTM(lua_State * L, const TValue * p1, const TValue * p2, StkId res, TMS event)'/>
+<def f='codebrowser/src/ltm.c' l='124' ll='132' type='int luaT_callbinTM(lua_State * L, const TValue * p1, const TValue * p2, StkId res, TMS event)'/>
+<use f='codebrowser/src/ltm.c' l='137' u='c' c='luaT_trybinTM'/>
+<use f='codebrowser/src/ltm.c' l='160' u='c' c='luaT_callorderTM'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lopcodes.h' l='171' type='0'/>
+<use f='codebrowser/src/lcode.c' l='625' u='r' c='discharge2reg'/>
+<doc f='codebrowser/src/lopcodes.h' l='168'>/*----------------------------------------------------------------------
+name		args	description
+------------------------------------------------------------------------*/</doc>
+<doc f='codebrowser/src/lopcodes.h' l='171'>/*	A B	R(A) := R(B)					*/</doc>
+<use f='codebrowser/src/ldebug.c' l='443' c='getobjname'/>
+<use f='codebrowser/src/lparser.c' l='1140' u='r' c='check_conflict'/>
+<use f='codebrowser/src/lvm.c' l='803' c='luaV_execute'/>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/lcode.h' l='77' type='void luaK_patchtohere(FuncState * fs, int list)'/>
+<def f='codebrowser/src/lcode.c' l='252' ll='255' type='void luaK_patchtohere(FuncState * fs, int list)'/>
+<use f='codebrowser/src/lcode.c' l='265' u='c' c='luaK_patchlist'/>
+<use f='codebrowser/src/lcode.c' l='687' u='c' c='exp2reg'/>
+<use f='codebrowser/src/lcode.c' l='876' u='c' c='luaK_goiftrue'/>
+<use f='codebrowser/src/lcode.c' l='902' u='c' c='luaK_goiffalse'/>
+<doc f='codebrowser/src/lcode.c' l='248'>/*
+** Add elements in &apos;list&apos; to list of pending jumps to &quot;here&quot;
+** (current position)
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='480' u='c' c='leaveblock'/>
+<use f='codebrowser/src/lparser.c' l='1256' u='c' c='whilestat'/>
+<use f='codebrowser/src/lparser.c' l='1304' u='c' c='forbody'/>
+<use f='codebrowser/src/lparser.c' l='1413' u='c' c='test_then_block'/>
+<use f='codebrowser/src/lparser.c' l='1427' u='c' c='ifstat'/>

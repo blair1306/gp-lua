@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lstate.h' l='103'/>
+<use f='codebrowser/src/lapi.c' l='979' u='c'/>
+<use f='codebrowser/src/lapi.c' l='981' u='c'/>
+<use f='codebrowser/src/ldo.c' l='525' u='c'/>
+<use f='codebrowser/src/ldo.c' l='526' u='c'/>
+<use f='codebrowser/src/ldo.c' l='569' u='c'/>

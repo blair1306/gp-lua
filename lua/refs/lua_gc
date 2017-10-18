@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lua.h' l='312' type='int lua_gc(lua_State * L, int what, int data)'/>
+<def f='codebrowser/src/lapi.c' l='1039' ll='1104' macro='1' type='int lua_gc(lua_State * L, int what, int data)'/>
+<use f='codebrowser/src/lbaselib.c' l='182' u='c' c='luaB_collectgarbage'/>
+<use f='codebrowser/src/lbaselib.c' l='185' u='c' c='luaB_collectgarbage'/>

@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/lobject.h' l='461' type='CClosure'/>
+<use f='codebrowser/src/lapi.c' l='80' macro='1' u='a'/>
+<use f='codebrowser/src/lapi.c' l='230' macro='1' u='a'/>
+<use f='codebrowser/src/lapi.c' l='230' macro='1' u='a'/>
+<use f='codebrowser/src/lapi.c' l='408' macro='1' u='a'/>
+<use f='codebrowser/src/lapi.c' l='434' macro='1' u='a'/>
+<use f='codebrowser/src/lapi.c' l='1200' macro='1' u='a'/>
+<use f='codebrowser/src/lapi.c' l='1274' macro='1' u='a'/>
+<offset>0</offset>
+<use f='codebrowser/src/ldebug.c' l='34' u='m' c='funcinfo'/>
+<use f='codebrowser/src/ldebug.c' l='34' u='m' c='collectvalidlines'/>
+<use f='codebrowser/src/ldebug.c' l='276' u='m' c='auxgetinfo'/>
+<use f='codebrowser/src/ldebug.c' l='34' u='m' c='auxgetinfo'/>
+<use f='codebrowser/src/ldo.c' l='418' macro='1' u='a'/>
+<use f='codebrowser/src/lfunc.c' l='27' macro='1' u='a'/>
+<use f='codebrowser/src/lgc.c' l='266' macro='1' u='a'/>
+<use f='codebrowser/src/lgc.c' l='266' macro='1' u='a'/>
+<use f='codebrowser/src/lgc.c' l='578' macro='1' u='a'/>
+<use f='codebrowser/src/lgc.c' l='704' macro='1' u='a'/>

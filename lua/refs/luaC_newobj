@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/lgc.h' l='139' type='GCObject * luaC_newobj(lua_State * L, int tt, size_t sz)'/>
+<use f='codebrowser/src/lfunc.c' l='26' u='c' c='luaF_newCclosure'/>
+<use f='codebrowser/src/lfunc.c' l='34' u='c' c='luaF_newLclosure'/>
+<use f='codebrowser/src/lfunc.c' l='100' u='c' c='luaF_newproto'/>
+<def f='codebrowser/src/lgc.c' l='208' ll='216' type='GCObject * luaC_newobj(lua_State * L, int tt, size_t sz)'/>
+<doc f='codebrowser/src/lgc.c' l='204'>/*
+** create a new collectable object (with given type and size) and link
+** it to &apos;allgc&apos; list.
+*/</doc>
+<use f='codebrowser/src/lstring.c' l='138' u='c' c='createstrobj'/>
+<use f='codebrowser/src/lstring.c' l='241' u='c' c='luaS_newudata'/>
+<use f='codebrowser/src/ltable.c' l='403' u='c' c='luaH_new'/>

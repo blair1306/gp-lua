@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/lobject.h' l='423' type='int *'/>
+<offset>576</offset>
+<doc f='codebrowser/src/lobject.h' l='423'>/* map from opcodes to source lines (debug information) */</doc>
+<use f='codebrowser/src/lcode.c' l='301' u='w' c='luaK_code'/>
+<use f='codebrowser/src/lcode.c' l='301' u='r' c='luaK_code'/>
+<use f='codebrowser/src/lcode.c' l='303' u='r' c='luaK_code'/>
+<use f='codebrowser/src/lcode.c' l='1178' u='r' c='luaK_fixline'/>
+<use f='codebrowser/src/ldebug.c' l='52' macro='1' u='r'/>
+<use f='codebrowser/src/ldebug.c' l='52' macro='1' u='r'/>
+<use f='codebrowser/src/ldebug.c' l='237' u='r' c='collectvalidlines'/>
+<use f='codebrowser/src/ldebug.c' l='682' macro='1' u='r'/>
+<use f='codebrowser/src/ldebug.c' l='682' macro='1' u='r'/>
+<use f='codebrowser/src/ldebug.c' l='685' macro='1' u='r'/>
+<use f='codebrowser/src/ldebug.c' l='685' macro='1' u='r'/>
+<use f='codebrowser/src/ldump.c' l='151' u='r' c='DumpDebug'/>
+<use f='codebrowser/src/ldump.c' l='151' u='r' c='DumpDebug'/>
+<use f='codebrowser/src/lfunc.c' l='109' u='w' c='luaF_newproto'/>
+<use f='codebrowser/src/lfunc.c' l='129' u='r' c='luaF_freeproto'/>
+<use f='codebrowser/src/lfunc.c' l='129' u='r' c='luaF_freeproto'/>
+<use f='codebrowser/src/lparser.c' l='560' u='w' c='close_func'/>
+<use f='codebrowser/src/lparser.c' l='560' u='r' c='close_func'/>
+<use f='codebrowser/src/luac.c' l='302' macro='1' u='r'/>
+<use f='codebrowser/src/luac.c' l='302' macro='1' u='r'/>
+<use f='codebrowser/src/lundump.c' l='183' u='w' c='LoadDebug'/>
+<use f='codebrowser/src/lundump.c' l='185' u='r' c='LoadDebug'/>
+<use f='codebrowser/src/lundump.c' l='185' u='r' c='LoadDebug'/>

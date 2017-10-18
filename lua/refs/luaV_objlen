@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/lvm.h' l='111' type='void luaV_objlen(lua_State * L, StkId ra, const TValue * rb)'/>
+<use f='codebrowser/src/lapi.c' l='1159' u='c' c='lua_len'/>
+<def f='codebrowser/src/lvm.c' l='517' ll='543' type='void luaV_objlen(lua_State * L, StkId ra, const TValue * rb)'/>
+<use f='codebrowser/src/lvm.c' l='1064' u='c' c='luaV_execute'/>
+<doc f='codebrowser/src/lvm.c' l='514'>/*
+** Main operation &apos;ra&apos; = #rb&apos;.
+*/</doc>

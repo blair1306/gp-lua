@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/lua.h' l='261' type='void lua_seti(lua_State * L, int idx, lua_Integer n)'/>
+<def f='codebrowser/src/lapi.c' l='782' ll='797' macro='1' type='void lua_seti(lua_State * L, int idx, lua_Integer n)'/>
+<use f='codebrowser/src/ltablib.c' l='93' u='c' c='tinsert'/>
+<use f='codebrowser/src/ltablib.c' l='101' u='c' c='tinsert'/>
+<use f='codebrowser/src/ltablib.c' l='114' u='c' c='tremove'/>
+<use f='codebrowser/src/ltablib.c' l='117' u='c' c='tremove'/>
+<use f='codebrowser/src/ltablib.c' l='145' u='c' c='tmove'/>
+<use f='codebrowser/src/ltablib.c' l='151' u='c' c='tmove'/>
+<use f='codebrowser/src/ltablib.c' l='200' u='c' c='pack'/>
+<use f='codebrowser/src/ltablib.c' l='278' u='c' c='set2'/>
+<use f='codebrowser/src/ltablib.c' l='279' u='c' c='set2'/>

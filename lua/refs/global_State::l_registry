@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/lstate.h' l='127' type='TValue'/>
+<use f='codebrowser/src/lapi.c' l='73' u='a' c='index2addr'/>
+<use f='codebrowser/src/lapi.c' l='605' u='a' c='lua_getglobal'/>
+<use f='codebrowser/src/lapi.c' l='759' u='a' c='lua_setglobal'/>
+<use f='codebrowser/src/lapi.c' l='1003' u='a' c='lua_load'/>
+<offset>512</offset>
+<use f='codebrowser/src/lgc.c' l='341' u='a' c='restartcollection'/>
+<use f='codebrowser/src/lgc.c' l='341' u='a' c='restartcollection'/>
+<use f='codebrowser/src/lgc.c' l='341' u='a' c='restartcollection'/>
+<use f='codebrowser/src/lgc.c' l='992' u='a' c='atomic'/>
+<use f='codebrowser/src/lgc.c' l='992' u='a' c='atomic'/>
+<use f='codebrowser/src/lgc.c' l='992' u='a' c='atomic'/>
+<use f='codebrowser/src/lstate.c' l='188' u='a' c='init_registry'/>
+<use f='codebrowser/src/lstate.c' l='316' u='a' c='lua_newstate'/>

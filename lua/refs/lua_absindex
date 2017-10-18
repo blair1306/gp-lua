@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lua.h' l='158' type='int lua_absindex(lua_State * L, int idx)'/>
+<def f='codebrowser/src/lapi.c' l='160' ll='164' macro='1' type='int lua_absindex(lua_State * L, int idx)'/>
+<use f='codebrowser/src/lauxlib.c' l='601' u='c' c='luaL_ref'/>
+<use f='codebrowser/src/lauxlib.c' l='618' u='c' c='luaL_unref'/>
+<use f='codebrowser/src/lauxlib.c' l='789' u='c' c='luaL_callmeta'/>
+<use f='codebrowser/src/lauxlib.c' l='956' u='c' c='luaL_getsubtable'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/lobject.h' l='184'/>
+<use f='codebrowser/src/lgc.c' l='140' u='c'/>
+<use f='codebrowser/src/ltable.c' l='171' u='c'/>

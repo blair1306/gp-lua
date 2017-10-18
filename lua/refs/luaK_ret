@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/lcode.h' l='75' type='void luaK_ret(FuncState * fs, int first, int nret)'/>
+<def f='codebrowser/src/lcode.c' l='149' ll='151' type='void luaK_ret(FuncState * fs, int first, int nret)'/>
+<doc f='codebrowser/src/lcode.c' l='146'>/*
+** Code a &apos;return&apos; instruction
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='556' u='c' c='close_func'/>
+<use f='codebrowser/src/lparser.c' l='1532' u='c' c='retstat'/>

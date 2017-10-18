@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lcode.h' l='83' type='void luaK_posfix(FuncState * fs, BinOpr op, expdesc * v1, expdesc * v2, int line)'/>
+<def f='codebrowser/src/lcode.c' l='1124' ll='1171' type='void luaK_posfix(FuncState * fs, BinOpr op, expdesc * e1, expdesc * e2, int line)'/>
+<doc f='codebrowser/src/lcode.c' l='1118'>/*
+** Finalize code for binary operation, after reading 2nd operand.
+** For &apos;(a .. b .. c)&apos; (which is &apos;(a .. (b .. c))&apos;, because
+** concatenation is right associative), merge second CONCAT into first
+** one.
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='1070' u='c' c='subexpr'/>

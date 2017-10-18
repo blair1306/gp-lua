@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/ltm.h' l='34' type='15'/>
+<use f='codebrowser/src/ltm.c' l='142' c='luaT_trybinTM'/>
+<use f='codebrowser/src/lvm.c' l='968' u='r' c='luaV_execute'/>

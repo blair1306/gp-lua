@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lobject.h' l='28'/>
+<use f='codebrowser/src/ltm.h' l='55' u='c'/>
+<doc f='codebrowser/src/lobject.h' l='25'>/*
+** number of all possible tags (including LUA_TNONE but excluding DEADKEY)
+*/</doc>
+<use f='codebrowser/src/ltm.c' l='29' u='c'/>

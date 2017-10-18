@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/lparser.h' l='101' type='Labellist'/>
+<offset>128</offset>
+<doc f='codebrowser/src/lparser.h' l='101'>/* list of pending gotos */</doc>
+<use f='codebrowser/src/ldo.c' l='790' u='m' c='luaD_protectedparser'/>
+<use f='codebrowser/src/ldo.c' l='790' u='m' c='luaD_protectedparser'/>
+<use f='codebrowser/src/ldo.c' l='796' u='m' c='luaD_protectedparser'/>
+<use f='codebrowser/src/ldo.c' l='796' u='m' c='luaD_protectedparser'/>
+<use f='codebrowser/src/ldo.c' l='796' u='m' c='luaD_protectedparser'/>
+<use f='codebrowser/src/lparser.c' l='344' u='a' c='closegoto'/>
+<use f='codebrowser/src/lparser.c' l='369' u='m' c='findlabel'/>
+<use f='codebrowser/src/lparser.c' l='404' u='a' c='findgotos'/>
+<use f='codebrowser/src/lparser.c' l='423' u='a' c='movegotosout'/>
+<use f='codebrowser/src/lparser.c' l='443' u='m' c='enterblock'/>
+<use f='codebrowser/src/lparser.c' l='491' u='m' c='leaveblock'/>
+<use f='codebrowser/src/lparser.c' l='492' u='m' c='leaveblock'/>
+<use f='codebrowser/src/lparser.c' l='1197' u='a' c='gotostat'/>
+<use f='codebrowser/src/lparser.c' l='1641' u='m' c='luaY_parser'/>

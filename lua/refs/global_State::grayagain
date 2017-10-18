@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/lstate.h' l='137' type='GCObject *'/>
+<offset>960</offset>
+<doc f='codebrowser/src/lstate.h' l='137'>/* list of objects to be traversed atomically */</doc>
+<use f='codebrowser/src/lgc.c' l='175' u='r' c='luaC_barrierback_'/>
+<use f='codebrowser/src/lgc.c' l='175' u='w' c='luaC_barrierback_'/>
+<use f='codebrowser/src/lgc.c' l='338' u='w' c='restartcollection'/>
+<use f='codebrowser/src/lgc.c' l='378' u='r' c='traverseweakvalue'/>
+<use f='codebrowser/src/lgc.c' l='378' u='w' c='traverseweakvalue'/>
+<use f='codebrowser/src/lgc.c' l='424' u='r' c='traverseephemeron'/>
+<use f='codebrowser/src/lgc.c' l='424' u='w' c='traverseephemeron'/>
+<use f='codebrowser/src/lgc.c' l='586' u='r' c='propagatemark'/>
+<use f='codebrowser/src/lgc.c' l='586' u='w' c='propagatemark'/>
+<use f='codebrowser/src/lgc.c' l='985' u='r' c='atomic'/>
+<use f='codebrowser/src/lstate.c' l='323' u='w' c='lua_newstate'/>

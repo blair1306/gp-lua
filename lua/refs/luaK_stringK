@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lcode.h' l='59' type='int luaK_stringK(FuncState * fs, TString * s)'/>
+<def f='codebrowser/src/lcode.c' l='458' ll='462' type='int luaK_stringK(FuncState * fs, TString * s)'/>
+<doc f='codebrowser/src/lcode.c' l='455'>/*
+** Add a string to list of constants and return its index.
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='152' u='c' c='codestring'/>

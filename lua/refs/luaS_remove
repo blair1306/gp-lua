@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/lstring.h' l='42' type='void luaS_remove(lua_State * L, TString * ts)'/>
+<use f='codebrowser/src/lgc.c' l='711' u='c' c='freeobj'/>
+<def f='codebrowser/src/lstring.c' l='154' ll='161' type='void luaS_remove(lua_State * L, TString * ts)'/>

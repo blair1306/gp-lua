@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/lobject.h' l='410' type='lu_byte'/>
+<offset>88</offset>
+<use f='codebrowser/src/ldebug.c' l='282' u='r' c='auxgetinfo'/>
+<use f='codebrowser/src/ldo.c' l='446' u='r' c='luaD_precall'/>
+<use f='codebrowser/src/ldump.c' l='174' u='r' c='DumpFunction'/>
+<use f='codebrowser/src/lfunc.c' l='114' u='w' c='luaF_newproto'/>
+<use f='codebrowser/src/lparser.c' l='758' u='w' c='parlist'/>
+<use f='codebrowser/src/lparser.c' l='769' u='w' c='parlist'/>
+<use f='codebrowser/src/lparser.c' l='774' u='r' c='parlist'/>
+<use f='codebrowser/src/lparser.c' l='963' u='r' c='simpleexp'/>
+<use f='codebrowser/src/lparser.c' l='1616' u='w' c='mainfunc'/>
+<use f='codebrowser/src/luac.c' l='409' u='r' c='PrintHeader'/>
+<use f='codebrowser/src/lundump.c' l='209' u='w' c='LoadFunction'/>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/lcode.h' l='82' type='void luaK_infix(FuncState * fs, BinOpr op, expdesc * v)'/>
+<def f='codebrowser/src/lcode.c' l='1086' ll='1115' type='void luaK_infix(FuncState * fs, BinOpr op, expdesc * v)'/>
+<doc f='codebrowser/src/lcode.c' l='1082'>/*
+** Process 1st operand &apos;v&apos; of binary operation &apos;op&apos; before reading
+** 2nd operand.
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='1067' u='c' c='subexpr'/>

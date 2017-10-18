@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/ldo.h' l='41' type='void luaD_hook(lua_State * L, int event, int line)'/>
+<use f='codebrowser/src/ldebug.c' l='678' u='c' c='luaG_traceexec'/>
+<use f='codebrowser/src/ldebug.c' l='686' u='c' c='luaG_traceexec'/>
+<def f='codebrowser/src/ldo.c' l='253' ll='277' type='void luaD_hook(lua_State * L, int event, int line)'/>
+<use f='codebrowser/src/ldo.c' l='288' u='c' c='callhook'/>
+<use f='codebrowser/src/ldo.c' l='382' u='c' c='luaD_poscall'/>
+<use f='codebrowser/src/ldo.c' l='432' u='c' c='luaD_precall'/>
+<doc f='codebrowser/src/ldo.c' l='248'>/*
+** Call a hook for the given event. Make sure there is a hook to be
+** called. (Both &apos;L-&gt;hook&apos; and &apos;L-&gt;hookmask&apos;, which triggers this
+** function, can be changed asynchronously by signals.)
+*/</doc>

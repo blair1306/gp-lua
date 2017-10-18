@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/lopcodes.h' l='224' type='41'/>
+<doc f='codebrowser/src/lopcodes.h' l='224'>/*	A C	R(A+3), ... ,R(A+2+C) := R(A)(R(A+1), R(A+2));	*/</doc>
+<use f='codebrowser/src/ldebug.c' l='400' c='findsetreg'/>
+<use f='codebrowser/src/ldebug.c' l='505' c='funcnamefromcode'/>
+<use f='codebrowser/src/lparser.c' l='1308' u='r' c='forbody'/>
+<use f='codebrowser/src/lvm.c' l='697' c='luaV_finishOp'/>
+<use f='codebrowser/src/lvm.c' l='1242' c='luaV_execute'/>

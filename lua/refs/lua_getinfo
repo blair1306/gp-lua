@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/lua.h' l='425' type='int lua_getinfo(lua_State * L, const char * what, lua_Debug * ar)'/>
+<use f='codebrowser/src/lauxlib.c' l='75' u='c' c='pushglobalfuncname'/>
+<use f='codebrowser/src/lauxlib.c' l='141' u='c' c='luaL_traceback'/>
+<use f='codebrowser/src/lauxlib.c' l='168' u='c' c='luaL_argerror'/>
+<use f='codebrowser/src/lauxlib.c' l='208' u='c' c='luaL_where'/>
+<use f='codebrowser/src/ldblib.c' l='162' u='c' c='db_getinfo'/>
+<def f='codebrowser/src/ldebug.c' l='309' ll='339' macro='1' type='int lua_getinfo(lua_State * L, const char * what, lua_Debug * ar)'/>

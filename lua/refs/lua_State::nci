@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lstate.h' l='162' type='unsigned short'/>
+<offset>80</offset>
+<doc f='codebrowser/src/lstate.h' l='162'>/* number of items in &apos;ci&apos; list */</doc>
+<use f='codebrowser/src/lgc.c' l='551' u='r' c='traversethread'/>
+<use f='codebrowser/src/lstate.c' l='114' u='w' c='luaE_extendCI'/>
+<use f='codebrowser/src/lstate.c' l='129' u='w' c='luaE_freeCI'/>
+<use f='codebrowser/src/lstate.c' l='143' u='w' c='luaE_shrinkCI'/>
+<use f='codebrowser/src/lstate.c' l='225' u='w' c='preinit_thread'/>

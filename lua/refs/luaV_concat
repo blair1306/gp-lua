@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/lvm.h' l='107' type='void luaV_concat(lua_State * L, int total)'/>
+<use f='codebrowser/src/lapi.c' l='1143' u='c' c='lua_concat'/>
+<use f='codebrowser/src/lobject.c' l='462' u='c' c='luaO_pushvfstring'/>
+<def f='codebrowser/src/lvm.c' l='474' ll='511' type='void luaV_concat(lua_State * L, int total)'/>
+<use f='codebrowser/src/lvm.c' l='690' u='c' c='luaV_finishOp'/>
+<use f='codebrowser/src/lvm.c' l='1072' u='c' c='luaV_execute'/>
+<doc f='codebrowser/src/lvm.c' l='470'>/*
+** Main operation for concatenation: concat &apos;total&apos; values in the stack,
+** from &apos;L-&gt;top - total&apos; up to &apos;L-&gt;top - 1&apos;.
+*/</doc>

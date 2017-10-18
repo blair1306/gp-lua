@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/ltable.h' l='46' type='const TValue * luaH_getshortstr(Table * t, TString * key)'/>
+<def f='codebrowser/src/ltable.c' l='520' ll='534' type='const TValue * luaH_getshortstr(Table * t, TString * key)'/>
+<use f='codebrowser/src/ltable.c' l='558' u='c' c='luaH_getstr'/>
+<use f='codebrowser/src/ltable.c' l='572' u='c' c='luaH_get'/>
+<doc f='codebrowser/src/ltable.c' l='517'>/*
+** search function for short strings
+*/</doc>
+<use f='codebrowser/src/ltm.c' l='60' u='c' c='luaT_gettm'/>
+<use f='codebrowser/src/ltm.c' l='82' u='c' c='luaT_gettmbyobj'/>
+<use f='codebrowser/src/ltm.c' l='94' u='c' c='luaT_objtypename'/>

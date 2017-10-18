@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/llimits.h' l='122'/>
+<use f='codebrowser/src/lobject.c' l='97' u='c'/>
+<use f='codebrowser/src/ltable.c' l='499' u='c'/>
+<use f='codebrowser/src/lvm.c' l='553' u='c'/>
+<use f='codebrowser/src/lvm.c' l='573' u='c'/>
+<use f='codebrowser/src/lvm.c' l='1050' u='c'/>

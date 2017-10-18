@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/lcode.h' l='55' type='void luaK_fixline(FuncState * fs, int line)'/>
+<use f='codebrowser/src/lcode.c' l='1009' u='c' c='codeunexpval'/>
+<use f='codebrowser/src/lcode.c' l='1029' u='c' c='codebinexpval'/>
+<def f='codebrowser/src/lcode.c' l='1177' ll='1179' type='void luaK_fixline(FuncState * fs, int line)'/>
+<doc f='codebrowser/src/lcode.c' l='1174'>/*
+** Change line information associated with current position.
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='856' u='c' c='funcargs'/>
+<use f='codebrowser/src/lparser.c' l='1309' u='c' c='forbody'/>
+<use f='codebrowser/src/lparser.c' l='1313' u='c' c='forbody'/>
+<use f='codebrowser/src/lparser.c' l='1484' u='c' c='funcstat'/>

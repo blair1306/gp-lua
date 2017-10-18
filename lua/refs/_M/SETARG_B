@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lopcodes.h' l='101'/>
+<use f='codebrowser/src/lcode.c' l='77' u='c'/>
+<use f='codebrowser/src/lcode.c' l='521' u='c'/>
+<use f='codebrowser/src/lcode.c' l='547' u='c'/>
+<use f='codebrowser/src/lcode.c' l='1147' u='c'/>
+<use f='codebrowser/src/lparser.c' l='745' u='c'/>

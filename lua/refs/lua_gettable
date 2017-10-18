@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/lua.h' l='242' type='int lua_gettable(lua_State * L, int idx)'/>
+<def f='codebrowser/src/lapi.c' l='611' ll='618' macro='1' type='int lua_gettable(lua_State * L, int idx)'/>
+<use f='codebrowser/src/lstrlib.c' l='744' u='c' c='add_value'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lparser.c' l='49' type='struct BlockCnt *'/>
+<use f='codebrowser/src/lparser.c' l='261' u='r' c='markupval'/>
+<use f='codebrowser/src/lparser.c' l='445' u='w' c='enterblock'/>
+<use f='codebrowser/src/lparser.c' l='476' u='r' c='leaveblock'/>
+<use f='codebrowser/src/lparser.c' l='484' u='r' c='leaveblock'/>
+<use f='codebrowser/src/lparser.c' l='489' u='r' c='leaveblock'/>
+<offset>0</offset>
+<doc f='codebrowser/src/lparser.c' l='49'>/* chain */</doc>

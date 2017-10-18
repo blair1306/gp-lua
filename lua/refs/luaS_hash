@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/lstring.h' l='36' type='unsigned int luaS_hash(const char * str, size_t l, unsigned int seed)'/>
+<use f='codebrowser/src/lstate.c' l='90' u='c' c='makeseed'/>
+<def f='codebrowser/src/lstring.c' l='49' ll='55' type='unsigned int luaS_hash(const char * str, size_t l, unsigned int seed)'/>
+<use f='codebrowser/src/lstring.c' l='61' u='c' c='luaS_hashlongstr'/>
+<use f='codebrowser/src/lstring.c' l='170' u='c' c='internshrstr'/>

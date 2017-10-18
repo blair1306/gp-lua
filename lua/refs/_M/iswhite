@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/lgc.h' l='87'/>
+<use f='codebrowser/src/lgc.c' l='145' u='c'/>
+<use f='codebrowser/src/lgc.c' l='481' u='c'/>
+<use f='codebrowser/src/lgc.c' l='885' u='c'/>
+<use f='codebrowser/src/lstring.c' l='107' u='c'/>

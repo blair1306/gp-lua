@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/ldo.h' l='47' type='int luaD_poscall(lua_State * L, CallInfo * ci, StkId firstResult, int nres)'/>
+<def f='codebrowser/src/ldo.c' l='376' ll='391' type='int luaD_poscall(lua_State * L, CallInfo * ci, StkId firstResult, int nres)'/>
+<use f='codebrowser/src/ldo.c' l='437' u='c' c='luaD_precall'/>
+<use f='codebrowser/src/ldo.c' l='536' u='c' c='finishCcall'/>
+<use f='codebrowser/src/ldo.c' l='641' u='c' c='resume'/>
+<doc f='codebrowser/src/ldo.c' l='371'>/*
+** Finishes a function call: calls hook if necessary, removes CallInfo,
+** moves current number of results to proper place; returns 0 iff call
+** wanted multiple (variable number of) results.
+*/</doc>
+<use f='codebrowser/src/lvm.c' l='1179' u='c' c='luaV_execute'/>

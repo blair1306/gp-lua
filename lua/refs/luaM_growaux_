@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/lmem.h' l='64' type='void * luaM_growaux_(lua_State * L, void * block, int * size, size_t size_elem, int limit, const char * what)'/>
+<use f='codebrowser/src/lcode.c' l='297' macro='1' u='c'/>
+<use f='codebrowser/src/lcode.c' l='301' macro='1' u='c'/>
+<use f='codebrowser/src/lcode.c' l='446' macro='1' u='c'/>
+<def f='codebrowser/src/lmem.c' l='48' ll='65' type='void * luaM_growaux_(lua_State * L, void * block, int * size, size_t size_elems, int limit, const char * what)'/>
+<use f='codebrowser/src/lparser.c' l='165' macro='1' u='c'/>
+<use f='codebrowser/src/lparser.c' l='181' macro='1' u='c'/>
+<use f='codebrowser/src/lparser.c' l='232' macro='1' u='c'/>
+<use f='codebrowser/src/lparser.c' l='388' macro='1' u='c'/>
+<use f='codebrowser/src/lparser.c' l='506' macro='1' u='c'/>

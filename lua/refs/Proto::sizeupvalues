@@ -1,0 +1,24 @@
+<dec f='codebrowser/src/lobject.h' l='412' type='int'/>
+<use f='codebrowser/src/lapi.c' l='1210' u='r' c='aux_upvalue'/>
+<offset>128</offset>
+<doc f='codebrowser/src/lobject.h' l='412'>/* size of &apos;upvalues&apos; */</doc>
+<use f='codebrowser/src/ldump.c' l='138' u='r' c='DumpUpvalues'/>
+<use f='codebrowser/src/ldump.c' l='159' u='r' c='DumpDebug'/>
+<use f='codebrowser/src/ldump.c' l='211' u='r' c='luaU_dump'/>
+<use f='codebrowser/src/lfunc.c' l='112' u='w' c='luaF_newproto'/>
+<use f='codebrowser/src/lfunc.c' l='131' u='r' c='luaF_freeproto'/>
+<use f='codebrowser/src/lgc.c' l='486' u='r' c='traverseproto'/>
+<use f='codebrowser/src/lgc.c' l='497' u='r' c='traverseproto'/>
+<use f='codebrowser/src/lparser.c' l='230' u='r' c='newupvalue'/>
+<use f='codebrowser/src/lparser.c' l='232' u='r' c='newupvalue'/>
+<use f='codebrowser/src/lparser.c' l='232' u='a' c='newupvalue'/>
+<use f='codebrowser/src/lparser.c' l='234' u='r' c='newupvalue'/>
+<use f='codebrowser/src/lparser.c' l='568' u='r' c='close_func'/>
+<use f='codebrowser/src/lparser.c' l='569' u='w' c='close_func'/>
+<use f='codebrowser/src/luac.c' l='152' u='r' c='combine'/>
+<use f='codebrowser/src/luac.c' l='410' u='r' c='PrintHeader'/>
+<use f='codebrowser/src/luac.c' l='410' u='r' c='PrintHeader'/>
+<use f='codebrowser/src/luac.c' l='433' u='r' c='PrintDebug'/>
+<use f='codebrowser/src/lundump.c' l='170' u='w' c='LoadUpvalues'/>
+<use f='codebrowser/src/lvm.c' l='613' u='r' c='getcached'/>
+<use f='codebrowser/src/lvm.c' l='634' u='r' c='pushclosure'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/ldo.c' l='86' type='jmp_buf'/>
+<use f='codebrowser/src/ldo.c' l='66' u='r' c='luaD_throw'/>
+<use f='codebrowser/src/ldo.c' l='67' u='r' c='luaD_rawrunprotected'/>
+<offset>64</offset>

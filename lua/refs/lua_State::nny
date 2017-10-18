@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/lstate.h' l='180' type='unsigned short'/>
+<use f='codebrowser/src/lapi.c' l='918' u='r' c='lua_callk'/>
+<use f='codebrowser/src/lapi.c' l='966' u='r' c='lua_pcallk'/>
+<offset>1568</offset>
+<doc f='codebrowser/src/lstate.h' l='180'>/* number of non-yieldable calls in stack */</doc>
+<use f='codebrowser/src/ldo.c' l='508' u='w' c='luaD_callnoyield'/>
+<use f='codebrowser/src/ldo.c' l='510' u='w' c='luaD_callnoyield'/>
+<use f='codebrowser/src/ldo.c' l='591' u='w' c='recover'/>
+<use f='codebrowser/src/ldo.c' l='650' u='r' c='lua_resume'/>
+<use f='codebrowser/src/ldo.c' l='662' u='w' c='lua_resume'/>
+<use f='codebrowser/src/ldo.c' l='679' u='w' c='lua_resume'/>
+<use f='codebrowser/src/ldo.c' l='688' u='r' c='lua_isyieldable'/>
+<use f='codebrowser/src/ldo.c' l='698' u='r' c='lua_yieldk'/>
+<use f='codebrowser/src/ldo.c' l='726' u='r' c='luaD_pcall'/>
+<use f='codebrowser/src/ldo.c' l='736' u='w' c='luaD_pcall'/>
+<use f='codebrowser/src/ldo.c' l='787' u='w' c='luaD_protectedparser'/>
+<use f='codebrowser/src/ldo.c' l='798' u='w' c='luaD_protectedparser'/>
+<use f='codebrowser/src/lstate.c' l='236' u='w' c='preinit_thread'/>

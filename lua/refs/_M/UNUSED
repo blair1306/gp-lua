@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/llimits.h' l='106'/>
+<use f='codebrowser/src/lapi.c' l='258' u='c'/>
+<use f='codebrowser/src/lgc.c' l='801' u='c'/>
+<use f='codebrowser/src/lstate.c' l='205' u='c'/>
+<use f='codebrowser/src/luac.c' l='124' u='c'/>
+<use f='codebrowser/src/luac.c' l='161' u='c'/>

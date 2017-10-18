@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lapi.h' l='17'/>
+<use f='codebrowser/src/lapi.c' l='925' u='c'/>
+<use f='codebrowser/src/lapi.c' l='985' u='c'/>
+<use f='codebrowser/src/ldo.c' l='531' u='c'/>

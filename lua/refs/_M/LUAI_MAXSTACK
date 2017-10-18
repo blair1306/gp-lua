@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/luaconf.h' l='722'/>
+<use f='codebrowser/src/lapi.c' l='106' u='c'/>
+<use f='codebrowser/src/ldo.c' l='193' u='c'/>
+<use f='codebrowser/src/ldo.c' l='198' u='c'/>
+<use f='codebrowser/src/ldo.c' l='198' u='c'/>
+<use f='codebrowser/src/ldo.c' l='200' u='c'/>
+<use f='codebrowser/src/ldo.c' l='224' u='c'/>
+<use f='codebrowser/src/ldo.c' l='225' u='c'/>
+<use f='codebrowser/src/ldo.c' l='226' u='c'/>
+<use f='codebrowser/src/ldo.c' l='232' u='c'/>

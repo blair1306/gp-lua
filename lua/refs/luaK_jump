@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/lcode.h' l='74' type='int luaK_jump(FuncState * fs)'/>
+<def f='codebrowser/src/lcode.c' l='136' ll='143' type='int luaK_jump(FuncState * fs)'/>
+<use f='codebrowser/src/lcode.c' l='160' u='c' c='condjump'/>
+<use f='codebrowser/src/lcode.c' l='684' u='c' c='exp2reg'/>
+<doc f='codebrowser/src/lcode.c' l='130'>/*
+** Create a jump instruction and return its position, so its destination
+** can be fixed later (with &apos;fixjump&apos;). If there are jumps to
+** this position (kept in &apos;jpc&apos;), link them all together so that
+** &apos;patchlistaux&apos; will fix all them directly to the final destination.
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='478' u='c' c='leaveblock'/>
+<use f='codebrowser/src/lparser.c' l='1253' macro='1' u='c'/>
+<use f='codebrowser/src/lparser.c' l='1298' u='c' c='forbody'/>
+<use f='codebrowser/src/lparser.c' l='1401' u='c' c='test_then_block'/>
+<use f='codebrowser/src/lparser.c' l='1412' u='c' c='test_then_block'/>
+<use f='codebrowser/src/lparser.c' l='1591' u='c' c='statement'/>

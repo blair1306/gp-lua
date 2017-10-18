@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lfunc.h' l='53' type='void luaF_initupvals(lua_State * L, LClosure * cl)'/>
+<use f='codebrowser/src/ldo.c' l='779' u='c' c='f_parser'/>
+<def f='codebrowser/src/lfunc.c' l='45' ll='54' type='void luaF_initupvals(lua_State * L, LClosure * cl)'/>
+<doc f='codebrowser/src/lfunc.c' l='42'>/*
+** fill a closure with new closed upvalues
+*/</doc>

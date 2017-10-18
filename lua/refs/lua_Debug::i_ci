@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lua.h' l='456' type='struct CallInfo *'/>
+<offset>960</offset>
+<doc f='codebrowser/src/lua.h' l='455'>/* private part */</doc>
+<doc f='codebrowser/src/lua.h' l='456'>/* active function */</doc>
+<use f='codebrowser/src/ldebug.c' l='119' u='w' c='lua_getstack'/>
+<use f='codebrowser/src/ldebug.c' l='183' u='r' c='lua_getlocal'/>
+<use f='codebrowser/src/ldebug.c' l='200' u='r' c='lua_setlocal'/>
+<use f='codebrowser/src/ldebug.c' l='324' u='r' c='lua_getinfo'/>
+<use f='codebrowser/src/ldo.c' l='262' u='w' c='luaD_hook'/>

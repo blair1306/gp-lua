@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/lgc.h' l='138' type='void luaC_fullgc(lua_State * L, int isemergency)'/>
+<use f='codebrowser/src/lapi.c' l='1055' u='c' c='lua_gc'/>
+<def f='codebrowser/src/lgc.c' l='1158' ll='1174' type='void luaC_fullgc(lua_State * L, int isemergency)'/>
+<doc f='codebrowser/src/lgc.c' l='1149'>/*
+** Performs a full GC cycle; if &apos;isemergency&apos;, set a flag to avoid
+** some operations which could change the interpreter state in some
+** unexpected ways (running finalizers and shrinking some structures).
+** Before running the collection, check &apos;keepinvariant&apos;; if it is true,
+** there may be some objects marked as black, so the collector has
+** to sweep all objects to turn them back to white (as white has not
+** changed, nothing will be collected).
+*/</doc>
+<use f='codebrowser/src/lmem.c' l='90' u='c' c='luaM_realloc_'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/lobject.h' l='307' type='unsigned int'/>
+<offset>96</offset>
+<use f='codebrowser/src/lstring.c' l='61' u='w' c='luaS_hashlongstr'/>
+<use f='codebrowser/src/lstring.c' l='61' u='r' c='luaS_hashlongstr'/>
+<use f='codebrowser/src/lstring.c' l='64' u='r' c='luaS_hashlongstr'/>
+<use f='codebrowser/src/lstring.c' l='84' u='r' c='luaS_resize'/>
+<use f='codebrowser/src/lstring.c' l='140' u='w' c='createstrobj'/>
+<use f='codebrowser/src/lstring.c' l='156' u='r' c='luaS_remove'/>
+<use f='codebrowser/src/ltable.c' l='60' u='r' c='mainposition'/>
+<use f='codebrowser/src/ltable.c' l='60' u='r' c='luaH_getshortstr'/>

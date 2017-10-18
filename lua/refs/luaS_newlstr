@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/lstring.h' l='44' type='TString * luaS_newlstr(lua_State * L, const char * str, size_t l)'/>
+<use f='codebrowser/src/lapi.c' l='482' u='c' c='lua_pushlstring'/>
+<use f='codebrowser/src/lapi.c' l='1146' u='c' c='lua_concat'/>
+<use f='codebrowser/src/ldo.c' l='98' macro='1' u='c'/>
+<use f='codebrowser/src/llex.c' l='72' macro='1' u='c'/>
+<use f='codebrowser/src/llex.c' l='130' u='c' c='luaX_newstring'/>
+<use f='codebrowser/src/llex.c' l='173' macro='1' u='c'/>
+<use f='codebrowser/src/lobject.c' l='386' u='c' c='luaO_tostring'/>
+<use f='codebrowser/src/lobject.c' l='391' u='c' c='pushstr'/>
+<use f='codebrowser/src/lstring.c' l='121' macro='1' u='c'/>
+<def f='codebrowser/src/lstring.c' l='199' ll='210' type='TString * luaS_newlstr(lua_State * L, const char * str, size_t l)'/>
+<use f='codebrowser/src/lstring.c' l='231' u='c' c='luaS_new'/>
+<doc f='codebrowser/src/lstring.c' l='196'>/*
+** new string (with explicit length)
+*/</doc>
+<use f='codebrowser/src/lundump.c' l='97' u='c' c='LoadString'/>
+<use f='codebrowser/src/lvm.c' l='500' u='c' c='luaV_concat'/>

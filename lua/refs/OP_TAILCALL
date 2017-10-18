@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lopcodes.h' l='217' type='37'/>
+<doc f='codebrowser/src/lopcodes.h' l='217'>/*	A B C	return R(A)(R(A+1), ... ,R(A+B-1))		*/</doc>
+<use f='codebrowser/src/ldebug.c' l='406' c='findsetreg'/>
+<use f='codebrowser/src/ldebug.c' l='503' c='funcnamefromcode'/>
+<use f='codebrowser/src/ldo.c' l='284' u='r' c='callhook'/>
+<use f='codebrowser/src/lparser.c' l='1516' u='r' c='retstat'/>
+<use f='codebrowser/src/lvm.c' l='707' c='luaV_finishOp'/>
+<use f='codebrowser/src/lvm.c' l='1145' c='luaV_execute'/>

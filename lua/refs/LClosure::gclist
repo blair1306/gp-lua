@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lobject.h' l='444' type='GCObject *'/>
+<offset>128</offset>
+<use f='codebrowser/src/lgc.c' l='113' u='w' c='reallymarkobject'/>
+<use f='codebrowser/src/lgc.c' l='573' u='r' c='propagatemark'/>

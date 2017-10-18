@@ -1,0 +1,27 @@
+<dec f='codebrowser/src/lstate.h' l='130' type='lu_byte'/>
+<use f='codebrowser/src/lapi.c' l='1081' u='r' c='lua_gc'/>
+<offset>680</offset>
+<doc f='codebrowser/src/lstate.h' l='130'>/* state of garbage collector */</doc>
+<use f='codebrowser/src/lgc.c' l='158' macro='1' u='r'/>
+<use f='codebrowser/src/lgc.c' l='189' macro='1' u='r'/>
+<use f='codebrowser/src/lgc.c' l='377' u='r' c='traverseweakvalue'/>
+<use f='codebrowser/src/lgc.c' l='423' u='r' c='traverseephemeron'/>
+<use f='codebrowser/src/lgc.c' l='520' u='r' c='traverseLclosure'/>
+<use f='codebrowser/src/lgc.c' l='538' u='r' c='traversethread'/>
+<use f='codebrowser/src/lgc.c' l='794' macro='1' u='r'/>
+<use f='codebrowser/src/lgc.c' l='794' macro='1' u='r'/>
+<use f='codebrowser/src/lgc.c' l='908' macro='1' u='r'/>
+<use f='codebrowser/src/lgc.c' l='908' macro='1' u='r'/>
+<use f='codebrowser/src/lgc.c' l='960' u='w' c='entersweep'/>
+<use f='codebrowser/src/lgc.c' l='988' u='w' c='atomic'/>
+<use f='codebrowser/src/lgc.c' l='1038' u='w' c='sweepstep'/>
+<use f='codebrowser/src/lgc.c' l='1046' u='r' c='singlestep'/>
+<use f='codebrowser/src/lgc.c' l='1050' u='w' c='singlestep'/>
+<use f='codebrowser/src/lgc.c' l='1058' u='w' c='singlestep'/>
+<use f='codebrowser/src/lgc.c' l='1081' u='w' c='singlestep'/>
+<use f='codebrowser/src/lgc.c' l='1090' u='w' c='singlestep'/>
+<use f='codebrowser/src/lgc.c' l='1105' u='r' c='luaC_runtilstate'/>
+<use f='codebrowser/src/lgc.c' l='1138' u='r' c='luaC_step'/>
+<use f='codebrowser/src/lgc.c' l='1139' u='r' c='luaC_step'/>
+<use f='codebrowser/src/lgc.c' l='1162' macro='1' u='r'/>
+<use f='codebrowser/src/lstate.c' l='319' u='w' c='lua_newstate'/>

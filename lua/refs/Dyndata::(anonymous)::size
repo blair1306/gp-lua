@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lparser.h' l='99' type='int'/>
+<offset>96</offset>
+<use f='codebrowser/src/ldo.c' l='789' u='w' c='luaD_protectedparser'/>
+<use f='codebrowser/src/ldo.c' l='795' u='r' c='luaD_protectedparser'/>
+<use f='codebrowser/src/lparser.c' l='182' u='r' c='new_localvar'/>
+<use f='codebrowser/src/lparser.c' l='182' u='a' c='new_localvar'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/lgc.h' l='84'/>
+<doc f='codebrowser/src/lgc.h' l='82'>/* bit 7 is currently used by tests (luaL_checkmemory) */</doc>
+<use f='codebrowser/src/lgc.c' l='972' u='c'/>

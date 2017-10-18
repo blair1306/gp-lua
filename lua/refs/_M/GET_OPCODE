@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/lopcodes.h' l='89'/>
+<use f='codebrowser/src/lcode.c' l='69' u='c'/>
+<use f='codebrowser/src/lcode.c' l='181' u='c'/>
+<use f='codebrowser/src/lcode.c' l='197' u='c'/>
+<use f='codebrowser/src/lcode.c' l='662' u='c'/>
+<use f='codebrowser/src/lcode.c' l='842' u='c'/>
+<use f='codebrowser/src/lcode.c' l='1144' u='c'/>
+<doc f='codebrowser/src/lopcodes.h' l='85'>/*
+** the following macros help to manipulate instructions
+*/</doc>
+<use f='codebrowser/src/ldebug.c' l='391' u='c'/>
+<use f='codebrowser/src/ldebug.c' l='441' u='c'/>
+<use f='codebrowser/src/ldebug.c' l='501' u='c'/>
+<use f='codebrowser/src/ldebug.c' l='519' u='c'/>
+<use f='codebrowser/src/ldo.c' l='284' u='c'/>
+<use f='codebrowser/src/luac.c' l='295' u='c'/>
+<use f='codebrowser/src/lvm.c' l='660' u='c'/>
+<use f='codebrowser/src/lvm.c' l='802' u='c'/>

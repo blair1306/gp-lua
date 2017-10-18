@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/llex.h' l='76' type='void luaX_setinput(lua_State * L, LexState * ls, ZIO * z, TString * source, int firstchar)'/>
+<def f='codebrowser/src/llex.c' l='162' ll='175' type='void luaX_setinput(lua_State * L, LexState * ls, ZIO * z, TString * source, int firstchar)'/>
+<use f='codebrowser/src/lparser.c' l='1642' u='c' c='luaY_parser'/>

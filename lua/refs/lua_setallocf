@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/lua.h' l='329' type='void lua_setallocf(lua_State * L, lua_Alloc f, void * ud)'/>
+<def f='codebrowser/src/lapi.c' l='1175' ll='1180' macro='1' type='void lua_setallocf(lua_State * L, lua_Alloc f, void * ud)'/>

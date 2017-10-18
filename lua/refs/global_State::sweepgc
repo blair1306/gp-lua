@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/lstate.h' l='134' type='GCObject **'/>
+<offset>768</offset>
+<doc f='codebrowser/src/lstate.h' l='134'>/* current position of sweep in list */</doc>
+<use f='codebrowser/src/lgc.c' l='910' u='r' c='luaC_checkfinalizer'/>
+<use f='codebrowser/src/lgc.c' l='911' u='w' c='luaC_checkfinalizer'/>
+<use f='codebrowser/src/lgc.c' l='911' u='r' c='luaC_checkfinalizer'/>
+<use f='codebrowser/src/lgc.c' l='962' u='w' c='entersweep'/>
+<use f='codebrowser/src/lgc.c' l='1030' u='r' c='sweepstep'/>
+<use f='codebrowser/src/lgc.c' l='1032' u='w' c='sweepstep'/>
+<use f='codebrowser/src/lgc.c' l='1032' u='r' c='sweepstep'/>
+<use f='codebrowser/src/lgc.c' l='1034' u='r' c='sweepstep'/>
+<use f='codebrowser/src/lgc.c' l='1039' u='w' c='sweepstep'/>
+<use f='codebrowser/src/lstate.c' l='322' u='w' c='lua_newstate'/>

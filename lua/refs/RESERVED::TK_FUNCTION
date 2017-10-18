@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/llex.h' l='29' type='265'/>
+<use f='codebrowser/src/lparser.c' l='798' u='r' c='body'/>
+<use f='codebrowser/src/lparser.c' l='972' c='simpleexp'/>
+<use f='codebrowser/src/lparser.c' l='1567' c='statement'/>
+<use f='codebrowser/src/lparser.c' l='1573' u='r' c='statement'/>

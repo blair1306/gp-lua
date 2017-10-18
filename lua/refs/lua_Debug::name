@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/lua.h' l='443' type='const char *'/>
+<offset>64</offset>
+<doc f='codebrowser/src/lua.h' l='443'>/* (n) */</doc>
+<use f='codebrowser/src/lauxlib.c' l='100' u='r' c='pushfuncname'/>
+<use f='codebrowser/src/lauxlib.c' l='173' u='r' c='luaL_argerror'/>
+<use f='codebrowser/src/lauxlib.c' l='175' u='r' c='luaL_argerror'/>
+<use f='codebrowser/src/lauxlib.c' l='176' u='w' c='luaL_argerror'/>
+<use f='codebrowser/src/lauxlib.c' l='178' u='r' c='luaL_argerror'/>
+<use f='codebrowser/src/ldblib.c' l='180' u='r' c='db_getinfo'/>
+<use f='codebrowser/src/ldebug.c' l='292' u='a' c='auxgetinfo'/>
+<use f='codebrowser/src/ldebug.c' l='295' u='w' c='auxgetinfo'/>

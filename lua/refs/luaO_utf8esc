@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lobject.h' l='535' type='int luaO_utf8esc(char * buff, unsigned long x)'/>
+<use f='codebrowser/src/llex.c' l='347' u='c' c='utf8esc'/>
+<def f='codebrowser/src/lobject.c' l='346' ll='361' type='int luaO_utf8esc(char * buff, unsigned long x)'/>
+<use f='codebrowser/src/lobject.c' l='444' u='c' c='luaO_pushvfstring'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/ltm.h' l='61' type='const TValue * luaT_gettmbyobj(lua_State * L, const TValue * o, TMS event)'/>
+<use f='codebrowser/src/ldo.c' l='316' u='c' c='tryfuncTM'/>
+<use f='codebrowser/src/lgc.c' l='811' u='c' c='GCTM'/>
+<def f='codebrowser/src/ltm.c' l='70' ll='83' type='const TValue * luaT_gettmbyobj(lua_State * L, const TValue * o, TMS event)'/>
+<use f='codebrowser/src/ltm.c' l='126' u='c' c='luaT_callbinTM'/>
+<use f='codebrowser/src/ltm.c' l='128' u='c' c='luaT_callbinTM'/>
+<use f='codebrowser/src/lvm.c' l='167' u='c' c='luaV_finishget'/>
+<use f='codebrowser/src/lvm.c' l='224' u='c' c='luaV_finishset'/>
+<use f='codebrowser/src/lvm.c' l='536' u='c' c='luaV_objlen'/>

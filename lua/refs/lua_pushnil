@@ -1,0 +1,31 @@
+<dec f='codebrowser/src/lua.h' l='224' type='void lua_pushnil(lua_State * L)'/>
+<def f='codebrowser/src/lapi.c' l='450' ll='455' macro='1' type='void lua_pushnil(lua_State * L)'/>
+<use f='codebrowser/src/lauxlib.c' l='49' u='c' c='findfield'/>
+<use f='codebrowser/src/lauxlib.c' l='241' u='c' c='luaL_fileresult'/>
+<use f='codebrowser/src/lauxlib.c' l='283' u='c' c='luaL_execresult'/>
+<use f='codebrowser/src/lbaselib.c' l='97' u='c' c='luaB_tonumber'/>
+<use f='codebrowser/src/lbaselib.c' l='117' u='c' c='luaB_getmetatable'/>
+<use f='codebrowser/src/lbaselib.c' l='216' u='c' c='pairsmeta'/>
+<use f='codebrowser/src/lbaselib.c' l='232' u='c' c='luaB_next'/>
+<use f='codebrowser/src/lbaselib.c' l='280' u='c' c='load_aux'/>
+<use f='codebrowser/src/ldblib.c' l='50' u='c' c='db_getmetatable'/>
+<use f='codebrowser/src/ldblib.c' l='68' u='c' c='db_getuservalue'/>
+<use f='codebrowser/src/ldblib.c' l='158' u='c' c='db_getinfo'/>
+<use f='codebrowser/src/ldblib.c' l='217' u='c' c='db_getlocal'/>
+<use f='codebrowser/src/ldblib.c' l='314' u='c' c='hookf'/>
+<use f='codebrowser/src/ldblib.c' l='386' u='c' c='db_gethook'/>
+<use f='codebrowser/src/liolib.c' l='155' u='c' c='io_type'/>
+<use f='codebrowser/src/liolib.c' l='353' u='c' c='io_lines'/>
+<use f='codebrowser/src/liolib.c' l='463' u='c' c='read_number'/>
+<use f='codebrowser/src/liolib.c' l='568' u='c' c='g_read'/>
+<use f='codebrowser/src/liolib.c' l='743' u='c' c='io_noclose'/>
+<use f='codebrowser/src/lmathlib.c' l='90' u='c' c='math_toint'/>
+<use f='codebrowser/src/lmathlib.c' l='293' u='c' c='math_type'/>
+<use f='codebrowser/src/loadlib.c' l='400' u='c' c='ll_loadlib'/>
+<use f='codebrowser/src/loadlib.c' l='465' u='c' c='ll_searchpath'/>
+<use f='codebrowser/src/lstrlib.c' l='614' u='c' c='str_find_aux'/>
+<use f='codebrowser/src/lstrlib.c' l='649' u='c' c='str_find_aux'/>
+<use f='codebrowser/src/lstrlib.c' l='1337' u='c' c='str_pack'/>
+<use f='codebrowser/src/ltablib.c' l='116' u='c' c='tremove'/>
+<use f='codebrowser/src/lutf8lib.c' l='84' u='c' c='utflen'/>
+<use f='codebrowser/src/lutf8lib.c' l='196' u='c' c='byteoffset'/>

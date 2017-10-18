@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/lparser.h' l='123' type='lu_byte'/>
+<use f='codebrowser/src/lcode.c' l='387' u='r' c='freereg'/>
+<use f='codebrowser/src/lcode.c' l='720' u='r' c='luaK_exp2anyreg'/>
+<offset>464</offset>
+<doc f='codebrowser/src/lparser.h' l='123'>/* number of active local variables */</doc>
+<use f='codebrowser/src/lparser.c' l='204' u='w' c='adjustlocalvars'/>
+<use f='codebrowser/src/lparser.c' l='204' u='r' c='adjustlocalvars'/>
+<use f='codebrowser/src/lparser.c' l='206' u='r' c='adjustlocalvars'/>
+<use f='codebrowser/src/lparser.c' l='212' u='r' c='removevars'/>
+<use f='codebrowser/src/lparser.c' l='213' u='r' c='removevars'/>
+<use f='codebrowser/src/lparser.c' l='214' u='w' c='removevars'/>
+<use f='codebrowser/src/lparser.c' l='246' u='r' c='searchvar'/>
+<use f='codebrowser/src/lparser.c' l='392' u='r' c='newlabelentry'/>
+<use f='codebrowser/src/lparser.c' l='441' u='r' c='enterblock'/>
+<use f='codebrowser/src/lparser.c' l='487' u='r' c='leaveblock'/>
+<use f='codebrowser/src/lparser.c' l='542' u='w' c='open_func'/>
+<use f='codebrowser/src/lparser.c' l='777' u='r' c='parlist'/>
+<use f='codebrowser/src/lparser.c' l='778' u='r' c='parlist'/>
+<use f='codebrowser/src/lparser.c' l='1519' u='r' c='retstat'/>
+<use f='codebrowser/src/lparser.c' l='1527' u='r' c='retstat'/>
+<use f='codebrowser/src/lparser.c' l='1601' u='r' c='statement'/>

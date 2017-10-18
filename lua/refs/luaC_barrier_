@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/lgc.h' l='140' type='void luaC_barrier_(lua_State * L, GCObject * o, GCObject * v)'/>
+<use f='codebrowser/src/lapi.c' l='230' macro='1' u='c'/>
+<use f='codebrowser/src/lapi.c' l='861' macro='1' u='c'/>
+<use f='codebrowser/src/lapi.c' l='869' macro='1' u='c'/>
+<use f='codebrowser/src/lapi.c' l='892' macro='1' u='c'/>
+<use f='codebrowser/src/lapi.c' l='1248' macro='1' u='c'/>
+<use f='codebrowser/src/lcode.c' l='450' macro='1' u='c'/>
+<def f='codebrowser/src/lgc.c' l='155' ll='164' type='void luaC_barrier_(lua_State * L, GCObject * o, GCObject * v)'/>
+<doc f='codebrowser/src/lgc.c' l='149'>/*
+** barrier that moves collector forward, that is, mark the white object
+** being pointed by a black object. (If in sweep phase, clear the black
+** object to white [sweep it] to avoid other barrier calls for this
+** same object.)
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='170' macro='1' u='c'/>
+<use f='codebrowser/src/lparser.c' l='239' macro='1' u='c'/>
+<use f='codebrowser/src/lparser.c' l='511' macro='1' u='c'/>

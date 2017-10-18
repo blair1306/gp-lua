@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/lstate.h' l='141' type='GCObject *'/>
+<offset>1216</offset>
+<doc f='codebrowser/src/lstate.h' l='141'>/* list of userdata to be GC */</doc>
+<use f='codebrowser/src/lgc.c' l='301' u='r' c='markbeingfnz'/>
+<use f='codebrowser/src/lgc.c' l='788' u='r' c='udata2finalize'/>
+<use f='codebrowser/src/lgc.c' l='790' u='w' c='udata2finalize'/>
+<use f='codebrowser/src/lgc.c' l='847' u='r' c='runafewfinalizers'/>
+<use f='codebrowser/src/lgc.c' l='849' u='r' c='runafewfinalizers'/>
+<use f='codebrowser/src/lgc.c' l='860' u='r' c='callallpendingfinalizers'/>
+<use f='codebrowser/src/lgc.c' l='882' u='a' c='separatetobefnz'/>
+<use f='codebrowser/src/lgc.c' l='1073' u='a' c='singlestep'/>
+<use f='codebrowser/src/lgc.c' l='1085' u='r' c='singlestep'/>
+<use f='codebrowser/src/lstate.c' l='321' u='w' c='lua_newstate'/>

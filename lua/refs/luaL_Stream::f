@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/lauxlib.h' l='194' type='FILE *'/>
+<offset>0</offset>
+<doc f='codebrowser/src/lauxlib.h' l='194'>/* stream (NULL for incompletely created streams) */</doc>
+<use f='codebrowser/src/liolib.c' l='169' u='r' c='f_tostring'/>
+<use f='codebrowser/src/liolib.c' l='179' u='r' c='tofile'/>
+<use f='codebrowser/src/liolib.c' l='219' u='r' c='f_gc'/>
+<use f='codebrowser/src/liolib.c' l='230' u='r' c='io_fclose'/>
+<use f='codebrowser/src/liolib.c' l='237' u='w' c='newfile'/>
+<use f='codebrowser/src/liolib.c' l='245' u='w' c='opencheck'/>
+<use f='codebrowser/src/liolib.c' l='246' u='r' c='opencheck'/>
+<use f='codebrowser/src/liolib.c' l='257' u='w' c='io_open'/>
+<use f='codebrowser/src/liolib.c' l='258' u='r' c='io_open'/>
+<use f='codebrowser/src/liolib.c' l='267' u='r' c='io_pclose'/>
+<use f='codebrowser/src/liolib.c' l='275' u='w' c='io_popen'/>
+<use f='codebrowser/src/liolib.c' l='277' u='r' c='io_popen'/>
+<use f='codebrowser/src/liolib.c' l='283' u='w' c='io_tmpfile'/>
+<use f='codebrowser/src/liolib.c' l='284' u='r' c='io_tmpfile'/>
+<use f='codebrowser/src/liolib.c' l='294' u='r' c='getiofile'/>
+<use f='codebrowser/src/liolib.c' l='594' u='r' c='io_readline'/>
+<use f='codebrowser/src/liolib.c' l='752' u='w' c='createstdfile'/>

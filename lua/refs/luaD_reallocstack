@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/ldo.h' l='49' type='void luaD_reallocstack(lua_State * L, int newsize)'/>
+<def f='codebrowser/src/ldo.c' l='177' ll='188' type='void luaD_reallocstack(lua_State * L, int newsize)'/>
+<use f='codebrowser/src/ldo.c' l='201' u='c' c='luaD_growstack'/>
+<use f='codebrowser/src/ldo.c' l='205' u='c' c='luaD_growstack'/>
+<use f='codebrowser/src/ldo.c' l='234' u='c' c='luaD_shrinkstack'/>

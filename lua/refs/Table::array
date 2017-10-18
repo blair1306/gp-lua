@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/lobject.h' l='502' type='TValue *'/>
+<offset>128</offset>
+<doc f='codebrowser/src/lobject.h' l='502'>/* array part */</doc>
+<use f='codebrowser/src/lgc.c' l='402' u='r' c='traverseephemeron'/>
+<use f='codebrowser/src/lgc.c' l='402' u='r' c='traverseephemeron'/>
+<use f='codebrowser/src/lgc.c' l='404' u='r' c='traverseephemeron'/>
+<use f='codebrowser/src/lgc.c' l='437' u='r' c='traversestrongtable'/>
+<use f='codebrowser/src/lgc.c' l='437' u='r' c='traversestrongtable'/>
+<use f='codebrowser/src/lgc.c' l='437' u='r' c='traversestrongtable'/>
+<use f='codebrowser/src/lgc.c' l='663' u='r' c='clearvalues'/>
+<use f='codebrowser/src/ltable.c' l='189' u='r' c='luaH_next'/>
+<use f='codebrowser/src/ltable.c' l='191' u='r' c='luaH_next'/>
+<use f='codebrowser/src/ltable.c' l='273' u='r' c='numusearray'/>
+<use f='codebrowser/src/ltable.c' l='301' u='w' c='setarrayvector'/>
+<use f='codebrowser/src/ltable.c' l='301' u='r' c='setarrayvector'/>
+<use f='codebrowser/src/ltable.c' l='303' u='r' c='setarrayvector'/>
+<use f='codebrowser/src/ltable.c' l='348' u='r' c='luaH_resize'/>
+<use f='codebrowser/src/ltable.c' l='349' u='r' c='luaH_resize'/>
+<use f='codebrowser/src/ltable.c' l='352' u='w' c='luaH_resize'/>
+<use f='codebrowser/src/ltable.c' l='352' u='r' c='luaH_resize'/>
+<use f='codebrowser/src/ltable.c' l='407' u='w' c='luaH_new'/>
+<use f='codebrowser/src/ltable.c' l='417' u='r' c='luaH_free'/>
+<use f='codebrowser/src/ltable.c' l='417' u='r' c='luaH_free'/>
+<use f='codebrowser/src/ltable.c' l='500' u='r' c='luaH_getint'/>
+<use f='codebrowser/src/ltable.c' l='643' u='r' c='luaH_getn'/>
+<use f='codebrowser/src/ltable.c' l='648' u='r' c='luaH_getn'/>

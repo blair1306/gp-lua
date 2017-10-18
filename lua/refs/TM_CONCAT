@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/ltm.h' l='41' type='22'/>
+<use f='codebrowser/src/ldebug.c' l='526' u='r' c='funcnamefromcode'/>
+<use f='codebrowser/src/ltm.c' l='139' c='luaT_trybinTM'/>
+<use f='codebrowser/src/lvm.c' l='480' u='r' c='luaV_concat'/>

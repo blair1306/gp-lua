@@ -1,0 +1,5 @@
+<def f='codebrowser/src/llex.h' l='26' ll='37'/>
+<doc f='codebrowser/src/llex.h' l='22'>/*
+* WARNING: if you change the order of this enumeration,
+* grep &quot;ORDER RESERVED&quot;
+*/</doc>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lmem.h' l='38'/>
+<doc f='codebrowser/src/lmem.h' l='35'>/*
+** Arrays of chars do not need any test
+*/</doc>

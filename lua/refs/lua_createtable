@@ -1,0 +1,23 @@
+<dec f='codebrowser/src/lua.h' l='249' type='void lua_createtable(lua_State * L, int narr, int nrec)'/>
+<def f='codebrowser/src/lapi.c' l='683' ll='693' macro='1' type='void lua_createtable(lua_State * L, int narray, int nrec)'/>
+<use f='codebrowser/src/lauxlib.c' l='303' u='c' c='luaL_newmetatable'/>
+<use f='codebrowser/src/lauxlib.c' l='957' macro='1' u='c'/>
+<use f='codebrowser/src/lbitlib.c' l='221' macro='1' u='c'/>
+<use f='codebrowser/src/lcorolib.c' l='165' macro='1' u='c'/>
+<use f='codebrowser/src/ldblib.c' l='164' macro='1' u='c'/>
+<use f='codebrowser/src/ldblib.c' l='362' u='c' c='db_sethook'/>
+<use f='codebrowser/src/ldblib.c' l='453' macro='1' u='c'/>
+<use f='codebrowser/src/liolib.c' l='763' macro='1' u='c'/>
+<use f='codebrowser/src/lmathlib.c' l='399' macro='1' u='c'/>
+<use f='codebrowser/src/loadlib.c' l='738' u='c' c='createsearcherstable'/>
+<use f='codebrowser/src/loadlib.c' l='758' macro='1' u='c'/>
+<use f='codebrowser/src/loadlib.c' l='759' u='c' c='createclibstable'/>
+<use f='codebrowser/src/loadlib.c' l='769' macro='1' u='c'/>
+<use f='codebrowser/src/loslib.c' l='298' u='c' c='os_date'/>
+<use f='codebrowser/src/loslib.c' l='404' macro='1' u='c'/>
+<use f='codebrowser/src/lstrlib.c' l='1565' u='c' c='createmetatable'/>
+<use f='codebrowser/src/lstrlib.c' l='1580' macro='1' u='c'/>
+<use f='codebrowser/src/ltablib.c' l='197' u='c' c='pack'/>
+<use f='codebrowser/src/ltablib.c' l='442' macro='1' u='c'/>
+<use f='codebrowser/src/lua.c' l='230' u='c' c='createargtable'/>
+<use f='codebrowser/src/lutf8lib.c' l='251' macro='1' u='c'/>

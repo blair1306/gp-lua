@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/lobject.h' l='448' type='lua_CFunction'/>
+<use f='codebrowser/src/lapi.c' l='408' u='r' c='lua_tocfunction'/>
+<use f='codebrowser/src/lapi.c' l='542' u='w' c='lua_pushcclosure'/>
+<offset>192</offset>
+<use f='codebrowser/src/ldo.c' l='418' u='r' c='luaD_precall'/>

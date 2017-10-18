@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/llex.h' l='36' type='292'/>
+<use f='codebrowser/src/llex.c' l='99' c='txtToken'/>
+<use f='codebrowser/src/llex.c' l='535' u='r' c='llex'/>
+<use f='codebrowser/src/lparser.c' l='137' u='r' c='str_checkname'/>
+<use f='codebrowser/src/lparser.c' l='652' u='r' c='recfield'/>
+<use f='codebrowser/src/lparser.c' l='705' c='field'/>
+<use f='codebrowser/src/lparser.c' l='762' c='parlist'/>
+<use f='codebrowser/src/lparser.c' l='882' c='primaryexp'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/luaconf.h' l='733'/>
+<doc f='codebrowser/src/luaconf.h' l='728'>/*
+@@ LUA_EXTRASPACE defines the size of a raw memory area associated with
+** a Lua state with very fast access.
+** CHANGE it if you need a different size.
+*/</doc>
+<use f='codebrowser/src/lstate.c' l='55' u='c'/>
+<use f='codebrowser/src/lstate.c' l='277' u='c'/>

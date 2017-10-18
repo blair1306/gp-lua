@@ -1,0 +1,44 @@
+<dec f='codebrowser/src/llex.h' l='62' type='Token'/>
+<offset>128</offset>
+<doc f='codebrowser/src/llex.h' l='62'>/* current token */</doc>
+<use f='codebrowser/src/llex.c' l='118' u='m' c='luaX_syntaxerror'/>
+<use f='codebrowser/src/llex.c' l='164' u='m' c='luaX_setinput'/>
+<use f='codebrowser/src/llex.c' l='552' u='w' c='luaX_next'/>
+<use f='codebrowser/src/llex.c' l='556' u='m' c='luaX_next'/>
+<use f='codebrowser/src/llex.c' l='556' u='m' c='luaX_next'/>
+<use f='codebrowser/src/lparser.c' l='68' u='m' c='semerror'/>
+<use f='codebrowser/src/lparser.c' l='98' u='m' c='testnext'/>
+<use f='codebrowser/src/lparser.c' l='107' u='m' c='check'/>
+<use f='codebrowser/src/lparser.c' l='138' u='m' c='str_checkname'/>
+<use f='codebrowser/src/lparser.c' l='588' u='m' c='block_follow'/>
+<use f='codebrowser/src/lparser.c' l='601' u='m' c='statlist'/>
+<use f='codebrowser/src/lparser.c' l='652' u='m' c='recfield'/>
+<use f='codebrowser/src/lparser.c' l='704' u='m' c='field'/>
+<use f='codebrowser/src/lparser.c' l='739' u='m' c='constructor'/>
+<use f='codebrowser/src/lparser.c' l='759' u='m' c='parlist'/>
+<use f='codebrowser/src/lparser.c' l='761' u='m' c='parlist'/>
+<use f='codebrowser/src/lparser.c' l='821' u='m' c='funcargs'/>
+<use f='codebrowser/src/lparser.c' l='824' u='m' c='funcargs'/>
+<use f='codebrowser/src/lparser.c' l='838' u='m' c='funcargs'/>
+<use f='codebrowser/src/lparser.c' l='873' u='m' c='primaryexp'/>
+<use f='codebrowser/src/lparser.c' l='900' u='m' c='suffixedexp'/>
+<use f='codebrowser/src/lparser.c' l='934' u='m' c='simpleexp'/>
+<use f='codebrowser/src/lparser.c' l='937' u='m' c='simpleexp'/>
+<use f='codebrowser/src/lparser.c' l='942' u='m' c='simpleexp'/>
+<use f='codebrowser/src/lparser.c' l='946' u='m' c='simpleexp'/>
+<use f='codebrowser/src/lparser.c' l='1052' u='m' c='subexpr'/>
+<use f='codebrowser/src/lparser.c' l='1061' u='m' c='subexpr'/>
+<use f='codebrowser/src/lparser.c' l='1218' u='m' c='skipnoopstat'/>
+<use f='codebrowser/src/lparser.c' l='1218' u='m' c='skipnoopstat'/>
+<use f='codebrowser/src/lparser.c' l='1372' u='m' c='forstat'/>
+<use f='codebrowser/src/lparser.c' l='1391' u='m' c='test_then_block'/>
+<use f='codebrowser/src/lparser.c' l='1391' u='m' c='test_then_block'/>
+<use f='codebrowser/src/lparser.c' l='1410' u='m' c='test_then_block'/>
+<use f='codebrowser/src/lparser.c' l='1411' u='m' c='test_then_block'/>
+<use f='codebrowser/src/lparser.c' l='1422' u='m' c='ifstat'/>
+<use f='codebrowser/src/lparser.c' l='1466' u='m' c='funcname'/>
+<use f='codebrowser/src/lparser.c' l='1468' u='m' c='funcname'/>
+<use f='codebrowser/src/lparser.c' l='1493' u='m' c='exprstat'/>
+<use f='codebrowser/src/lparser.c' l='1493' u='m' c='exprstat'/>
+<use f='codebrowser/src/lparser.c' l='1509' u='m' c='retstat'/>
+<use f='codebrowser/src/lparser.c' l='1540' u='m' c='statement'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/llimits.h' l='71' type='lua_Integer'/>
+<offset>0</offset>
+<dec f='codebrowser/src/llex.h' l='45' type='lua_Integer'/>
+<offset>0</offset>
+<use f='codebrowser/src/llex.c' l='235' u='w' c='read_numeral'/>
+<use f='codebrowser/src/lparser.c' l='942' u='r' c='simpleexp'/>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/lparser.h' l='36' type='8'/>
+<use f='codebrowser/src/lcode.c' l='558' c='luaK_dischargevars'/>
+<use f='codebrowser/src/lcode.c' l='570' u='r' c='luaK_dischargevars'/>
+<use f='codebrowser/src/lcode.c' l='784' c='luaK_storevar'/>
+<use f='codebrowser/src/lcode.c' l='795' u='r' c='luaK_storevar'/>
+<use f='codebrowser/src/lcode.c' l='950' u='r' c='luaK_indexed'/>
+<doc f='codebrowser/src/lparser.h' l='36'>/* local variable; info = local register */</doc>
+<use f='codebrowser/src/lparser.c' l='236' u='r' c='newupvalue'/>
+<use f='codebrowser/src/lparser.c' l='276' u='r' c='singlevaraux'/>
+<use f='codebrowser/src/lparser.c' l='1128' u='r' c='check_conflict'/>
+<use f='codebrowser/src/lparser.c' l='1132' u='r' c='check_conflict'/>
+<use f='codebrowser/src/lparser.c' l='1140' u='r' c='check_conflict'/>
+<use f='codebrowser/src/lparser.c' l='1149' macro='1' u='r'/>
+<use f='codebrowser/src/lparser.c' l='1617' u='r' c='mainfunc'/>

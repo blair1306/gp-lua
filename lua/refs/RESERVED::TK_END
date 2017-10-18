@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/llex.h' l='29' type='262'/>
+<use f='codebrowser/src/lparser.c' l='590' c='block_follow'/>
+<use f='codebrowser/src/lparser.c' l='798' u='r' c='body'/>
+<use f='codebrowser/src/lparser.c' l='1254' u='r' c='whilestat'/>
+<use f='codebrowser/src/lparser.c' l='1377' u='r' c='forstat'/>
+<use f='codebrowser/src/lparser.c' l='1426' u='r' c='ifstat'/>
+<use f='codebrowser/src/lparser.c' l='1556' u='r' c='statement'/>

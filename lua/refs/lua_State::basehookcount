@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/lstate.h' l='178' type='int'/>
+<offset>1504</offset>
+<use f='codebrowser/src/ldebug.c' l='89' u='w' c='lua_sethook'/>
+<use f='codebrowser/src/ldebug.c' l='90' macro='1' u='r'/>
+<use f='codebrowser/src/ldebug.c' l='106' u='r' c='lua_gethookcount'/>
+<use f='codebrowser/src/ldebug.c' l='670' macro='1' u='r'/>
+<use f='codebrowser/src/lstate.c' l='232' u='w' c='preinit_thread'/>
+<use f='codebrowser/src/lstate.c' l='234' macro='1' u='r'/>
+<use f='codebrowser/src/lstate.c' l='272' u='w' c='lua_newthread'/>
+<use f='codebrowser/src/lstate.c' l='272' u='r' c='lua_newthread'/>
+<use f='codebrowser/src/lstate.c' l='274' macro='1' u='r'/>

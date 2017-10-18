@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/lobject.h' l='506' type='GCObject *'/>
+<offset>384</offset>
+<use f='codebrowser/src/lgc.c' l='113' u='w' c='luaC_barrierback_'/>
+<use f='codebrowser/src/lgc.c' l='113' u='w' c='reallymarkobject'/>
+<use f='codebrowser/src/lgc.c' l='113' u='w' c='traverseweakvalue'/>
+<use f='codebrowser/src/lgc.c' l='113' u='w' c='traverseweakvalue'/>
+<use f='codebrowser/src/lgc.c' l='113' u='w' c='traverseephemeron'/>
+<use f='codebrowser/src/lgc.c' l='113' u='w' c='traverseephemeron'/>
+<use f='codebrowser/src/lgc.c' l='113' u='w' c='traverseephemeron'/>
+<use f='codebrowser/src/lgc.c' l='113' u='w' c='traversetable'/>
+<use f='codebrowser/src/lgc.c' l='567' u='r' c='propagatemark'/>
+<use f='codebrowser/src/lgc.c' l='616' u='r' c='convergeephemerons'/>
+<use f='codebrowser/src/lgc.c' l='640' u='r' c='clearkeys'/>
+<use f='codebrowser/src/lgc.c' l='658' u='r' c='clearvalues'/>

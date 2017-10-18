@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/lobject.h' l='456' type='UpVal *[1]'/>
+<use f='codebrowser/src/lapi.c' l='1006' u='r' c='lua_load'/>
+<use f='codebrowser/src/lapi.c' l='1007' u='r' c='lua_load'/>
+<use f='codebrowser/src/lapi.c' l='1007' u='r' c='lua_load'/>
+<use f='codebrowser/src/lapi.c' l='1007' u='r' c='lua_load'/>
+<use f='codebrowser/src/lapi.c' l='1007' u='r' c='lua_load'/>
+<use f='codebrowser/src/lapi.c' l='1211' u='r' c='aux_upvalue'/>
+<use f='codebrowser/src/lapi.c' l='1212' u='r' c='aux_upvalue'/>
+<use f='codebrowser/src/lapi.c' l='1263' u='a' c='getupvalref'/>
+<offset>256</offset>
+<doc f='codebrowser/src/lobject.h' l='456'>/* list of upvalues */</doc>
+<use f='codebrowser/src/ldebug.c' l='562' u='r' c='getupvalname'/>
+<use f='codebrowser/src/lfunc.c' l='38' u='w' c='luaF_newLclosure'/>
+<use f='codebrowser/src/lfunc.c' l='52' u='w' c='luaF_initupvals'/>
+<use f='codebrowser/src/lgc.c' l='518' u='r' c='traverseLclosure'/>
+<use f='codebrowser/src/lgc.c' l='688' u='r' c='freeLclosure'/>
+<use f='codebrowser/src/lvm.c' l='618' u='r' c='getcached'/>
+<use f='codebrowser/src/lvm.c' l='642' u='w' c='pushclosure'/>
+<use f='codebrowser/src/lvm.c' l='644' u='w' c='pushclosure'/>
+<use f='codebrowser/src/lvm.c' l='645' u='r' c='pushclosure'/>
+<use f='codebrowser/src/lvm.c' l='833' u='r' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='837' u='r' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='849' u='r' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='856' u='r' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='1287' u='r' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='1289' u='r' c='luaV_execute'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lobject.h' l='399' type='int'/>
+<offset>64</offset>
+<doc f='codebrowser/src/lobject.h' l='399'>/* first point where variable is active */</doc>
+<use f='codebrowser/src/ldump.c' l='156' u='r' c='DumpDebug'/>
+<use f='codebrowser/src/lfunc.c' l='142' u='r' c='luaF_getlocalname'/>
+<use f='codebrowser/src/lparser.c' l='206' u='w' c='adjustlocalvars'/>
+<use f='codebrowser/src/lparser.c' l='1438' u='w' c='localfunc'/>
+<use f='codebrowser/src/luac.c' l='431' u='r' c='PrintDebug'/>
+<use f='codebrowser/src/lundump.c' l='193' u='w' c='LoadDebug'/>

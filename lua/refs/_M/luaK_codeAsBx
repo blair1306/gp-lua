@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/lcode.h' l='46'/>
+<use f='codebrowser/src/lcode.c' l='140' u='c'/>
+<use f='codebrowser/src/lparser.c' l='1298' u='c'/>
+<use f='codebrowser/src/lparser.c' l='1306' u='c'/>
+<use f='codebrowser/src/lparser.c' l='1310' u='c'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/llimits.h' l='42'/>
+<doc f='codebrowser/src/llimits.h' l='41'>/* maximum size visible for Lua (must be representable in a lua_Integer */</doc>
+<use f='codebrowser/src/llex.c' l='61' u='c'/>
+<use f='codebrowser/src/lstring.c' l='204' u='c'/>
+<use f='codebrowser/src/lstring.c' l='239' u='c'/>
+<use f='codebrowser/src/lvm.c' l='493' u='c'/>

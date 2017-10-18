@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lua.h' l='175' type='int lua_iscfunction(lua_State * L, int idx)'/>
+<def f='codebrowser/src/lapi.c' l='264' ll='267' macro='1' type='int lua_iscfunction(lua_State * L, int idx)'/>
+<use f='codebrowser/src/ldblib.c' l='294' u='c' c='db_upvaluejoin'/>
+<use f='codebrowser/src/ldblib.c' l='295' u='c' c='db_upvaluejoin'/>

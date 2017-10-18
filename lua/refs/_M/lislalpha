@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/lctype.h' l='57'/>
+<doc f='codebrowser/src/lctype.h' l='54'>/*
+** &apos;lalpha&apos; (Lua alphabetic) and &apos;lalnum&apos; (Lua alphanumeric) both include &apos;_&apos;
+*/</doc>
+<use f='codebrowser/src/llex.c' l='524' u='c'/>

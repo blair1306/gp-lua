@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/ldebug.h' l='33' type='const char * luaG_addinfo(lua_State * L, const char * msg, TString * src, int line)'/>
+<def f='codebrowser/src/ldebug.c' l='628' ll='637' type='const char * luaG_addinfo(lua_State * L, const char * msg, TString * src, int line)'/>
+<use f='codebrowser/src/ldebug.c' l='660' u='c' c='luaG_runerror'/>
+<doc f='codebrowser/src/ldebug.c' l='627'>/* add src:line information to &apos;msg&apos; */</doc>
+<use f='codebrowser/src/llex.c' l='110' u='c' c='lexerror'/>

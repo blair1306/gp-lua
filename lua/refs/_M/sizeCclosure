@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lfunc.h' l='14'/>
+<use f='codebrowser/src/lfunc.c' l='26' u='c'/>
+<use f='codebrowser/src/lgc.c' l='505' u='c'/>
+<use f='codebrowser/src/lgc.c' l='704' u='c'/>

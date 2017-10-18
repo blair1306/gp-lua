@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lua.h' l='453' type='char'/>
+<offset>440</offset>
+<doc f='codebrowser/src/lua.h' l='453'>/* (t) */</doc>
+<use f='codebrowser/src/lauxlib.c' l='147' u='r' c='luaL_traceback'/>
+<use f='codebrowser/src/ldblib.c' l='184' u='r' c='db_getinfo'/>
+<use f='codebrowser/src/ldebug.c' l='288' u='w' c='auxgetinfo'/>

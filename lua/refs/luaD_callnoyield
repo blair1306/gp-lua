@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/ldo.h' l='44' type='void luaD_callnoyield(lua_State * L, StkId func, int nResults)'/>
+<use f='codebrowser/src/lapi.c' l='924' u='c' c='lua_callk'/>
+<use f='codebrowser/src/lapi.c' l='942' u='c' c='f_call'/>
+<use f='codebrowser/src/ldebug.c' l='646' u='c' c='luaG_errormsg'/>
+<def f='codebrowser/src/ldo.c' l='507' ll='511' type='void luaD_callnoyield(lua_State * L, StkId func, int nResults)'/>
+<doc f='codebrowser/src/ldo.c' l='504'>/*
+** Similar to &apos;luaD_call&apos;, but does not allow yields during the call
+*/</doc>
+<use f='codebrowser/src/lgc.c' l='802' u='c' c='dothecall'/>
+<use f='codebrowser/src/ltm.c' l='116' u='c' c='luaT_callTM'/>

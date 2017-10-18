@@ -1,0 +1,22 @@
+<dec f='codebrowser/src/lparser.h' l='67' type='int'/>
+<use f='codebrowser/src/lcode.c' l='36' u='r' c='tonumeral'/>
+<use f='codebrowser/src/lcode.c' l='36' u='r' c='exp2reg'/>
+<use f='codebrowser/src/lcode.c' l='683' u='r' c='exp2reg'/>
+<use f='codebrowser/src/lcode.c' l='690' u='r' c='exp2reg'/>
+<use f='codebrowser/src/lcode.c' l='693' u='w' c='exp2reg'/>
+<use f='codebrowser/src/lcode.c' l='36' u='r' c='luaK_exp2anyreg'/>
+<use f='codebrowser/src/lcode.c' l='36' u='r' c='luaK_exp2anyregup'/>
+<use f='codebrowser/src/lcode.c' l='36' u='r' c='luaK_exp2val'/>
+<use f='codebrowser/src/lcode.c' l='875' u='a' c='luaK_goiftrue'/>
+<use f='codebrowser/src/lcode.c' l='902' u='r' c='luaK_goiffalse'/>
+<use f='codebrowser/src/lcode.c' l='903' u='w' c='luaK_goiffalse'/>
+<use f='codebrowser/src/lcode.c' l='936' u='r' c='codenot'/>
+<use f='codebrowser/src/lcode.c' l='936' u='w' c='codenot'/>
+<use f='codebrowser/src/lcode.c' l='937' u='r' c='codenot'/>
+<use f='codebrowser/src/lcode.c' l='1130' u='a' c='luaK_posfix'/>
+<use f='codebrowser/src/lcode.c' l='1130' u='r' c='luaK_posfix'/>
+<offset>160</offset>
+<doc f='codebrowser/src/lparser.h' l='67'>/* patch list of &apos;exit when false&apos; */</doc>
+<use f='codebrowser/src/lparser.c' l='145' u='w' c='init_exp'/>
+<use f='codebrowser/src/lparser.c' l='1183' u='r' c='cond'/>
+<use f='codebrowser/src/lparser.c' l='1406' u='r' c='test_then_block'/>

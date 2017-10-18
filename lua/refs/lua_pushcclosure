@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/lua.h' l='232' type='void lua_pushcclosure(lua_State * L, lua_CFunction fn, int n)'/>
+<def f='codebrowser/src/lapi.c' l='532' ll='553' macro='1' type='void lua_pushcclosure(lua_State * L, lua_CFunction fn, int n)'/>
+<use f='codebrowser/src/lauxlib.c' l='487' macro='1' u='c'/>
+<use f='codebrowser/src/lauxlib.c' l='940' u='c' c='luaL_setfuncs'/>
+<use f='codebrowser/src/lauxlib.c' l='977' macro='1' u='c'/>
+<use f='codebrowser/src/lbaselib.c' l='213' macro='1' u='c'/>
+<use f='codebrowser/src/lcorolib.c' l='101' u='c' c='luaB_cowrap'/>
+<use f='codebrowser/src/liolib.c' l='340' u='c' c='aux_lines'/>
+<use f='codebrowser/src/loadlib.c' l='387' macro='1' u='c'/>
+<use f='codebrowser/src/loadlib.c' l='742' u='c' c='createsearcherstable'/>
+<use f='codebrowser/src/loadlib.c' l='760' macro='1' u='c'/>
+<use f='codebrowser/src/lstrlib.c' l='698' u='c' c='gmatch'/>
+<use f='codebrowser/src/lua.c' l='201' macro='1' u='c'/>
+<use f='codebrowser/src/lua.c' l='603' macro='1' u='c'/>
+<use f='codebrowser/src/luac.c' l='200' macro='1' u='c'/>
+<use f='codebrowser/src/lutf8lib.c' l='227' macro='1' u='c'/>

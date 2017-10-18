@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/llex.h' l='69' type='struct Dyndata *'/>
+<offset>704</offset>
+<doc f='codebrowser/src/llex.h' l='69'>/* dynamic structures used by the parser */</doc>
+<use f='codebrowser/src/lparser.c' l='177' u='r' c='new_localvar'/>
+<use f='codebrowser/src/lparser.c' l='196' u='r' c='getlocvar'/>
+<use f='codebrowser/src/lparser.c' l='212' u='r' c='removevars'/>
+<use f='codebrowser/src/lparser.c' l='344' u='r' c='closegoto'/>
+<use f='codebrowser/src/lparser.c' l='368' u='r' c='findlabel'/>
+<use f='codebrowser/src/lparser.c' l='404' u='r' c='findgotos'/>
+<use f='codebrowser/src/lparser.c' l='423' u='r' c='movegotosout'/>
+<use f='codebrowser/src/lparser.c' l='442' u='r' c='enterblock'/>
+<use f='codebrowser/src/lparser.c' l='443' u='r' c='enterblock'/>
+<use f='codebrowser/src/lparser.c' l='456' u='r' c='breaklabel'/>
+<use f='codebrowser/src/lparser.c' l='457' u='r' c='breaklabel'/>
+<use f='codebrowser/src/lparser.c' l='488' u='r' c='leaveblock'/>
+<use f='codebrowser/src/lparser.c' l='491' u='r' c='leaveblock'/>
+<use f='codebrowser/src/lparser.c' l='492' u='r' c='leaveblock'/>
+<use f='codebrowser/src/lparser.c' l='543' u='r' c='open_func'/>
+<use f='codebrowser/src/lparser.c' l='1197' u='r' c='gotostat'/>
+<use f='codebrowser/src/lparser.c' l='1226' u='r' c='labelstat'/>
+<use f='codebrowser/src/lparser.c' l='1640' u='w' c='luaY_parser'/>

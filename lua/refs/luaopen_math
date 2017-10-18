@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lualib.h' l='42' type='int luaopen_math(lua_State * L)'/>
+<use f='codebrowser/src/linit.c' l='50' u='r'/>
+<use f='codebrowser/src/linit.c' l='50' u='r'/>
+<use f='codebrowser/src/linit.c' l='50' u='r'/>
+<use f='codebrowser/src/linit.c' l='50' u='r'/>
+<def f='codebrowser/src/lmathlib.c' l='398' ll='409' macro='1' type='int luaopen_math(lua_State * L)'/>

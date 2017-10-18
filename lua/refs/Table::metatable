@@ -1,0 +1,28 @@
+<dec f='codebrowser/src/lobject.h' l='505' type='struct Table *'/>
+<use f='codebrowser/src/lapi.c' l='704' u='r' c='lua_getmetatable'/>
+<use f='codebrowser/src/lapi.c' l='859' u='w' c='lua_setmetatable'/>
+<offset>320</offset>
+<use f='codebrowser/src/lgc.c' l='453' u='r' c='traversetable'/>
+<use f='codebrowser/src/lgc.c' l='453' u='r' c='traversetable'/>
+<use f='codebrowser/src/lgc.c' l='453' u='r' c='traversetable'/>
+<use f='codebrowser/src/lgc.c' l='454' u='r' c='traversetable'/>
+<use f='codebrowser/src/lgc.c' l='454' u='r' c='traversetable'/>
+<use f='codebrowser/src/lgc.c' l='454' u='r' c='traversetable'/>
+<use f='codebrowser/src/ltable.c' l='405' u='w' c='luaH_new'/>
+<use f='codebrowser/src/ltm.c' l='74' u='r' c='luaT_gettmbyobj'/>
+<use f='codebrowser/src/ltm.c' l='92' u='r' c='luaT_objtypename'/>
+<use f='codebrowser/src/lvm.c' l='174' u='r' c='luaV_finishget'/>
+<use f='codebrowser/src/lvm.c' l='174' u='r' c='luaV_finishget'/>
+<use f='codebrowser/src/lvm.c' l='174' u='r' c='luaV_finishget'/>
+<use f='codebrowser/src/lvm.c' l='211' u='r' c='luaV_finishset'/>
+<use f='codebrowser/src/lvm.c' l='211' u='r' c='luaV_finishset'/>
+<use f='codebrowser/src/lvm.c' l='211' u='r' c='luaV_finishset'/>
+<use f='codebrowser/src/lvm.c' l='438' u='r' c='luaV_equalobj'/>
+<use f='codebrowser/src/lvm.c' l='438' u='r' c='luaV_equalobj'/>
+<use f='codebrowser/src/lvm.c' l='438' u='r' c='luaV_equalobj'/>
+<use f='codebrowser/src/lvm.c' l='440' u='r' c='luaV_equalobj'/>
+<use f='codebrowser/src/lvm.c' l='440' u='r' c='luaV_equalobj'/>
+<use f='codebrowser/src/lvm.c' l='440' u='r' c='luaV_equalobj'/>
+<use f='codebrowser/src/lvm.c' l='522' u='r' c='luaV_objlen'/>
+<use f='codebrowser/src/lvm.c' l='522' u='r' c='luaV_objlen'/>
+<use f='codebrowser/src/lvm.c' l='522' u='r' c='luaV_objlen'/>

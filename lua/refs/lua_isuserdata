@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/lua.h' l='177' type='int lua_isuserdata(lua_State * L, int idx)'/>
+<def f='codebrowser/src/lapi.c' l='289' ll='292' macro='1' type='int lua_isuserdata(lua_State * L, int idx)'/>

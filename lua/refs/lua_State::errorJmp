@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/lstate.h' l='173' type='struct lua_longjmp *'/>
+<offset>704</offset>
+<doc f='codebrowser/src/lstate.h' l='173'>/* current error recover point */</doc>
+<use f='codebrowser/src/ldo.c' l='111' u='r' c='luaD_throw'/>
+<use f='codebrowser/src/ldo.c' l='112' u='r' c='luaD_throw'/>
+<use f='codebrowser/src/ldo.c' l='113' u='r' c='luaD_throw'/>
+<use f='codebrowser/src/ldo.c' l='118' u='r' c='luaD_throw'/>
+<use f='codebrowser/src/ldo.c' l='140' u='r' c='luaD_rawrunprotected'/>
+<use f='codebrowser/src/ldo.c' l='141' u='w' c='luaD_rawrunprotected'/>
+<use f='codebrowser/src/ldo.c' l='145' u='w' c='luaD_rawrunprotected'/>
+<use f='codebrowser/src/lstate.c' l='228' u='w' c='preinit_thread'/>

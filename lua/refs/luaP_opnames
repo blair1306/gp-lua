@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lopcodes.h' l='290' type='const char *const [48]'/>
+<def f='codebrowser/src/lopcodes.c' l='20' ll='69' type='const char *const [48]'/>
+<doc f='codebrowser/src/lopcodes.c' l='18'>/* ORDER OP */</doc>
+<use f='codebrowser/src/luac.c' l='305' u='r' c='PrintCode'/>

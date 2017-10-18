@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/lparser.h' l='38' type='10'/>
+<use f='codebrowser/src/lcode.c' l='567' c='luaK_dischargevars'/>
+<use f='codebrowser/src/lcode.c' l='794' c='luaK_storevar'/>
+<use f='codebrowser/src/lcode.c' l='951' u='r' c='luaK_indexed'/>
+<doc f='codebrowser/src/lparser.h' l='38'>/* indexed variable;
+                ind.vt = whether &apos;t&apos; is register or upvalue;
+                ind.t = table register or upvalue;
+                ind.idx = key&apos;s R/K index */</doc>
+<use f='codebrowser/src/lparser.c' l='1124' u='r' c='check_conflict'/>
+<use f='codebrowser/src/lparser.c' l='1149' macro='1' u='r'/>
+<use f='codebrowser/src/lparser.c' l='1154' u='r' c='assignment'/>

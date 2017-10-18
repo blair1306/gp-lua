@@ -1,0 +1,37 @@
+<dec f='codebrowser/src/lstate.h' l='76' type='StkId'/>
+<use f='codebrowser/src/lapi.c' l='111' u='r' c='lua_checkstack'/>
+<use f='codebrowser/src/lapi.c' l='112' u='w' c='lua_checkstack'/>
+<use f='codebrowser/src/lapi.c' l='925' macro='1' u='r'/>
+<use f='codebrowser/src/lapi.c' l='925' macro='1' u='w'/>
+<use f='codebrowser/src/lapi.c' l='985' macro='1' u='r'/>
+<use f='codebrowser/src/lapi.c' l='985' macro='1' u='w'/>
+<offset>64</offset>
+<doc f='codebrowser/src/lstate.h' l='76'>/* top for this function */</doc>
+<use f='codebrowser/src/ldebug.c' l='548' u='r' c='isinstack'/>
+<use f='codebrowser/src/ldo.c' l='125' u='r' c='luaD_throw'/>
+<use f='codebrowser/src/ldo.c' l='126' u='w' c='luaD_throw'/>
+<use f='codebrowser/src/ldo.c' l='165' u='w' c='correctstack'/>
+<use f='codebrowser/src/ldo.c' l='165' u='r' c='correctstack'/>
+<use f='codebrowser/src/ldo.c' l='214' u='r' c='stackinuse'/>
+<use f='codebrowser/src/ldo.c' l='214' u='r' c='stackinuse'/>
+<use f='codebrowser/src/ldo.c' l='258' u='r' c='luaD_hook'/>
+<use f='codebrowser/src/ldo.c' l='264' u='w' c='luaD_hook'/>
+<use f='codebrowser/src/ldo.c' l='273' u='w' c='luaD_hook'/>
+<use f='codebrowser/src/ldo.c' l='428' u='w' c='luaD_precall'/>
+<use f='codebrowser/src/ldo.c' l='457' u='w' c='luaD_precall'/>
+<use f='codebrowser/src/ldo.c' l='531' macro='1' u='r'/>
+<use f='codebrowser/src/ldo.c' l='531' macro='1' u='w'/>
+<use f='codebrowser/src/ldo.c' l='675' u='w' c='lua_resume'/>
+<use f='codebrowser/src/lstate.c' l='166' u='w' c='stack_init'/>
+<use f='codebrowser/src/lvm.c' l='694' u='r' c='luaV_finishOp'/>
+<use f='codebrowser/src/lvm.c' l='699' u='r' c='luaV_finishOp'/>
+<use f='codebrowser/src/lvm.c' l='704' u='r' c='luaV_finishOp'/>
+<use f='codebrowser/src/lvm.c' l='751' u='r' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='751' u='r' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='1077' u='r' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='1136' u='r' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='1167' u='w' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='1184' u='r' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='1249' u='r' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='1282' u='r' c='luaV_execute'/>
+<use f='codebrowser/src/lvm.c' l='751' u='r' c='luaV_execute'/>

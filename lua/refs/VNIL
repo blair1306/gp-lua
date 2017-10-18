@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lparser.h' l='28' type='1'/>
+<use f='codebrowser/src/lcode.c' l='598' c='discharge2reg'/>
+<use f='codebrowser/src/lcode.c' l='763' c='luaK_exp2RK'/>
+<use f='codebrowser/src/lcode.c' l='892' c='luaK_goiffalse'/>
+<use f='codebrowser/src/lcode.c' l='913' c='codenot'/>
+<doc f='codebrowser/src/lparser.h' l='28'>/* constant nil */</doc>
+<use f='codebrowser/src/lparser.c' l='950' u='r' c='simpleexp'/>
+<use f='codebrowser/src/lparser.c' l='1181' u='r' c='cond'/>

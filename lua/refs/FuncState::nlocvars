@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/lparser.h' l='122' type='short'/>
+<offset>448</offset>
+<doc f='codebrowser/src/lparser.h' l='122'>/* number of elements in &apos;f-&gt;locvars&apos; */</doc>
+<use f='codebrowser/src/lparser.c' l='165' u='r' c='registerlocalvar'/>
+<use f='codebrowser/src/lparser.c' l='169' u='r' c='registerlocalvar'/>
+<use f='codebrowser/src/lparser.c' l='171' u='w' c='registerlocalvar'/>
+<use f='codebrowser/src/lparser.c' l='541' u='w' c='open_func'/>
+<use f='codebrowser/src/lparser.c' l='566' u='r' c='close_func'/>
+<use f='codebrowser/src/lparser.c' l='566' u='r' c='close_func'/>
+<use f='codebrowser/src/lparser.c' l='566' u='r' c='close_func'/>
+<use f='codebrowser/src/lparser.c' l='567' u='r' c='close_func'/>

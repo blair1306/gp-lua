@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/lstate.h' l='131' type='lu_byte'/>
+<offset>688</offset>
+<doc f='codebrowser/src/lstate.h' l='131'>/* kind of GC running */</doc>
+<use f='codebrowser/src/lgc.c' l='548' u='r' c='traversethread'/>
+<use f='codebrowser/src/lgc.c' l='778' u='r' c='checkSizes'/>
+<use f='codebrowser/src/lgc.c' l='973' u='w' c='luaC_freeallobjects'/>
+<use f='codebrowser/src/lgc.c' l='1085' u='r' c='singlestep'/>
+<use f='codebrowser/src/lgc.c' l='1161' u='w' c='luaC_fullgc'/>
+<use f='codebrowser/src/lgc.c' l='1172' u='w' c='luaC_fullgc'/>
+<use f='codebrowser/src/lstate.c' l='320' u='w' c='lua_newstate'/>

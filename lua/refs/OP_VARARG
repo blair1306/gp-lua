@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lopcodes.h' l='231' type='45'/>
+<doc f='codebrowser/src/lopcodes.h' l='231'>/*	A B	R(A), R(A+1), ..., R(A+B-2) = vararg		*/</doc>
+<use f='codebrowser/src/lparser.c' l='965' u='r' c='simpleexp'/>
+<use f='codebrowser/src/lvm.c' l='1295' c='luaV_execute'/>

@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/lauxlib.h' l='59' type='void luaL_checktype(lua_State * L, int arg, int t)'/>
+<def f='codebrowser/src/lauxlib.c' l='378' ll='381' macro='1' type='void luaL_checktype(lua_State * L, int arg, int t)'/>
+<use f='codebrowser/src/lbaselib.c' l='89' u='c' c='luaB_tonumber'/>
+<use f='codebrowser/src/lbaselib.c' l='127' u='c' c='luaB_setmetatable'/>
+<use f='codebrowser/src/lbaselib.c' l='156' u='c' c='luaB_rawget'/>
+<use f='codebrowser/src/lbaselib.c' l='164' u='c' c='luaB_rawset'/>
+<use f='codebrowser/src/lbaselib.c' l='227' u='c' c='luaB_next'/>
+<use f='codebrowser/src/lbaselib.c' l='346' u='c' c='luaB_load'/>
+<use f='codebrowser/src/lbaselib.c' l='437' u='c' c='luaB_xpcall'/>
+<use f='codebrowser/src/lcorolib.c' l='91' u='c' c='luaB_cocreate'/>
+<use f='codebrowser/src/ldblib.c' l='76' u='c' c='db_setuservalue'/>
+<use f='codebrowser/src/ldblib.c' l='251' u='c' c='auxupvalue'/>
+<use f='codebrowser/src/ldblib.c' l='277' u='c' c='checkupval'/>
+<use f='codebrowser/src/ldblib.c' l='357' u='c' c='db_sethook'/>
+<use f='codebrowser/src/loslib.c' l='330' u='c' c='os_time'/>
+<use f='codebrowser/src/lstrlib.c' l='192' u='c' c='str_dump'/>
+<use f='codebrowser/src/ltablib.c' l='56' u='c' c='checktab'/>
+<use f='codebrowser/src/ltablib.c' l='416' u='c' c='sort'/>

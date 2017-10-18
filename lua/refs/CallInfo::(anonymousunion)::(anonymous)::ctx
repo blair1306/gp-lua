@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lstate.h' l='86' type='lua_KContext'/>
+<use f='codebrowser/src/lapi.c' l='920' u='w' c='lua_callk'/>
+<use f='codebrowser/src/lapi.c' l='973' u='w' c='lua_pcallk'/>
+<offset>128</offset>
+<doc f='codebrowser/src/lstate.h' l='86'>/* context info. in case of yields */</doc>
+<use f='codebrowser/src/ldo.c' l='533' u='r' c='finishCcall'/>
+<use f='codebrowser/src/ldo.c' l='636' u='r' c='resume'/>
+<use f='codebrowser/src/ldo.c' l='711' u='w' c='lua_yieldk'/>

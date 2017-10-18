@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/lstate.h' l='132' type='lu_byte'/>
+<use f='codebrowser/src/lapi.c' l='1046' u='w' c='lua_gc'/>
+<use f='codebrowser/src/lapi.c' l='1051' u='w' c='lua_gc'/>
+<use f='codebrowser/src/lapi.c' l='1069' u='r' c='lua_gc'/>
+<use f='codebrowser/src/lapi.c' l='1070' u='w' c='lua_gc'/>
+<use f='codebrowser/src/lapi.c' l='1080' u='w' c='lua_gc'/>
+<use f='codebrowser/src/lapi.c' l='1097' u='r' c='lua_gc'/>
+<offset>696</offset>
+<doc f='codebrowser/src/lstate.h' l='132'>/* true if GC is running */</doc>
+<use f='codebrowser/src/lgc.c' l='815' u='r' c='GCTM'/>
+<use f='codebrowser/src/lgc.c' l='817' u='w' c='GCTM'/>
+<use f='codebrowser/src/lgc.c' l='825' u='w' c='GCTM'/>
+<use f='codebrowser/src/lgc.c' l='1131' u='r' c='luaC_step'/>
+<use f='codebrowser/src/lstate.c' l='211' u='w' c='f_luaopen'/>
+<use f='codebrowser/src/lstate.c' l='312' u='w' c='lua_newstate'/>

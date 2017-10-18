@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/lua.h' l='166' type='void lua_xmove(lua_State * from, lua_State * to, int n)'/>
+<def f='codebrowser/src/lapi.c' l='118' ll='131' macro='1' type='void lua_xmove(lua_State * from, lua_State * to, int n)'/>
+<use f='codebrowser/src/lcorolib.c' l='38' u='c' c='auxresume'/>
+<use f='codebrowser/src/lcorolib.c' l='47' u='c' c='auxresume'/>
+<use f='codebrowser/src/lcorolib.c' l='51' u='c' c='auxresume'/>
+<use f='codebrowser/src/lcorolib.c' l='94' u='c' c='luaB_cocreate'/>
+<use f='codebrowser/src/ldblib.c' l='134' u='c' c='treatstackoption'/>
+<use f='codebrowser/src/ldblib.c' l='154' u='c' c='db_getinfo'/>
+<use f='codebrowser/src/ldblib.c' l='211' u='c' c='db_getlocal'/>
+<use f='codebrowser/src/ldblib.c' l='236' u='c' c='db_setlocal'/>
+<use f='codebrowser/src/ldblib.c' l='371' u='c' c='db_sethook'/>
+<use f='codebrowser/src/ldblib.c' l='392' u='c' c='db_gethook'/>

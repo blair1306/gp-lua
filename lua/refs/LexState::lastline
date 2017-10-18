@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/llex.h' l='61' type='int'/>
+<use f='codebrowser/src/lcode.c' l='303' u='r' c='luaK_code'/>
+<offset>64</offset>
+<doc f='codebrowser/src/llex.h' l='61'>/* line of last token &apos;consumed&apos; */</doc>
+<use f='codebrowser/src/llex.c' l='171' u='w' c='luaX_setinput'/>
+<use f='codebrowser/src/llex.c' l='550' u='w' c='luaX_next'/>

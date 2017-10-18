@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/llex.h' l='14'/>
+<use f='codebrowser/src/llex.h' l='28' u='c'/>
+<use f='codebrowser/src/llex.c' l='83' u='c'/>
+<use f='codebrowser/src/llex.c' l='88' u='c'/>
+<use f='codebrowser/src/llex.c' l='533' u='c'/>

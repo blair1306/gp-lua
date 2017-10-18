@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/lua.h' l='247' type='int lua_rawgetp(lua_State * L, int idx, const void * p)'/>
+<def f='codebrowser/src/lapi.c' l='669' ll='680' macro='1' type='int lua_rawgetp(lua_State * L, int idx, const void * p)'/>
+<use f='codebrowser/src/ldblib.c' l='308' u='c' c='hookf'/>
+<use f='codebrowser/src/ldblib.c' l='361' u='c' c='db_sethook'/>
+<use f='codebrowser/src/ldblib.c' l='390' u='c' c='db_gethook'/>
+<use f='codebrowser/src/loadlib.c' l='319' u='c' c='checkclib'/>
+<use f='codebrowser/src/loadlib.c' l='332' u='c' c='addtoclib'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lparser.h' l='80' type='int'/>
+<offset>64</offset>
+<doc f='codebrowser/src/lparser.h' l='80'>/* position in code */</doc>
+<use f='codebrowser/src/lparser.c' l='354' u='r' c='closegoto'/>
+<use f='codebrowser/src/lparser.c' l='354' u='r' c='closegoto'/>
+<use f='codebrowser/src/lparser.c' l='376' u='r' c='findlabel'/>
+<use f='codebrowser/src/lparser.c' l='393' u='w' c='newlabelentry'/>
+<use f='codebrowser/src/lparser.c' l='430' u='r' c='movegotosout'/>

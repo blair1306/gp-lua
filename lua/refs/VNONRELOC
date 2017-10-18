@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/lparser.h' l='34' type='7'/>
+<use f='codebrowser/src/lcode.c' l='398' u='r' c='freeexp'/>
+<use f='codebrowser/src/lcode.c' l='408' u='r' c='freeexps'/>
+<use f='codebrowser/src/lcode.c' l='409' u='r' c='freeexps'/>
+<use f='codebrowser/src/lcode.c' l='543' u='r' c='luaK_setoneret'/>
+<use f='codebrowser/src/lcode.c' l='559' u='r' c='luaK_dischargevars'/>
+<use f='codebrowser/src/lcode.c' l='623' c='discharge2reg'/>
+<use f='codebrowser/src/lcode.c' l='634' u='r' c='discharge2reg'/>
+<use f='codebrowser/src/lcode.c' l='642' u='r' c='discharge2anyreg'/>
+<use f='codebrowser/src/lcode.c' l='695' u='r' c='exp2reg'/>
+<use f='codebrowser/src/lcode.c' l='717' u='r' c='luaK_exp2anyreg'/>
+<use f='codebrowser/src/lcode.c' l='815' u='r' c='luaK_self'/>
+<use f='codebrowser/src/lcode.c' l='926' c='codenot'/>
+<doc f='codebrowser/src/lparser.h' l='34'>/* expression has its value in a fixed register;
+                 info = result register */</doc>
+<use f='codebrowser/src/lparser.c' l='1172' u='r' c='assignment'/>

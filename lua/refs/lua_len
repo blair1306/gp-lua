@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/lua.h' l='324' type='void lua_len(lua_State * L, int idx)'/>
+<def f='codebrowser/src/lapi.c' l='1155' ll='1162' macro='1' type='void lua_len(lua_State * L, int idx)'/>
+<use f='codebrowser/src/lauxlib.c' l='801' u='c' c='luaL_len'/>

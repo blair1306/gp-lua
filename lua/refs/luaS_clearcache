@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/lstring.h' l='40' type='void luaS_clearcache(global_State * g)'/>
+<use f='codebrowser/src/lgc.c' l='1021' u='c' c='atomic'/>
+<def f='codebrowser/src/lstring.c' l='103' ll='110' type='void luaS_clearcache(global_State * g)'/>
+<doc f='codebrowser/src/lstring.c' l='99'>/*
+** Clear API string cache. (Entries cannot be empty, so fill them with
+** a non-collectable string.)
+*/</doc>

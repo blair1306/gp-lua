@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lstate.h' l='146' type='int'/>
+<use f='codebrowser/src/lapi.c' l='1091' u='r' c='lua_gc'/>
+<use f='codebrowser/src/lapi.c' l='1093' u='w' c='lua_gc'/>
+<offset>1472</offset>
+<doc f='codebrowser/src/lstate.h' l='146'>/* GC &apos;granularity&apos; */</doc>
+<use f='codebrowser/src/lgc.c' l='1116' u='r' c='getdebt'/>
+<use f='codebrowser/src/lgc.c' l='1142' u='r' c='luaC_step'/>
+<use f='codebrowser/src/lstate.c' l='330' u='w' c='lua_newstate'/>

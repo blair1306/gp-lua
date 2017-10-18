@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lopcodes.h' l='175' type='4'/>
+<use f='codebrowser/src/lcode.c' l='69' u='r' c='luaK_nil'/>
+<use f='codebrowser/src/lcode.c' l='82' u='r' c='luaK_nil'/>
+<doc f='codebrowser/src/lopcodes.h' l='175'>/*	A B	R(A), R(A+1), ..., R(A+B) := nil		*/</doc>
+<use f='codebrowser/src/ldebug.c' l='394' c='findsetreg'/>
+<use f='codebrowser/src/lvm.c' l='824' c='luaV_execute'/>

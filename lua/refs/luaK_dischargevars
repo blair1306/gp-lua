@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/lcode.h' l='61' type='void luaK_dischargevars(FuncState * fs, expdesc * e)'/>
+<def f='codebrowser/src/lcode.c' l='556' ll='588' type='void luaK_dischargevars(FuncState * fs, expdesc * e)'/>
+<use f='codebrowser/src/lcode.c' l='596' u='c' c='discharge2reg'/>
+<use f='codebrowser/src/lcode.c' l='704' u='c' c='luaK_exp2nextreg'/>
+<use f='codebrowser/src/lcode.c' l='716' u='c' c='luaK_exp2anyreg'/>
+<use f='codebrowser/src/lcode.c' l='748' u='c' c='luaK_exp2val'/>
+<use f='codebrowser/src/lcode.c' l='859' u='c' c='luaK_goiftrue'/>
+<use f='codebrowser/src/lcode.c' l='886' u='c' c='luaK_goiffalse'/>
+<use f='codebrowser/src/lcode.c' l='911' u='c' c='codenot'/>
+<use f='codebrowser/src/lcode.c' l='1129' u='c' c='luaK_posfix'/>
+<use f='codebrowser/src/lcode.c' l='1136' u='c' c='luaK_posfix'/>
+<doc f='codebrowser/src/lcode.c' l='553'>/*
+** Ensure that expression &apos;e&apos; is not a variable.
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='879' u='c' c='primaryexp'/>

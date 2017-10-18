@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/lua.h' l='431' type='void * lua_upvalueid(lua_State * L, int fidx, int n)'/>
+<def f='codebrowser/src/lapi.c' l='1267' ll='1283' macro='1' type='void * lua_upvalueid(lua_State * L, int fidx, int n)'/>
+<use f='codebrowser/src/ldblib.c' l='286' u='c' c='db_upvalueid'/>

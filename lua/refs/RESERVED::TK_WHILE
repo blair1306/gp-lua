@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/llex.h' l='31' type='278'/>
+<use f='codebrowser/src/llex.c' l='74' macro='1' u='r'/>
+<use f='codebrowser/src/lparser.c' l='1254' u='r' c='whilestat'/>
+<use f='codebrowser/src/lparser.c' l='1549' c='statement'/>

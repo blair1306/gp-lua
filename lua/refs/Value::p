@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/lobject.h' l='102' type='void *'/>
+<use f='codebrowser/src/lapi.c' l='417' macro='1' u='r'/>
+<use f='codebrowser/src/lapi.c' l='438' macro='1' u='r'/>
+<use f='codebrowser/src/lapi.c' l='566' macro='1' u='w'/>
+<use f='codebrowser/src/lapi.c' l='675' macro='1' u='w'/>
+<use f='codebrowser/src/lapi.c' l='836' macro='1' u='w'/>
+<offset>0</offset>
+<doc f='codebrowser/src/lobject.h' l='102'>/* light userdata */</doc>
+<use f='codebrowser/src/lcode.c' l='473' macro='1' u='w'/>
+<use f='codebrowser/src/ltable.c' l='130' macro='1' u='r'/>
+<use f='codebrowser/src/lvm.c' l='423' macro='1' u='r'/>
+<use f='codebrowser/src/lvm.c' l='423' macro='1' u='r'/>

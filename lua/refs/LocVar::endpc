@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lobject.h' l='400' type='int'/>
+<offset>96</offset>
+<doc f='codebrowser/src/lobject.h' l='400'>/* first point where variable is dead */</doc>
+<use f='codebrowser/src/ldump.c' l='157' u='r' c='DumpDebug'/>
+<use f='codebrowser/src/lfunc.c' l='143' u='r' c='luaF_getlocalname'/>
+<use f='codebrowser/src/lparser.c' l='214' u='w' c='removevars'/>
+<use f='codebrowser/src/luac.c' l='431' u='r' c='PrintDebug'/>
+<use f='codebrowser/src/lundump.c' l='194' u='w' c='LoadDebug'/>

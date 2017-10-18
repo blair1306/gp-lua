@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/ldo.h' l='43' type='void luaD_call(lua_State * L, StkId func, int nResults)'/>
+<use f='codebrowser/src/lapi.c' l='921' u='c' c='lua_callk'/>
+<use f='codebrowser/src/lapi.c' l='980' u='c' c='lua_pcallk'/>
+<def f='codebrowser/src/ldo.c' l='495' ll='501' type='void luaD_call(lua_State * L, StkId func, int nResults)'/>
+<use f='codebrowser/src/ldo.c' l='509' u='c' c='luaD_callnoyield'/>
+<doc f='codebrowser/src/ldo.c' l='489'>/*
+** Call a function (C or Lua). The function to be called is at *func.
+** The arguments are on the stack, right after the function.
+** When returns, all the results are on the stack, starting at the original
+** function position.
+*/</doc>
+<use f='codebrowser/src/ltm.c' l='114' u='c' c='luaT_callTM'/>
+<use f='codebrowser/src/lvm.c' l='1248' u='c' c='luaV_execute'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lobject.h' l='533' type='int luaO_int2fb(unsigned int x)'/>
+<def f='codebrowser/src/lobject.c' l='41' ll='53' type='int luaO_int2fb(unsigned int x)'/>
+<doc f='codebrowser/src/lobject.c' l='36'>/*
+** converts an integer to a &quot;floating point byte&quot;, represented as
+** (eeeeexxx), where the real value is (1xxx) * 2^(eeeee - 1) if
+** eeeee != 0 and (xxx) otherwise.
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='745' u='c' c='constructor'/>
+<use f='codebrowser/src/lparser.c' l='746' u='c' c='constructor'/>

@@ -1,0 +1,22 @@
+<dec f='codebrowser/src/lobject.h' l='427' type='TString *'/>
+<offset>832</offset>
+<doc f='codebrowser/src/lobject.h' l='427'>/* used for debug information */</doc>
+<use f='codebrowser/src/ldebug.c' l='220' u='r' c='funcinfo'/>
+<use f='codebrowser/src/ldebug.c' l='220' u='r' c='funcinfo'/>
+<use f='codebrowser/src/ldebug.c' l='660' u='r' c='luaG_runerror'/>
+<use f='codebrowser/src/ldump.c' l='133' u='r' c='DumpProtos'/>
+<use f='codebrowser/src/ldump.c' l='167' u='r' c='DumpFunction'/>
+<use f='codebrowser/src/ldump.c' l='170' u='r' c='DumpFunction'/>
+<use f='codebrowser/src/lfunc.c' l='120' u='w' c='luaF_newproto'/>
+<use f='codebrowser/src/lgc.c' l='483' u='r' c='traverseproto'/>
+<use f='codebrowser/src/lgc.c' l='483' u='r' c='traverseproto'/>
+<use f='codebrowser/src/lgc.c' l='483' u='r' c='traverseproto'/>
+<use f='codebrowser/src/lparser.c' l='546' u='w' c='open_func'/>
+<use f='codebrowser/src/lparser.c' l='1637' u='w' c='luaY_parser'/>
+<use f='codebrowser/src/lparser.c' l='1642' u='r' c='luaY_parser'/>
+<use f='codebrowser/src/luac.c' l='397' u='r' c='PrintHeader'/>
+<use f='codebrowser/src/luac.c' l='397' u='r' c='PrintHeader'/>
+<use f='codebrowser/src/lundump.c' l='161' u='r' c='LoadProtos'/>
+<use f='codebrowser/src/lundump.c' l='203' u='w' c='LoadFunction'/>
+<use f='codebrowser/src/lundump.c' l='204' u='r' c='LoadFunction'/>
+<use f='codebrowser/src/lundump.c' l='205' u='w' c='LoadFunction'/>

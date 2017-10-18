@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lstate.h' l='98'/>
+<doc f='codebrowser/src/lstate.h' l='95'>/*
+** Bits in CallInfo status
+*/</doc>

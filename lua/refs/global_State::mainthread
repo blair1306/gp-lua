@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/lstate.h' l='148' type='struct lua_State *'/>
+<use f='codebrowser/src/lapi.c' l='577' u='r' c='lua_pushthread'/>
+<offset>1600</offset>
+<use f='codebrowser/src/ldo.c' l='118' u='r' c='luaD_throw'/>
+<use f='codebrowser/src/ldo.c' l='119' u='r' c='luaD_throw'/>
+<use f='codebrowser/src/ldo.c' l='120' u='r' c='luaD_throw'/>
+<use f='codebrowser/src/ldo.c' l='699' u='r' c='lua_yieldk'/>
+<use f='codebrowser/src/lgc.c' l='340' u='r' c='restartcollection'/>
+<use f='codebrowser/src/lgc.c' l='340' u='r' c='restartcollection'/>
+<use f='codebrowser/src/lgc.c' l='1079' u='r' c='singlestep'/>
+<use f='codebrowser/src/lgc.c' l='1079' u='r' c='singlestep'/>
+<use f='codebrowser/src/lstate.c' l='276' u='r' c='lua_newthread'/>
+<use f='codebrowser/src/lstate.c' l='310' u='w' c='lua_newstate'/>
+<use f='codebrowser/src/lstate.c' l='342' u='r' c='lua_close'/>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/lparser.h' l='79' type='TString *'/>
+<offset>0</offset>
+<doc f='codebrowser/src/lparser.h' l='79'>/* label identifier */</doc>
+<use f='codebrowser/src/lparser.c' l='351' u='r' c='closegoto'/>
+<use f='codebrowser/src/lparser.c' l='373' u='r' c='findlabel'/>
+<use f='codebrowser/src/lparser.c' l='373' u='r' c='findlabel'/>
+<use f='codebrowser/src/lparser.c' l='390' u='w' c='newlabelentry'/>
+<use f='codebrowser/src/lparser.c' l='407' u='r' c='findgotos'/>
+<use f='codebrowser/src/lparser.c' l='407' u='r' c='findgotos'/>
+<use f='codebrowser/src/lparser.c' l='465' u='r' c='undefgoto'/>
+<use f='codebrowser/src/lparser.c' l='465' u='r' c='undefgoto'/>
+<use f='codebrowser/src/lparser.c' l='468' u='r' c='undefgoto'/>
+<use f='codebrowser/src/lparser.c' l='1206' u='r' c='checkrepeated'/>

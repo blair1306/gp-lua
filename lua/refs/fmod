@@ -1,0 +1,4 @@
+<dec f='include/x86_64-linux-gnu/bits/mathcalls.h' l='187' type='double fmod(double __x, double __y)'/>
+<use f='codebrowser/src/lmathlib.c' l='138' u='c' c='math_fmod'/>
+<use f='codebrowser/src/lobject.c' l='115' macro='1' u='c'/>
+<use f='codebrowser/src/lvm.c' l='1001' macro='1' u='c'/>

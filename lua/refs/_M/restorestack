@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/ldo.h' l='33'/>
+<use f='codebrowser/src/ldebug.c' l='66' u='c'/>
+<use f='codebrowser/src/ldebug.c' l='642' u='c'/>
+<use f='codebrowser/src/ldo.c' l='273' u='c'/>
+<use f='codebrowser/src/ldo.c' l='274' u='c'/>
+<use f='codebrowser/src/ldo.c' l='383' u='c'/>
+<use f='codebrowser/src/ldo.c' l='586' u='c'/>
+<use f='codebrowser/src/ldo.c' l='630' u='c'/>
+<use f='codebrowser/src/ldo.c' l='731' u='c'/>
+<use f='codebrowser/src/ltm.c' l='118' u='c'/>

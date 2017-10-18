@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/lcode.h' l='66' type='int luaK_exp2RK(FuncState * fs, expdesc * e)'/>
+<def f='codebrowser/src/lcode.c' l='758' ll='776' type='int luaK_exp2RK(FuncState * fs, expdesc * e)'/>
+<use f='codebrowser/src/lcode.c' l='796' u='c' c='luaK_storevar'/>
+<use f='codebrowser/src/lcode.c' l='817' u='c' c='luaK_self'/>
+<use f='codebrowser/src/lcode.c' l='949' u='c' c='luaK_indexed'/>
+<use f='codebrowser/src/lcode.c' l='1024' u='c' c='codebinexpval'/>
+<use f='codebrowser/src/lcode.c' l='1025' u='c' c='codebinexpval'/>
+<use f='codebrowser/src/lcode.c' l='1040' u='c' c='codecomp'/>
+<use f='codebrowser/src/lcode.c' l='1106' u='c' c='luaK_infix'/>
+<use f='codebrowser/src/lcode.c' l='1111' u='c' c='luaK_infix'/>
+<doc f='codebrowser/src/lcode.c' l='752'>/*
+** Ensures final expression result is in a valid R/K index
+** (that is, it is either in a register or in &apos;k&apos; with an index
+** in the range of R/K indices).
+** Returns R/K index.
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='660' u='c' c='recfield'/>
+<use f='codebrowser/src/lparser.c' l='662' u='c' c='recfield'/>

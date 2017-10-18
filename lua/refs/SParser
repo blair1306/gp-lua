@@ -1,0 +1,6 @@
+<def f='codebrowser/src/ldo.c' l='748' ll='754'/>
+<size>96</size>
+<doc f='codebrowser/src/ldo.c' l='745'>/*
+** Execute a protected parser.
+*/</doc>
+<doc f='codebrowser/src/ldo.c' l='748'>/* data to &apos;f_parser&apos; */</doc>

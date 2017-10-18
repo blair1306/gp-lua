@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/lgc.h' l='141' type='void luaC_barrierback_(lua_State * L, Table * o)'/>
+<use f='codebrowser/src/lapi.c' l='746' macro='1' u='c'/>
+<use f='codebrowser/src/lapi.c' l='770' macro='1' u='c'/>
+<use f='codebrowser/src/lapi.c' l='788' macro='1' u='c'/>
+<use f='codebrowser/src/lapi.c' l='810' macro='1' u='c'/>
+<use f='codebrowser/src/lapi.c' l='823' macro='1' u='c'/>
+<use f='codebrowser/src/lapi.c' l='839' macro='1' u='c'/>
+<def f='codebrowser/src/lgc.c' l='171' ll='176' type='void luaC_barrierback_(lua_State * L, Table * t)'/>
+<doc f='codebrowser/src/lgc.c' l='167'>/*
+** barrier that moves collector backward, that is, mark the black object
+** pointing to a white object as gray again.
+*/</doc>
+<use f='codebrowser/src/ltable.c' l='488' macro='1' u='c'/>
+<use f='codebrowser/src/lvm.c' l='218' macro='1' u='c'/>
+<use f='codebrowser/src/lvm.c' l='233' macro='1' u='c'/>
+<use f='codebrowser/src/lvm.c' l='852' macro='1' u='c'/>
+<use f='codebrowser/src/lvm.c' l='864' macro='1' u='c'/>
+<use f='codebrowser/src/lvm.c' l='1280' macro='1' u='c'/>

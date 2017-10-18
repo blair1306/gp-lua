@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/lua.h' l='447' type='int'/>
+<offset>320</offset>
+<doc f='codebrowser/src/lua.h' l='447'>/* (l) */</doc>
+<use f='codebrowser/src/lauxlib.c' l='143' u='r' c='luaL_traceback'/>
+<use f='codebrowser/src/lauxlib.c' l='144' u='r' c='luaL_traceback'/>
+<use f='codebrowser/src/lauxlib.c' l='209' u='r' c='luaL_where'/>
+<use f='codebrowser/src/lauxlib.c' l='210' u='r' c='luaL_where'/>
+<use f='codebrowser/src/ldblib.c' l='173' u='r' c='db_getinfo'/>
+<use f='codebrowser/src/ldblib.c' l='312' u='r' c='hookf'/>
+<use f='codebrowser/src/ldblib.c' l='313' u='r' c='hookf'/>
+<use f='codebrowser/src/ldebug.c' l='272' u='w' c='auxgetinfo'/>
+<use f='codebrowser/src/ldo.c' l='261' u='w' c='luaD_hook'/>

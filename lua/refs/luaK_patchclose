@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/lcode.h' l='78' type='void luaK_patchclose(FuncState * fs, int list, int level)'/>
+<def f='codebrowser/src/lcode.c' l='278' ll='286' type='void luaK_patchclose(FuncState * fs, int list, int level)'/>
+<doc f='codebrowser/src/lcode.c' l='273'>/*
+** Path all jumps in &apos;list&apos; to close upvalues up to given &apos;level&apos;
+** (The assertion checks that jumps either were closing nothing
+** or were closing higher levels, from inner blocks.)
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='376' u='c' c='findlabel'/>
+<use f='codebrowser/src/lparser.c' l='430' u='c' c='movegotosout'/>
+<use f='codebrowser/src/lparser.c' l='479' u='c' c='leaveblock'/>
+<use f='codebrowser/src/lparser.c' l='1273' u='c' c='repeatstat'/>

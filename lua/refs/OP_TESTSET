@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lopcodes.h' l='214' type='35'/>
+<use f='codebrowser/src/lcode.c' l='197' u='r' c='patchtestreg'/>
+<use f='codebrowser/src/lcode.c' l='662' u='r' c='need_value'/>
+<use f='codebrowser/src/lcode.c' l='850' u='r' c='jumponcond'/>
+<doc f='codebrowser/src/lopcodes.h' l='214'>/*	A B C	if (R(B) &lt;=&gt; C) then R(A) := R(B) else pc++	*/</doc>
+<use f='codebrowser/src/lvm.c' l='1120' c='luaV_execute'/>

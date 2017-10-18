@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/lparser.c' l='52' type='lu_byte'/>
+<use f='codebrowser/src/lparser.c' l='260' u='r' c='markupval'/>
+<use f='codebrowser/src/lparser.c' l='428' u='r' c='movegotosout'/>
+<use f='codebrowser/src/lparser.c' l='430' u='r' c='movegotosout'/>
+<use f='codebrowser/src/lparser.c' l='431' u='r' c='movegotosout'/>
+<use f='codebrowser/src/lparser.c' l='441' u='w' c='enterblock'/>
+<use f='codebrowser/src/lparser.c' l='479' u='r' c='leaveblock'/>
+<use f='codebrowser/src/lparser.c' l='485' u='r' c='leaveblock'/>
+<use f='codebrowser/src/lparser.c' l='1235' u='r' c='labelstat'/>
+<use f='codebrowser/src/lparser.c' l='1273' u='r' c='repeatstat'/>
+<offset>128</offset>
+<doc f='codebrowser/src/lparser.c' l='52'>/* # active locals outside the block */</doc>

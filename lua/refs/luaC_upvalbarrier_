@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/lgc.h' l='142' type='void luaC_upvalbarrier_(lua_State * L, UpVal * uv)'/>
+<use f='codebrowser/src/lapi.c' l='1007' macro='1' u='c'/>
+<use f='codebrowser/src/lapi.c' l='1249' macro='1' u='c'/>
+<use f='codebrowser/src/lapi.c' l='1295' macro='1' u='c'/>
+<use f='codebrowser/src/lfunc.c' l='93' macro='1' u='c'/>
+<def f='codebrowser/src/lgc.c' l='185' ll='191' type='void luaC_upvalbarrier_(lua_State * L, UpVal * uv)'/>
+<doc f='codebrowser/src/lgc.c' l='179'>/*
+** barrier for assignments to closed upvalues. Because upvalues are
+** shared among closures, it is impossible to know the color of all
+** closures pointing to it. So, we assume that the object being assigned
+** must be marked.
+*/</doc>
+<use f='codebrowser/src/lvm.c' l='858' macro='1' u='c'/>

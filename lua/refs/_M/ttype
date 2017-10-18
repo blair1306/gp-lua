@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/lobject.h' l='133'/>
+<use f='codebrowser/src/lapi.c' l='394' u='c'/>
+<use f='codebrowser/src/lapi.c' l='431' u='c'/>
+<use f='codebrowser/src/lapi.c' l='1198' u='c'/>
+<use f='codebrowser/src/lapi.c' l='1269' u='c'/>
+<doc f='codebrowser/src/lobject.h' l='132'>/* type tag of a TValue (bits 0-3 for tags + variant bits 4-5) */</doc>
+<use f='codebrowser/src/lcode.c' l='436' u='c'/>
+<use f='codebrowser/src/lcode.c' l='436' u='c'/>
+<use f='codebrowser/src/ldo.c' l='416' u='c'/>
+<use f='codebrowser/src/ldump.c' l='104' u='c'/>
+<use f='codebrowser/src/ldump.c' l='105' u='c'/>
+<use f='codebrowser/src/ltable.c' l='118' u='c'/>
+<use f='codebrowser/src/ltable.c' l='571' u='c'/>
+<use f='codebrowser/src/luac.c' l='257' u='c'/>
+<use f='codebrowser/src/luac.c' l='280' u='c'/>
+<use f='codebrowser/src/lvm.c' l='409' u='c'/>
+<use f='codebrowser/src/lvm.c' l='409' u='c'/>
+<use f='codebrowser/src/lvm.c' l='418' u='c'/>
+<use f='codebrowser/src/lvm.c' l='519' u='c'/>

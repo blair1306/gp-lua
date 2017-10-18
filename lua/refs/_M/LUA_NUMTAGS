@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/lua.h' l='74'/>
+<use f='codebrowser/src/lstate.h' l='152' u='c'/>
+<use f='codebrowser/src/lapi.c' l='259' u='c'/>
+<use f='codebrowser/src/lgc.c' l='291' u='c'/>
+<use f='codebrowser/src/lstate.c' l='331' u='c'/>

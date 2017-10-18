@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lua.h' l='234' type='void lua_pushlightuserdata(lua_State * L, void * p)'/>
+<def f='codebrowser/src/lapi.c' l='564' ll='569' macro='1' type='void lua_pushlightuserdata(lua_State * L, void * p)'/>
+<use f='codebrowser/src/ldblib.c' l='286' u='c' c='db_upvalueid'/>
+<use f='codebrowser/src/loadlib.c' l='333' u='c' c='addtoclib'/>
+<use f='codebrowser/src/lua.c' l='605' u='c' c='main'/>
+<use f='codebrowser/src/luac.c' l='202' u='c' c='main'/>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/lparser.h' l='124' type='lu_byte'/>
+<offset>472</offset>
+<doc f='codebrowser/src/lparser.h' l='124'>/* number of upvalues */</doc>
+<use f='codebrowser/src/lparser.c' l='221' u='r' c='searchupvalue'/>
+<use f='codebrowser/src/lparser.c' l='231' u='r' c='newupvalue'/>
+<use f='codebrowser/src/lparser.c' l='232' u='r' c='newupvalue'/>
+<use f='codebrowser/src/lparser.c' l='236' u='r' c='newupvalue'/>
+<use f='codebrowser/src/lparser.c' l='237' u='r' c='newupvalue'/>
+<use f='codebrowser/src/lparser.c' l='238' u='r' c='newupvalue'/>
+<use f='codebrowser/src/lparser.c' l='240' u='w' c='newupvalue'/>
+<use f='codebrowser/src/lparser.c' l='540' u='w' c='open_func'/>
+<use f='codebrowser/src/lparser.c' l='568' u='r' c='close_func'/>
+<use f='codebrowser/src/lparser.c' l='568' u='r' c='close_func'/>
+<use f='codebrowser/src/lparser.c' l='568' u='r' c='close_func'/>
+<use f='codebrowser/src/lparser.c' l='569' u='r' c='close_func'/>

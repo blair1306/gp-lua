@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/lcode.h' l='72' type='void luaK_setreturns(FuncState * fs, expdesc * e, int nresults)'/>
+<def f='codebrowser/src/lcode.c' l='515' ll='526' type='void luaK_setreturns(FuncState * fs, expdesc * e, int nresults)'/>
+<doc f='codebrowser/src/lcode.c' l='510'>/*
+** Fix an expression to return the number of results &apos;nresults&apos;.
+** Either &apos;e&apos; is a multi-ret expression (function call or vararg)
+** or &apos;nresults&apos; is LUA_MULTRET (as any expression can satisfy that).
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='315' u='c' c='adjust_assign'/>
+<use f='codebrowser/src/lparser.c' l='681' macro='1' u='c'/>
+<use f='codebrowser/src/lparser.c' l='828' macro='1' u='c'/>
+<use f='codebrowser/src/lparser.c' l='1514' macro='1' u='c'/>

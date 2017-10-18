@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lua.h' l='445' type='const char *'/>
+<offset>192</offset>
+<doc f='codebrowser/src/lua.h' l='445'>/* (S) &apos;Lua&apos;, &apos;C&apos;, &apos;main&apos;, &apos;tail&apos; */</doc>
+<use f='codebrowser/src/lauxlib.c' l='101' u='r' c='pushfuncname'/>
+<use f='codebrowser/src/lauxlib.c' l='103' u='r' c='pushfuncname'/>
+<use f='codebrowser/src/ldblib.c' l='170' u='r' c='db_getinfo'/>
+<use f='codebrowser/src/ldebug.c' l='216' u='w' c='funcinfo'/>
+<use f='codebrowser/src/ldebug.c' l='223' u='w' c='funcinfo'/>

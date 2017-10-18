@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lua.h' l='319' type='int lua_error(lua_State * L)'/>
+<def f='codebrowser/src/lapi.c' l='1113' ll='1119' macro='1' type='int lua_error(lua_State * L)'/>
+<use f='codebrowser/src/lauxlib.c' l='230' u='c' c='luaL_error'/>
+<use f='codebrowser/src/lbaselib.c' l='110' u='c' c='luaB_error'/>
+<use f='codebrowser/src/lbaselib.c' l='366' u='c' c='luaB_dofile'/>
+<use f='codebrowser/src/lcorolib.c' l='83' u='c' c='luaB_auxwrap'/>

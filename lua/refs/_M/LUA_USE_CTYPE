@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lctype.h' l='23'/>
+<use f='codebrowser/src/lctype.h' l='32' u='c'/>
+<use f='codebrowser/src/lctype.c' l='15' u='c'/>
+<doc f='codebrowser/src/lctype.h' l='22'>/* ASCII case: can use its own tables; faster and fixed */</doc>

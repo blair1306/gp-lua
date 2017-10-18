@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/lopcodes.h' l='172' type='1'/>
+<use f='codebrowser/src/lcode.c' l='348' u='r' c='luaK_codek'/>
+<doc f='codebrowser/src/lopcodes.h' l='172'>/*	A Bx	R(A) := Kst(Bx)					*/</doc>
+<use f='codebrowser/src/ldebug.c' l='463' c='getobjname'/>
+<use f='codebrowser/src/ldebug.c' l='465' u='r' c='getobjname'/>
+<use f='codebrowser/src/luac.c' l='327' c='PrintCode'/>
+<use f='codebrowser/src/lvm.c' l='807' c='luaV_execute'/>

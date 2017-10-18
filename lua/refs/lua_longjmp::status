@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/ldo.c' l='87' type='volatile int'/>
+<use f='codebrowser/src/ldo.c' l='112' u='w' c='luaD_throw'/>
+<use f='codebrowser/src/ldo.c' l='139' u='w' c='luaD_rawrunprotected'/>
+<use f='codebrowser/src/ldo.c' l='147' u='r' c='luaD_rawrunprotected'/>
+<offset>1664</offset>
+<doc f='codebrowser/src/ldo.c' l='87'>/* error code */</doc>

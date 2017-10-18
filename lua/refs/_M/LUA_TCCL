@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lobject.h' l='49'/>
+<use f='codebrowser/src/lapi.c' l='434' u='c'/>
+<use f='codebrowser/src/lapi.c' l='1199' u='c'/>
+<use f='codebrowser/src/lapi.c' l='1273' u='c'/>
+<use f='codebrowser/src/ldo.c' l='417' u='c'/>
+<use f='codebrowser/src/lfunc.c' l='26' u='c'/>
+<use f='codebrowser/src/lgc.c' l='265' u='c'/>
+<use f='codebrowser/src/lgc.c' l='577' u='c'/>
+<use f='codebrowser/src/lgc.c' l='703' u='c'/>

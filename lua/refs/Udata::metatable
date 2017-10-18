@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/lobject.h' l='349' type='struct Table *'/>
+<use f='codebrowser/src/lapi.c' l='707' u='r' c='lua_getmetatable'/>
+<use f='codebrowser/src/lapi.c' l='867' u='w' c='lua_setmetatable'/>
+<offset>128</offset>
+<use f='codebrowser/src/lgc.c' l='251' u='r' c='reallymarkobject'/>
+<use f='codebrowser/src/lgc.c' l='251' u='r' c='reallymarkobject'/>
+<use f='codebrowser/src/lgc.c' l='251' u='r' c='reallymarkobject'/>
+<use f='codebrowser/src/lstring.c' l='244' u='w' c='luaS_newudata'/>
+<use f='codebrowser/src/ltm.c' l='77' u='r' c='luaT_gettmbyobj'/>
+<use f='codebrowser/src/ltm.c' l='93' u='r' c='luaT_objtypename'/>
+<use f='codebrowser/src/lvm.c' l='430' u='r' c='luaV_equalobj'/>
+<use f='codebrowser/src/lvm.c' l='430' u='r' c='luaV_equalobj'/>
+<use f='codebrowser/src/lvm.c' l='430' u='r' c='luaV_equalobj'/>
+<use f='codebrowser/src/lvm.c' l='432' u='r' c='luaV_equalobj'/>
+<use f='codebrowser/src/lvm.c' l='432' u='r' c='luaV_equalobj'/>
+<use f='codebrowser/src/lvm.c' l='432' u='r' c='luaV_equalobj'/>

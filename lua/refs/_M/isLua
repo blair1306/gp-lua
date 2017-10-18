@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/lstate.h' l='109'/>
+<use f='codebrowser/src/lapi.c' l='912' u='c'/>
+<use f='codebrowser/src/lapi.c' l='953' u='c'/>
+<use f='codebrowser/src/ldebug.c' l='86' u='c'/>
+<use f='codebrowser/src/ldebug.c' l='149' u='c'/>
+<use f='codebrowser/src/ldebug.c' l='256' u='c'/>
+<use f='codebrowser/src/ldebug.c' l='272' u='c'/>
+<use f='codebrowser/src/ldebug.c' l='575' u='c'/>
+<use f='codebrowser/src/ldebug.c' l='659' u='c'/>
+<use f='codebrowser/src/ldo.c' l='167' u='c'/>
+<use f='codebrowser/src/ldo.c' l='283' u='c'/>
+<use f='codebrowser/src/ldo.c' l='552' u='c'/>
+<use f='codebrowser/src/ldo.c' l='631' u='c'/>
+<use f='codebrowser/src/ldo.c' l='706' u='c'/>
+<use f='codebrowser/src/ltm.c' l='113' u='c'/>

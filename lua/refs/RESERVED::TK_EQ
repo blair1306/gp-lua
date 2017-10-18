@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/llex.h' l='33' type='282'/>
+<use f='codebrowser/src/llex.c' l='472' u='r' c='llex'/>
+<use f='codebrowser/src/lparser.c' l='1013' c='getbinopr'/>

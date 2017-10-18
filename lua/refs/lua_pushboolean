@@ -1,0 +1,23 @@
+<dec f='codebrowser/src/lua.h' l='233' type='void lua_pushboolean(lua_State * L, int b)'/>
+<def f='codebrowser/src/lapi.c' l='556' ll='561' macro='1' type='void lua_pushboolean(lua_State * L, int b)'/>
+<use f='codebrowser/src/lauxlib.c' l='237' u='c' c='luaL_fileresult'/>
+<use f='codebrowser/src/lauxlib.c' l='281' u='c' c='luaL_execresult'/>
+<use f='codebrowser/src/lbaselib.c' l='141' u='c' c='luaB_rawequal'/>
+<use f='codebrowser/src/lbaselib.c' l='190' u='c' c='luaB_collectgarbage'/>
+<use f='codebrowser/src/lbaselib.c' l='410' u='c' c='finishpcall'/>
+<use f='codebrowser/src/lbaselib.c' l='422' u='c' c='luaB_pcall'/>
+<use f='codebrowser/src/lbaselib.c' l='438' u='c' c='luaB_xpcall'/>
+<use f='codebrowser/src/lbitlib.c' l='67' u='c' c='b_test'/>
+<use f='codebrowser/src/lcorolib.c' l='62' u='c' c='luaB_coresume'/>
+<use f='codebrowser/src/lcorolib.c' l='67' u='c' c='luaB_coresume'/>
+<use f='codebrowser/src/lcorolib.c' l='139' u='c' c='luaB_yieldable'/>
+<use f='codebrowser/src/lcorolib.c' l='146' u='c' c='luaB_corunning'/>
+<use f='codebrowser/src/ldblib.c' l='118' u='c' c='settabsb'/>
+<use f='codebrowser/src/liolib.c' l='338' u='c' c='aux_lines'/>
+<use f='codebrowser/src/lmathlib.c' l='175' u='c' c='math_ult'/>
+<use f='codebrowser/src/loadlib.c' l='380' u='c' c='lookforfunc'/>
+<use f='codebrowser/src/loadlib.c' l='613' u='c' c='ll_require'/>
+<use f='codebrowser/src/loslib.c' l='147' u='c' c='os_execute'/>
+<use f='codebrowser/src/loslib.c' l='205' u='c' c='setboolfield'/>
+<use f='codebrowser/src/lua.c' l='568' u='c' c='pmain'/>
+<use f='codebrowser/src/lua.c' l='591' u='c' c='pmain'/>

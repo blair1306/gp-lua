@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lstate.h' l='135' type='GCObject *'/>
+<offset>832</offset>
+<doc f='codebrowser/src/lstate.h' l='135'>/* list of collectable objects with finalizers */</doc>
+<use f='codebrowser/src/lgc.c' l='881' u='a' c='separatetobefnz'/>
+<use f='codebrowser/src/lgc.c' l='916' u='r' c='luaC_checkfinalizer'/>
+<use f='codebrowser/src/lgc.c' l='917' u='w' c='luaC_checkfinalizer'/>
+<use f='codebrowser/src/lgc.c' l='974' u='a' c='luaC_freeallobjects'/>
+<use f='codebrowser/src/lgc.c' l='1070' u='a' c='singlestep'/>
+<use f='codebrowser/src/lstate.c' l='321' u='w' c='lua_newstate'/>

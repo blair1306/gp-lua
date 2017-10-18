@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/lfunc.h' l='52' type='LClosure * luaF_newLclosure(lua_State * L, int nelems)'/>
+<def f='codebrowser/src/lfunc.c' l='33' ll='40' type='LClosure * luaF_newLclosure(lua_State * L, int n)'/>
+<use f='codebrowser/src/lparser.c' l='1630' u='c' c='luaY_parser'/>
+<use f='codebrowser/src/lundump.c' l='270' u='c' c='luaU_undump'/>
+<use f='codebrowser/src/lvm.c' l='637' u='c' c='pushclosure'/>

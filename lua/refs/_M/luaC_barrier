@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/lgc.h' l='118'/>
+<use f='codebrowser/src/lapi.c' l='230' u='c'/>
+<use f='codebrowser/src/lapi.c' l='892' u='c'/>
+<use f='codebrowser/src/lapi.c' l='1248' u='c'/>
+<use f='codebrowser/src/lcode.c' l='450' u='c'/>

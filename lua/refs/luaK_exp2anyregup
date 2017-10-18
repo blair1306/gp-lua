@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lcode.h' l='63' type='void luaK_exp2anyregup(FuncState * fs, expdesc * e)'/>
+<def f='codebrowser/src/lcode.c' l='734' ll='737' type='void luaK_exp2anyregup(FuncState * fs, expdesc * e)'/>
+<doc f='codebrowser/src/lcode.c' l='730'>/*
+** Ensures final expression result is either in a register or in an
+** upvalue.
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='614' u='c' c='fieldsel'/>
+<use f='codebrowser/src/lparser.c' l='907' u='c' c='suffixedexp'/>

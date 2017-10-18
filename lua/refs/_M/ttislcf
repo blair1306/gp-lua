@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lobject.h' l='156'/>
+<use f='codebrowser/src/lapi.c' l='77' u='c'/>
+<use f='codebrowser/src/lapi.c' l='266' u='c'/>
+<use f='codebrowser/src/lapi.c' l='406' u='c'/>

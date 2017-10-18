@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lua.h' l='326' type='size_t lua_stringtonumber(lua_State * L, const char * s)'/>
+<def f='codebrowser/src/lapi.c' l='337' ll='342' macro='1' type='size_t lua_stringtonumber(lua_State * L, const char * s)'/>
+<use f='codebrowser/src/lbaselib.c' l='79' u='c' c='luaB_tonumber'/>
+<use f='codebrowser/src/liolib.c' l='460' u='c' c='read_number'/>

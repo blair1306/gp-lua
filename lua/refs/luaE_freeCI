@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/lstate.h' l='230' type='void luaE_freeCI(lua_State * L)'/>
+<use f='codebrowser/src/ldo.c' l='227' u='c' c='luaD_shrinkstack'/>
+<def f='codebrowser/src/lstate.c' l='122' ll='131' type='void luaE_freeCI(lua_State * L)'/>
+<use f='codebrowser/src/lstate.c' l='175' u='c' c='freestack'/>
+<doc f='codebrowser/src/lstate.c' l='119'>/*
+** free all CallInfo structures not in use by a thread
+*/</doc>

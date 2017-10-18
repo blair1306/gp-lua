@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/lcode.h' l='56' type='void luaK_nil(FuncState * fs, int from, int n)'/>
+<def f='codebrowser/src/lcode.c' l='64' ll='83' type='void luaK_nil(FuncState * fs, int from, int n)'/>
+<use f='codebrowser/src/lcode.c' l='599' u='c' c='discharge2reg'/>
+<doc f='codebrowser/src/lcode.c' l='58'>/*
+** Create a OP_LOADNIL instruction, but try to optimize: if the previous
+** instruction is also OP_LOADNIL and ranges are compatible, adjust
+** range of previous instruction instead of emitting a new one. (For
+** instance, &apos;local a; local b&apos; will generate a single opcode.)
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='323' u='c' c='adjust_assign'/>

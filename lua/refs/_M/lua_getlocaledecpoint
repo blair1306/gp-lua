@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/luaconf.h' l='673'/>
+<use f='codebrowser/src/liolib.c' l='441' u='c'/>
+<use f='codebrowser/src/lobject.c' l='287' u='c'/>
+<use f='codebrowser/src/lobject.c' l='381' u='c'/>
+<use f='codebrowser/src/lstrlib.c' l='936' u='c'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/lstate.h' l='161' macro='1' type='lu_byte'/>
+<offset>64</offset>
+<use f='codebrowser/src/lstate.c' l='263' u='w' c='lua_newthread'/>
+<use f='codebrowser/src/lstate.c' l='304' u='w' c='lua_newstate'/>

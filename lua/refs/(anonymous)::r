@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/llex.h' l='44' type='lua_Number'/>
+<offset>0</offset>
+<use f='codebrowser/src/llex.c' l='240' u='w' c='read_numeral'/>
+<use f='codebrowser/src/lparser.c' l='937' u='r' c='simpleexp'/>

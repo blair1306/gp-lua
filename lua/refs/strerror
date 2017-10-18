@@ -1,0 +1,7 @@
+<dec f='include/string.h' l='408' type='char * strerror(int __errnum)'/>
+<doc f='include/string.h' l='407'>/* Return a string describing the meaning of the `errno&apos; code in ERRNUM.  */</doc>
+<use f='codebrowser/src/lauxlib.c' l='243' u='c' c='luaL_fileresult'/>
+<use f='codebrowser/src/lauxlib.c' l='245' u='c' c='luaL_fileresult'/>
+<use f='codebrowser/src/lauxlib.c' l='661' u='c' c='errfile'/>
+<use f='codebrowser/src/liolib.c' l='247' u='c' c='opencheck'/>
+<use f='codebrowser/src/luac.c' l='46' u='c' c='cannot'/>

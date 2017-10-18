@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lua.h' l='65'/>
+<use f='codebrowser/src/lauxlib.c' l='827' u='c'/>
+<use f='codebrowser/src/ldump.c' l='108' u='c'/>
+<use f='codebrowser/src/lstrlib.c' l='969' u='c'/>
+<use f='codebrowser/src/ltable.c' l='127' u='c'/>
+<use f='codebrowser/src/luac.c' l='262' u='c'/>
+<use f='codebrowser/src/lundump.c' l='132' u='c'/>
+<use f='codebrowser/src/lvm.c' l='422' u='c'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lopcodes.h' l='227' type='43'/>
+<use f='codebrowser/src/lcode.c' l='1194' u='r' c='luaK_setlist'/>
+<use f='codebrowser/src/lcode.c' l='1196' u='r' c='luaK_setlist'/>
+<doc f='codebrowser/src/lopcodes.h' l='227'>/*	A B C	R(A)[(C-1)*FPF+i] := R(A+i), 1 &lt;= i &lt;= B	*/</doc>
+<use f='codebrowser/src/luac.c' l='379' c='PrintCode'/>
+<use f='codebrowser/src/lvm.c' l='1263' c='luaV_execute'/>

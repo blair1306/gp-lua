@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/lstate.h' l='170' type='UpVal *'/>
+<offset>512</offset>
+<doc f='codebrowser/src/lstate.h' l='170'>/* list of open upvalues in this stack */</doc>
+<use f='codebrowser/src/ldo.c' l='162' u='r' c='correctstack'/>
+<use f='codebrowser/src/lfunc.c' l='58' u='a' c='luaF_findupval'/>
+<use f='codebrowser/src/lfunc.c' l='85' u='r' c='luaF_close'/>
+<use f='codebrowser/src/lfunc.c' l='85' u='r' c='luaF_close'/>
+<use f='codebrowser/src/lfunc.c' l='87' u='w' c='luaF_close'/>
+<use f='codebrowser/src/lgc.c' l='317' u='r' c='remarkupvals'/>
+<use f='codebrowser/src/lgc.c' l='323' u='r' c='remarkupvals'/>
+<use f='codebrowser/src/lgc.c' l='543' u='r' c='traversethread'/>
+<use f='codebrowser/src/lstate.c' l='235' u='w' c='preinit_thread'/>

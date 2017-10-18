@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/lua.h' l='250' type='void * lua_newuserdata(lua_State * L, size_t sz)'/>
+<def f='codebrowser/src/lapi.c' l='1183' ll='1192' macro='1' type='void * lua_newuserdata(lua_State * L, size_t size)'/>
+<use f='codebrowser/src/lauxlib.c' l='483' u='c' c='newbox'/>
+<use f='codebrowser/src/liolib.c' l='189' u='c' c='newprefile'/>
+<use f='codebrowser/src/lstrlib.c' l='695' u='c' c='gmatch'/>

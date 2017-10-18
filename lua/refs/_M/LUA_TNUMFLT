@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lobject.h' l='58'/>
+<doc f='codebrowser/src/lobject.h' l='57'>/* Variant tags for numbers */</doc>
+<use f='codebrowser/src/ldump.c' l='111' u='c'/>
+<use f='codebrowser/src/ltable.c' l='121' u='c'/>
+<use f='codebrowser/src/ltable.c' l='575' u='c'/>
+<use f='codebrowser/src/luac.c' l='265' u='c'/>
+<use f='codebrowser/src/lundump.c' l='135' u='c'/>
+<use f='codebrowser/src/lvm.c' l='421' u='c'/>

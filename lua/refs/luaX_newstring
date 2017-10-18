@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/llex.h' l='78' type='TString * luaX_newstring(LexState * ls, const char * str, size_t l)'/>
+<def f='codebrowser/src/llex.c' l='127' ll='144' type='TString * luaX_newstring(LexState * ls, const char * str, size_t l)'/>
+<use f='codebrowser/src/llex.c' l='298' u='c' c='read_long_string'/>
+<use f='codebrowser/src/llex.c' l='424' u='c' c='read_string'/>
+<use f='codebrowser/src/llex.c' l='529' u='c' c='llex'/>
+<doc f='codebrowser/src/llex.c' l='122'>/*
+** creates a new string and anchors it in scanner&apos;s table so that
+** it will not be collected until the end of the compilation
+** (by that time it should be anchored somewhere)
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='188' u='c' c='new_localvarliteral_'/>

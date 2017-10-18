@@ -1,0 +1,28 @@
+<dec f='codebrowser/src/lcode.h' l='53' type='int luaK_codeABC(FuncState * fs, OpCode o, int A, int B, int C)'/>
+<use f='codebrowser/src/lcode.c' l='82' u='c' c='luaK_nil'/>
+<use f='codebrowser/src/lcode.c' l='150' u='c' c='luaK_ret'/>
+<use f='codebrowser/src/lcode.c' l='159' u='c' c='condjump'/>
+<def f='codebrowser/src/lcode.c' l='312' ll='318' type='int luaK_codeABC(FuncState * fs, OpCode o, int a, int b, int c)'/>
+<use f='codebrowser/src/lcode.c' l='563' u='c' c='luaK_dischargevars'/>
+<use f='codebrowser/src/lcode.c' l='578' u='c' c='luaK_dischargevars'/>
+<use f='codebrowser/src/lcode.c' l='603' u='c' c='discharge2reg'/>
+<use f='codebrowser/src/lcode.c' l='625' u='c' c='discharge2reg'/>
+<use f='codebrowser/src/lcode.c' l='651' u='c' c='code_loadbool'/>
+<use f='codebrowser/src/lcode.c' l='791' u='c' c='luaK_storevar'/>
+<use f='codebrowser/src/lcode.c' l='797' u='c' c='luaK_storevar'/>
+<use f='codebrowser/src/lcode.c' l='817' u='c' c='luaK_self'/>
+<use f='codebrowser/src/lcode.c' l='929' u='c' c='codenot'/>
+<use f='codebrowser/src/lcode.c' l='1007' u='c' c='codeunexpval'/>
+<use f='codebrowser/src/lcode.c' l='1027' u='c' c='codebinexpval'/>
+<use f='codebrowser/src/lcode.c' l='1194' u='c' c='luaK_setlist'/>
+<use f='codebrowser/src/lcode.c' l='1196' u='c' c='luaK_setlist'/>
+<doc f='codebrowser/src/lcode.c' l='308'>/*
+** Format and emit an &apos;iABC&apos; instruction. (Assertions check consistency
+** of parameters versus opcode.)
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='662' u='c' c='recfield'/>
+<use f='codebrowser/src/lparser.c' l='729' u='c' c='constructor'/>
+<use f='codebrowser/src/lparser.c' l='855' u='c' c='funcargs'/>
+<use f='codebrowser/src/lparser.c' l='965' u='c' c='simpleexp'/>
+<use f='codebrowser/src/lparser.c' l='1141' u='c' c='check_conflict'/>
+<use f='codebrowser/src/lparser.c' l='1308' u='c' c='forbody'/>

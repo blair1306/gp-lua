@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/ltable.h' l='44' type='void luaH_setint(lua_State * L, Table * t, lua_Integer key, TValue * value)'/>
+<use f='codebrowser/src/lapi.c' l='822' u='c' c='lua_rawseti'/>
+<use f='codebrowser/src/ldebug.c' l='243' u='c' c='collectvalidlines'/>
+<use f='codebrowser/src/lstate.c' l='192' u='c' c='init_registry'/>
+<use f='codebrowser/src/lstate.c' l='195' u='c' c='init_registry'/>
+<use f='codebrowser/src/ltable.c' l='349' u='c' c='luaH_resize'/>
+<def f='codebrowser/src/ltable.c' l='599' ll='610' type='void luaH_setint(lua_State * L, Table * t, lua_Integer key, TValue * value)'/>
+<use f='codebrowser/src/lvm.c' l='1279' u='c' c='luaV_execute'/>

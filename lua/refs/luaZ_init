@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/lzio.h' l='47' type='void luaZ_init(lua_State * L, ZIO * z, lua_Reader reader, void * data)'/>
+<use f='codebrowser/src/lapi.c' l='997' u='c' c='lua_load'/>
+<def f='codebrowser/src/lzio.c' l='38' ll='44' type='void luaZ_init(lua_State * L, ZIO * z, lua_Reader reader, void * data)'/>

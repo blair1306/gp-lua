@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/lcode.h' l='85' type='void luaK_setlist(FuncState * fs, int base, int nelems, int tostore)'/>
+<def f='codebrowser/src/lcode.c' l='1189' ll='1202' type='void luaK_setlist(FuncState * fs, int base, int nelems, int tostore)'/>
+<doc f='codebrowser/src/lcode.c' l='1182'>/*
+** Emit a SETLIST instruction.
+** &apos;base&apos; is register that keeps table;
+** &apos;nelems&apos; is #table plus those to be stored now;
+** &apos;tostore&apos; is number of values (in registers &apos;base + 1&apos;,...) to add to
+** table (or LUA_MULTRET to add up to stack top).
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='672' u='c' c='closelistfield'/>
+<use f='codebrowser/src/lparser.c' l='682' u='c' c='lastlistfield'/>
+<use f='codebrowser/src/lparser.c' l='688' u='c' c='lastlistfield'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lparser.h' l='97' type='Vardesc *'/>
+<offset>0</offset>
+<use f='codebrowser/src/ldo.c' l='789' u='w' c='luaD_protectedparser'/>
+<use f='codebrowser/src/ldo.c' l='795' u='r' c='luaD_protectedparser'/>
+<use f='codebrowser/src/ldo.c' l='795' u='r' c='luaD_protectedparser'/>
+<use f='codebrowser/src/lparser.c' l='181' u='w' c='new_localvar'/>
+<use f='codebrowser/src/lparser.c' l='181' u='r' c='new_localvar'/>
+<use f='codebrowser/src/lparser.c' l='183' u='r' c='new_localvar'/>
+<use f='codebrowser/src/lparser.c' l='196' u='r' c='getlocvar'/>

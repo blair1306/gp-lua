@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/lcode.h' l='60' type='int luaK_intK(FuncState * fs, lua_Integer n)'/>
+<def f='codebrowser/src/lcode.c' l='471' ll='476' type='int luaK_intK(FuncState * fs, lua_Integer n)'/>
+<use f='codebrowser/src/lcode.c' l='615' u='c' c='discharge2reg'/>
+<use f='codebrowser/src/lcode.c' l='764' u='c' c='luaK_exp2RK'/>
+<doc f='codebrowser/src/lcode.c' l='465'>/*
+** Add an integer to list of constants and return its index.
+** Integers use userdata as keys to avoid collision with floats with
+** same value; conversion to &apos;void*&apos; is used only for hashing, so there
+** are no &quot;precision&quot; problems.
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='1332' u='c' c='fornum'/>

@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>lstring.h source code [codebrowser/src/lstring.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/lstring.h'; var root_path = '../..'; var data_path = '../../../data';</script>
+<script src='../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='..'>codebrowser</a>/<a href='./'>src</a>/<a href='lstring.h.html'>lstring.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>** $Id: lstring.h,v 1.61 2015/11/03 15:36:01 roberto Exp $</i></td></tr>
+<tr><th id="3">3</th><td><i>** String table (keep all strings handled by Lua)</i></td></tr>
+<tr><th id="4">4</th><td><i>** See Copyright Notice in lua.h</i></td></tr>
+<tr><th id="5">5</th><td><i>*/</i></td></tr>
+<tr><th id="6">6</th><td></td></tr>
+<tr><th id="7">7</th><td><u>#<span data-ppcond="7">ifndef</span> <span class="macro" data-ref="_M/lstring_h">lstring_h</span></u></td></tr>
+<tr><th id="8">8</th><td><u>#define <dfn class="macro" id="_M/lstring_h" data-ref="_M/lstring_h">lstring_h</dfn></u></td></tr>
+<tr><th id="9">9</th><td></td></tr>
+<tr><th id="10">10</th><td><u>#include <a href="lgc.h.html">"lgc.h"</a></u></td></tr>
+<tr><th id="11">11</th><td><u>#include <a href="lobject.h.html">"lobject.h"</a></u></td></tr>
+<tr><th id="12">12</th><td><u>#include <a href="lstate.h.html">"lstate.h"</a></u></td></tr>
+<tr><th id="13">13</th><td></td></tr>
+<tr><th id="14">14</th><td></td></tr>
+<tr><th id="15">15</th><td><u>#define <dfn class="macro" id="_M/sizelstring" data-ref="_M/sizelstring">sizelstring</dfn>(l)  (sizeof(union UTString) + ((l) + 1) * sizeof(char))</u></td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><u>#define <dfn class="macro" id="_M/sizeludata" data-ref="_M/sizeludata">sizeludata</dfn>(l)	(sizeof(union UUdata) + (l))</u></td></tr>
+<tr><th id="18">18</th><td><u>#define <dfn class="macro" id="_M/sizeudata" data-ref="_M/sizeudata">sizeudata</dfn>(u)	sizeludata((u)-&gt;len)</u></td></tr>
+<tr><th id="19">19</th><td></td></tr>
+<tr><th id="20">20</th><td><u>#define <dfn class="macro" id="_M/luaS_newliteral" data-ref="_M/luaS_newliteral">luaS_newliteral</dfn>(L, s)	(luaS_newlstr(L, "" s, \</u></td></tr>
+<tr><th id="21">21</th><td><u>                                 (sizeof(s)/sizeof(char))-1))</u></td></tr>
+<tr><th id="22">22</th><td></td></tr>
+<tr><th id="23">23</th><td></td></tr>
+<tr><th id="24">24</th><td><i>/*</i></td></tr>
+<tr><th id="25">25</th><td><i>** test whether a string is a reserved word</i></td></tr>
+<tr><th id="26">26</th><td><i>*/</i></td></tr>
+<tr><th id="27">27</th><td><u>#define <dfn class="macro" id="_M/isreserved" data-ref="_M/isreserved">isreserved</dfn>(s)	((s)-&gt;tt == LUA_TSHRSTR &amp;&amp; (s)-&gt;extra &gt; 0)</u></td></tr>
+<tr><th id="28">28</th><td></td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td><i>/*</i></td></tr>
+<tr><th id="31">31</th><td><i>** equality for short strings, which are always internalized</i></td></tr>
+<tr><th id="32">32</th><td><i>*/</i></td></tr>
+<tr><th id="33">33</th><td><u>#define <dfn class="macro" id="_M/eqshrstr" data-ref="_M/eqshrstr">eqshrstr</dfn>(a,b)	check_exp((a)-&gt;tt == LUA_TSHRSTR, (a) == (b))</u></td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><a class="macro" href="luaconf.h.html#280" title="__attribute__((visibility(&quot;hidden&quot;))) extern" data-ref="_M/LUAI_FUNC">LUAI_FUNC</a> <em>unsigned</em> <em>int</em> <dfn class="decl" id="luaS_hash" title='luaS_hash' data-ref="luaS_hash">luaS_hash</dfn> (<em>const</em> <em>char</em> *<dfn class="local col0 decl" id="640str" title='str' data-type='const char *' data-ref="640str">str</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col1 decl" id="641l" title='l' data-type='size_t' data-ref="641l">l</dfn>, <em>unsigned</em> <em>int</em> <dfn class="local col2 decl" id="642seed" title='seed' data-type='unsigned int' data-ref="642seed">seed</dfn>);</td></tr>
+<tr><th id="37">37</th><td><a class="macro" href="luaconf.h.html#280" title="__attribute__((visibility(&quot;hidden&quot;))) extern" data-ref="_M/LUAI_FUNC">LUAI_FUNC</a> <em>unsigned</em> <em>int</em> <dfn class="decl" id="luaS_hashlongstr" title='luaS_hashlongstr' data-ref="luaS_hashlongstr">luaS_hashlongstr</dfn> (<a class="typedef" href="lobject.h.html#TString" title='TString' data-type='struct TString' data-ref="TString">TString</a> *<dfn class="local col3 decl" id="643ts" title='ts' data-type='TString *' data-ref="643ts">ts</dfn>);</td></tr>
+<tr><th id="38">38</th><td><a class="macro" href="luaconf.h.html#280" title="__attribute__((visibility(&quot;hidden&quot;))) extern" data-ref="_M/LUAI_FUNC">LUAI_FUNC</a> <em>int</em> <dfn class="decl" id="luaS_eqlngstr" title='luaS_eqlngstr' data-ref="luaS_eqlngstr">luaS_eqlngstr</dfn> (<a class="typedef" href="lobject.h.html#TString" title='TString' data-type='struct TString' data-ref="TString">TString</a> *<dfn class="local col4 decl" id="644a" title='a' data-type='TString *' data-ref="644a">a</dfn>, <a class="typedef" href="lobject.h.html#TString" title='TString' data-type='struct TString' data-ref="TString">TString</a> *<dfn class="local col5 decl" id="645b" title='b' data-type='TString *' data-ref="645b">b</dfn>);</td></tr>
+<tr><th id="39">39</th><td><a class="macro" href="luaconf.h.html#280" title="__attribute__((visibility(&quot;hidden&quot;))) extern" data-ref="_M/LUAI_FUNC">LUAI_FUNC</a> <em>void</em> <dfn class="decl" id="luaS_resize" title='luaS_resize' data-ref="luaS_resize">luaS_resize</dfn> (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col6 decl" id="646L" title='L' data-type='lua_State *' data-ref="646L">L</dfn>, <em>int</em> <dfn class="local col7 decl" id="647newsize" title='newsize' data-type='int' data-ref="647newsize">newsize</dfn>);</td></tr>
+<tr><th id="40">40</th><td><a class="macro" href="luaconf.h.html#280" title="__attribute__((visibility(&quot;hidden&quot;))) extern" data-ref="_M/LUAI_FUNC">LUAI_FUNC</a> <em>void</em> <dfn class="decl" id="luaS_clearcache" title='luaS_clearcache' data-ref="luaS_clearcache">luaS_clearcache</dfn> (<a class="typedef" href="lstate.h.html#global_State" title='global_State' data-type='struct global_State' data-ref="global_State">global_State</a> *<dfn class="local col8 decl" id="648g" title='g' data-type='global_State *' data-ref="648g">g</dfn>);</td></tr>
+<tr><th id="41">41</th><td><a class="macro" href="luaconf.h.html#280" title="__attribute__((visibility(&quot;hidden&quot;))) extern" data-ref="_M/LUAI_FUNC">LUAI_FUNC</a> <em>void</em> <dfn class="decl" id="luaS_init" title='luaS_init' data-ref="luaS_init">luaS_init</dfn> (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col9 decl" id="649L" title='L' data-type='lua_State *' data-ref="649L">L</dfn>);</td></tr>
+<tr><th id="42">42</th><td><a class="macro" href="luaconf.h.html#280" title="__attribute__((visibility(&quot;hidden&quot;))) extern" data-ref="_M/LUAI_FUNC">LUAI_FUNC</a> <em>void</em> <dfn class="decl" id="luaS_remove" title='luaS_remove' data-ref="luaS_remove">luaS_remove</dfn> (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col0 decl" id="650L" title='L' data-type='lua_State *' data-ref="650L">L</dfn>, <a class="typedef" href="lobject.h.html#TString" title='TString' data-type='struct TString' data-ref="TString">TString</a> *<dfn class="local col1 decl" id="651ts" title='ts' data-type='TString *' data-ref="651ts">ts</dfn>);</td></tr>
+<tr><th id="43">43</th><td><a class="macro" href="luaconf.h.html#280" title="__attribute__((visibility(&quot;hidden&quot;))) extern" data-ref="_M/LUAI_FUNC">LUAI_FUNC</a> <a class="typedef" href="lobject.h.html#Udata" title='Udata' data-type='struct Udata' data-ref="Udata">Udata</a> *<dfn class="decl" id="luaS_newudata" title='luaS_newudata' data-ref="luaS_newudata">luaS_newudata</dfn> (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col2 decl" id="652L" title='L' data-type='lua_State *' data-ref="652L">L</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col3 decl" id="653s" title='s' data-type='size_t' data-ref="653s">s</dfn>);</td></tr>
+<tr><th id="44">44</th><td><a class="macro" href="luaconf.h.html#280" title="__attribute__((visibility(&quot;hidden&quot;))) extern" data-ref="_M/LUAI_FUNC">LUAI_FUNC</a> <a class="typedef" href="lobject.h.html#TString" title='TString' data-type='struct TString' data-ref="TString">TString</a> *<dfn class="decl" id="luaS_newlstr" title='luaS_newlstr' data-ref="luaS_newlstr">luaS_newlstr</dfn> (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col4 decl" id="654L" title='L' data-type='lua_State *' data-ref="654L">L</dfn>, <em>const</em> <em>char</em> *<dfn class="local col5 decl" id="655str" title='str' data-type='const char *' data-ref="655str">str</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col6 decl" id="656l" title='l' data-type='size_t' data-ref="656l">l</dfn>);</td></tr>
+<tr><th id="45">45</th><td><a class="macro" href="luaconf.h.html#280" title="__attribute__((visibility(&quot;hidden&quot;))) extern" data-ref="_M/LUAI_FUNC">LUAI_FUNC</a> <a class="typedef" href="lobject.h.html#TString" title='TString' data-type='struct TString' data-ref="TString">TString</a> *<dfn class="decl" id="luaS_new" title='luaS_new' data-ref="luaS_new">luaS_new</dfn> (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col7 decl" id="657L" title='L' data-type='lua_State *' data-ref="657L">L</dfn>, <em>const</em> <em>char</em> *<dfn class="local col8 decl" id="658str" title='str' data-type='const char *' data-ref="658str">str</dfn>);</td></tr>
+<tr><th id="46">46</th><td><a class="macro" href="luaconf.h.html#280" title="__attribute__((visibility(&quot;hidden&quot;))) extern" data-ref="_M/LUAI_FUNC">LUAI_FUNC</a> <a class="typedef" href="lobject.h.html#TString" title='TString' data-type='struct TString' data-ref="TString">TString</a> *<dfn class="decl" id="luaS_createlngstrobj" title='luaS_createlngstrobj' data-ref="luaS_createlngstrobj">luaS_createlngstrobj</dfn> (<a class="typedef" href="lua.h.html#lua_State" title='lua_State' data-type='struct lua_State' data-ref="lua_State">lua_State</a> *<dfn class="local col9 decl" id="659L" title='L' data-type='lua_State *' data-ref="659L">L</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col0 decl" id="660l" title='l' data-type='size_t' data-ref="660l">l</dfn>);</td></tr>
+<tr><th id="47">47</th><td></td></tr>
+<tr><th id="48">48</th><td></td></tr>
+<tr><th id="49">49</th><td><u>#<span data-ppcond="7">endif</span></u></td></tr>
+<tr><th id="50">50</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='lapi.c.html'>codebrowser/src/lapi.c</a><br/>Generated on <em>2017-Oct-18</em> from project codebrowser<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

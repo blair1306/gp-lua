@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/lgc.h' l='134' type='void luaC_fix(lua_State * L, GCObject * o)'/>
+<def f='codebrowser/src/lgc.c' l='194' ll='201' type='void luaC_fix(lua_State * L, GCObject * o)'/>
+<use f='codebrowser/src/llex.c' l='73' u='c' c='luaX_init'/>
+<use f='codebrowser/src/llex.c' l='76' u='c' c='luaX_init'/>
+<use f='codebrowser/src/lstring.c' l='122' u='c' c='luaS_init'/>
+<use f='codebrowser/src/ltm.c' l='50' u='c' c='luaT_init'/>

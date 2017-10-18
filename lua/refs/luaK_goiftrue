@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lcode.h' l='69' type='void luaK_goiftrue(FuncState * fs, expdesc * e)'/>
+<def f='codebrowser/src/lcode.c' l='857' ll='878' type='void luaK_goiftrue(FuncState * fs, expdesc * e)'/>
+<use f='codebrowser/src/lcode.c' l='1089' u='c' c='luaK_infix'/>
+<doc f='codebrowser/src/lcode.c' l='854'>/*
+** Emit code to go through if &apos;e&apos; is true, jump otherwise.
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='1182' u='c' c='cond'/>
+<use f='codebrowser/src/lparser.c' l='1404' u='c' c='test_then_block'/>

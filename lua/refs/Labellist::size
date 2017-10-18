@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lparser.h' l='90' type='int'/>
+<offset>96</offset>
+<doc f='codebrowser/src/lparser.h' l='90'>/* array size */</doc>
+<use f='codebrowser/src/ldo.c' l='790' u='w' c='luaD_protectedparser'/>
+<use f='codebrowser/src/ldo.c' l='791' u='w' c='luaD_protectedparser'/>
+<use f='codebrowser/src/ldo.c' l='796' u='r' c='luaD_protectedparser'/>
+<use f='codebrowser/src/ldo.c' l='797' u='r' c='luaD_protectedparser'/>
+<use f='codebrowser/src/lparser.c' l='388' u='r' c='newlabelentry'/>
+<use f='codebrowser/src/lparser.c' l='388' u='a' c='newlabelentry'/>

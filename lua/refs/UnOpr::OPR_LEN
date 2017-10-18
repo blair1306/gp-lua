@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/lcode.h' l='40' type='3'/>
+<use f='codebrowser/src/lcode.c' l='1073' c='luaK_prefix'/>
+<use f='codebrowser/src/lparser.c' l='991' u='r' c='getunopr'/>

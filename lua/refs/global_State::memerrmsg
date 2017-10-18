@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lstate.h' l='150' type='TString *'/>
+<offset>1728</offset>
+<doc f='codebrowser/src/lstate.h' l='150'>/* memory-error message */</doc>
+<use f='codebrowser/src/ldo.c' l='94' u='r' c='seterrorobj'/>
+<use f='codebrowser/src/lstring.c' l='108' u='r' c='luaS_clearcache'/>
+<use f='codebrowser/src/lstring.c' l='121' u='w' c='luaS_init'/>
+<use f='codebrowser/src/lstring.c' l='122' u='r' c='luaS_init'/>
+<use f='codebrowser/src/lstring.c' l='125' u='r' c='luaS_init'/>

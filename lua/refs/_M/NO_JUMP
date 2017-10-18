@@ -1,0 +1,33 @@
+<dec f='codebrowser/src/lcode.h' l='20'/>
+<use f='codebrowser/src/lcode.c' l='92' u='c'/>
+<use f='codebrowser/src/lcode.c' l='93' u='c'/>
+<use f='codebrowser/src/lcode.c' l='117' u='c'/>
+<use f='codebrowser/src/lcode.c' l='118' u='c'/>
+<use f='codebrowser/src/lcode.c' l='123' u='c'/>
+<use f='codebrowser/src/lcode.c' l='139' u='c'/>
+<use f='codebrowser/src/lcode.c' l='140' u='c'/>
+<use f='codebrowser/src/lcode.c' l='214' u='c'/>
+<use f='codebrowser/src/lcode.c' l='226' u='c'/>
+<use f='codebrowser/src/lcode.c' l='244' u='c'/>
+<use f='codebrowser/src/lcode.c' l='280' u='c'/>
+<use f='codebrowser/src/lcode.c' l='660' u='c'/>
+<use f='codebrowser/src/lcode.c' l='681' u='c'/>
+<use f='codebrowser/src/lcode.c' l='682' u='c'/>
+<use f='codebrowser/src/lcode.c' l='684' u='c'/>
+<use f='codebrowser/src/lcode.c' l='693' u='c'/>
+<use f='codebrowser/src/lcode.c' l='867' u='c'/>
+<use f='codebrowser/src/lcode.c' l='877' u='c'/>
+<use f='codebrowser/src/lcode.c' l='893' u='c'/>
+<use f='codebrowser/src/lcode.c' l='903' u='c'/>
+<use f='codebrowser/src/lcode.c' l='1067' u='c'/>
+<use f='codebrowser/src/lcode.c' l='1067' u='c'/>
+<doc f='codebrowser/src/lcode.h' l='16'>/*
+** Marks the end of a patch list. It is an invalid value both as an absolute
+** address, and as a list link (would link an element to itself).
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='145' u='c'/>
+<use f='codebrowser/src/lparser.c' l='536' u='c'/>
+<use f='codebrowser/src/lparser.c' l='1298' u='c'/>
+<use f='codebrowser/src/lparser.c' l='1306' u='c'/>
+<use f='codebrowser/src/lparser.c' l='1310' u='c'/>
+<use f='codebrowser/src/lparser.c' l='1420' u='c'/>

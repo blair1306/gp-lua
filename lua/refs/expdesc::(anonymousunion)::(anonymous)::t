@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lparser.h' l='62' type='lu_byte'/>
+<use f='codebrowser/src/lcode.c' l='571' u='r' c='luaK_dischargevars'/>
+<use f='codebrowser/src/lcode.c' l='578' u='r' c='luaK_dischargevars'/>
+<use f='codebrowser/src/lcode.c' l='797' u='r' c='luaK_storevar'/>
+<use f='codebrowser/src/lcode.c' l='948' u='w' c='luaK_indexed'/>
+<offset>16</offset>
+<doc f='codebrowser/src/lparser.h' l='62'>/* table (register or upvalue) */</doc>
+<use f='codebrowser/src/lparser.c' l='1126' u='r' c='check_conflict'/>
+<use f='codebrowser/src/lparser.c' l='1129' u='w' c='check_conflict'/>

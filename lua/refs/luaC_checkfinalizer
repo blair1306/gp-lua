@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lgc.h' l='143' type='void luaC_checkfinalizer(lua_State * L, GCObject * o, Table * mt)'/>
+<use f='codebrowser/src/lapi.c' l='862' u='c' c='lua_setmetatable'/>
+<use f='codebrowser/src/lapi.c' l='870' u='c' c='lua_setmetatable'/>
+<def f='codebrowser/src/lgc.c' l='901' ll='920' type='void luaC_checkfinalizer(lua_State * L, GCObject * o, Table * mt)'/>
+<doc f='codebrowser/src/lgc.c' l='897'>/*
+** if object &apos;o&apos; has a finalizer, remove it from &apos;allgc&apos; list (must
+** search the list to find it) and link it in &apos;finobj&apos; list.
+*/</doc>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lobject.h' l='419' type='int'/>
+<offset>352</offset>
+<doc f='codebrowser/src/lobject.h' l='419'>/* debug information  */</doc>
+<use f='codebrowser/src/ldebug.c' l='222' u='r' c='funcinfo'/>
+<use f='codebrowser/src/ldump.c' l='172' u='r' c='DumpFunction'/>
+<use f='codebrowser/src/lfunc.c' l='119' u='w' c='luaF_newproto'/>
+<use f='codebrowser/src/lparser.c' l='797' u='w' c='body'/>
+<use f='codebrowser/src/luac.c' l='406' u='r' c='PrintHeader'/>
+<use f='codebrowser/src/lundump.c' l='207' u='w' c='LoadFunction'/>

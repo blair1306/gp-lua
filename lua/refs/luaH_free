@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/ltable.h' l='55' type='void luaH_free(lua_State * L, Table * t)'/>
+<use f='codebrowser/src/lgc.c' l='707' u='c' c='freeobj'/>
+<def f='codebrowser/src/ltable.c' l='414' ll='419' type='void luaH_free(lua_State * L, Table * t)'/>

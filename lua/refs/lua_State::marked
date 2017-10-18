@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lstate.h' l='161' macro='1' type='lu_byte'/>
+<offset>72</offset>
+<use f='codebrowser/src/lgc.c' l='317' macro='1' u='r'/>
+<use f='codebrowser/src/lgc.c' l='340' macro='1' u='r'/>
+<use f='codebrowser/src/lgc.c' l='990' macro='1' u='r'/>
+<use f='codebrowser/src/lgc.c' l='68' u='w' c='singlestep'/>
+<use f='codebrowser/src/lgc.c' l='68' u='r' c='singlestep'/>
+<use f='codebrowser/src/lstate.c' l='262' u='w' c='lua_newthread'/>
+<use f='codebrowser/src/lstate.c' l='306' u='w' c='lua_newstate'/>

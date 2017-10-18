@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/lcode.h' l='76' type='void luaK_patchlist(FuncState * fs, int list, int target)'/>
+<def f='codebrowser/src/lcode.c' l='263' ll='270' type='void luaK_patchlist(FuncState * fs, int list, int target)'/>
+<doc f='codebrowser/src/lcode.c' l='258'>/*
+** Path all jumps in &apos;list&apos; to jump to &apos;target&apos;.
+** (The assert means that we cannot fix a jump to a forward address
+** because we only know addresses once code is generated.)
+*/</doc>
+<use f='codebrowser/src/lparser.c' l='354' u='c' c='closegoto'/>
+<use f='codebrowser/src/lparser.c' l='1253' macro='1' u='c'/>
+<use f='codebrowser/src/lparser.c' l='1275' u='c' c='repeatstat'/>
+<use f='codebrowser/src/lparser.c' l='1312' u='c' c='forbody'/>

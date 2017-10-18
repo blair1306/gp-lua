@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/ldebug.h' l='35' type='void luaG_errormsg(lua_State * L)'/>
+<use f='codebrowser/src/lapi.c' l='1116' u='c' c='lua_error'/>
+<def f='codebrowser/src/ldebug.c' l='640' ll='649' macro='1' type='void luaG_errormsg(lua_State * L)'/>
+<use f='codebrowser/src/ldebug.c' l='661' u='c' c='luaG_runerror'/>

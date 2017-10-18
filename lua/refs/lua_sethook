@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/lua.h' l='435' type='void lua_sethook(lua_State * L, lua_Hook func, int mask, int count)'/>
+<use f='codebrowser/src/ldblib.c' l='374' u='c' c='db_sethook'/>
+<def f='codebrowser/src/ldebug.c' l='81' ll='92' macro='1' type='void lua_sethook(lua_State * L, lua_Hook func, int mask, int count)'/>
+<use f='codebrowser/src/lua.c' l='113' u='c' c='lstop'/>
+<use f='codebrowser/src/lua.c' l='126' u='c' c='laction'/>

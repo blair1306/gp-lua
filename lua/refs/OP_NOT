@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/lopcodes.h' l='203' type='27'/>
+<use f='codebrowser/src/lcode.c' l='842' u='r' c='jumponcond'/>
+<use f='codebrowser/src/lcode.c' l='929' u='r' c='codenot'/>
+<doc f='codebrowser/src/lopcodes.h' l='203'>/*	A B	R(A) := not R(B)				*/</doc>
+<use f='codebrowser/src/lvm.c' l='1057' c='luaV_execute'/>

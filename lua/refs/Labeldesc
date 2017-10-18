@@ -1,0 +1,7 @@
+<def f='codebrowser/src/lparser.h' l='78' ll='83'/>
+<size>24</size>
+<doc f='codebrowser/src/lparser.h' l='77'>/* description of pending goto statements and label statements */</doc>
+<mbr r='Labeldesc::name' o='0' t='TString *'/>
+<mbr r='Labeldesc::pc' o='64' t='int'/>
+<mbr r='Labeldesc::line' o='96' t='int'/>
+<mbr r='Labeldesc::nactvar' o='128' t='lu_byte'/>

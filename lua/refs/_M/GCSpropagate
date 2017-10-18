@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/lgc.h' l='39'/>
+<doc f='codebrowser/src/lgc.h' l='36'>/*
+** Possible states of the Garbage Collector
+*/</doc>
+<use f='codebrowser/src/lgc.c' l='377' u='c'/>
+<use f='codebrowser/src/lgc.c' l='423' u='c'/>
+<use f='codebrowser/src/lgc.c' l='1050' u='c'/>
+<use f='codebrowser/src/lgc.c' l='1053' u='c'/>

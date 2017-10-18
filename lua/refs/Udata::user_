@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/lobject.h' l='351' type='union Value'/>
+<use f='codebrowser/src/lapi.c' l='728' macro='1' u='r'/>
+<use f='codebrowser/src/lapi.c' l='891' macro='1' u='w'/>
+<offset>256</offset>
+<doc f='codebrowser/src/lobject.h' l='351'>/* user value */</doc>
+<use f='codebrowser/src/lgc.c' l='254' macro='1' u='r'/>
+<use f='codebrowser/src/lstring.c' l='245' macro='1' u='w'/>

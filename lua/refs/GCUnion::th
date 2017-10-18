@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/lstate.h' l='200' type='struct lua_State'/>
+<use f='codebrowser/src/lapi.c' l='425' macro='1' u='a'/>
+<use f='codebrowser/src/lapi.c' l='436' macro='1' u='a'/>
+<offset>0</offset>
+<doc f='codebrowser/src/lstate.h' l='200'>/* thread */</doc>
+<use f='codebrowser/src/lgc.c' l='274' macro='1' u='a'/>
+<use f='codebrowser/src/lgc.c' l='274' macro='1' u='a'/>
+<use f='codebrowser/src/lgc.c' l='584' macro='1' u='a'/>
+<use f='codebrowser/src/lgc.c' l='708' macro='1' u='a'/>
